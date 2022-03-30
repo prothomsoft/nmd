@@ -15,8 +15,7 @@ import Image from "next/image";
 const ContactForm = () => {
   const [sender, setSender] = React.useState("");
   const [isSenderValid, setIsSenderValid] = React.useState(false);
-  const [senderValidationHelper, setSenderValidationHelper] =
-    React.useState("");
+  const [senderValidationHelper, setSenderValidationHelper] = React.useState("");
   const [isSenderDirty, setIsSenderDirty] = React.useState(false);
   const [email, setEmail] = React.useState("");
   const [isEmailValid, setIsEmailValid] = React.useState(false);
@@ -26,8 +25,7 @@ const ContactForm = () => {
   const [isMessageValid, setIsMessageValid] = React.useState(false);
   const [isMessageDirty, setIsMessageDirty] = React.useState(false);
   const [messageSent, setMessageSent] = React.useState(false);
-  const [messageValidationHelper, setMessageValidationHelper] =
-    React.useState("");
+  const [messageValidationHelper, setMessageValidationHelper] = React.useState("");
 
   const handleChange = (e) => {
     if (e.target.name === "sender") {
@@ -115,11 +113,7 @@ const ContactForm = () => {
       formMessage: message,
     };
 
-    if (
-      formData.formSender.length < 1 ||
-      formData.formEmail.length < 1 ||
-      formData.formMessage.length < 1
-    ) {
+    if (formData.formSender.length < 1 || formData.formEmail.length < 1 || formData.formMessage.length < 1) {
       return false;
     }
 
@@ -173,19 +167,12 @@ const ContactForm = () => {
 
       <Box sx={{ display: `${displayFormConfirmation}` }}>
         <Typography align="center">TWOJA WIADOMOŚĆ ZOSTAŁA WYSŁANA.</Typography>
-        <Typography align="center">
-          DZIĘKUJĘ ZA PYTANIE. ODPOWIEM BARDZO SZYBKO.
-        </Typography>
+        <Typography align="center">DZIĘKUJĘ ZA PYTANIE. ODPOWIEM BARDZO SZYBKO.</Typography>
       </Box>
 
       <Box sx={{ display: `${displayForm}` }}>
-        <Typography align="center">
-          ZAINTERESOWAŁA CIĘ MOJA OFERTA, CHCESZ POZNAĆ DOSTĘPNOŚĆ TERMINU i
-          ZAPYTAĆ O CENĘ PAKIETU?
-        </Typography>
-        <Typography align="center">
-          WYPEŁNIJ PROSZĘ PONIŻSZY FORMULARZ KONTAKTOWY i WYŚLIJ WIADOMOŚĆ
-        </Typography>
+        <Typography align="center">ZAINTERESOWAŁA CIĘ MOJA OFERTA, CHCESZ POZNAĆ DOSTĘPNOŚĆ TERMINU i ZAPYTAĆ O CENĘ PAKIETU?</Typography>
+        <Typography align="center">WYPEŁNIJ PROSZĘ PONIŻSZY FORMULARZ KONTAKTOWY i WYŚLIJ WIADOMOŚĆ</Typography>
       </Box>
 
       <Box
@@ -195,14 +182,8 @@ const ContactForm = () => {
           "& .MuiTextField-root": { my: 2 },
         }}
         noValidate
-        autoComplete="string"
-      >
-        <FormControl
-          variant="outlined"
-          fullWidth
-          autoComplete="string"
-          margin="none"
-        >
+        autoComplete="string">
+        <FormControl variant="outlined" fullWidth autoComplete="string" margin="none">
           <TextField
             required
             id="sender"
@@ -261,9 +242,7 @@ const ContactForm = () => {
                     <a>FOTOGRAF ŚLUBNY KRAKÓW</a>
                   </Link>
                 </Typography>
-                <Typography align="center">
-                  ul. Bociana 4A/35, 31-231 Kraków
-                </Typography>
+                <Typography align="center">ul. Bociana 4A/35, 31-231 Kraków</Typography>
                 <Typography align="center">
                   TELEFON:{" "}
                   <Link href="tel:+48663275222">
@@ -274,9 +253,7 @@ const ContactForm = () => {
                     <a>TOMASZ@99FOTO.PL</a>
                   </Link>
                 </Typography>
-                <Typography align="center">
-                  NIP: 8133336677 &nbsp; REGON: 369770278
-                </Typography>
+                <Typography align="center">NIP: 8133336677 &nbsp; REGON: 369770278</Typography>
                 <Typography align="center">
                   <Link href="/polityka-prywatnosci-rodo">
                     <a>POLITYKA PRYWATNOŚCI - RODO</a>
@@ -294,12 +271,7 @@ const ContactForm = () => {
                     <Item>
                       <Link href="https://www.weselezklasa.pl/ogloszenia-weselne/tomasz-prokop-fotograf-slubny,35325/">
                         <a target="_blank" rel="nofollow">
-                          <Image
-                            alt="wesele z klasą"
-                            src={"/icons/wesele_z_klasa.jpg"}
-                            width={43}
-                            height={43}
-                          />
+                          <Image alt="wesele z klasą" src={"/icons/wesele_z_klasa.jpg"} width={43} height={43} />
                         </a>
                       </Link>
                     </Item>
@@ -308,12 +280,7 @@ const ContactForm = () => {
                     <Item>
                       <Link href="https://www.instagram.com/99foto.pl">
                         <a target="_blank" rel="nofollow">
-                          <Image
-                            alt="profil na instagramie"
-                            src={"/icons/instagram_icon.jpg"}
-                            width={43}
-                            height={43}
-                          />
+                          <Image alt="profil na instagramie" src={"/icons/instagram_icon.jpg"} width={43} height={43} />
                         </a>
                       </Link>
                     </Item>
@@ -323,12 +290,7 @@ const ContactForm = () => {
                     <Item>
                       <Link href="https://facebook.com/99foto">
                         <a target="_blank" rel="nofollow">
-                          <Image
-                            alt="profil na instagramie"
-                            src={"/icons/facebook_icon.jpg"}
-                            width={43}
-                            height={43}
-                          />
+                          <Image alt="profil na instagramie" src={"/icons/facebook_icon.jpg"} width={43} height={43} />
                         </a>
                       </Link>
                     </Item>
@@ -338,12 +300,7 @@ const ContactForm = () => {
                     <Item>
                       <Link href="https://www.slubnaglowie.pl/katalog/firma/tomasz-prokop_6663">
                         <a target="_blank" rel="nofollow">
-                          <Image
-                            alt="profil na instagramie"
-                            src={"/icons/slub_na_glowie.jpg"}
-                            width={43}
-                            height={43}
-                          />
+                          <Image alt="profil na instagramie" src={"/icons/slub_na_glowie.jpg"} width={43} height={43} />
                         </a>
                       </Link>
                     </Item>

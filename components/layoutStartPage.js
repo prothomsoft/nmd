@@ -6,17 +6,16 @@ import AppBarWithResponsiveMenu from "./appBarWithResponsiveMenu";
 import Box from "@mui/material/Box";
 import Meta from "./meta";
 
-const LayoutBlogPage = ({ children, title, description, keywords, url, leadImage, leadNames, leadTitle, leadUrl, slide, menuNames, menuTitle}) => {
+const LayoutStartPage = ({ children, title, description, keywords, url, leadNames, leadTitle, leadUrl, leadImage, slide }) => {
   const scrollToText = React.useRef(null);
   const executeScroll = () => scrollToText.current.scrollIntoView({ behavior: "smooth" });
-
   return (
     <>
       <Meta title={title} description={description} keywords={keywords} url={url} />
       <ParallaxProvider>
         <AppBarWithResponsiveMenu />
-        <ParallaxImage imgsrc={slide} height="100vh" menuNames={menuNames} menuTitle={menuTitle} action={executeScroll} />
-        <Box ref={scrollToText}></Box>
+        <ParallaxImage imgsrc={slide} height="100vh" action={executeScroll} />
+        <Box ref={scrollToText}></Box>        
         {children}
         <ParallaxImageFooter leadImage={leadImage} leadNames={leadNames} leadTitle={leadTitle} leadUrl={leadUrl} height="100vh" />
       </ParallaxProvider>
@@ -24,4 +23,4 @@ const LayoutBlogPage = ({ children, title, description, keywords, url, leadImage
   );
 };
 
-export default LayoutBlogPage;
+export default LayoutStartPage;

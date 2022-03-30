@@ -2,23 +2,23 @@ import React from "react";
 import BlogPage from "../components/blogPage";
 import LayoutBlogPage from "../components/layoutBlogPage";
 import ContactForm from "../components/contactForm";
+import Container from "@mui/material/Container";
 
 const BlogPageComponentNew = (props) => {
   return (
-    <>
-      <LayoutBlogPage
-        url={props.headUrl}
-        title={props.headTitle}
-        description={props.headDescription}
-        keywords={props.headKeywords}
-        menuNames={props.menuNames}
-        menuTitle={props.menuTitle}
-        slide={props.slide}
-        leadNames={props.leadNames}
-        leadTitle={props.leadTitle}
-        leadUrl={props.leadUrl}
-        leadImage={props.leadImage}
-      >
+    <LayoutBlogPage
+      title={props.headTitle}
+      description={props.headDescription}
+      keywords={props.headKeywords}
+      url={props.headUrl}
+      leadImage={props.leadImage}
+      leadNames={props.leadNames}
+      leadTitle={props.leadTitle}
+      leadUrl={props.leadUrl}
+      slide={props.slide}
+      menuNames={props.menuNames}
+      menuTitle={props.menuTitle}>
+      <Container>
         <BlogPage
           slug={props.slug}
           images={props.images}
@@ -29,9 +29,11 @@ const BlogPageComponentNew = (props) => {
           date={props.date}
           menuNames={props.menuNames}
         />
+      </Container>
+      <Container>
         <ContactForm />
-      </LayoutBlogPage>
-    </>
+      </Container>
+    </LayoutBlogPage>
   );
 };
 

@@ -11,23 +11,63 @@ import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import Slide from "@mui/material/Slide";
 import useScrollTrigger from "@mui/material/useScrollTrigger";
-
+import Link from "next/link";
 import Image from "next/image";
 import logo99foto from "../public/logo/99foto_logo.svg";
+import logo99fotomobile from "../public/logo/99foto_logo_mobile.svg";
 import Grid from "@mui/material/Grid";
 import Item from "@mui/material/Grid";
+import Fab from "@mui/material/Fab";
+import Zoom from "@mui/material/Zoom";
+import ArrowCircleUpRounded from "@mui/icons-material/ArrowCircleUpRounded";
+import { keyframes } from "@mui/system";
 
-const pages_left = ["FOTOGRAFIA ŚLUBNA", "SESJA ZDJĘCIOWA", "KILKA HISTORII"];
-const pages_right = ["MISJA i FAQ", "OFERTA", "BLOG", "STREFA KLIENTA"];
-const logo = ["LOGO"];
+const pages_left = [
+  { name: "FOTOGRAFIA ŚLUBNA", url: "/fotografia-slubna-krakow" },
+  { name: "SESJA ZDJĘCIOWA", url: "/sesja-zdjeciowa-krakow" },
+  { name: "KILKA HISTORII", url: "/reportaze-slubne-sesje-plenerowe" },
+];
+
+const pages_right = [
+  { name: "MISJA i FAQ", url: "/misja-i-faq" },
+  { name: "OFERTA", url: "/oferta-fotografii-slubnej" },
+  { name: "BLOG", url: "/blog" },
+  { name: "STREFA KLIENTA", url: "/strefa-klienta" },
+];
 
 const AppBarWithResponsiveMenu = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
-  const trigger = useScrollTrigger({
+  const triggerScrollDown = useScrollTrigger({
     disableHysteresis: true,
     threshold: 0,
   });
+
+  const triggerScrollUp = useScrollTrigger({
+    disableHysteresis: true,
+    threshold: 800,
+  });
+
+  const handleScrollTopClick = (event) => {
+    const anchor = (event.target.ownerDocument || document).querySelector("#back-to-top-anchor");
+
+    if (anchor) {
+      anchor.scrollIntoView({
+        behavior: "smooth",
+        block: "center",
+      });
+    }
+  };
+
+  const spin = keyframes`
+    0%
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+  `;
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -38,118 +78,110 @@ const AppBarWithResponsiveMenu = () => {
   };
 
   return (
-    <Slide appear={true} direction="down" in={!trigger}>
-      <MuiAppBar position="absolute" color="transparent" elevation={0}>
-        <Container fixed>
-          <Box sx={{ display: { xs: "none", lg: "flex" } }}>
-            <Grid
-              container
-              direction="row"
-              justifyContent="space-between"
-              alignItems="center"
-            >
-              <Grid item lg={5}>
-                <Item>
-                  <Box>
-                    {pages_left.map((page) => (
-                      <Button
-                        variant="menuButton"
-                        key={page}
-                        onClick={handleCloseNavMenu}
-                      >
-                        {page}
-                      </Button>
-                    ))}
-                  </Box>
-                </Item>
+    <>
+      <Zoom in={triggerScrollUp}>
+        <Box sx={{ position: "fixed", zIndex: "tooltip", bottom: 50, right: 35, animation: `${spin} 2s infinite ease` }}>
+          <Fab color="neutral" disableFocusRipple="true" size="medium" aria-label="scroll back to top" onClick={handleScrollTopClick}>
+            <ArrowCircleUpRounded sx={{ color: "white", fontSize: 60 }} />
+          </Fab>
+        </Box>
+      </Zoom>
+      <Slide appear={true} direction="down" in={!triggerScrollDown}>
+        <MuiAppBar position="absolute" color="transparent" elevation={0}>
+          <Container>
+            <Box sx={{ display: { xs: "none", lg: "flex" } }}>
+              <Grid container direction="row" alignItems="center">
+                <Grid item lg={5}>
+                  <Item>
+                    <Box sx={{ display: "flex", justifyContent: "center" }}>
+                      {pages_left.map((page, key) => (
+                        <Link key={key} href={page.url} passHref>
+                          <Button variant="menuButton" key={key}>
+                            {page.name}
+                          </Button>
+                        </Link>
+                      ))}
+                    </Box>
+                  </Item>
+                </Grid>
+                <Grid item lg={2}>
+                  <Item>
+                    <Box sx={{ display: "flex", justifyContent: "center", ml: "40px" }}>
+                      <Link key={1} href="/" passHref>
+                        <Button variant="menuButton" sx={{ pt: 2, pb: 2 }} key={1} onClick={handleCloseNavMenu}>
+                          <Image src={logo99foto} width={100} height={140} />
+                        </Button>
+                      </Link>
+                    </Box>
+                  </Item>
+                </Grid>
+                <Grid item lg={5}>
+                  <Item>
+                    <Box sx={{ display: "flex", justifyContent: "center" }}>
+                      {pages_right.map((page, key) => (
+                        <Link key={key} href={page.url} passHref>
+                          <Button variant="menuButton" key={key}>
+                            {page.name}
+                          </Button>
+                        </Link>
+                      ))}
+                    </Box>
+                  </Item>
+                </Grid>
               </Grid>
-              <Grid item lg={2}>
-                <Item>
-                  <Box sx={{ display: "flex", justifyContent: "center" }}>
-                    <Button
-                      variant="menuButton"
-                      sx={{ pt: 2, pb: 2 }}
-                      key={1}
-                      onClick={handleCloseNavMenu}
-                    >
-                      <Image src={logo99foto} width={100} height={140} />
-                    </Button>
-                  </Box>
-                </Item>
-              </Grid>
-              <Grid item lg={5}>
-                <Item>
-                  <Box>
-                    {pages_right.map((page) => (
-                      <Button
-                        variant="menuButton"
-                        key={page}
-                        onClick={handleCloseNavMenu}
-                      >
-                        {page}
-                      </Button>
-                    ))}
-                  </Box>
-                </Item>
-              </Grid>
-            </Grid>
-          </Box>
-        </Container>
-        <Container>
-          <Toolbar disableGutters>
-            <Box sx={{ flexGrow: 1, display: { xs: "flex", lg: "none" } }}>
-              <IconButton
-                size="large"
-                aria-label="account of current user"
-                aria-controls="menu-appbar"
-                aria-haspopup="true"
-                onClick={handleOpenNavMenu}
-                color="inherit"
-              >
-                <MenuIcon />
-              </IconButton>
-              <Menu
-                id="menu-appbar"
-                anchorEl={anchorElNav}
-                anchorOrigin={{
-                  vertical: "bottom",
-                  horizontal: "left",
-                }}
-                keepMounted
-                transformOrigin={{
-                  vertical: "top",
-                  horizontal: "left",
-                }}
-                open={Boolean(anchorElNav)}
-                onClose={handleCloseNavMenu}
-                sx={{
-                  display: { xs: "block", lg: "none" },
-                }}
-              >
-                {pages_left.map((page) => (
-                  <MenuItem key={page} onClick={handleCloseNavMenu}>
-                    <Typography textAlign="center">{page}</Typography>
-                  </MenuItem>
-                ))}
-                {pages_right.map((page) => (
-                  <MenuItem key={page} onClick={handleCloseNavMenu}>
-                    <Typography textAlign="center">{page}</Typography>
-                  </MenuItem>
-                ))}
-              </Menu>
             </Box>
-            <Typography
-              variant="h6"
-              noWrap
-              component="div"
-              sx={{ flexGrow: 1, display: { xs: "flex", lg: "none" } }}
-            >
-              99FOTO.PL
-            </Typography>
-          </Toolbar>
-        </Container>
-      </MuiAppBar>
-    </Slide>
+          </Container>
+          <Container>
+            <Toolbar id="back-to-top-anchor" disableGutters>
+              <Box sx={{ flexGrow: 1, display: { xs: "flex", lg: "none" } }}>
+                <IconButton size="large" aria-label="account of current user" aria-controls="menu-appbar" aria-haspopup="true" onClick={handleOpenNavMenu} color="inherit">
+                  <MenuIcon />
+                </IconButton>
+                <Menu
+                  id="menu-appbar"
+                  anchorEl={anchorElNav}
+                  anchorOrigin={{
+                    vertical: "bottom",
+                    horizontal: "left",
+                  }}
+                  keepMounted
+                  transformOrigin={{
+                    vertical: "top",
+                    horizontal: "left",
+                  }}
+                  open={Boolean(anchorElNav)}
+                  onClose={handleCloseNavMenu}
+                  sx={{
+                    display: { xs: "block", lg: "none" },
+                  }}>
+                  {pages_left.map((page, key) => (
+                    <Link key={key} href={page.url} passHref>
+                      <MenuItem key={key} onClick={handleCloseNavMenu}>
+                        <Typography textAlign="center">{page.name}</Typography>
+                      </MenuItem>
+                    </Link>
+                  ))}
+                  {pages_right.map((page, key) => (
+                    <Link key={key} href={page.url} passHref>
+                      <MenuItem key={key} onClick={handleCloseNavMenu}>
+                        <Typography textAlign="center">{page.name}</Typography>
+                      </MenuItem>
+                    </Link>
+                  ))}
+                </Menu>
+              </Box>
+              <Box sx={{ flexGrow: 1, display: { xs: "flex", lg: "none" } }}>
+                <Link key={1} href="/" passHref>
+                  <Button variant="menuButton" key={1} onClick={handleCloseNavMenu}>
+                    <Image src={logo99fotomobile} width={105} height={35} />
+                  </Button>
+                </Link>
+              </Box>
+            </Toolbar>
+          </Container>
+        </MuiAppBar>
+      </Slide>
+    </>
   );
 };
 
