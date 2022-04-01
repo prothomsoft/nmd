@@ -1,7 +1,7 @@
 import React from "react";
 import Box from "@mui/material/Box";
 import { keyframes } from "@mui/system";
-import ArrowCircleDownRounded from "@mui/icons-material/ArrowCircleDownRounded";
+import KeyboardArrowDown from "@mui/icons-material/KeyboardArrowDown";
 import Fab from "@mui/material/Fab";
 
 const spin = keyframes`
@@ -16,9 +16,9 @@ const spin = keyframes`
 
 const IntroArrow = (props) => {
   return (
-    <Box sx={{ animation: `${spin} 2s infinite ease`, ml :'48px' }}>
-      <Fab color="neutral" disableFocusRipple="true" size="medium" aria-label="scroll back to top" onClick={props.action}>
-        <ArrowCircleDownRounded sx={{ color: "white", fontSize: 60 }} />
+    <Box sx={{ animation: `${spin} 2s infinite ease`, ml :'35px' }}>
+      <Fab color="primary" size="medium" aria-label="scroll back to top" onClick={props.action}>
+        <KeyboardArrowDown sx={{ color: "black", fontSize: 60 }} />
       </Fab>
     </Box>
   );

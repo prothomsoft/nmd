@@ -7,10 +7,13 @@ import isEmpty from "validator/lib/isEmpty";
 import FormControl from "@mui/material/FormControl";
 import { Typography } from "@mui/material";
 import Grid from "@mui/material/Grid";
-import Item from "@mui/material/Grid";
-import Paper from "@mui/material/Paper";
 import Link from "next/link";
+import MuiLink from "@mui/material/Link";
 import Image from "next/image";
+import wesele_z_klasa from "../public/icons/wesele_z_klasa.jpg";
+import instagram_icon from "../public/icons/instagram_icon.jpg";
+import facebook_icon from "../public/icons/facebook_icon.jpg";
+import slub_na_glowie from "../public/icons/slub_na_glowie.jpg";
 
 const ContactForm = () => {
   const [sender, setSender] = React.useState("");
@@ -158,21 +161,29 @@ const ContactForm = () => {
   }
 
   return (
-    <Box sx={{ pt: 20 }}>
-      <Box>
-        <Typography variant="h2" align="center">
+    <>
+      <Box sx={{ pt: 4, pb: 4 }}>
+        <Typography variant="h2" className="quote-title">
           KONTAKT
         </Typography>
       </Box>
 
-      <Box sx={{ display: `${displayFormConfirmation}` }}>
-        <Typography align="center">TWOJA WIADOMOŚĆ ZOSTAŁA WYSŁANA.</Typography>
-        <Typography align="center">DZIĘKUJĘ ZA PYTANIE. ODPOWIEM BARDZO SZYBKO.</Typography>
+      <Box sx={{ display: `${displayFormConfirmation}`, pb: 3 }}>
+        <Typography variant="subtitle2" align="center">
+          TWOJA WIADOMOŚĆ ZOSTAŁA WYSŁANA.
+        </Typography>
+        <Typography variant="subtitle2" align="center">
+          DZIĘKUJĘ ZA PYTANIE. ODPOWIEM BARDZO SZYBKO.
+        </Typography>
       </Box>
 
-      <Box sx={{ display: `${displayForm}` }}>
-        <Typography align="center">ZAINTERESOWAŁA CIĘ MOJA OFERTA, CHCESZ POZNAĆ DOSTĘPNOŚĆ TERMINU i ZAPYTAĆ O CENĘ PAKIETU?</Typography>
-        <Typography align="center">WYPEŁNIJ PROSZĘ PONIŻSZY FORMULARZ KONTAKTOWY i WYŚLIJ WIADOMOŚĆ</Typography>
+      <Box sx={{ display: `${displayForm}`, pb: 3 }}>
+        <Typography variant="subtitle2" align="center">
+          ZAINTERESOWAŁA CIĘ MOJA OFERTA, CHCESZ POZNAĆ DOSTĘPNOŚĆ TERMINU i ZAPYTAĆ O CENĘ PAKIETU?
+        </Typography>
+        <Typography variant="subtitle2" align="center">
+          WYPEŁNIJ PROSZĘ PONIŻSZY FORMULARZ KONTAKTOWY i WYŚLIJ WIADOMOŚĆ
+        </Typography>
       </Box>
 
       <Box
@@ -224,94 +235,85 @@ const ContactForm = () => {
             rows={3}
             helperText={isMessageDirty && messageValidationHelper}
           />
-
-          <Button variant="outlined" type="submit">
+          <Button variant="siteButton" type="submit">
             WyŚLIJ WIADOMOŚĆ
           </Button>
         </FormControl>
       </Box>
 
-      <Box>
-        <Grid container spacing={2}>
-          <Grid item md={6}>
-            <Item>
-              <Paper elevation={0}>
-                <Typography align="center">
-                  TOMASZ PROKOP -{" "}
-                  <Link href="https://99foto.pl">
-                    <a>FOTOGRAF ŚLUBNY KRAKÓW</a>
-                  </Link>
-                </Typography>
-                <Typography align="center">ul. Bociana 4A/35, 31-231 Kraków</Typography>
-                <Typography align="center">
-                  TELEFON:{" "}
-                  <Link href="tel:+48663275222">
-                    <a>+48 663 275 222</a>
-                  </Link>{" "}
-                  &nbsp; EMAIL:{" "}
-                  <Link href="mailto:tomasz@99foto.pl">
-                    <a>TOMASZ@99FOTO.PL</a>
-                  </Link>
-                </Typography>
-                <Typography align="center">NIP: 8133336677 &nbsp; REGON: 369770278</Typography>
-                <Typography align="center">
-                  <Link href="/polityka-prywatnosci-rodo">
-                    <a>POLITYKA PRYWATNOŚCI - RODO</a>
-                  </Link>
-                </Typography>
-              </Paper>
-            </Item>
+      <Box sx={{ py: 4 }}>
+        <Grid container spacing={2} justifyContent="center" alignItems="center">
+          <Grid item md={6} >
+            <Typography variant="subtitle2" align="center" color="text.secondary">
+              TOMASZ PROKOP -{" "}
+              <Link href="https://99foto.pl" passHref>
+                <MuiLink underline="hover">FOTOGRAF ŚLUBNY KRAKÓW</MuiLink>
+              </Link>
+            </Typography>
+            <Typography variant="subtitle2" align="center" color="text.secondary">
+              ul. Bociana 4A/35, 31-231 Kraków
+            </Typography>
+            <Typography variant="subtitle2" align="center" color="text.secondary">
+              TELEFON:{" "}
+              <Link href="tel:+48663275222" passHref>
+                <MuiLink underline="hover">+48 663 275 222</MuiLink>
+              </Link>{" "}
+              &nbsp; EMAIL:{" "}
+              <Link href="mailto:tomasz@99foto.pl" passHref>
+                <MuiLink underline="hover">TOMASZ@99FOTO.PL</MuiLink>
+              </Link>
+            </Typography>
+            <Typography variant="subtitle2" align="center" color="text.secondary">
+              NIP: 8133336677 REGON: 369770278
+            </Typography>
+            <Typography variant="subtitle2" align="center" color="text.secondary">
+              <Link href="/polityka-prywatnosci-rodo" passHref>
+                <MuiLink underline="hover">POLITYKA PRYWATNOŚCI - RODO</MuiLink>
+              </Link>
+            </Typography>
           </Grid>
           <Grid item md={6}>
-            <Item>
-              <Paper elevation={0}>
-                <Typography align="center">OBSERWUJ MNIE</Typography>
-                <Grid container spacing={2}>
-                  <Grid item md={3}>
-                    <Item>
-                      <Link href="https://www.weselezklasa.pl/ogloszenia-weselne/tomasz-prokop-fotograf-slubny,35325/">
-                        <a target="_blank" rel="nofollow">
-                          <Image alt="wesele z klasą" src={"/icons/wesele_z_klasa.jpg"} width={43} height={43} />
-                        </a>
-                      </Link>
-                    </Item>
-                  </Grid>
-                  <Grid item md={3}>
-                    <Item>
-                      <Link href="https://www.instagram.com/99foto.pl">
-                        <a target="_blank" rel="nofollow">
-                          <Image alt="profil na instagramie" src={"/icons/instagram_icon.jpg"} width={43} height={43} />
-                        </a>
-                      </Link>
-                    </Item>
-                  </Grid>
-
-                  <Grid item md={3}>
-                    <Item>
-                      <Link href="https://facebook.com/99foto">
-                        <a target="_blank" rel="nofollow">
-                          <Image alt="profil na instagramie" src={"/icons/facebook_icon.jpg"} width={43} height={43} />
-                        </a>
-                      </Link>
-                    </Item>
-                  </Grid>
-
-                  <Grid item md={3}>
-                    <Item>
-                      <Link href="https://www.slubnaglowie.pl/katalog/firma/tomasz-prokop_6663">
-                        <a target="_blank" rel="nofollow">
-                          <Image alt="profil na instagramie" src={"/icons/slub_na_glowie.jpg"} width={43} height={43} />
-                        </a>
-                      </Link>
-                    </Item>
-                  </Grid>
-                </Grid>
-              </Paper>
-            </Item>
+            <Box sx={{ p: 1 }}>
+              <Typography variant="subtitle2" align="center" color="text.secondary">
+                OBSERWUJ MNIE
+              </Typography>
+            </Box>
+            <Grid container spacing={1} justifyContent="center" alignItems="center">
+              <Grid item xl={4} />
+              <Grid item xl={1}>
+                <Link href="https://www.weselezklasa.pl/ogloszenia-weselne/tomasz-prokop-fotograf-slubny,35325/" passHref>
+                  <MuiLink target="_blank" rel="nofollow">
+                    <Image alt="wesele z klasą" src={wesele_z_klasa} />
+                  </MuiLink>
+                </Link>
+              </Grid>
+              <Grid item xl={1}>
+                <Link href="https://www.instagram.com/99foto.pl" passHref>
+                  <MuiLink target="_blank" rel="nofollow">
+                    <Image alt="profil na instagramie" src={instagram_icon} />
+                  </MuiLink>
+                </Link>
+              </Grid>
+              <Grid item xl={1}>
+                <Link href="https://facebook.com/99foto" passHref>
+                  <MuiLink target="_blank" rel="nofollow">
+                    <Image alt="profil na instagramie" src={facebook_icon} />
+                  </MuiLink>
+                </Link>
+              </Grid>
+              <Grid item xl={1}>
+                <Link href="https://www.slubnaglowie.pl/katalog/firma/tomasz-prokop_6663" passHref>
+                  <MuiLink target="_blank" rel="nofollow">
+                    <Image alt="profil na instagramie" src={slub_na_glowie} />
+                  </MuiLink>
+                </Link>
+              </Grid>
+              <Grid item xl={4} />
+            </Grid>
           </Grid>
         </Grid>
       </Box>
-    </Box>
+    </>
   );
 };
 

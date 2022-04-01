@@ -42,18 +42,10 @@ const ParallaxImage = (props) => {
   return (
     <ParallaxBanner layers={[background]} style={{ height: props.height }}>
       <Box sx={boxStyle}>
-        <Typography
-          variant="h2"
-          sx={{ fontFamily: "Oswald", py: 1 }}
-          align="center"
-        >
+        <Typography variant="h3" align="center">
           {props.menuNames}
         </Typography>
-        <Typography
-          variant="h4"
-          sx={{ fontFamily: "Oswald", py: 1 }}
-          align="center"
-        >
+        <Typography variant="h4" align="center">
           {props.menuTitle}
         </Typography>
       </Box>

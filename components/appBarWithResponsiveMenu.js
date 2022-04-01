@@ -19,7 +19,7 @@ import Grid from "@mui/material/Grid";
 import Item from "@mui/material/Grid";
 import Fab from "@mui/material/Fab";
 import Zoom from "@mui/material/Zoom";
-import ArrowCircleUpRounded from "@mui/icons-material/ArrowCircleUpRounded";
+import KeyboardArrowUp from "@mui/icons-material/KeyboardArrowUp";
 import { keyframes } from "@mui/system";
 
 const pages_left = [
@@ -45,7 +45,7 @@ const AppBarWithResponsiveMenu = () => {
 
   const triggerScrollUp = useScrollTrigger({
     disableHysteresis: true,
-    threshold: 800,
+    threshold: 1800,
   });
 
   const handleScrollTopClick = (event) => {
@@ -80,9 +80,9 @@ const AppBarWithResponsiveMenu = () => {
   return (
     <>
       <Zoom in={triggerScrollUp}>
-        <Box sx={{ position: "fixed", zIndex: "tooltip", bottom: 50, right: 35, animation: `${spin} 2s infinite ease` }}>
-          <Fab color="neutral" disableFocusRipple="true" size="medium" aria-label="scroll back to top" onClick={handleScrollTopClick}>
-            <ArrowCircleUpRounded sx={{ color: "white", fontSize: 60 }} />
+        <Box sx={{ position: "fixed", zIndex: "tooltip", bottom: 40, right: 35, animation: `${spin} 2s infinite ease` }}>
+          <Fab color="primary" size="medium" aria-label="scroll back to top" onClick={handleScrollTopClick}>
+            <KeyboardArrowUp sx={{ color: "black", fontSize: 60 }} />
           </Fab>
         </Box>
       </Zoom>

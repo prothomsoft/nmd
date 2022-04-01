@@ -6,17 +6,21 @@
     font-display: swap;
   }
 
-  .page-transition-enter {
-    opacity: 0;
+  .quote-title::before,
+  .quote-title::after {
+      content: "";
+      display: block;
+      border: 1px solid #33b59a;
   }
-  .page-transition-enter-active {
-    opacity: 1;
-    transition: opacity 300ms;
+  .quote-title {
+      display: flex;
+      align-items: center;
+      color: #ffffff;
+      padding: 10px 0 10px 0;
   }
-  .page-transition-exit {
-    opacity: 1;
-  }
-  .page-transition-exit-active {
-    opacity: 0;
-    transition: opacity 300ms;
+
+  .quote-title::before,
+  .quote-title::after {
+      flex-grow: 1;
+      margin: 0 10px;
   }

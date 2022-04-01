@@ -1,9 +1,15 @@
 import LayoutSitePage from "../components/layoutSitePage";
 import ContactForm from "../components/contactForm";
 import Container from "@mui/material/Container";
+import Box from "@mui/material/Box";
+import ParallaxImageFooter from "../components/parallaxImageFooter";
+import { Typography } from "@mui/material";
 import ClientList from "../components/clientList";
 
 const BlogListComponent = ({ posts }) => {
+
+  const pageImage = process.env.staticImagesPath + "sala_weselna_biala_wilczyca_kocmyrzow.jpg";
+
   return (
     <LayoutSitePage
       title="Strefa klienta"
@@ -13,10 +19,11 @@ const BlogListComponent = ({ posts }) => {
       leadNames="MONIKA i MARTIN"
       leadTitle="WESELE MIĘDZYNARODOWE i POLSKIE TRADYCJE WESELNE"
       leadUrl="/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne"
-      leadImage={process.env.staticImagesPath + "sala_weselna_biala_wilczyca_kocmyrzow.jpg"}>
-      <Container sx={{ pt: "200px" }}>
+      leadImage={pageImage}>
+      <Container sx={{ pt: 21, pb: 5 }}>
         <ClientList posts={posts} />
       </Container>
+      <ParallaxImageFooter leadImage={pageImage} leadUrl="" height="70vh" />
       <Container>
         <ContactForm />
       </Container>

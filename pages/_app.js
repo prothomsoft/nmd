@@ -6,7 +6,6 @@ import CssBaseline from "@mui/material/CssBaseline";
 import { CacheProvider } from "@emotion/react";
 import createEmotionCache from "../src/createEmotionCache";
 import "../styles/globals.css";
-import { PageTransition } from "next-page-transitions";
 
 export const clientSideEmotionCache = createEmotionCache();
 
@@ -25,6 +24,34 @@ export default function MyApp(props) {
   const theme = React.useMemo(
     () =>
       createTheme({
+        typography: {
+          h1 : {
+            fontSize: "1.5rem"
+          },
+          h2 : {
+            fontSize: "1.5rem"
+          },
+          h3 : {
+            fontSize: "3.75rem",
+            padding: "10px"
+          },
+          h4: {
+            fontSize: "3rem",
+            padding: "10px"
+          },
+          body1 : {
+            fontSize: "1rem"
+          },
+          subtitle1 : {
+            fontSize: "1.5rem"
+          },
+          subtitle2 : {
+            fontSize: "1.2rem"
+          },
+          fontFamily: [
+            'Oswald'
+          ].join(','),
+        },
         breakpoints: {
           values: {
             xs: 0,
@@ -39,8 +66,7 @@ export default function MyApp(props) {
             variants: [
               {
                 props: { variant: "menuButtons" },
-                style: {
-                  fontFamily: "Oswald",
+                style: {                  
                   fontSize: 22,
                   color: "white",
                   backgroundColor: "transparent",
@@ -54,27 +80,30 @@ export default function MyApp(props) {
             variants: [
               {
                 props: { variant: "menuButton" },
-                style: {
-                  fontFamily: "Oswald",
+                style: {                  
                   fontSize: 17,
-                  color: "white",
+                  color: "white"
                 },
               },
-            ],
-            defaultProps: {
-              disableElevation: true,
-              disableFocusRipple: true,
-              disableRipple: true,
-            },
+              {
+                props: { variant: "siteButton" },
+                style: {                  
+                  fontSize: 17,
+                  color: "white",
+                  border: "2px solid #FFF",
+                  padding: "11px 61px 11px 61px"
+                },
+              }
+            ]
           },
         },
         palette: {
           mode: "dark",
-          neutral: {
-            main: "transparent",
-            light: "transparent",
-            dark: "transparent",
-            contrastText: "transparent",
+          primary: {
+            main: "#FFFFFF",
+            light: "#FFFFFF",
+            dark: "#FFFFFF",
+            contrastText: "#FFFFFF"
           },
         },
       }),
@@ -89,10 +118,8 @@ export default function MyApp(props) {
         <meta name="viewport" content="initial-scale=1, width=device-width" />
       </Head>
       <ThemeProvider theme={theme}>
-        <CssBaseline />
-        <PageTransition timeout={300} classNames="page-transition">
-          {getLayout(<Component {...pageProps} />)}
-        </PageTransition>
+        <CssBaseline />        
+          {getLayout(<Component {...pageProps} />)}        
       </ThemeProvider>
     </CacheProvider>
   );
