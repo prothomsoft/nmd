@@ -31,7 +31,7 @@ const pages_left = [
 const pages_right = [
   { name: "MISJA i FAQ", url: "/misja-i-faq" },
   { name: "OFERTA", url: "/oferta-fotografii-slubnej" },
-  { name: "BLOG", url: "/blog" },
+  { name: "BLOG", url: "/blog-1" },
   { name: "STREFA KLIENTA", url: "/strefa-klienta" },
 ];
 
@@ -132,10 +132,17 @@ const AppBarWithResponsiveMenu = () => {
             </Box>
           </Container>
           <Container>
-            <Toolbar id="back-to-top-anchor" disableGutters>
-              <Box sx={{ flexGrow: 1, display: { xs: "flex", lg: "none" } }}>
-                <IconButton size="large" aria-label="account of current user" aria-controls="menu-appbar" aria-haspopup="true" onClick={handleOpenNavMenu} color="inherit">
-                  <MenuIcon />
+            <Toolbar id="back-to-top-anchor" disableGutters sx={{px:3}}>
+              <Box sx={{ display: { xs: "flex", lg: "none" }, width: '100%' }} justifyContent="center" alignItems="center" >
+                <Link key={1} href="/" passHref>
+                  <Button variant="menuButton" key={1} onClick={handleCloseNavMenu}>
+                    <Image src={logo99foto} width={105} height={140} />
+                  </Button>
+                </Link>
+              </Box>
+              <Box sx={{  display: { xs: "flex", lg: "none"}}} justifyContent="center" alignItems="center">
+                <IconButton size="large" variant="outlined" aria-label="account of current user" aria-controls="menu-appbar" aria-haspopup="true" onClick={handleOpenNavMenu} sx={{backgroundColor: "white"}}>
+                  <MenuIcon sx={{ color: "black", fontSize: '1.5rem' }}/>
                 </IconButton>
                 <Menu
                   id="menu-appbar"
@@ -169,14 +176,7 @@ const AppBarWithResponsiveMenu = () => {
                     </Link>
                   ))}
                 </Menu>
-              </Box>
-              <Box sx={{ flexGrow: 1, display: { xs: "flex", lg: "none" } }}>
-                <Link key={1} href="/" passHref>
-                  <Button variant="menuButton" key={1} onClick={handleCloseNavMenu}>
-                    <Image src={logo99fotomobile} width={105} height={35} />
-                  </Button>
-                </Link>
-              </Box>
+              </Box>             
             </Toolbar>
           </Container>
         </MuiAppBar>

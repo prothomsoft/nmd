@@ -235,7 +235,7 @@ const ContactForm = () => {
             rows={3}
             helperText={isMessageDirty && messageValidationHelper}
           />
-          <Button variant="siteButton" type="submit">
+          <Button variant="blogButton" type="submit">
             WyŚLIJ WIADOMOŚĆ
           </Button>
         </FormControl>

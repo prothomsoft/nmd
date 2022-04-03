@@ -32,11 +32,11 @@ export default function MyApp(props) {
             fontSize: "1.5rem"
           },
           h3 : {
-            fontSize: "3.75rem",
+            fontSize: "3rem",
             padding: "10px"
           },
           h4: {
-            fontSize: "3rem",
+            fontSize: "2.5rem",
             padding: "10px"
           },
           body1 : {
@@ -81,18 +81,26 @@ export default function MyApp(props) {
               {
                 props: { variant: "menuButton" },
                 style: {                  
-                  fontSize: 17,
-                  color: "white"
+                  fontSize: "1.2rem",
+                  color: "white",
+                  padding: "10px"                  
                 },
               },
               {
-                props: { variant: "siteButton" },
+                props: { variant: "footerButton" },
                 style: {                  
-                  fontSize: 17,
+                  fontSize: "1rem",                  
                   color: "white",
-                  border: "2px solid #FFF",
-                  padding: "11px 61px 11px 61px"
-                },
+                  border: "2px solid rgba(255,255,255,0.7)",
+                  padding: "6px 50px 6px 50px"
+                }              
+              },
+              {
+                props: { variant: "blogButton" },
+                style: {                  
+                  fontSize: "1rem",
+                  border: "1px solid rgba(255,255,255,0.2)"                  
+                }              
               }
             ]
           },

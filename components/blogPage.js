@@ -5,41 +5,42 @@ import Link from "next/link";
 import LazyLoadWrapper from "./lazyLoadWrapper";
 
 const BlogPage = (props) => {
-  let paragraph1 = null;
-  let paragraph2 = null;
-  let paragraph3 = null;
-  let paragraph4 = null;
-  let paragraph5 = null;
-  let paragraph6 = null;
-  let paragraph7 = null;
-  let paragraph8 = null;
-  let paragraph9 = null;
-  if (props.entryContentP1 !== "") {
-    paragraph1 = <p className="par" dangerouslySetInnerHTML={{ __html: props.entryContentP1 }} />;
+  let paragraph1 = "";
+  let paragraph2 = "";
+  let paragraph3 = "";
+  let paragraph4 = "";
+  let paragraph5 = "";
+  let paragraph6 = "";
+  let paragraph7 = "";
+  let paragraph8 = "";
+  let paragraph9 = "";
+ 
+  if (props.entryContentP1 != null) {
+    paragraph1 = <Typography align="justify" color="text.secondary" sx={{ py:1, '& > a': {color: 'white'} }} dangerouslySetInnerHTML={{ __html: props.entryContentP1 }} />;
   }
-  if (props.entryContentP2 !== "") {
-    paragraph2 = <p dangerouslySetInnerHTML={{ __html: props.entryContentP2 }} />;
+  if (props.entryContentP2 != null) {
+    paragraph2 = <Typography align="justify" color="text.secondary" sx={{ py: 1, '& > a': {color: 'white'} }} dangerouslySetInnerHTML={{ __html: props.entryContentP2 }} />;
   }
-  if (props.entryContentP3 !== "") {
-    paragraph3 = <p dangerouslySetInnerHTML={{ __html: props.entryContentP3 }} />;
+  if (props.entryContentP3 != null) {
+    paragraph3 = <Typography align="justify" color="text.secondary" sx={{ py: 1, '& > a': {color: 'white'} }} dangerouslySetInnerHTML={{ __html: props.entryContentP3 }} />;
   }
-  if (props.entryContentP4 !== "") {
-    paragraph4 = <p dangerouslySetInnerHTML={{ __html: props.entryContentP4 }} />;
+  if (props.entryContentP4 != null) {
+    paragraph4 = <Typography align="justify" color="text.secondary" sx={{ py: 1, '& > a': {color: 'white'} }} dangerouslySetInnerHTML={{ __html: props.entryContentP4 }} />;
   }
-  if (props.entryContentP5 !== "") {
-    paragraph5 = <p dangerouslySetInnerHTML={{ __html: props.entryContentP5 }} />;
+  if (props.entryContentP5 != null) {
+    paragraph5 = <Typography align="justify" color="text.secondary" sx={{ py: 1, '& > a': {color: 'white'} }} dangerouslySetInnerHTML={{ __html: props.entryContentP5 }} />;
   }
-  if (props.entryContentP6 !== "") {
-    paragraph6 = <p dangerouslySetInnerHTML={{ __html: props.entryContentP6 }} />;
+  if (props.entryContentP6 != null) {
+    paragraph6 = <Typography align="justify" color="text.secondary" sx={{ py: 1, '& > a': {color: 'white'} }} dangerouslySetInnerHTML={{ __html: props.entryContentP6 }} />;
   }
-  if (props.entryContentP7 !== "") {
-    paragraph7 = <p dangerouslySetInnerHTML={{ __html: props.entryContentP7 }} />;
+  if (props.entryContentP7 != null) {
+    paragraph7 = <Typography align="justify" color="text.secondary" sx={{ py: 1, '& > a': {color: 'white'} }} dangerouslySetInnerHTML={{ __html: props.entryContentP7 }} />;
   }
-  if (props.entryContentP8 !== "") {
-    paragraph8 = <p dangerouslySetInnerHTML={{ __html: props.entryContentP8 }} />;
+  if (props.entryContentP8 != null) {
+    paragraph8 = <Typography align="justify" color="text.secondary" sx={{ py: 1, '& > a': {color: 'white'} }} dangerouslySetInnerHTML={{ __html: props.entryContentP8 }} />;
   }
-  if (props.entryContentP9 !== "") {
-    paragraph9 = <p dangerouslySetInnerHTML={{ __html: props.entryContentP9 }} />;
+  if (props.entryContentP9 != null) {
+    paragraph9 = <Typography align="justify" color="text.secondary" sx={{ py: 1, '& > a': {color: 'white'} }} dangerouslySetInnerHTML={{ __html: props.entryContentP9 }} />;
   }
 
   let images = null;
@@ -61,18 +62,20 @@ const BlogPage = (props) => {
   if (props.imagesParagraph7) imagesParagraph7 = <LazyLoadWrapper images={props.imagesParagraph7} title={props.headTitle} />;
 
   return (
-    <Box>
-      <Typography variant="h6">
-        <Link as={`/${props.slug}`} href={`/${props.slug}`}>
-          <a>{props.title}</a>
-        </Link>
-      </Typography>
+    <>
+    <Box sx={{ pt: 2 }}>
+      <Link as={`/${props.slug}`} href={`/${props.slug}`} passHref>
+        <Typography variant="h1" className="quote-title">
+          {props.title} {props.names}
+        </Typography>
+      </Link>
+      </Box>
 
-      <Typography variant="h6">
-        {props.date}, TAGI: <span>{props.tags}</span>
-      </Typography>
+      <Typography align="center" sx={{ textTransform: "uppercase", pb: 1.3 }}>
+      {props.date} - TAGI: {props.tags}
+    </Typography>
 
-      <Typography>
+      
         {paragraph1}
         {imagesParagraph1}
         {paragraph2}
@@ -89,10 +92,13 @@ const BlogPage = (props) => {
         {imagesParagraph7}
         {paragraph8}
         {paragraph9}
-      </Typography>
+      
+        
 
-      {images}
-    </Box>
+        {images}
+            
+      </>
+    
   );
 };
 

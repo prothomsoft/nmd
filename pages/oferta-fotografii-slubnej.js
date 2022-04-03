@@ -1,10 +1,26 @@
+import * as React from "react";
 import LayoutSitePage from "../components/layoutSitePage";
 import ContactForm from "../components/contactForm";
 import Container from "@mui/material/Container";
+import Box from "@mui/material/Box";
+import { Typography } from "@mui/material";
+import Grid from "@mui/material/Grid";
 import Link from "next/link";
 import Image from "next/image";
+import ParallaxImageFooter from "../components/parallaxImageFooter";
+import portret_panny_mlodej from "../public/static/portfolio/portret_panny_mlodej.jpg";
+import aleksandra_mszana_dolna from "../public/static/portfolio/aleksandra_mszana_dolna.jpg";
+import plener_0002 from "../public/static/portfolio/plener_0002.jpg";
+import pomysl_na_sesje_slubna_zimowa_w_krakowie from "../public/static/portfolio/pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg";
 
 const PageComponent = () => {
+  const [hovImg1, setHovImg1] = React.useState({ opacity: 1, transition: ".3s", cursor: "pointer", pb: 2 });
+  const [hovImg2, setHovImg2] = React.useState({ opacity: 1, transition: ".3s", cursor: "pointer", pb: 2 });
+  const [hovImg3, setHovImg3] = React.useState({ opacity: 1, transition: ".3s", cursor: "pointer", pb: 2 });
+  const [hovImg4, setHovImg4] = React.useState({ opacity: 1, transition: ".3s", cursor: "pointer", pb: 2 });
+
+  const pageImage = process.env.staticImagesPath + "ogrod_botaniczny.jpg";
+
   return (
     <LayoutSitePage
       title="Oferta fotografii ślubnej i sesji zdjęciowej"
@@ -14,80 +30,130 @@ const PageComponent = () => {
       leadNames="DAJANA i SYLWESTER"
       leadTitle="OGRÓD BOTANICZNY W KRAKOWIE, ŚLUBNA SESJA ZDJĘCIOWA"
       leadUrl="/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa"
-      leadImage={process.env.staticImagesPath + "ogrod_botaniczny.jpg"}>
-      <Container sx={{ pt: "200px" }}>
-      <article>
-                    <header>
-                        <h1 className="quote-title">OFERTA FOTOGRAFII ŚLUBNEJ</h1>
-                    </header>
+      leadImage={pageImage}>
+      <Container sx={{ pt: 21, pb: 5 }}>
+        <Box sx={{ py: 2 }}>
+          <Typography variant="h1" className="quote-title">
+            OFERTA FOTOGRAFII ŚLUBNEJ
+          </Typography>
+        </Box>
+        <Grid container spacing={2} justifyContent="center" alignItems="center">
+          <Grid item xs={12} lg={8} xl={8}>
+            <Typography variant="h5" align="center" sx={{ pb: 2 }}>
+              REPORTAŻ ŚLUBNY OBEJMUJĄCY
+            </Typography>
 
-                    <div className="container">
-                        <div className="column left">
-                            <Link href="/bazylika-bozego-ciala-krakow-fotoreportaz-slubny">
-                                <div className="porfolioImage">
-                                    <Image alt="portret panny młodej" src={"/static/portfolio/portret_panny_mlodej.jpg"} width={336} height={225} />                                    
-                                </div>
-                            </Link>
+            <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 2 }}>
+              przygotowania, błogosławieństwo
+            </Typography>
+            <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 2 }}>
+              ceremonię w kościele lub USC
+            </Typography>
+            <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 2 }}>
+              przyjęcie weselne do oczepin włącznie (do godz. 1.00)
+            </Typography>
+            <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 6 }}>
+              sesję ślubną w wybranym dniu po ślubie
+            </Typography>
 
-                            <Link href="/dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour">
-                                <div className="porfolioImage">
-                                    <Image alt="sala weselna Mszana Dolna" src={"/static/portfolio/aleksandra_mszana_dolna.jpg"}  width={336} height={225} />
-                                </div>
-                            </Link>
-                        </div>
-                        <div className="column right">
-                            <h2>REPORTAŻ ŚLUBNY OBEJMUJĄCY</h2>
-                            <p>przygotowania, błogosławieństwo</p>
-                            <p>ceremonię w kościele lub USC</p>
-                            <p>przyjęcie weselne do oczepin włącznie (do godz. 1.00)</p>
-                            <p>sesję ślubną w wybranym dniu po ślubie</p>
-                            <div className="spacer">&nbsp;</div>
-                            <h2>OTRZYMUJECIE</h2>
-                            <p>fotoksiążkę - minimum 140 stron w twardej oprawie, format 30x30cm</p>
-                            <p>pendrive w etui - minimum 450 zdjęć poddanych starannej obróbce graficznej</p>
-                            <p>dojazd w dniu ślubu GRATIS</p>
-                            <p>internetową galerię zdjęć w strefie klienta zabezpieczoną hasłem</p>
-                        </div>
-                    </div>
-                </article>
+            <Typography variant="h5" align="center" sx={{ pb: 2 }}>
+              OTRZYMUJECIE
+            </Typography>
+            <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 2 }}>
+              fotoksiążkę - minimum 140 stron w twardej oprawie, format 30x30cm
+            </Typography>
+            <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 2 }}>
+              pendrive w etui - minimum 450 zdjęć poddanych starannej obróbce graficznej
+            </Typography>
+            <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 2 }}>
+              dojazd w dniu ślubu GRATIS
+            </Typography>
+            <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 2 }}>
+              internetową galerię zdjęć w strefie klienta zabezpieczoną hasłem
+            </Typography>
+          </Grid>
+          <Grid item md={4} sx={{ display: { xs: 'none', lg: 'block', xl: 'block' }}}>
+            <Box sx={hovImg1}>
+              <Link href="/bazylika-bozego-ciala-krakow-fotoreportaz-slubny" passHref>
+                <Image
+                  alt="portret panny młodej"
+                  src={portret_panny_mlodej}
+                  onMouseEnter={() => setHovImg1({ opacity: 0.7, transition: ".3s", cursor: "pointer", pb: 2 })}
+                  onMouseLeave={() => setHovImg1({ opacity: 1, transition: ".3s", cursor: "pointer", pb: 2 })}
+                />
+              </Link>
+            </Box>
 
-                <article>
-                    <header>
-                        <h3 className="quote-title">OFERTA SESJI ZDJĘCIOWEJ</h3>
-                    </header>
+            <Box sx={hovImg2}>
+              <Link href="/dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour">
+                <Image
+                  alt="sala weselna Mszana Dolna"
+                  src={aleksandra_mszana_dolna}
+                  onMouseEnter={() => setHovImg2({ opacity: 0.7, transition: ".3s", cursor: "pointer", pb: 2 })}
+                  onMouseLeave={() => setHovImg2({ opacity: 1, transition: ".3s", cursor: "pointer", pb: 2 })}
+                />
+              </Link>
+            </Box>
+          </Grid>
+        </Grid>
 
-                    <div className="container">
-                        <div className="column left">
-                            <Link href="/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa">
-                                <div className="porfolioImage">
-                                    <Image alt="sesja plenerowa w ogrodzie botanicznym" src={"/static/portfolio/plener_0002.jpg"}  width={336} height={225}  />
-                                </div>
-                            </Link>
-                            <Link href="/sesja-slubna-jesienia-palac-goetzow-okocimskich">
-                                <div className="porfolioImage">
-                                    <Image alt="sesja slubna palac goetzow okocimskich" src={"/static/portfolio/pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg"}  width={336} height={225} />
-                                </div>
-                            </Link>
-                            <div className="spacer">&nbsp;</div>
-                        </div>
-                        <div className="column right">
-                            <p>&nbsp;</p>
-                            <h2>SESJA ZDJĘCIOWA OBEJMUJĄCA</h2>
-                            <p>trzy godziny fotografowania</p>
-                            <p>dwa lub trzy wybrane miejsca plenerowe</p>
-                            <p>&nbsp;</p>
-                            <div className="spacer_more">&nbsp;</div>
-                            <h2>OTRZYMUJECIE</h2>
-                            <p>pendrive w etui - minimum 80 zdjęć poddanych starannej obróbce graficznej</p>
-                            <p>dojazd do 30 km na sesję zdjęciową GRATIS</p>
-                            <p>internetową galerię zdjęć w strefie klienta zabezpieczoną hasłem</p>
-                            <p>&nbsp;</p>
-                            <p>&nbsp;</p>
-                        </div>
-                        <div className="spacer">&nbsp;</div>
-                    </div>
-                </article>
+        <Box sx={{ py: 2 }}>
+          <Typography variant="h1" className="quote-title">
+            OFERTA SESJI ZDJĘCIOWEJ
+          </Typography>
+        </Box>
+        <Grid container spacing={2} justifyContent="center" alignItems="center">
+          <Grid item md={4} sx={{ display: { xs: 'none', lg: 'block', xl: 'block' }}}>
+            <Box sx={hovImg3}>
+              <Link href="/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa">
+                <Image
+                  alt="sesja plenerowa w ogrodzie botanicznym"
+                  src={plener_0002}
+                  onMouseEnter={() => setHovImg3({ opacity: 0.7, transition: ".3s", cursor: "pointer", pb: 2 })}
+                  onMouseLeave={() => setHovImg3({ opacity: 1, transition: ".3s", cursor: "pointer", pb: 2 })}
+                />
+              </Link>
+            </Box>
+
+            <Box sx={hovImg4}>
+              <Link href="/sesja-slubna-jesienia-palac-goetzow-okocimskich" passHref>
+                <Image
+                  alt="sesja slubna palac goetzow okocimskich"
+                  src={pomysl_na_sesje_slubna_zimowa_w_krakowie}
+                  onMouseEnter={() => setHovImg4({ opacity: 0.7, transition: ".3s", cursor: "pointer", pb: 2 })}
+                  onMouseLeave={() => setHovImg4({ opacity: 1, transition: ".3s", cursor: "pointer", pb: 2 })}
+                />
+              </Link>
+            </Box>
+          </Grid>
+          <Grid item xs={12} lg={8} xl={8}>
+            <Typography variant="h5" align="center" sx={{ pb: 2 }}>
+              SESJA ZDJĘCIOWA OBEJMUJĄCA
+            </Typography>
+
+            <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 2 }}>
+              trzy godziny fotografowania
+            </Typography>
+            <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 6 }}>
+              dwa lub trzy wybrane miejsca plenerowe
+            </Typography>
+
+            <Typography variant="h5" align="center" sx={{ pb: 2 }}>
+              OTRZYMUJECIE
+            </Typography>
+            <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 2 }}>
+              pendrive w etui - minimum 80 zdjęć poddanych starannej obróbce graficznej
+            </Typography>
+            <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 2 }}>
+              dojazd do 30 km na sesję zdjęciową GRATIS
+            </Typography>
+            <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 2 }}>
+              internetową galerię zdjęć w strefie klienta zabezpieczoną hasłem
+            </Typography>
+          </Grid>
+        </Grid>
       </Container>
+      <ParallaxImageFooter leadImage={pageImage} leadUrl="" height="70vh" />
       <Container>
         <ContactForm />
       </Container>

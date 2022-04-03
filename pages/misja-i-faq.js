@@ -44,10 +44,10 @@ const PageComponent = () => {
           </Typography>
         </Box>
         <Grid container spacing={2}>
-        <Grid item md={8}>
+        <Grid item xs={12} lg={8} xl={8}>
             <FaqAccordion />
           </Grid> 
-          <Grid item md={4}>
+          <Grid item xs={0} lg={4} xl={4} sx={{ display: { xs: 'none', lg: 'block', xl: 'block' }}}>
             <Box sx={hovImg1}>
               <Link href="/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja" passHref>
                 <Image
@@ -81,8 +81,6 @@ const PageComponent = () => {
               </Link>
             </Box>
           </Grid>
-
-         
         </Grid>
 
         <Box sx={{ py: 2 }}>
@@ -90,8 +88,8 @@ const PageComponent = () => {
             MISJA - CZYLI NIE ODNAJDZIE WIĘCEJ WAS TA SAMA CHWILA
           </Typography>
         </Box>
-        <Grid container spacing={2}>
-          <Grid item md={4}>
+        <Grid container spacing={2} >
+          <Grid item md={4} sx={{ display: { xs: 'none', lg: 'block', xl: 'block' }}}>
             <Box sx={hovImg4}>
               <Link href="/wakacyjny-test-obiektywu-sigma-50-1-4-art" passHref>
                 <Image
@@ -126,48 +124,44 @@ const PageComponent = () => {
             </Box>
           </Grid>
 
-          <Grid item md={8}>
-            <Typography align="justify" color="text.secondary" sx={{ pb: 2 }}>
+          <Grid item xs={12} lg={8} xl={8}>
+            <Typography align="justify" color="text.secondary" sx={{ pb: 3 }}>
               Kiedy spojrzę w przeszłość na kilka ślubów, które miałem przyjemność fotografować, mogę powiedzieć jedno: każdy ślub jest inny. Para młoda i idealnie dopracowane detale są po prostu
               piękne. Goście weselni swoją radością sprawiają, że dzień ten staje się wyjątkowy, a całe tygodnie i miesiące przygotowań mają swój szczęśliwy finał w tym dniu pełnym uczuć, radości i
               wzruszeń.
             </Typography>
-            <Typography align="justify" color="text.secondary" sx={{ pb: 2 }}>
+            <Typography align="justify" color="text.secondary" sx={{ pb: 3 }}>
               Zapytacie mnie dlaczego zajmuję się fotografią ślubną?
             </Typography>
-            <Typography align="justify" color="text.secondary" sx={{ pb: 2 }}>
+            <Typography align="justify" color="text.secondary" sx={{ pb: 3 }}>
               Otóż chcę zatrzymać czas, sfotografować Twoich rodziców, trzymających się za ręce i wycierających łzy wzruszenia w kościelnej ławce. Taniec Twojej młodszej siostry z chłopakiem, którego
               być może poślubi już za trzy lata. Dzieci sąsiadów, które rosną bardzo, ale to bardzo szybko i Twój pierwszy już małżeński pocałunek. Twojego najlepszego przyjaciela wykonującego mocno
               wyćwiczony, jeszcze studniówkowy taneczny popis, a być może nawet byłego chłopaka, który ze łzą w oku przytrzyma Cię w objęciach trochę dłużej, korzystając z takiej okazji podczas
               składania życzeń ślubnych.
             </Typography>
-            <Typography align="justify" color="text.secondary" sx={{ pb: 2 }}>
+            <Typography align="justify" color="text.secondary" sx={{ pb: 3 }}>
               Masz jak w banku, że ślubny tort zniknie w czasie krótszym niż godzina, kwiaty zwiędną wkrótce po ceremonii, a suknia ślubna wróci do szafy rano następnego dnia. Ale zdjęcia - pomyśl -
               one zostaną na zawsze. Będą z wami kiedy narodzą się wasze dzieci, kiedy będziecie przechodzić przez największą w karierze małżeńskiej kłótnię. Zawsze będą przypominać wam jak bardzo się
               kochacie. Kiedy waszych rodziców już nie będzie z wami, zdacie sobie sprawę, że ślub to była ostatnia okazja na podziękowania i na wspólny taniec.
             </Typography>
-            <Typography align="justify" color="text.secondary" sx={{ pb: 2 }}>
+            <Typography align="justify" color="text.secondary" sx={{ pb: 3 }}>
               Moją misją jest więc uwiecznienie tych wszystkich chwil, podarowanie Wam zdjęć w albumie, który przetrwa wieki i przypomni wam dlaczego chcieliście wydać tak idealne i tak bardzo drogie
               przyjęcie ślubne.
             </Typography>
-            <Typography align="justify" color="text.secondary" sx={{ pb: 2 }}>
+            <Typography align="justify" color="text.secondary" sx={{ pb: 3 }}>
               Jeżeli planujesz swój ślub właśnie teraz to zapomnij o targach ślubnych, wyłącz internet i zamknij katalogi mody ślubnej. Popatrz na osobę z którą chcesz przejść przez życie. Przypomnij
               sobie dlaczego to robisz i pamiętaj o tym, żeby gdy dzień ślubu nadejdzie cieszyć się nim z całego serca. Zero stresu z powodu sukni ślubnej, pierwszego tańca, pocałunków na forum
               rodziny, czekoladowej fontanny czy kwiatów.
             </Typography>
-            <Typography align="justify" color="text.secondary" sx={{ pb: 2 }}>
+            <Typography align="justify" color="text.secondary" sx={{ pb: 3 }}>
               Pamiętaj, kiedy impreza się skończy, będziecie już na zawsze razem otoczeni ludźmi, którzy doskonale was znają i kochają najbardziej na świecie. Wybierając mnie na Waszego fotografa
               ślubnego będziecie mieli też album pełny bezcennych zdjęć.
             </Typography>
-            <Typography align="right" color="text.secondary" sx={{ pb: 2 }}>
+            <Typography align="right" color="text.secondary" sx={{ pb: 3 }}>
               Pozdrawiam i zapraszam serdecznie do skorzystania z moich usług.
             </Typography>
-            <Typography align="right" color="text.secondary" sx={{ pb: 2 }}>
-              Tomasz Prokop -{" "}
-              <Link href="/" passHref>
-                <MuiLink underline="hover">Fotograf Ślubny Kraków</MuiLink>
-              </Link>
-              .
+            <Typography align="right" color="text.secondary" sx={{ pb: 3 }}>
+              Tomasz Prokop - Fotograf Ślubny Kraków
             </Typography>
           </Grid>
         </Grid>

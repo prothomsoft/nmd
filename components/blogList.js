@@ -2,6 +2,10 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Typography } from "@mui/material";
+import Box from "@mui/material/Box";
+import ArrowForward from "@mui/icons-material/ArrowForward";
+import Button from "@mui/material/Button";
+import MuiLink from "@mui/material/Link";
 
 const BlogList = (props) => {
   return (
@@ -15,24 +19,32 @@ const BlogList = (props) => {
 
 const PostLink = ({ post }) => (
   <>
-    <Typography variant="h6">
-      <Link as={`/${post.slug}`} href={`/${post.slug}`}>
-        <a className="postTitle" dangerouslySetInnerHTML={{ __html: getPostTitleWithNames(post) }} />
+    <Box sx={{ pt: 2 }}>
+      <Link as={`/${post.slug}`} href={`/${post.slug}`} passHref>
+        <Typography variant="h1" className="quote-title">
+          {post.title} - {post.names}
+        </Typography>
       </Link>
-    </Typography>
-    <Typography variant="h6">
-      {getPostDate(post.date)}, TAGI: <span className="spanColor">{getPostTags(post.tags)}</span>
+    </Box>
+    <Typography align="center" sx={{ textTransform: "uppercase", pb: 1.3 }}>
+      {getPostDate(post.date)} - TAGI: {getPostTags(post.tags)}
     </Typography>
 
     <Link as={`/${post.slug}`} href={`/${post.slug}`}>
-      <a href={`/${post.slug}`}>
-        <Image alt={`${getPostTitleWithNames(post)}`} src={post.image} width={1140} height={762} />
-      </a>
+      <MuiLink href={`/${post.slug}`}>
+        <Image alt={post.title} src={post.image} width={1140} height={762} />
+      </MuiLink>
     </Link>
-    <div className="entryContent" dangerouslySetInnerHTML={{ __html: getPostContent(post.content) }} />
-    <Link as={`/${post.slug}`} href={`/${post.slug}`}>
-      <a className="btn">CZYTAJ DALEJ</a>
-    </Link>
+
+    <Typography color="text.secondary" align="justify" sx={{ py: 1, '& > a': {color: 'white'} }} dangerouslySetInnerHTML={{ __html: post.content }} />
+      
+    <Box sx={{ pt:1, pb:2 }}>
+      <Link href={post.slug} passHref>
+        <Button variant="blogButton" fullWidth endIcon={<ArrowForward />}>
+          ZOBACZ WIĘCEJ
+        </Button>
+      </Link>
+    </Box>
   </>
 );
 
@@ -55,19 +67,6 @@ function getPostDate(content) {
   let day = postDate.getDate();
   let year = postDate.getFullYear();
   return day + " " + MonthName[month] + " " + year;
-}
-
-function getPostContent(content) {
-  let fields = content.split("<!--more-->");
-  return fields[0].concat("</p>");
-}
-
-function getPostTitleWithNames(post) {
-  if (typeof post.names === "undefined") {
-    return post.title;
-  } else {
-    return post.title.concat(" - ").concat(post.names);
-  }
 }
 
 function getPostTags(content) {

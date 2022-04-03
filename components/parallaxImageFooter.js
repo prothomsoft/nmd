@@ -4,6 +4,8 @@ import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Link from "next/link";
+import ArrowForward from "@mui/icons-material/ArrowForward";
+import IntroArrow from "./introArrow";
 
 const ParallaxImageFooter = (props) => {
   const boxStyle = {
@@ -32,7 +34,7 @@ const ParallaxImageFooter = (props) => {
     componentLink = (
       <Box sx={{ pt: 4 }}>
         <Link href={props.leadUrl} passHref>
-          <Button variant="siteButton">GALERIA ZDJĘĆ</Button>
+          <Button variant="contained" sx={{color: "black", padding: "10px 40px 10px 40px", fontSize: "1rem"}} endIcon={<ArrowForward />}>GALERIA ZDJĘĆ</Button>
         </Link>
       </Box>
     );
