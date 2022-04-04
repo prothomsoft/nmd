@@ -14,11 +14,6 @@ import plener_0002 from "../public/static/portfolio/plener_0002.jpg";
 import pomysl_na_sesje_slubna_zimowa_w_krakowie from "../public/static/portfolio/pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg";
 
 const PageComponent = () => {
-  const [hovImg1, setHovImg1] = React.useState({ opacity: 1, transition: ".3s", cursor: "pointer", pb: 2 });
-  const [hovImg2, setHovImg2] = React.useState({ opacity: 1, transition: ".3s", cursor: "pointer", pb: 2 });
-  const [hovImg3, setHovImg3] = React.useState({ opacity: 1, transition: ".3s", cursor: "pointer", pb: 2 });
-  const [hovImg4, setHovImg4] = React.useState({ opacity: 1, transition: ".3s", cursor: "pointer", pb: 2 });
-
   const pageImage = process.env.staticImagesPath + "ogrod_botaniczny.jpg";
 
   return (
@@ -72,28 +67,10 @@ const PageComponent = () => {
               internetową galerię zdjęć w strefie klienta zabezpieczoną hasłem
             </Typography>
           </Grid>
-          <Grid item md={4} sx={{ display: { xs: 'none', lg: 'block', xl: 'block' }}}>
-            <Box sx={hovImg1}>
-              <Link href="/bazylika-bozego-ciala-krakow-fotoreportaz-slubny" passHref>
-                <Image
-                  alt="portret panny młodej"
-                  src={portret_panny_mlodej}
-                  onMouseEnter={() => setHovImg1({ opacity: 0.7, transition: ".3s", cursor: "pointer", pb: 2 })}
-                  onMouseLeave={() => setHovImg1({ opacity: 1, transition: ".3s", cursor: "pointer", pb: 2 })}
-                />
-              </Link>
-            </Box>
+          <Grid item md={4} sx={{ display: { xs: "none", lg: "block", xl: "block" } }}>
+            <Image alt="portret panny młodej" src={portret_panny_mlodej} />
 
-            <Box sx={hovImg2}>
-              <Link href="/dworek-fantazja-skomielna-biala-i-slub-w-stylu-glamour">
-                <Image
-                  alt="sala weselna Mszana Dolna"
-                  src={aleksandra_mszana_dolna}
-                  onMouseEnter={() => setHovImg2({ opacity: 0.7, transition: ".3s", cursor: "pointer", pb: 2 })}
-                  onMouseLeave={() => setHovImg2({ opacity: 1, transition: ".3s", cursor: "pointer", pb: 2 })}
-                />
-              </Link>
-            </Box>
+            <Image alt="sala weselna Mszana Dolna" src={aleksandra_mszana_dolna} />
           </Grid>
         </Grid>
 
@@ -103,28 +80,9 @@ const PageComponent = () => {
           </Typography>
         </Box>
         <Grid container spacing={2} justifyContent="center" alignItems="center">
-          <Grid item md={4} sx={{ display: { xs: 'none', lg: 'block', xl: 'block' }}}>
-            <Box sx={hovImg3}>
-              <Link href="/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa">
-                <Image
-                  alt="sesja plenerowa w ogrodzie botanicznym"
-                  src={plener_0002}
-                  onMouseEnter={() => setHovImg3({ opacity: 0.7, transition: ".3s", cursor: "pointer", pb: 2 })}
-                  onMouseLeave={() => setHovImg3({ opacity: 1, transition: ".3s", cursor: "pointer", pb: 2 })}
-                />
-              </Link>
-            </Box>
-
-            <Box sx={hovImg4}>
-              <Link href="/sesja-slubna-jesienia-palac-goetzow-okocimskich" passHref>
-                <Image
-                  alt="sesja slubna palac goetzow okocimskich"
-                  src={pomysl_na_sesje_slubna_zimowa_w_krakowie}
-                  onMouseEnter={() => setHovImg4({ opacity: 0.7, transition: ".3s", cursor: "pointer", pb: 2 })}
-                  onMouseLeave={() => setHovImg4({ opacity: 1, transition: ".3s", cursor: "pointer", pb: 2 })}
-                />
-              </Link>
-            </Box>
+          <Grid item md={4} sx={{ display: { xs: "none", lg: "block", xl: "block" } }}>
+            <Image alt="sesja plenerowa w ogrodzie botanicznym" src={plener_0002} />
+            <Image alt="sesja slubna palac goetzow okocimskich" src={pomysl_na_sesje_slubna_zimowa_w_krakowie} />
           </Grid>
           <Grid item xs={12} lg={8} xl={8}>
             <Typography variant="h5" align="center" sx={{ pb: 2 }}>

@@ -8,7 +8,6 @@ import Link from "next/link";
 import Image from "next/image";
 import FaqAccordion from "../components/faqAccordion";
 import Grid from "@mui/material/Grid";
-import MuiLink from "@mui/material/Link";
 import ParallaxImageFooter from "../components/parallaxImageFooter";
 import dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio from "../public/static/portfolio/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio.jpg";
 import sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio from "../public/static/portfolio/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio.jpg";
@@ -18,13 +17,7 @@ import tomek_prokop_fotograf_krakow_misja_1_page from "../public/static/portfoli
 import tomek_prokop_fotograf_krakow_misja_3_page from "../public/static/portfolio/tomek_prokop_fotograf_krakow_misja_3_page.jpg";
 
 const PageComponent = () => {
-  const [hovImg1, setHovImg1] = React.useState({ opacity: 1, transition: ".3s", cursor: "pointer", pb: 2 });
-  const [hovImg2, setHovImg2] = React.useState({ opacity: 1, transition: ".3s", cursor: "pointer", pb: 2 });
-  const [hovImg3, setHovImg3] = React.useState({ opacity: 1, transition: ".3s", cursor: "pointer", pb: 2 });
-  const [hovImg4, setHovImg4] = React.useState({ opacity: 1, transition: ".3s", cursor: "pointer", pb: 2 });
-  const [hovImg5, setHovImg5] = React.useState({ opacity: 1, transition: ".3s", cursor: "pointer", pb: 2 });
-  const [hovImg6, setHovImg6] = React.useState({ opacity: 1, transition: ".3s", cursor: "pointer", pb: 2 });
-
+ 
   const pageImage = process.env.staticImagesPath + "bazylika-bozego-ciala-krakow-fotoreportaz-slubny.jpg";
 
   return (
@@ -48,38 +41,26 @@ const PageComponent = () => {
             <FaqAccordion />
           </Grid> 
           <Grid item xs={0} lg={4} xl={4} sx={{ display: { xs: 'none', lg: 'block', xl: 'block' }}}>
-            <Box sx={hovImg1}>
-              <Link href="/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja" passHref>
+           
                 <Image
                   alt="Sesja zdjęciowa w Krakowie"
                   src={sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio}
-                  onMouseEnter={() => setHovImg1({ opacity: 0.7, transition: ".3s", cursor: "pointer", pb: 2 })}
-                  onMouseLeave={() => setHovImg1({ opacity: 1, transition: ".3s", cursor: "pointer", pb: 2 })}
+                 
                 />
-              </Link>
-            </Box>
+              
 
-            <Box sx={hovImg2}>
-              <Link href="/dekoracja-sali-weselnej-w-stylu-rustykalnym-osp-zawada">
+            
                 <Image
                   alt="Plener ślubny na Rynku w Krakowie"
-                  src={dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio}
-                  onMouseEnter={() => setHovImg2({ opacity: 0.7, transition: ".3s", cursor: "pointer", pb: 2 })}
-                  onMouseLeave={() => setHovImg2({ opacity: 1, transition: ".3s", cursor: "pointer", pb: 2 })}
+                  src={dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio}               
                 />
-              </Link>
-            </Box>
-
-            <Box sx={hovImg3}>
-              <Link href="/sala-weselna-nedan-pcim-reportaz-slubny">
+            
+           
                 <Image
                   alt="fotograf na wesele kraków"
                   src={sala_weselna_nedan_pcim_reportaz_slubny_portfolio}
-                  onMouseEnter={() => setHovImg3({ opacity: 0.7, transition: ".3s", cursor: "pointer", pb: 2 })}
-                  onMouseLeave={() => setHovImg3({ opacity: 1, transition: ".3s", cursor: "pointer", pb: 2 })}
                 />
-              </Link>
-            </Box>
+           
           </Grid>
         </Grid>
 
@@ -90,38 +71,24 @@ const PageComponent = () => {
         </Box>
         <Grid container spacing={2} >
           <Grid item md={4} sx={{ display: { xs: 'none', lg: 'block', xl: 'block' }}}>
-            <Box sx={hovImg4}>
-              <Link href="/wakacyjny-test-obiektywu-sigma-50-1-4-art" passHref>
+            
                 <Image
                   alt="ulubione-wakacyjne-kadry"
                   src={tomek_prokop_fotograf_krakow_misja_2_page}
-                  onMouseEnter={() => setHovImg4({ opacity: 0.7, transition: ".3s", cursor: "pointer", pb: 2 })}
-                  onMouseLeave={() => setHovImg4({ opacity: 1, transition: ".3s", cursor: "pointer", pb: 2 })}
                 />
-              </Link>
-            </Box>
-
-            <Box sx={hovImg5}>
-              <Link href="/ulubione-wakacyjne-kadry">
+            
+          
                 <Image
                   alt="ulubione-wakacyjne-kadry"
                   src={tomek_prokop_fotograf_krakow_misja_3_page}
-                  onMouseEnter={() => setHovImg6({ opacity: 0.7, transition: ".3s", cursor: "pointer", pb: 2 })}
-                  onMouseLeave={() => setHovImg6({ opacity: 1, transition: ".3s", cursor: "pointer", pb: 2 })}
                 />
-              </Link>
-            </Box>
-
-            <Box sx={hovImg6}>
-              <Link href="/michas-i-martusia-wakacje-wroclaw-i-kudowa-zdroj">
+          
+            
                 <Image
                   alt="ulubione-wakacyjne-kadry"
                   src={tomek_prokop_fotograf_krakow_misja_1_page}
-                  onMouseEnter={() => setHovImg5({ opacity: 0.7, transition: ".3s", cursor: "pointer", pb: 2 })}
-                  onMouseLeave={() => setHovImg5({ opacity: 1, transition: ".3s", cursor: "pointer", pb: 2 })}
                 />
-              </Link>
-            </Box>
+            
           </Grid>
 
           <Grid item xs={12} lg={8} xl={8}>
