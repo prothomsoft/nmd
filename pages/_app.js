@@ -11,16 +11,7 @@ export const clientSideEmotionCache = createEmotionCache();
 
 export default function MyApp(props) {
   const { Component, emotionCache = clientSideEmotionCache, pageProps } = props;
-  const [mode, setMode] = React.useState("light");
-  const toggleColorMode = React.useMemo(
-    () => ({
-      toggleColorMode: () => {
-        setMode((prevMode) => (prevMode === "light" ? "dark" : "light"));
-      },
-    }),
-    []
-  );
-
+  
   const theme = React.useMemo(
     () =>
       createTheme({
@@ -114,8 +105,7 @@ export default function MyApp(props) {
             contrastText: "#FFFFFF"
           },
         },
-      }),
-    [mode]
+      })
   );
 
   const getLayout = Component.getLayout || ((page) => page);

@@ -105,6 +105,7 @@ const ContactForm = () => {
     }
 
     if (isEmpty(message)) {
+      setIsMessageValid(false);
       setMessageValidationHelper("Pole Twoja wiadomość jest wymagane.");
       setIsMessageDirty(true);
       return false;
@@ -125,7 +126,7 @@ const ContactForm = () => {
       .map((k) => esc(k) + "=" + esc(formData[k]))
       .join("&");
 
-    var sUrlWithParams = "https://99foto.pl/test.php" + "?" + query;
+    var sUrlWithParams = "https://moksir.dynow.pl/mtest.php" + "?" + query;
     fetch(sUrlWithParams, {
       method: "GET",
       headers: {
@@ -190,7 +191,7 @@ const ContactForm = () => {
         component="form"
         onSubmit={handleSubmit}
         sx={{
-          "& .MuiTextField-root": { my: 2 },
+          "& .MuiTextField-root": { my: 2 }, display: `${displayForm}`
         }}
         noValidate
         autoComplete="string">
