@@ -109,7 +109,7 @@ const AppBarWithResponsiveMenu = () => {
                     <Box sx={{ display: "flex", justifyContent: "center", ml: "40px" }}>
                       <Link key={1} href="/" passHref>
                         <Button variant="menuButton" sx={{ pt: 2, pb: 2 }} key={1} onClick={handleCloseNavMenu}>
-                          <Image src={logo99foto} width={100} height={140} />
+                          <Image src={logo99foto} width={100} height={140} priority={true} />
                         </Button>
                       </Link>
                     </Box>
@@ -136,7 +136,7 @@ const AppBarWithResponsiveMenu = () => {
               <Box sx={{ display: { xs: "flex", lg: "none" }, width: '100%' }} justifyContent="center" alignItems="center" >
                 <Link key={1} href="/" passHref>
                   <Button variant="menuButton" key={1} onClick={handleCloseNavMenu}>
-                    <Image src={logo99foto} width={105} height={140} />
+                    <Image src={logo99foto} width={105} height={140} priority={true}/>
                   </Button>
                 </Link>
               </Box>
