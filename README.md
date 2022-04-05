@@ -20,6 +20,8 @@ yarn create next-app --example with-docker nextjs-docker
 1. [Install Docker](https://docs.docker.com/get-docker/) on your machine.
 1. Build your container: `docker build -t nextjs-docker .`.
 1. Run your container: `docker run -p 3000:3000 nextjs-docker`.
+1. Save image `docker save -o nextjs-docker.tar nextjs-docker`
+1. Load image `docker load -i nextjs-docker.tar`
 
 You can view your images created with `docker images`.
 
