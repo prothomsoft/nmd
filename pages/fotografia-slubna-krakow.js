@@ -29,7 +29,7 @@ import aleksandra_mszana_dolna from "../public/static/portfolio/aleksandra_mszan
 import beata_marcin_mszana_dolna_portfolio from "../public/static/portfolio/beata_marcin_mszana_dolna_portfolio.jpg";
 
 const PageComponent = () => {
-  const pageImage = process.env.staticImagesPath + "bazylika-bozego-ciala-krakow-fotoreportaz-slubny.jpg";
+  const pageImage = process.env.staticImagesPath + "plener_slubny_park_mogilany.jpg";
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.up('md'));
 
@@ -39,9 +39,9 @@ const PageComponent = () => {
       description="Fotografia ślubna Kraków, chwila, światło i kadr. Reportaż ślubny pełny kolorów i autentycznych emocji."
       keywords="fotografia ślubna kraków, reportaż ślubny, ślub w plenerze"
       url="https://99foto.pl/fotografia-slubna-krakow/"
-      leadNames="ANNA i PIOTR"
-      leadTitle="BAZYLIKA BOŻEGO CIAŁA KRAKÓW, FOTOREPORTAŻ ŚLUBNY"
-      leadUrl="/bazylika-bozego-ciala-krakow-fotoreportaz-slubny"
+      leadNames="ANNA i TOMASZ"
+      leadTitle="WYMARZONY PLENER ŚLUBNY W KRAKOWIE, SPRAWDZONE MIEJSCA"
+      leadUrl="/wymarzony-plener-slubny-w-krakowie-sprawdzone-miejsca"
       leadImage={pageImage}>
       <Container sx={{ pt:8, pb: 5 }}>
         <Box sx={{pt:13, display: { xs: "none", lg: "block", xl: "block" }}}></Box>

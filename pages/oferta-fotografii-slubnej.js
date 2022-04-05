@@ -7,17 +7,17 @@ import { Typography } from "@mui/material";
 import Grid from "@mui/material/Grid";
 import Image from "next/image";
 import ParallaxImageFooter from "../components/parallaxImageFooter";
-import useMediaQuery from '@mui/material/useMediaQuery';
-import { useTheme } from '@mui/material/styles';
+import useMediaQuery from "@mui/material/useMediaQuery";
+import { useTheme } from "@mui/material/styles";
 import portret_panny_mlodej from "../public/static/portfolio/portret_panny_mlodej.jpg";
 import aleksandra_mszana_dolna from "../public/static/portfolio/aleksandra_mszana_dolna.jpg";
 import plener_0002 from "../public/static/portfolio/plener_0002.jpg";
 import pomysl_na_sesje_slubna_zimowa_w_krakowie from "../public/static/portfolio/pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg";
 
 const PageComponent = () => {
-  const pageImage = process.env.staticImagesPath + "ogrod_botaniczny.jpg";
+  const pageImage = process.env.staticImagesPath + "dom-weselny-biala-perla-radziemice-reportaz-slubny.jpg";
   const theme = useTheme();
-  const matches = useMediaQuery(theme.breakpoints.up('md'));
+  const matches = useMediaQuery(theme.breakpoints.up("md"));
 
   return (
     <LayoutSitePage
@@ -25,14 +25,14 @@ const PageComponent = () => {
       description="Oferta fotografii ślubnej i sesji zdjęciowej. Kraków i bliskie okolice. Żywe kolory i autentyczne emocje. Kliknij i sprawdź moje portfolio."
       keywords="oferta fotografii ślubnej, oferta sesji zdjęciowej, kraków, wieliczka, jordanów, miechów, tarnów, skawina"
       url="https://99foto.pl/oferta-fotografii-slubnej/"
-      leadNames="DAJANA i SYLWESTER"
-      leadTitle="OGRÓD BOTANICZNY W KRAKOWIE, ŚLUBNA SESJA ZDJĘCIOWA"
-      leadUrl="/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa"
+      leadNames="ŻANETA i SEBASTIAN"
+      leadTitle="DOM WESELNY BIAŁA PERŁA RADZIEMICE, REPORTAŻ ŚLUBNY"
+      leadUrl="/dom-weselny-biala-perla-radziemice-reportaz-slubny"
       leadImage={pageImage}>
-      <Container sx={{ pt:8, pb: 5 }}>
-        <Box sx={{pt:13, display: { xs: "none", lg: "block", xl: "block" }}}></Box>
+      <Container sx={{ pt: 8, pb: 5 }}>
+        <Box sx={{ pt: 13, display: { xs: "none", lg: "block", xl: "block" } }}></Box>
         <Box sx={{ py: 2 }}>
-          <Typography variant="h1" className={matches ? 'quote-title' : ''} align="center">
+          <Typography variant="h1" className={matches ? "quote-title" : ""} align="center">
             OFERTA FOTOGRAFII ŚLUBNEJ
           </Typography>
         </Box>
@@ -79,7 +79,7 @@ const PageComponent = () => {
         </Grid>
 
         <Box sx={{ py: 2 }}>
-          <Typography variant="h1" className={matches ? 'quote-title' : ''} align="center">
+          <Typography variant="h1" className={matches ? "quote-title" : ""} align="center">
             OFERTA SESJI ZDJĘCIOWEJ
           </Typography>
         </Box>
@@ -92,14 +92,12 @@ const PageComponent = () => {
             <Typography variant="h5" align="center" sx={{ pb: 2 }}>
               SESJA ZDJĘCIOWA OBEJMUJĄCA
             </Typography>
-
             <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 2 }}>
               trzy godziny fotografowania
             </Typography>
             <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 6 }}>
               dwa lub trzy wybrane miejsca plenerowe
             </Typography>
-
             <Typography variant="h5" align="center" sx={{ pb: 2 }}>
               OTRZYMUJECIE
             </Typography>

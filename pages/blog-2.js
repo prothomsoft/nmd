@@ -10,7 +10,7 @@ import { posts } from "../components/posts";
 
 const Blog = () => {  
 
-  const pageImage = process.env.staticImagesPath + "dom_weselny_euforia_myslenice_1.jpg";
+  const pageImage = process.env.staticImagesPath + "dworzyszcze_wola_reportaz_slubny_pod_krakowem_start.jpg";
   const currentPage = 2;
   const itemsPerPage = 20;
   const offset = (currentPage - 1) * itemsPerPage;
@@ -20,10 +20,10 @@ const Blog = () => {
       title="Zdjęcia ślubne Kraków"
       description="Zdjęcia ślubne Kraków. Piękne zdjęcia, pełne emocji reportaże ślubne. Sprawdź moją ofertę i portfolio. Serdecznie zapraszam !"
       keywords="zdjęcia ślubne Kraków, fotograf ślubny, sesja zdjęciowa"
-      url="https://99foto.pl/blog/"
-      leadNames="IZABELA i ARKADIUSZ"
-      leadTitle="DOM WESELNY EUFORIA MYŚLENICE i SŁONECZNE LOVE"
-      leadUrl="/dom-weselny-euforia-myslenice-i-sloneczne-love"
+      url="https://99foto.pl/blog-2/"
+      leadNames="SYLWIA i MICHAŁ"
+      leadTitle="WESELE W STYLU BOHO, SALA DWORZYSZCZE WOLA, KRAKÓW"
+      leadUrl="/wesele-w-stylu-boho-sala-dworzyszcze-wola-krakow"
       leadImage={pageImage}>
       <Container sx={{ pt:8, pb: 5 }}>
         <Box sx={{pt:13, display: { xs: "none", lg: "block", xl: "block" }}}></Box>

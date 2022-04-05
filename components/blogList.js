@@ -6,7 +6,7 @@ import Box from "@mui/material/Box";
 import ArrowForward from "@mui/icons-material/ArrowForward";
 import Button from "@mui/material/Button";
 import MuiLink from "@mui/material/Link";
-import Divider from '@mui/material/Divider';
+import Divider from "@mui/material/Divider";
 
 const BlogList = (props) => {
   return (
@@ -21,18 +21,15 @@ const BlogList = (props) => {
 const PostLink = ({ post }) => (
   <>
     <Box sx={{ pt: 2 }}>
-      <Link as={`/${post.slug}`} href={`/${post.slug}`} passHref>
-        <Typography variant="h1" sx={{fontSize: "2.1rem"}}>
-          {post.title} - {post.names}
-        </Typography>
-      </Link>
+      <Typography variant="h1" sx={{ fontSize: "2.1rem" }}>
+        {post.title} - {post.names}
+      </Typography>
     </Box>
-    <Divider sx={{pt:1}}/>
+    <Divider sx={{ pt: 1 }} />
     <Typography variant="subtitle2" color="text.secondary" sx={{ textTransform: "uppercase" }}>
       {getPostDate(post.date)} - TAGI: {getPostTags(post.tags)}
     </Typography>
-    <Divider sx={{mb:1}} />
-    
+    <Divider sx={{ mb: 1 }} />
 
     <Link as={`/${post.slug}`} href={`/${post.slug}`}>
       <MuiLink href={`/${post.slug}`}>
@@ -40,9 +37,9 @@ const PostLink = ({ post }) => (
       </MuiLink>
     </Link>
 
-    <Typography color="text.secondary" align="justify" sx={{ py: 1, '& > a': {color: 'white'} }} dangerouslySetInnerHTML={{ __html: post.content }} />
-      
-    <Box sx={{ pt:1, pb:2 }}>
+    <Typography color="text.secondary" align="justify" sx={{ py: 1, "& > a": { color: "white" } }} dangerouslySetInnerHTML={{ __html: post.content }} />
+
+    <Box sx={{ pt: 1, pb: 2 }}>
       <Link href={post.slug} passHref>
         <Button variant="blogButton" fullWidth endIcon={<ArrowForward />}>
           ZOBACZ WIĘCEJ

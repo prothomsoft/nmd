@@ -21,6 +21,7 @@ import Fab from "@mui/material/Fab";
 import Zoom from "@mui/material/Zoom";
 import KeyboardArrowUp from "@mui/icons-material/KeyboardArrowUp";
 import { keyframes } from "@mui/system";
+import MuiLink from "@mui/material/Link";
 
 const pages_left = [
   { name: "FOTOGRAFIA ŚLUBNA", url: "/fotografia-slubna-krakow" },
@@ -82,7 +83,7 @@ const AppBarWithResponsiveMenu = () => {
       <Zoom in={triggerScrollUp}>
         <Box sx={{ position: "fixed", zIndex: "tooltip", bottom: 40, right: 35, animation: `${spin} 2s infinite ease` }}>
           <Fab color="primary" size="medium" onClick={handleScrollTopClick}>
-            <KeyboardArrowUp sx={{ color: "black", fontSize: '2.1rem' }} />
+            <KeyboardArrowUp sx={{ color: "black", fontSize: "2.1rem" }} />
           </Fab>
         </Box>
       </Zoom>
@@ -132,15 +133,17 @@ const AppBarWithResponsiveMenu = () => {
             </Box>
           </Container>
           <Container>
-            <Toolbar id="back-to-top-anchor" disableGutters sx={{p:2}}>
-              <Box sx={{ display: { xs: "flex", lg: "none" }, width: '100%' }} justifyContent="left" alignItems="left" >
-                <Link key={1} href="/" passHref>
-                  <Typography variant="subtitle2">99FOTO.PL - FOTOGRAF ŚLUBNY KRAKÓW</Typography>
+            <Toolbar id="back-to-top-anchor" disableGutters sx={{ p: 1 }}>
+              <Box sx={{ display: { xs: "flex", lg: "none" }, width: "100%" }} justifyContent="center" alignItems="center">
+                <Link key={2} href="/" passHref>
+                  <Button variant="menuButton" sx={{ pt: 2, pb: 2, ml: 8 }} key={1}>
+                    <Image src={logo99fotomobile} width={91} height={30} priority={true} />
+                  </Button>
                 </Link>
               </Box>
-              <Box sx={{  display: { xs: "flex", lg: "none"}}} justifyContent="center" alignItems="center">
-                <IconButton size="medium" onClick={handleOpenNavMenu} sx={{backgroundColor: "white"}}>
-                  <MenuIcon sx={{ color: "black", fontSize: '1.8rem' }}/>
+              <Box sx={{ display: { xs: "flex", lg: "none" } }} justifyContent="center" alignItems="center">
+                <IconButton size="medium" onClick={handleOpenNavMenu} sx={{ backgroundColor: "white" }}>
+                  <MenuIcon sx={{ color: "black", fontSize: "1.8rem" }} />
                 </IconButton>
                 <Menu
                   id="menu-appbar"
@@ -174,7 +177,7 @@ const AppBarWithResponsiveMenu = () => {
                     </Link>
                   ))}
                 </Menu>
-              </Box>             
+              </Box>
             </Toolbar>
           </Container>
         </MuiAppBar>

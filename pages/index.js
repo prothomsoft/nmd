@@ -11,11 +11,12 @@ import ImageCardGrid from "../components/imageCardGrid";
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 
+
 const Index = () => {
 
   const pageImage = process.env.staticImagesPath + "plener_slubny_na_rynku_w_krakowie.jpg";
   const theme = useTheme();
-  const matches = useMediaQuery(theme.breakpoints.up('md'));
+  const matches = useMediaQuery(theme.breakpoints.up('lg'));
   
   return (
     <LayoutStartPage
@@ -27,7 +28,7 @@ const Index = () => {
       leadTitle="PLENER ŚLUBNY NA RYNKU W KRAKOWIE"
       leadUrl="/plener-slubny-na-rynku-w-krakowie"
       leadImage={pageImage}
-      slide={process.env.staticImagesPath + "lomnicki_staw_portfolio_start.jpg"}>
+      slide={matches ? process.env.staticImagesPath + "lomnicki_staw_portfolio_start.jpg" : process.env.staticImagesPath +  "ogrod_botaniczny.jpg"}>
       <Container sx={{ pb: 3 }}>
         <Box sx={{ py: 2 }}>
           <Typography variant="h1" className={matches ? 'quote-title' : ''} align="center">

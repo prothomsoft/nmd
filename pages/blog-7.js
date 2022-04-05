@@ -10,7 +10,7 @@ import { posts } from "../components/posts";
 
 const Blog = () => {  
 
-  const pageImage = process.env.staticImagesPath + "dom_weselny_euforia_myslenice_1.jpg";
+  const pageImage = process.env.staticImagesPath + "fotograf_na_slub_rabka_zdroj_start.jpg";
   const currentPage = 7;
   const itemsPerPage = 20;
   const offset = (currentPage - 1) * itemsPerPage;
@@ -20,10 +20,10 @@ const Blog = () => {
       title="Zdjęcia ślubne Kraków"
       description="Zdjęcia ślubne Kraków. Piękne zdjęcia, pełne emocji reportaże ślubne. Sprawdź moją ofertę i portfolio. Serdecznie zapraszam !"
       keywords="zdjęcia ślubne Kraków, fotograf ślubny, sesja zdjęciowa"
-      url="https://99foto.pl/blog/"
-      leadNames="IZABELA i ARKADIUSZ"
-      leadTitle="DOM WESELNY EUFORIA MYŚLENICE i SŁONECZNE LOVE"
-      leadUrl="/dom-weselny-euforia-myslenice-i-sloneczne-love"
+      url="https://99foto.pl/blog-7/"
+      leadNames="KAMILA i ADRIAN"
+      leadTitle="FOTOGRAF NA WESELE RABKA ZDRÓJ, KOŚCIÓŁ ŚW. MARII MAGDALENY"
+      leadUrl="/fotograf-na-wesele-rabka-zdroj-kosciol-sw-marii-magdaleny"
       leadImage={pageImage}>
       <Container sx={{ pt:8, pb: 5 }}>
         <Box sx={{pt:13, display: { xs: "none", lg: "block", xl: "block" }}}></Box>
