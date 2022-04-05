@@ -4,11 +4,12 @@ import ContactForm from "../components/contactForm";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import { Typography } from "@mui/material";
-import Link from "next/link";
 import Image from "next/image";
 import FaqAccordion from "../components/faqAccordion";
 import Grid from "@mui/material/Grid";
 import ParallaxImageFooter from "../components/parallaxImageFooter";
+import useMediaQuery from '@mui/material/useMediaQuery';
+import { useTheme } from '@mui/material/styles';
 import dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio from "../public/static/portfolio/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio.jpg";
 import sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio from "../public/static/portfolio/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio.jpg";
 import sala_weselna_nedan_pcim_reportaz_slubny_portfolio from "../public/static/portfolio/sala_weselna_nedan_pcim_reportaz_slubny_portfolio.jpg";
@@ -19,6 +20,8 @@ import tomek_prokop_fotograf_krakow_misja_3_page from "../public/static/portfoli
 const PageComponent = () => {
  
   const pageImage = process.env.staticImagesPath + "bazylika-bozego-ciala-krakow-fotoreportaz-slubny.jpg";
+  const theme = useTheme();
+  const matches = useMediaQuery(theme.breakpoints.up('md'));
 
   return (
     <LayoutSitePage
@@ -30,9 +33,10 @@ const PageComponent = () => {
       leadTitle="BAZYLIKA BOŻEGO CIAŁA KRAKÓW, FOTOREPORTAŻ ŚLUBNY"
       leadUrl="/bazylika-bozego-ciala-krakow-fotoreportaz-slubny"
       leadImage={pageImage}>
-      <Container sx={{ pt: 21, pb: 5 }}>
+      <Container sx={{ pt:8, pb: 5 }}>
+        <Box sx={{pt:13, display: { xs: "none", lg: "block", xl: "block" }}}></Box>
         <Box sx={{ py: 2 }}>
-          <Typography variant="h1" className="quote-title">
+          <Typography variant="h1" className={matches ? 'quote-title' : ''} align="center">
             FAQ - MOJE ODPOWIEDZI NA CZĘSTO ZADAWANE PYTANIA
           </Typography>
         </Box>
@@ -65,7 +69,7 @@ const PageComponent = () => {
         </Grid>
 
         <Box sx={{ py: 2 }}>
-          <Typography variant="h1" className="quote-title">
+          <Typography variant="h1" className={matches ? 'quote-title' : ''} align="center">
             MISJA - CZYLI NIE ODNAJDZIE WIĘCEJ WAS TA SAMA CHWILA
           </Typography>
         </Box>

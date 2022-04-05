@@ -6,6 +6,7 @@ import Box from "@mui/material/Box";
 import ArrowForward from "@mui/icons-material/ArrowForward";
 import Button from "@mui/material/Button";
 import MuiLink from "@mui/material/Link";
+import Divider from '@mui/material/Divider';
 
 const BlogList = (props) => {
   return (
@@ -21,14 +22,17 @@ const PostLink = ({ post }) => (
   <>
     <Box sx={{ pt: 2 }}>
       <Link as={`/${post.slug}`} href={`/${post.slug}`} passHref>
-        <Typography variant="h1" className="quote-title">
+        <Typography variant="h1" sx={{fontSize: "2.1rem"}}>
           {post.title} - {post.names}
         </Typography>
       </Link>
     </Box>
-    <Typography align="center" sx={{ textTransform: "uppercase", pb: 1.3 }}>
+    <Divider sx={{pt:1}}/>
+    <Typography variant="subtitle2" color="text.secondary" sx={{ textTransform: "uppercase" }}>
       {getPostDate(post.date)} - TAGI: {getPostTags(post.tags)}
     </Typography>
+    <Divider sx={{mb:1}} />
+    
 
     <Link as={`/${post.slug}`} href={`/${post.slug}`}>
       <MuiLink href={`/${post.slug}`}>

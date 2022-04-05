@@ -5,6 +5,7 @@ import ContactForm from "../components/contactForm";
 import Container from "@mui/material/Container";
 import ParallaxImageFooter from "../components/parallaxImageFooter";
 import BlogPagination from "../components/blogPagination";
+import Box from "@mui/material/Box";
 import { posts } from "../components/posts";
 
 const Blog = () => {  
@@ -24,7 +25,8 @@ const Blog = () => {
       leadTitle="DOM WESELNY EUFORIA MYŚLENICE i SŁONECZNE LOVE"
       leadUrl="/dom-weselny-euforia-myslenice-i-sloneczne-love"
       leadImage={pageImage}>
-      <Container sx={{ pt: 21, pb: 5 }}>
+      <Container sx={{ pt:8, pb: 5 }}>
+        <Box sx={{pt:13, display: { xs: "none", lg: "block", xl: "block" }}}></Box>
         <BlogList posts={posts.slice(offset).slice(0, itemsPerPage)} />
         <BlogPagination page={currentPage} totalItems={posts.length} itemsPerPage={itemsPerPage}/>       
       </Container>

@@ -5,10 +5,14 @@ import Box from "@mui/material/Box";
 import ParallaxImageFooter from "../components/parallaxImageFooter";
 import { Typography } from "@mui/material";
 import ImageCardGrid from "../components/imageCardGrid";
+import useMediaQuery from '@mui/material/useMediaQuery';
+import { useTheme } from '@mui/material/styles';
 
 const PageComponent = () => {
 
   const pageImage = process.env.staticImagesPath + "sesja_slubna_jesienia.jpg";
+  const theme = useTheme();
+  const matches = useMediaQuery(theme.breakpoints.up('md'));
 
   return (
     <LayoutSitePage
@@ -20,9 +24,10 @@ const PageComponent = () => {
       leadTitle="SESJA ŚLUBNA JESIENIĄ - PAŁAC GOETZÓW"
       leadUrl="/sesja-slubna-jesienia-palac-goetzow-okocimskich"
       leadImage={pageImage}>
-      <Container sx={{ pt: 21, pb: 5 }}>
+      <Container sx={{ pt:8, pb: 5 }}>
+        <Box sx={{pt:13, display: { xs: "none", lg: "block", xl: "block" }}}></Box>
         <Box sx={{ py: 2 }}>
-          <Typography variant="h1" className="quote-title">
+          <Typography variant="h1" className={matches ? 'quote-title' : ''} align="center">
             REPORTAŻE ŚLUBNE i SESJE PLENEROWE
           </Typography>
         </Box>
@@ -35,7 +40,7 @@ const PageComponent = () => {
         </Typography>
         <ImageCardGrid />
         <Box sx={{ py: 2 }}>
-          <Typography variant="h1" className="quote-title">
+          <Typography variant="h1" className={matches ? 'quote-title' : ''} align="center">
             ZNAJDŹMY CHWILĘ, ŚWIATŁO, KADR
           </Typography>
         </Box>

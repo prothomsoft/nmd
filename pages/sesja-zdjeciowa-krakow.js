@@ -7,6 +7,8 @@ import ParallaxImageFooter from "../components/parallaxImageFooter";
 import Link from "next/link";
 import Image from "next/image";
 import MuiLink from "@mui/material/Link";
+import useMediaQuery from '@mui/material/useMediaQuery';
+import { useTheme } from '@mui/material/styles';
 import ogrod_botaniczny from "../public/static/portfolio/ogrod_botaniczny.jpg";
 import portfolio_0002 from "../public/static/portfolio/portfolio_0002.jpg";
 import plener_0002 from "../public/static/portfolio/plener_0002.jpg";
@@ -37,6 +39,8 @@ import plener_slubny_w_gorach from "../public/static/portfolio/plener_slubny_w_g
 
 const PageComponent = () => {
   const pageImage = process.env.staticImagesPath + "brzoskwinia_ogrod_sesja_narzeczenska_start.jpg";
+  const theme = useTheme();
+  const matches = useMediaQuery(theme.breakpoints.up('md'));
 
   return (
     <LayoutSitePage
@@ -48,9 +52,10 @@ const PageComponent = () => {
       leadTitle="SESJA ŚLUBNA, PLENER ŚLUBNY W KRAKOWIE"
       leadUrl="/brzoskwinia-ogrod-wesele-w-plenerze-sesja-narzeczenska"
       leadImage={pageImage}>
-      <Container sx={{ pt: 21, pb: 5 }}>
+      <Container sx={{ pt:8, pb: 5 }}>
+        <Box sx={{pt:13, display: { xs: "none", lg: "block", xl: "block" }}}></Box>
         <Box sx={{ py: 2 }}>
-          <Typography variant="h1" className="quote-title">
+          <Typography variant="h1" className={matches ? 'quote-title' : ''} align="center">
             SESJA ZDJĘCIOWA KRAKÓW - WSKAZÓWKI I REKOMENDACJE MIEJSC
           </Typography>
         </Box>        
@@ -116,7 +121,7 @@ const PageComponent = () => {
         
         <Image alt="chwila, światło, kadr w fotografii ślubnej" src={portfolio_300} />
         <Box sx={{ py: 2 }}>
-          <Typography variant="h1" className="quote-title">
+          <Typography variant="h1" className={matches ? 'quote-title' : ''} align="center">
             REFERENCJE - FACEBOOK
           </Typography>
         </Box>

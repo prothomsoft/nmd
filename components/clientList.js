@@ -3,21 +3,27 @@ import Link from "next/link";
 import Image from "next/image";
 import { Typography } from "@mui/material";
 import Box from "@mui/material/Box";
+import useMediaQuery from '@mui/material/useMediaQuery';
+import { useTheme } from '@mui/material/styles';
 
 const ClientList = (props) => {
+
+  const theme = useTheme();
+  const matches = useMediaQuery(theme.breakpoints.up('md'));
+
   return (
     <>
       {props.posts.map((post, key) => (
-        <ClientLink key={key} post={post} height={762} />
+        <ClientLink key={key} post={post} height={762} matches={matches} />
       ))}
     </>
   );
 };
 
-const ClientLink = ({ post }) => (
+const ClientLink = ({ post, matches }) => (
   <>
     <Box sx={{ py: 2 }}>
-      <Typography variant="h1" className="quote-title">
+      <Typography variant="h1" className={matches ? 'quote-title' : ''} align="center">
         {post.name}
       </Typography>
     </Box>

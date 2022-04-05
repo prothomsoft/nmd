@@ -16,9 +16,9 @@ const spin = keyframes`
 
 const IntroArrow = (props) => {
   return (
-    <Box sx={{ animation: `${spin} 2s infinite ease`, ml :'35px' }}>
+    <Box sx={{ animation: `${spin} 2s infinite ease`, ml :'40px' }}>
       <Fab color="primary" size="medium" aria-label="scroll back to top" onClick={props.action}>
-        <KeyboardArrowDown sx={{ color: "black", fontSize: 60 }} />
+        <KeyboardArrowDown sx={{ color: "black", fontSize: '2.1rem' }} />
       </Fab>
     </Box>
   );

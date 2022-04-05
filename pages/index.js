@@ -8,11 +8,15 @@ import MuiLink from "@mui/material/Link";
 import ContactForm from "../components/contactForm";
 import Box from "@mui/material/Box";
 import ImageCardGrid from "../components/imageCardGrid";
+import useMediaQuery from '@mui/material/useMediaQuery';
+import { useTheme } from '@mui/material/styles';
 
 const Index = () => {
 
   const pageImage = process.env.staticImagesPath + "plener_slubny_na_rynku_w_krakowie.jpg";
-
+  const theme = useTheme();
+  const matches = useMediaQuery(theme.breakpoints.up('md'));
+  
   return (
     <LayoutStartPage
       title="Fotograf ślubny Kraków ✔️ Tomasz Prokop"
@@ -26,7 +30,7 @@ const Index = () => {
       slide={process.env.staticImagesPath + "lomnicki_staw_portfolio_start.jpg"}>
       <Container sx={{ pb: 3 }}>
         <Box sx={{ py: 2 }}>
-          <Typography variant="h1" className="quote-title">
+          <Typography variant="h1" className={matches ? 'quote-title' : ''} align="center">
             FOTOGRAF ŚLUBNY KRAKÓW
           </Typography>
         </Box>
@@ -45,7 +49,7 @@ const Index = () => {
           Krakowie i bliskich okolicach. Wspólnie znajdźmy chwilę, światło, kadr, zachowajmy je na zawsze.
         </Typography>
         <Box sx={{ py: 2 }}>
-          <Typography variant="h1" className="quote-title">
+          <Typography variant="h1" className={matches ? 'quote-title' : ''} align="center">
             POLECANE REPORTAŻE I SESJE ŚLUBNE
           </Typography>
         </Box>
@@ -56,7 +60,7 @@ const Index = () => {
 
       <Container>
         <Box sx={{ py: 2 }}>
-          <Typography variant="h1" className="quote-title">
+          <Typography variant="h1" className={matches ? 'quote-title' : ''} align="center">
             EMOCJE, UCZUCIA I KOLORY ZATRZYMANE W KAŻDYM KADRZE
           </Typography>
         </Box>

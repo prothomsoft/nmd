@@ -20,7 +20,8 @@ const BlogListComponent = ({ posts }) => {
       leadTitle="WESELE MIĘDZYNARODOWE i POLSKIE TRADYCJE WESELNE"
       leadUrl="/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne"
       leadImage={pageImage}>
-      <Container sx={{ pt: 21, pb: 5 }}>
+      <Container sx={{ pt:8, pb: 5 }}>
+        <Box sx={{pt:13, display: { xs: "none", lg: "block", xl: "block" }}}></Box>
         <ClientList posts={posts} />
       </Container>
       <ParallaxImageFooter leadImage={pageImage} leadUrl="" height="70vh" />

@@ -3,6 +3,7 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Link from "next/link";
 import LazyLoadWrapper from "./lazyLoadWrapper";
+import Divider from '@mui/material/Divider';
 
 const BlogPage = (props) => {
   let paragraph1 = "";
@@ -65,15 +66,17 @@ const BlogPage = (props) => {
     <>
     <Box sx={{ pt: 2 }}>
       <Link as={`/${props.slug}`} href={`/${props.slug}`} passHref>
-        <Typography variant="h1" className="quote-title">
+       <Typography variant="h1" sx={{fontSize: "2.1rem"}}>
           {props.title} {props.names}
         </Typography>
       </Link>
       </Box>
-
-      <Typography align="center" sx={{ textTransform: "uppercase", pb: 1.3 }}>
-      {props.date} - TAGI: {props.tags}
+      <Divider sx={{pt:1}}/>
+    <Typography variant="subtitle2" color="text.secondary" sx={{ textTransform: "uppercase" }}>
+    {props.date} - TAGI: {props.tags}
     </Typography>
+    <Divider sx={{mb:1}} />
+
 
       
         {paragraph1}

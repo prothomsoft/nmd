@@ -14,6 +14,8 @@ import wesele_z_klasa from "../public/icons/wesele_z_klasa.jpg";
 import instagram_icon from "../public/icons/instagram_icon.jpg";
 import facebook_icon from "../public/icons/facebook_icon.jpg";
 import slub_na_glowie from "../public/icons/slub_na_glowie.jpg";
+import useMediaQuery from '@mui/material/useMediaQuery';
+import { useTheme } from '@mui/material/styles';
 
 const ContactForm = () => {
   const [sender, setSender] = React.useState("");
@@ -29,6 +31,9 @@ const ContactForm = () => {
   const [isMessageDirty, setIsMessageDirty] = React.useState(false);
   const [messageSent, setMessageSent] = React.useState(false);
   const [messageValidationHelper, setMessageValidationHelper] = React.useState("");
+
+  const theme = useTheme();
+  const matches = useMediaQuery(theme.breakpoints.up('md'));
 
   const handleChange = (e) => {
     if (e.target.name === "sender") {
@@ -164,7 +169,7 @@ const ContactForm = () => {
   return (
     <>
       <Box sx={{ pt: 4, pb: 4 }}>
-        <Typography variant="h2" className="quote-title">
+        <Typography variant="h2" className={matches ? 'quote-title' : ''} align="center">
           KONTAKT
         </Typography>
       </Box>

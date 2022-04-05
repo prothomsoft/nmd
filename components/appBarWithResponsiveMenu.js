@@ -81,8 +81,8 @@ const AppBarWithResponsiveMenu = () => {
     <>
       <Zoom in={triggerScrollUp}>
         <Box sx={{ position: "fixed", zIndex: "tooltip", bottom: 40, right: 35, animation: `${spin} 2s infinite ease` }}>
-          <Fab color="primary" size="medium" aria-label="scroll back to top" onClick={handleScrollTopClick}>
-            <KeyboardArrowUp sx={{ color: "black", fontSize: 60 }} />
+          <Fab color="primary" size="medium" onClick={handleScrollTopClick}>
+            <KeyboardArrowUp sx={{ color: "black", fontSize: '2.1rem' }} />
           </Fab>
         </Box>
       </Zoom>
@@ -132,17 +132,15 @@ const AppBarWithResponsiveMenu = () => {
             </Box>
           </Container>
           <Container>
-            <Toolbar id="back-to-top-anchor" disableGutters sx={{px:3}}>
-              <Box sx={{ display: { xs: "flex", lg: "none" }, width: '100%' }} justifyContent="center" alignItems="center" >
+            <Toolbar id="back-to-top-anchor" disableGutters sx={{p:2}}>
+              <Box sx={{ display: { xs: "flex", lg: "none" }, width: '100%' }} justifyContent="left" alignItems="left" >
                 <Link key={1} href="/" passHref>
-                  <Button variant="menuButton" key={1} onClick={handleCloseNavMenu}>
-                    <Image src={logo99foto} width={105} height={140} priority={true}/>
-                  </Button>
+                  <Typography variant="subtitle2">99FOTO.PL - FOTOGRAF ŚLUBNY KRAKÓW</Typography>
                 </Link>
               </Box>
               <Box sx={{  display: { xs: "flex", lg: "none"}}} justifyContent="center" alignItems="center">
-                <IconButton size="large" variant="outlined" aria-label="account of current user" aria-controls="menu-appbar" aria-haspopup="true" onClick={handleOpenNavMenu} sx={{backgroundColor: "white"}}>
-                  <MenuIcon sx={{ color: "black", fontSize: '1.5rem' }}/>
+                <IconButton size="medium" onClick={handleOpenNavMenu} sx={{backgroundColor: "white"}}>
+                  <MenuIcon sx={{ color: "black", fontSize: '1.8rem' }}/>
                 </IconButton>
                 <Menu
                   id="menu-appbar"

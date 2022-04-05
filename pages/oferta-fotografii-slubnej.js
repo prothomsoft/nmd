@@ -5,9 +5,10 @@ import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import { Typography } from "@mui/material";
 import Grid from "@mui/material/Grid";
-import Link from "next/link";
 import Image from "next/image";
 import ParallaxImageFooter from "../components/parallaxImageFooter";
+import useMediaQuery from '@mui/material/useMediaQuery';
+import { useTheme } from '@mui/material/styles';
 import portret_panny_mlodej from "../public/static/portfolio/portret_panny_mlodej.jpg";
 import aleksandra_mszana_dolna from "../public/static/portfolio/aleksandra_mszana_dolna.jpg";
 import plener_0002 from "../public/static/portfolio/plener_0002.jpg";
@@ -15,6 +16,8 @@ import pomysl_na_sesje_slubna_zimowa_w_krakowie from "../public/static/portfolio
 
 const PageComponent = () => {
   const pageImage = process.env.staticImagesPath + "ogrod_botaniczny.jpg";
+  const theme = useTheme();
+  const matches = useMediaQuery(theme.breakpoints.up('md'));
 
   return (
     <LayoutSitePage
@@ -26,9 +29,10 @@ const PageComponent = () => {
       leadTitle="OGRÓD BOTANICZNY W KRAKOWIE, ŚLUBNA SESJA ZDJĘCIOWA"
       leadUrl="/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa"
       leadImage={pageImage}>
-      <Container sx={{ pt: 21, pb: 5 }}>
+      <Container sx={{ pt:8, pb: 5 }}>
+        <Box sx={{pt:13, display: { xs: "none", lg: "block", xl: "block" }}}></Box>
         <Box sx={{ py: 2 }}>
-          <Typography variant="h1" className="quote-title">
+          <Typography variant="h1" className={matches ? 'quote-title' : ''} align="center">
             OFERTA FOTOGRAFII ŚLUBNEJ
           </Typography>
         </Box>
@@ -75,7 +79,7 @@ const PageComponent = () => {
         </Grid>
 
         <Box sx={{ py: 2 }}>
-          <Typography variant="h1" className="quote-title">
+          <Typography variant="h1" className={matches ? 'quote-title' : ''} align="center">
             OFERTA SESJI ZDJĘCIOWEJ
           </Typography>
         </Box>

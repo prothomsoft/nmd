@@ -7,6 +7,8 @@ import ParallaxImageFooter from "../components/parallaxImageFooter";
 import Link from "next/link";
 import Image from "next/image";
 import MuiLink from "@mui/material/Link";
+import useMediaQuery from '@mui/material/useMediaQuery';
+import { useTheme } from '@mui/material/styles';
 import dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio from "../public/static/portfolio/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio.jpg";
 import portfolio_0013 from "../public/static/portfolio/portfolio_0013.jpg";
 import portfolio_0001 from "../public/static/portfolio/portfolio_0001.jpg";
@@ -28,6 +30,8 @@ import beata_marcin_mszana_dolna_portfolio from "../public/static/portfolio/beat
 
 const PageComponent = () => {
   const pageImage = process.env.staticImagesPath + "bazylika-bozego-ciala-krakow-fotoreportaz-slubny.jpg";
+  const theme = useTheme();
+  const matches = useMediaQuery(theme.breakpoints.up('md'));
 
   return (
     <LayoutSitePage
@@ -39,9 +43,11 @@ const PageComponent = () => {
       leadTitle="BAZYLIKA BOŻEGO CIAŁA KRAKÓW, FOTOREPORTAŻ ŚLUBNY"
       leadUrl="/bazylika-bozego-ciala-krakow-fotoreportaz-slubny"
       leadImage={pageImage}>
-      <Container sx={{ pt: 21, pb: 5 }}>
+      <Container sx={{ pt:8, pb: 5 }}>
+        <Box sx={{pt:13, display: { xs: "none", lg: "block", xl: "block" }}}></Box>
+        
         <Box sx={{ py: 2 }}>
-          <Typography variant="h1" className="quote-title">
+          <Typography variant="h1" className={matches ? 'quote-title' : ''} align="center">
             FOTOGRAFIA ŚLUBNA KRAKÓW
           </Typography>
         </Box>
@@ -100,7 +106,7 @@ const PageComponent = () => {
         <Image alt="fotografia ślubna, Wasza miłość zatrzymana na zdjęciach" src={portfolio_2021_2} />
 
         <Box sx={{ py: 2 }}>
-          <Typography variant="h1" className="quote-title">
+          <Typography variant="h1" className={matches ? 'quote-title' : ''} align="center">
             REFERENCJE - FACEBOOK
           </Typography>
         </Box>
