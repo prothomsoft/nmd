@@ -73,7 +73,6 @@ const PageComponent = () => {
           </Grid>
           <Grid item md={4} sx={{ display: { xs: "none", lg: "block", xl: "block" } }}>
             <Image alt="portret panny młodej" src={portret_panny_mlodej} />
-
             <Image alt="sala weselna Mszana Dolna" src={aleksandra_mszana_dolna} />
           </Grid>
         </Grid>

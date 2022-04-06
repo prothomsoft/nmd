@@ -29,7 +29,7 @@ const ClientLink = ({ post, matches }) => (
     </Box>
     <Link as={`/${post.slug}`} href={`/${post.slug}`}>
       <a href={`https://sk.99foto.pl/login/${post.welcomeURL}`} target="_blank" rel="nofollow">
-        <Image alt={`${post.name}`} src={`/static/client/${post.welcomeURL}.jpg`} width={1140} height={951} />
+        <Image alt={`${post.name}`} src={`https://sk99foto.s3.eu-west-3.amazonaws.com/client/${post.welcomeURL}.jpg`} width={1140} height={951} />
       </a>
     </Link>
   </>

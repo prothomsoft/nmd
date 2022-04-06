@@ -16,6 +16,7 @@ import sala_weselna_nedan_pcim_reportaz_slubny_portfolio from "../public/static/
 import tomek_prokop_fotograf_krakow_misja_2_page from "../public/static/portfolio/tomek_prokop_fotograf_krakow_misja_2_page.jpg";
 import tomek_prokop_fotograf_krakow_misja_1_page from "../public/static/portfolio/tomek_prokop_fotograf_krakow_misja_1_page.jpg";
 import tomek_prokop_fotograf_krakow_misja_3_page from "../public/static/portfolio/tomek_prokop_fotograf_krakow_misja_3_page.jpg";
+import wakacje_bukowina from "../public/static/portfolio/wakacje_bukowina.jpg";
 
 const PageComponent = () => {
  
@@ -73,29 +74,7 @@ const PageComponent = () => {
             MISJA - CZYLI NIE ODNAJDZIE WIĘCEJ WAS TA SAMA CHWILA
           </Typography>
         </Box>
-        <Grid container spacing={2} >
-          <Grid item md={4} sx={{ display: { xs: 'none', lg: 'block', xl: 'block' }}}>
-            
-                <Image
-                  alt="ulubione-wakacyjne-kadry"
-                  src={tomek_prokop_fotograf_krakow_misja_2_page}
-                />
-            
-          
-                <Image
-                  alt="ulubione-wakacyjne-kadry"
-                  src={tomek_prokop_fotograf_krakow_misja_3_page}
-                />
-          
-            
-                <Image
-                  alt="ulubione-wakacyjne-kadry"
-                  src={tomek_prokop_fotograf_krakow_misja_1_page}
-                />
-            
-          </Grid>
-
-          <Grid item xs={12} lg={8} xl={8}>
+       
             <Typography align="justify" color="text.secondary" sx={{ pb: 3 }}>
               Kiedy spojrzę w przeszłość na kilka ślubów, które miałem przyjemność fotografować, mogę powiedzieć jedno: każdy ślub jest inny. Para młoda i idealnie dopracowane detale są po prostu
               piękne. Goście weselni swoją radością sprawiają, że dzień ten staje się wyjątkowy, a całe tygodnie i miesiące przygotowań mają swój szczęśliwy finał w tym dniu pełnym uczuć, radości i
@@ -110,6 +89,12 @@ const PageComponent = () => {
               wyćwiczony, jeszcze studniówkowy taneczny popis, a być może nawet byłego chłopaka, który ze łzą w oku przytrzyma Cię w objęciach trochę dłużej, korzystając z takiej okazji podczas
               składania życzeń ślubnych.
             </Typography>
+            <Box sx={{pb:2}}>
+            <Image
+                  alt="fotograf na wesele kraków"
+                  src={wakacje_bukowina}
+                />
+            </Box>
             <Typography align="justify" color="text.secondary" sx={{ pb: 3 }}>
               Masz jak w banku, że ślubny tort zniknie w czasie krótszym niż godzina, kwiaty zwiędną wkrótce po ceremonii, a suknia ślubna wróci do szafy rano następnego dnia. Ale zdjęcia - pomyśl -
               one zostaną na zawsze. Będą z wami kiedy narodzą się wasze dzieci, kiedy będziecie przechodzić przez największą w karierze małżeńskiej kłótnię. Zawsze będą przypominać wam jak bardzo się
@@ -134,8 +119,6 @@ const PageComponent = () => {
             <Typography align="right" color="text.secondary" sx={{ pb: 3 }}>
               Tomasz Prokop - Fotograf Ślubny Kraków
             </Typography>
-          </Grid>
-        </Grid>
       </Container>
       <ParallaxImageFooter leadImage={pageImage} leadUrl="" height="70vh" />
       <Container>
