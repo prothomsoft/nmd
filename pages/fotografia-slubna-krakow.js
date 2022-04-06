@@ -96,7 +96,7 @@ const PageComponent = () => {
         <Image alt="Zdjęcia pełne kolorów i autentycznych emocji" src={portfolio_0021} />
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Serdecznie zapraszam do odwiedzenia{" "}
-          <Link href="/blog" passHref>
+          <Link href="/blog-1" passHref>
             <MuiLink underline="hover">mojego bloga</MuiLink>
           </Link>{" "}
           i obejrzenia pełnych reportaży ślubnych, sesji zdjęciowych, zdjęć pełnych kolorów i autentycznych emocji. Oglądając moje prace sami ocenicie czy moja definicja stylu w fotografii ślubnej
