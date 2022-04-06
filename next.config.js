@@ -4,7 +4,8 @@ module.exports = {
     outputStandalone: true,
   },
   images: {
-    domains: ['sk99foto.s3.eu-west-3.amazonaws.com']
+    domains: ['sk99foto.s3.eu-west-3.amazonaws.com'],
+    deviceSizes: [640, 750, 828, 1080, 1140, 1920, 2048, 3840]
   },
   env: {
     accessKeyId: process.env.AWS_ACCESS_KEY_ID_MYAPP,
