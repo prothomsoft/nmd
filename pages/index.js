@@ -42,7 +42,7 @@ const Index = () => {
         </Typography>
         <Typography variant="body1" align="justify" color="text.secondary" sx={{pb:2}}>
           Serdecznie zapraszam do odwiedzenia{" "}
-          <Link href="/blog-1" passHref>
+          <Link href="/blog" passHref>
             <MuiLink underline="hover">mojego bloga</MuiLink>
           </Link>{" "}
           i obejrzenia pełnych reportaży ślubnych, sesji zdjęciowych, zdjęć pełnych kolorów i autentycznych emocji. Moje prace wyróżnia reporterskie podejście do fotografii czyli jak najmniej
@@ -92,7 +92,7 @@ const Index = () => {
         <Typography variant="body1" align="justify" color="text.secondary" sx={{pb:4}}>
           Wybierając fotografa ślubnego kierujcie się sercem, ale weźcie też pod uwagę jego umiejętności, doświadczenie i zaangażowanie. Koniecznie skonfrontujcie to z Waszymi oczekiwaniami.
           Pamiętajmy, że tak ważnego wydarzenia jak Wasz ślub nie będzie drugi raz, a zdjęcia jakie zrobi Wam wybrany fotograf ślubny pozostaną z Wami na zawsze. Serdecznie zachęcam do odwiedzenia{" "}
-          <Link href="/blog-1" passHref>
+          <Link href="/blog" passHref>
             <MuiLink underline="hover">mojego bloga</MuiLink>
           </Link>{" "}
           . Przeglądając umieszczone tam zdjęcia ocenisz mój sposób postrzegania otaczającego nas świata. Polecam Kraków i okolice. Serdecznie zapraszam.

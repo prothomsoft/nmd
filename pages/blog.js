@@ -20,7 +20,7 @@ const Blog = () => {
       title="Zdjęcia ślubne Kraków"
       description="Zdjęcia ślubne Kraków. Piękne zdjęcia, pełne emocji reportaże ślubne. Sprawdź moją ofertę i portfolio. Serdecznie zapraszam !"
       keywords="zdjęcia ślubne Kraków, fotograf ślubny, sesja zdjęciowa"
-      url="https://99foto.pl/blog-1/"
+      url="https://99foto.pl/blog/"
       leadNames="MARTYNA i MICHAŁ"
       leadTitle="PLENER ŚLUBNY ZAMEK PIESKOWA SKAŁA"
       leadUrl="/plener-slubny-zamek-pieskowa-skala"

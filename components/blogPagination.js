@@ -10,7 +10,12 @@ const BlogPagination = (props) => {
 
   const handleChange = (event, value) => {
     event.preventDefault();
-    router.push(`/blog-${value}`);
+    if(value == 1) {
+      router.push(`/blog`);
+    } else {
+      router.push(`/blog-${value}`);
+    }
+    
   };
 
   const total = Math.ceil(props.totalItems / props.itemsPerPage);

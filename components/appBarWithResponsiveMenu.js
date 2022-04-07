@@ -32,7 +32,7 @@ const pages_left = [
 const pages_right = [
   { name: "MISJA i FAQ", url: "/misja-i-faq" },
   { name: "OFERTA", url: "/oferta-fotografii-slubnej" },
-  { name: "BLOG", url: "/blog-1" },
+  { name: "BLOG", url: "/blog" },
   { name: "STREFA KLIENTA", url: "/strefa-klienta" },
 ];
 
