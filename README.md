@@ -23,6 +23,12 @@ yarn create next-app --example with-docker nextjs-docker
 1. Save image `docker save -o nextjs-docker.tar nextjs-docker`
 1. Load image `docker load -i nextjs-docker.tar`
 
+1. Build your container: `docker build -t backend-docker .`.
+1. Run your container: `docker run -p 5000:5000 backend-docker`.
+1. Save image `docker save -o backend-docker.tar backend-docker`
+1. Load image `docker load -i backend-docker.tar`
+
+
 You can view your images created with `docker images`.
 
 ### In existing projects
