@@ -1,7 +1,6 @@
 import React from "react";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-import Link from "next/link";
 import LazyLoadWrapper from "./lazyLoadWrapper";
 import Divider from '@mui/material/Divider';
 
@@ -53,23 +52,21 @@ const BlogPage = (props) => {
   let imagesParagraph6 = null;
   let imagesParagraph7 = null;
 
-  if (props.images) images = <LazyLoadWrapper images={props.images} title={props.headTitle} />;
-  if (props.imagesParagraph1) imagesParagraph1 = <LazyLoadWrapper images={props.imagesParagraph1} title={props.headTitle} />;
-  if (props.imagesParagraph2) imagesParagraph2 = <LazyLoadWrapper images={props.imagesParagraph2} title={props.headTitle} />;
-  if (props.imagesParagraph3) imagesParagraph3 = <LazyLoadWrapper images={props.imagesParagraph3} title={props.headTitle} />;
-  if (props.imagesParagraph4) imagesParagraph4 = <LazyLoadWrapper images={props.imagesParagraph4} title={props.headTitle} />;
-  if (props.imagesParagraph5) imagesParagraph5 = <LazyLoadWrapper images={props.imagesParagraph5} title={props.headTitle} />;
-  if (props.imagesParagraph6) imagesParagraph6 = <LazyLoadWrapper images={props.imagesParagraph6} title={props.headTitle} />;
-  if (props.imagesParagraph7) imagesParagraph7 = <LazyLoadWrapper images={props.imagesParagraph7} title={props.headTitle} />;
+  if (props.images) images = <LazyLoadWrapper images={props.images} title={props.tags} />;
+  if (props.imagesParagraph1) imagesParagraph1 = <LazyLoadWrapper images={props.imagesParagraph1} title={props.tags} />;
+  if (props.imagesParagraph2) imagesParagraph2 = <LazyLoadWrapper images={props.imagesParagraph2} title={props.tags} />;
+  if (props.imagesParagraph3) imagesParagraph3 = <LazyLoadWrapper images={props.imagesParagraph3} title={props.tags} />;
+  if (props.imagesParagraph4) imagesParagraph4 = <LazyLoadWrapper images={props.imagesParagraph4} title={props.tags} />;
+  if (props.imagesParagraph5) imagesParagraph5 = <LazyLoadWrapper images={props.imagesParagraph5} title={props.tags} />;
+  if (props.imagesParagraph6) imagesParagraph6 = <LazyLoadWrapper images={props.imagesParagraph6} title={props.tags} />;
+  if (props.imagesParagraph7) imagesParagraph7 = <LazyLoadWrapper images={props.imagesParagraph7} title={props.tags} />;
 
   return (
     <>
     <Box sx={{ pt: 2 }}>
-      <Link as={`/${props.slug}`} href={`/${props.slug}`} passHref>
        <Typography variant="h1" sx={{fontSize: "2.1rem"}}>
           {props.title} {props.names}
         </Typography>
-      </Link>
       </Box>
       <Divider sx={{pt:1}}/>
     <Typography variant="subtitle2" color="text.secondary" sx={{ textTransform: "uppercase" }}>
