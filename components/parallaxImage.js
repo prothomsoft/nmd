@@ -39,8 +39,10 @@ const ParallaxImage = (props) => {
     width: "100%",
   };
 
-  return (
-    <ParallaxBanner layers={[background]} style={{ height: props.height }}>
+  let componentLink = "";
+
+  if (props.menuNames != "") {
+    componentLink = (
       <Box sx={boxStyle}>
         <Typography variant="h3" align="center">
           {props.menuNames}
@@ -48,7 +50,14 @@ const ParallaxImage = (props) => {
         <Typography variant="h4" align="center">
           {props.menuTitle}
         </Typography>
-      </Box>
+      </Box>       
+    );
+  }
+
+
+  return (
+    <ParallaxBanner layers={[background]} style={{ height: props.height }}>
+      {componentLink}
       <Box sx={boxStyleArrow}>
         <IntroArrow action={props.action} />
       </Box>

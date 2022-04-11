@@ -28,7 +28,9 @@ const Index = () => {
       leadTitle="PLENER ŚLUBNY NA RYNKU W KRAKOWIE"
       leadUrl="/plener-slubny-na-rynku-w-krakowie"
       leadImage={pageImage}
-      slide={matches ? process.env.staticImagesPath + "lomnicki_staw_portfolio_start.jpg" : process.env.staticImagesPath +  "ogrod_botaniczny.jpg"}>
+      slide={matches ? process.env.staticImagesPath + "lomnicki_staw_portfolio_start.jpg" : process.env.staticImagesPath +  "ogrod_botaniczny.jpg"}
+      menuNames=""
+      menuTitle="">
       <Container sx={{ pb: 3 }}>
         <Box sx={{ py: 2 }}>
           <Typography variant="h1" className={matches ? 'quote-title' : ''} align="center">
