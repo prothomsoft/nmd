@@ -198,9 +198,8 @@ const ContactForm = () => {
         sx={{
           "& .MuiTextField-root": { my: 2 }, display: `${displayForm}`
         }}
-        noValidate
-        autoComplete="string">
-        <FormControl variant="outlined" fullWidth autoComplete="string" margin="none">
+        noValidate>
+        <FormControl variant="outlined" fullWidth margin="none">
           <TextField
             required
             id="sender"

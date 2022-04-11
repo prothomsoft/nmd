@@ -10,7 +10,7 @@ import Image from "next/image";
 const ImageCard = (props) => {
   return (
     <Card>
-      <Link href={props.linkhref}>
+      <Link href={props.linkhref} passHref>
         <CardActionArea>        
             <CardMedia>
             <Image src={props.imgsrc} alt={props.imgalt} objectFit="cover" />

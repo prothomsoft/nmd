@@ -5,12 +5,11 @@ import KeyboardArrowDown from "@mui/icons-material/KeyboardArrowDown";
 import Fab from "@mui/material/Fab";
 
 const spin = keyframes`
-  0%
   100% {
-    transform: translateY(0);
+    transform: translateY(0)
   }
   50% {
-    transform: translateY(-15px);
+    transform: translateY(-15px)
   }
 `;
 

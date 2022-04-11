@@ -32,16 +32,6 @@ const ParallaxImageFooter = (props) => {
 
   if (props.leadUrl != "") {
     componentLink = (
-      <Box sx={{ pt: 4 }}>
-        <Link href={props.leadUrl} passHref>
-          <Button variant="contained" sx={{color: "black", padding: "10px 40px 10px 40px", fontSize: "1rem"}} endIcon={<ArrowForward />}>ZOBACZ WIĘCEJ</Button>
-        </Link>
-      </Box>
-    );
-  }
-
-  return (
-    <ParallaxBanner layers={[background]} style={{ height: props.height }}>
       <Box sx={boxStyle}>
         <Typography variant="h3" align="center">
           {props.leadNames}
@@ -49,8 +39,18 @@ const ParallaxImageFooter = (props) => {
         <Typography variant="h4" align="center">
           {props.leadTitle}
         </Typography>
-        {componentLink}
-      </Box>
+        <Box sx={{ pt: 4 }}>
+          <Link href={props.leadUrl} passHref>
+            <Button variant="contained" sx={{color: "black", padding: "10px 40px 10px 40px", fontSize: "1rem"}} endIcon={<ArrowForward />}>ZOBACZ WIĘCEJ</Button>
+          </Link>
+        </Box>        
+      </Box>     
+    );
+  }
+
+  return (
+    <ParallaxBanner layers={[background]} style={{ height: props.height }}>
+      {componentLink}
     </ParallaxBanner>
   );
 };

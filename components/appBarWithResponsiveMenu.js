@@ -21,7 +21,6 @@ import Fab from "@mui/material/Fab";
 import Zoom from "@mui/material/Zoom";
 import KeyboardArrowUp from "@mui/icons-material/KeyboardArrowUp";
 import { keyframes } from "@mui/system";
-import MuiLink from "@mui/material/Link";
 
 const pages_left = [
   { name: "FOTOGRAFIA ŚLUBNA", url: "/fotografia-slubna-krakow" },
@@ -61,12 +60,11 @@ const AppBarWithResponsiveMenu = () => {
   };
 
   const spin = keyframes`
-    0%
     100% {
-      transform: translateY(0);
+      transform: translateY(0)
     }
     50% {
-      transform: translateY(-15px);
+      transform: translateY(-15px)
     }
   `;
 
@@ -110,7 +108,7 @@ const AppBarWithResponsiveMenu = () => {
                     <Box sx={{ display: "flex", justifyContent: "center", ml: "40px" }}>
                       <Link key={1} href="/" passHref>
                         <Button variant="menuButton" sx={{ pt: 2, pb: 2 }} key={1} onClick={handleCloseNavMenu}>
-                          <Image src={logo99foto} width={100} height={140} priority={true} />
+                          <Image alt="fotograf ślubny kraków" src={logo99foto} width={100} height={140} />
                         </Button>
                       </Link>
                     </Box>
@@ -137,7 +135,7 @@ const AppBarWithResponsiveMenu = () => {
               <Box sx={{ display: { xs: "flex", lg: "none" }, width: "100%" }} justifyContent="center" alignItems="center">
                 <Link key={2} href="/" passHref>
                   <Button variant="menuButton" sx={{ pt: 2, pb: 2, ml: 8 }} key={1}>
-                    <Image src={logo99fotomobile} width={91} height={30} priority={true} />
+                    <Image alt="fotograf ślubny kraków" src={logo99fotomobile} width={91} height={30} />
                   </Button>
                 </Link>
               </Box>
