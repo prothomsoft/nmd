@@ -17,9 +17,9 @@ const Blog = () => {
 
   return (
     <LayoutSitePage
-      title="Zdjęcia ślubne Kraków"
-      description="Zdjęcia ślubne Kraków. Piękne zdjęcia, pełne emocji reportaże ślubne. Sprawdź moją ofertę i portfolio. Serdecznie zapraszam !"
-      keywords="zdjęcia ślubne Kraków, fotograf ślubny, sesja zdjęciowa"
+      title="Niezapomniane plenery w Krakowie"
+      description="Niezapomniane plenery w Krakowie. Piękne zdjęcia, uśmiechy, buziaki, przytulasy. Sprawdź moją ofertę i portfolio."
+      keywords="niezapomniane plenery Kraków, fotograf ślubny, sesja zdjęciowa"
       url="https://99foto.pl/blog-5/"
       leadNames="MARTYNA i MICHAŁ"
       leadTitle="PLENER ŚLUBNY ZAMEK PIESKOWA SKAŁA"

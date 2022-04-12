@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /blog
+Disallow: /blog-1
+Disallow: /blog-2
+Disallow: /blog-3
+Disallow: /blog-4
+Disallow: /blog-5
+Disallow: /blog-6
+Disallow: /blog-7
+Disallow: /blog-8
+Disallow: /blog-9

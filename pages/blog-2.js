@@ -17,9 +17,9 @@ const Blog = () => {
 
   return (
     <LayoutSitePage
-      title="Zdjęcia ślubne Kraków"
-      description="Zdjęcia ślubne Kraków. Piękne zdjęcia, pełne emocji reportaże ślubne. Sprawdź moją ofertę i portfolio. Serdecznie zapraszam !"
-      keywords="zdjęcia ślubne Kraków, fotograf ślubny, sesja zdjęciowa"
+      title="Ponadczasowe fotografie ślubne"
+      description="Ponadczasowe fotografie ślubne. Pełne emocji reportaże ślubne. Sprawdź moją ofertę i portfolio. Serdecznie zapraszam !"
+      keywords="ponadczasowe fotografie ślubne, fotografia ślubna Kraków"
       url="https://99foto.pl/blog-2/"
       leadNames="SYLWIA i MICHAŁ"
       leadTitle="WESELE W STYLU BOHO, SALA DWORZYSZCZE WOLA, KRAKÓW"

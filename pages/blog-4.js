@@ -17,9 +17,9 @@ const Blog = () => {
 
   return (
     <LayoutSitePage
-      title="Zdjęcia ślubne Kraków"
-      description="Zdjęcia ślubne Kraków. Piękne zdjęcia, pełne emocji reportaże ślubne. Sprawdź moją ofertę i portfolio. Serdecznie zapraszam !"
-      keywords="zdjęcia ślubne Kraków, fotograf ślubny, sesja zdjęciowa"
+      title="Fotograf ślubny, ceny i opinie"
+      description="Zdjęcia ślubne Kraków. Fotograf ślubny, ceny i opinie, reportaże ślubne. Zapraszam. Sprawdź moją ofertę i portfolio."
+      keywords="fotograf ślubny, ceny i opinie, sesja plenerowa"
       url="https://99foto.pl/blog-4/"
       leadNames="IZABELA i ARKADIUSZ"
       leadTitle="DOM WESELNY EUFORIA MYŚLENICE i SŁONECZNE LOVE"

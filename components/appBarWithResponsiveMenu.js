@@ -23,7 +23,7 @@ import KeyboardArrowUp from "@mui/icons-material/KeyboardArrowUp";
 import { keyframes } from "@mui/system";
 
 const pages_left = [
-  { name: "FOTOGRAFIA ŚLUBNA", url: "/fotografia-slubna-krakow" },
+  { name: "REPORTAŻ ŚLUBNY", url: "/reportaz-slubny-krakow" },
   { name: "SESJA ZDJĘCIOWA", url: "/sesja-zdjeciowa-krakow" },
   { name: "KILKA HISTORII", url: "/reportaze-slubne-sesje-plenerowe" },
 ];

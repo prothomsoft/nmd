@@ -35,10 +35,10 @@ const PageComponent = () => {
 
   return (
     <LayoutSitePage
-      title="Fotografia ślubna Kraków"
-      description="Fotografia ślubna Kraków, chwila, światło i kadr. Reportaż ślubny pełny kolorów i autentycznych emocji."
-      keywords="fotografia ślubna kraków, reportaż ślubny, ślub w plenerze"
-      url="https://99foto.pl/fotografia-slubna-krakow/"
+      title="Reportaż ślubny Kraków"
+      description="Reportaż ślubny Kraków, chwila, światło i kadr. Reportaż ślubny pełny kolorów i autentycznych emocji."
+      keywords="reportaż ślubny kraków, zdjęcia ślubne, ślub w plenerze"
+      url="https://99foto.pl/reportaz-slubny-krakow/"
       leadNames="ANNA i TOMASZ"
       leadTitle="WYMARZONY PLENER ŚLUBNY W KRAKOWIE, SPRAWDZONE MIEJSCA"
       leadUrl="/wymarzony-plener-slubny-w-krakowie-sprawdzone-miejsca"
@@ -48,21 +48,21 @@ const PageComponent = () => {
         
         <Box sx={{ py: 2 }}>
           <Typography variant="h1" className={matches ? 'quote-title' : ''} align="center">
-            FOTOGRAFIA ŚLUBNA KRAKÓW
+            REPORTAŻ ŚLUBNY KRAKÓW
           </Typography>
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 2 }}>
-          Kocham eksperymenty, czerpanie esencji z przemijających trendów, konsekwencję w dążeniu do celu, lubię mieć plan nie pozwalający wkraść się przypadkowi. Fotografia ślubna to dla mnie pasja i
-          weekendowa odskocznia od codziennej korporacyjnej rzeczywistości. Fotografia ślubna to zależność pomiędzy czasem ekspozycji, przysłoną i czułością ISO. Fotografia ślubna to jednocześnie
+          Kocham eksperymenty, czerpanie esencji z przemijających trendów, konsekwencję w dążeniu do celu, lubię mieć plan nie pozwalający wkraść się przypadkowi. Reportaż ślubny to dla mnie pasja i
+          weekendowa odskocznia od codziennej korporacyjnej rzeczywistości. Reportaż ślubny to zależność pomiędzy czasem ekspozycji, przysłoną i czułością ISO. Reportaż ślubny to jednocześnie
           zależnośc pomiędzy chwilą, światłem i kadrem. W obu przypadkach jest to zawsze kompromis poparty pomysłem i doskonałym warsztatem, który pozwala ten pomysł zrealizować.
         </Typography>
 
         <Image alt="Dekoracja sali weselnej w stylu rustykalnym" src={dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio} />
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
-          Fotografia ślubna to moim zdaniem przede wszystkim reportaż i temat człowieka w kadrze. Bez niego nie ma co mówić o uczuciach, radości, łzach wzruszenia, słowach, które układają się tworząc
+          Reportaż ślubny to moim zdaniem przede wszystkim reportaż i temat człowieka w kadrze. Bez niego nie ma co mówić o uczuciach, radości, łzach wzruszenia, słowach, które układają się tworząc
           chwile, które chcemy zatrzymać na wieki. Światło to według mojej definicji kontekst. Nadaje ono miejscu charakter, tworzy tło dla wydarzeń i pozwala eksponować emocje. Kadr to wiedza, setki
-          przeglądniętych zdjęć i budowane latami poczucie estetyki. Fotografia ślubna wykorzystuje te narzędzia tworząc opowieść o ludziach, miejscach, wydarzeniach i emocjach.
+          przeglądniętych zdjęć i budowane latami poczucie estetyki. Reportaż ślubny wykorzystuje te narzędzia tworząc opowieść o ludziach, miejscach, wydarzeniach i emocjach.
         </Typography>
 
         <Image alt="Miejsca, wydarzenia, emocje w fotografii ślubnej" src={portfolio_0013} />
@@ -80,7 +80,7 @@ const PageComponent = () => {
 
         <Image alt="Własny styl w fotografii ślubnej" src={sala_weselna_nedan_pcim_reportaz_slubny_portfolio} />
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
-          Moja fotografia ślubna wciąga osobę oglądającą w ciąg wydarzeń, tak by mogła ona poczuć to, co czują osoby będące na zdjęciach. Uważam, że jestem na Waszym ślubie by dokumentować ten ważny
+          Mój reportaż ślubny wciąga osobę oglądającą w ciąg wydarzeń, tak by mogła ona poczuć to, co czują osoby będące na zdjęciach. Uważam, że jestem na Waszym ślubie by dokumentować ten ważny
           dzień, pokazywać, że jestem tam dla Was i będę opowiadał o Was. Staram się uchwycić Was takimi, jakimi jesteście. Moje rozmowy z Wami w dniu ślubu czy sesji zdjęciowych są tylko i wyłącznie
           towarzyskie. Jestem fanem autentycznych emocji. Staram się nie prosić o uśmiech i cierpliwie czekam, aż przyjdzie on sam. W mojej pracy fotografa ślubnego kieruję się planem, doświadczeniem,
           ograniczając przypadek do minimum.
@@ -88,7 +88,7 @@ const PageComponent = () => {
 
         <Image alt="Autentyczne emocje w fotografii ślubnej" src={portret_panny_mlodej} />
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
-          Ślub to najpiękniejszy i najszczęśliwszy dzień w Waszym życiu, a moim zadaniem jest zatrzymać w kadrze coś niesamowitego czyli Waszą miłość. Dlatego właśnie fotografia ślubna stała się moją
+          Ślub to najpiękniejszy i najszczęśliwszy dzień w Waszym życiu, a moim zadaniem jest zatrzymać w kadrze coś niesamowitego czyli Waszą miłość. Dlatego właśnie reportaż ślubny stał się moją
           pasją i drogą przez życie. Autentyczne emocje to znajdziecie oglądając moje reportaże ślubne. Staram się, abyście po latach, wertując zdjęcia w albumie ślubnym mogli odnaleźć Wasze emocje i
           wrócić do niesamowitych chwil dnia Waszego ślubu.
         </Typography>
@@ -103,7 +103,7 @@ const PageComponent = () => {
           będzie odpowiadać Waszym preferencjom. Wspólnie znajdźmy chwilę, światło, kadr, zachowajmy je na zawsze.
         </Typography>
 
-        <Image alt="fotografia ślubna, Wasza miłość zatrzymana na zdjęciach" src={portfolio_2021_2} />
+        <Image alt="reportaż ślubny, Wasza miłość zatrzymana na zdjęciach" src={portfolio_2021_2} />
 
         <Box sx={{ py: 2 }}>
           <Typography variant="h1" className={matches ? 'quote-title' : ''} align="center">

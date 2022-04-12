@@ -17,9 +17,9 @@ const Blog = () => {
 
   return (
     <LayoutSitePage
-      title="Zdjęcia ślubne Kraków"
-      description="Zdjęcia ślubne Kraków. Piękne zdjęcia, pełne emocji reportaże ślubne. Sprawdź moją ofertę i portfolio. Serdecznie zapraszam !"
-      keywords="zdjęcia ślubne Kraków, fotograf ślubny, sesja zdjęciowa"
+      title="Niezwykłe zdjęcia ślubne"
+      description="Niezwykłe zdjęcia ślubne. Repo ślubne, sesja narzeczeńska w mieście. Sprawdź moją ofertę i portfolio."
+      keywords="niezwykłe zdjęcia ślubne, reportaź ślubny, sesja zdjęciowa"
       url="https://99foto.pl/blog-7/"
       leadNames="KAMILA i ADRIAN"
       leadTitle="FOTOGRAF NA WESELE RABKA ZDRÓJ, KOŚCIÓŁ ŚW. MARII MAGDALENY"
