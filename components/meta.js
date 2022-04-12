@@ -16,7 +16,7 @@ const MetaComponent = ({ title, description, keywords, url }) => (
         <link rel="publisher" href="https://plus.google.com/u/0/+TomaszProkop_99FOTO" />
         <link rel="canonical" href={url} />
         <link rel="shortcut icon" href="/static/favicon.ico" />
-        <script type='application/ld+json' dangerouslySetInnerHTML={ { __html: `{"@context":"http://schema.org","@type":"Product","name":"Fotograf ślubny Kraków","aggregateRating":{"@type":"AggregateRating","ratingValue":"5","ratingCount":"7","reviewCount":"7"}}`}} />
+        <script type='application/ld+json' dangerouslySetInnerHTML={ { __html: `{"@context":"https://schema.org/","@type":"CreativeWorkSeries","name":"Fotograf ślubny Kraków","aggregateRating":{"@type":"AggregateRating","ratingValue":"5","bestRating":"5","ratingCount":"7"}}`}} />
     </Head>
 );
 

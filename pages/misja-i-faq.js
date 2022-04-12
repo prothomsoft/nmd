@@ -13,9 +13,6 @@ import { useTheme } from '@mui/material/styles';
 import dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio from "../public/static/portfolio/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio.jpg";
 import sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio from "../public/static/portfolio/sesja_slubna_strbskie_pleso_i_popradzki_staw_slowacja_portfolio.jpg";
 import sala_weselna_nedan_pcim_reportaz_slubny_portfolio from "../public/static/portfolio/sala_weselna_nedan_pcim_reportaz_slubny_portfolio.jpg";
-import tomek_prokop_fotograf_krakow_misja_2_page from "../public/static/portfolio/tomek_prokop_fotograf_krakow_misja_2_page.jpg";
-import tomek_prokop_fotograf_krakow_misja_1_page from "../public/static/portfolio/tomek_prokop_fotograf_krakow_misja_1_page.jpg";
-import tomek_prokop_fotograf_krakow_misja_3_page from "../public/static/portfolio/tomek_prokop_fotograf_krakow_misja_3_page.jpg";
 import wakacje_bukowina from "../public/static/portfolio/wakacje_bukowina.jpg";
 
 const PageComponent = () => {
