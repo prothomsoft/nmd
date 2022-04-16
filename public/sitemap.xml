@@ -11,12 +11,27 @@
 </url>
 <url>
   <loc>https://99foto.pl/reportaz-slubny-krakow</loc>
-  <lastmod>2022-04-12T11:13:48+00:00</lastmod>
+  <lastmod>2022-04-15T11:13:48+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://99foto.pl/sesja-zdjeciowa-krakow</loc>
-  <lastmod>2022-04-12T11:13:48+00:00</lastmod>
+  <loc>https://99foto.pl/sesja-narzeczenska-krakow</loc>
+  <lastmod>2022-04-15T11:13:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://99foto.pl/referencje</loc>
+  <lastmod>2022-04-15T11:13:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://99foto.pl/fotograf-na-wesele</loc>
+  <lastmod>2022-04-15T11:13:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://99foto.pl/plener-slubny-krakow</loc>
+  <lastmod>2022-04-15T11:13:48+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -315,7 +330,7 @@
 	<priority>0.64</priority>
   </url>
   <url>
-    <loc>https://99foto.pl/sesja-narzeczenska-krakow</loc>
+    <loc>https://99foto.pl/sesja-przedslubna-zamek-korzkiew</loc>
     <lastmod>2022-04-12T11:13:48+00:00</lastmod>
 	<priority>0.64</priority>
   </url>

@@ -1,17 +1,15 @@
 import * as React from "react";
 import LayoutSitePage from "../components/layoutSitePage";
-import ContactForm from "../components/contactForm";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import { Typography } from "@mui/material";
 import Grid from "@mui/material/Grid";
 import Image from "next/image";
-import ParallaxImageFooter from "../components/parallaxImageFooter";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
 import portret_panny_mlodej from "../public/static/portfolio/portret_panny_mlodej.jpg";
-import aleksandra_mszana_dolna from "../public/static/portfolio/aleksandra_mszana_dolna.jpg";
-import plener_0002 from "../public/static/portfolio/plener_0002.jpg";
 import pomysl_na_sesje_slubna_zimowa_w_krakowie from "../public/static/portfolio/pomysl_na_sesje_slubna_zimowa_w_krakowie.jpg";
 
 const PageComponent = () => {
@@ -29,92 +27,120 @@ const PageComponent = () => {
       leadTitle="DOM WESELNY BIAŁA PERŁA RADZIEMICE, REPORTAŻ ŚLUBNY"
       leadUrl="/dom-weselny-biala-perla-radziemice-reportaz-slubny"
       leadImage={pageImage}>
-      <Container sx={{ pt: 8, pb: 5 }}>
+      <Container sx={{ pt: 8 }}>
         <Box sx={{ pt: 13, display: { xs: "none", lg: "block", xl: "block" } }}></Box>
-        <Box sx={{ py: 2 }}>
+        <Box sx={{ pt: 2, pb: 1 }}>
           <Typography variant="h1" className={matches ? "quote-title" : ""} align="center">
             OFERTA FOTOGRAFII ŚLUBNEJ
           </Typography>
         </Box>
-        <Grid container spacing={2} justifyContent="center" alignItems="center">
-          <Grid item xs={12} lg={8} xl={8}>
-            <Typography variant="h5" align="center" sx={{ pb: 2 }}>
-              REPORTAŻ ŚLUBNY OBEJMUJĄCY
-            </Typography>
 
-            <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 2 }}>
-              przygotowania, błogosławieństwo
-            </Typography>
-            <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 2 }}>
-              ceremonię w kościele lub USC
-            </Typography>
-            <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 2 }}>
-              przyjęcie weselne do oczepin włącznie (do godz. 1.00)
-            </Typography>
-            <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 6 }}>
-              sesję ślubną w wybranym dniu po ślubie
-            </Typography>
+        <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 2 }}>
+          Serdecznie zapraszam do zapoznania się z moją ofertą. Proponuję jeden pakiet ślubny, którego podstawą jest wyjątkowy reportaż z dnia Waszego ślubu, fotoksiążka i plener w wybranym dniu po
+          ślubie. rzed podpisaniem umowy zwykle spotykamy się w Krakowie. Na spotkaniu odpowiadam na Wasze pytania i macie możliwość oglądnięcia przykładowych fotoksiążek i albumów ślubnych. Zapraszam
+          do oglądania zdjęć w portfolio, oraz do oglądania wpisów na blogu. Jeżeli zdjęcia te przypadną Wam do gustu to zapraszam do wypełnienia formularza kontaktowego lub rozmowy telefonicznej.
+          Jest to najlepszy sposób by poznać cenę, umówić się na niezobowiązujące spotkanie, na którym zdecydujecie co będzie dalej.
+        </Typography>
 
-            <Typography variant="h5" align="center" sx={{ pb: 2 }}>
-              OTRZYMUJECIE
-            </Typography>
-            <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 2 }}>
-              fotoksiążkę - minimum 140 stron w twardej oprawie, format 30x30cm
-            </Typography>
-            <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 2 }}>
-              pendrive w etui - minimum 450 zdjęć poddanych starannej obróbce graficznej
-            </Typography>
-            <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 2 }}>
-              dojazd w dniu ślubu GRATIS
-            </Typography>
-            <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 2 }}>
-              internetową galerię zdjęć w strefie klienta zabezpieczoną hasłem
-            </Typography>
+        <Grid container spacing={2}>
+          <Grid item xs={12} lg={6} xl={6}>
+            <Card>
+              <CardContent>
+                <Typography variant="h5" align="center" sx={{ pb: 2 }}>
+                  REPORTAŻ ŚLUBNY OBEJMUJĄCY
+                </Typography>
+                <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 2 }}>
+                  przygotowania, błogosławieństwo
+                </Typography>
+                <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 2 }}>
+                  ceremonię w kościele lub USC
+                </Typography>
+                <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 2 }}>
+                  przyjęcie weselne do oczepin włącznie (do godz. 1.00)
+                </Typography>
+                <Typography variant="body1" align="center" color="text.secondary">
+                  sesję ślubną w wybranym dniu po ślubie
+                </Typography>
+              </CardContent>
+            </Card>
           </Grid>
-          <Grid item md={4} sx={{ display: { xs: "none", lg: "block", xl: "block" } }}>
-            <Image alt="portret panny młodej" src={portret_panny_mlodej} />
-            <Image alt="sala weselna Mszana Dolna" src={aleksandra_mszana_dolna} />
+          <Grid item xs={12} lg={6} xl={6}>
+            <Card>
+              <CardContent>
+                <Typography variant="h5" align="center" sx={{ pb: 2 }}>
+                  OTRZYMUJECIE
+                </Typography>
+                <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 2 }}>
+                  fotoksiążkę - minimum 140 stron w twardej oprawie, format 30x30cm
+                </Typography>
+                <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 2 }}>
+                  pendrive w etui - minimum 450 zdjęć poddanych starannej obróbce graficznej
+                </Typography>
+                <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 2 }}>
+                  dojazd w dniu ślubu GRATIS
+                </Typography>
+                <Typography variant="body1" align="center" color="text.secondary">
+                  internetową galerię zdjęć w strefie klienta zabezpieczoną hasłem
+                </Typography>
+              </CardContent>
+            </Card>
           </Grid>
         </Grid>
+        <Box sx={{ pt: 2 }}>
+          <Image alt="sala weselna Nedan Pcim" src={portret_panny_mlodej} />
+        </Box>
 
-        <Box sx={{ py: 2 }}>
+        <Box sx={{ pt: 2, py: 1 }}>
           <Typography variant="h1" className={matches ? "quote-title" : ""} align="center">
             OFERTA SESJI ZDJĘCIOWEJ
           </Typography>
         </Box>
-        <Grid container spacing={2} justifyContent="center" alignItems="center">
-          <Grid item md={4} sx={{ display: { xs: "none", lg: "block", xl: "block" } }}>
-            <Image alt="sesja plenerowa w ogrodzie botanicznym" src={plener_0002} />
-            <Image alt="sesja slubna palac goetzow okocimskich" src={pomysl_na_sesje_slubna_zimowa_w_krakowie} />
+
+        <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 2 }}>
+          Plener ślubny jest częścią pakietu reportażu ślubnego, jednak można go również zamówić jako osobny produkt. W tej formie wykonuję zwykle sesje narzeczeńskie, sesje rodzinne, fotografie
+          podczas Chrztu Świętego, czy też imprez firmowych. Pakiet ten typowo nie zawiera fotoksiążki jednak może być dowolnie rozszerzony i tak jak w przypadku reportażu ślubnego ofertę możemy
+          dostosować korzystając z kontaktu mailowego lub telefonicznego. Istnieje też możliwość podarowania tego pakietu w formie Vouchera. Serdecznie zapraszam.
+        </Typography>
+
+        <Grid container spacing={2}>
+          <Grid item xs={12} lg={6} xl={6}>
+            <Card>
+              <CardContent>
+                <Typography variant="h5" align="center" sx={{ pb: 2 }}>
+                  SESJA ZDJĘCIOWA OBEJMUJĄCA
+                </Typography>
+                <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 2 }}>
+                  trzy godziny fotografowania
+                </Typography>
+                <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 5 }}>
+                  dwa lub trzy wybrane miejsca plenerowe
+                </Typography>
+              </CardContent>
+            </Card>
           </Grid>
-          <Grid item xs={12} lg={8} xl={8}>
-            <Typography variant="h5" align="center" sx={{ pb: 2 }}>
-              SESJA ZDJĘCIOWA OBEJMUJĄCA
-            </Typography>
-            <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 2 }}>
-              trzy godziny fotografowania
-            </Typography>
-            <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 6 }}>
-              dwa lub trzy wybrane miejsca plenerowe
-            </Typography>
-            <Typography variant="h5" align="center" sx={{ pb: 2 }}>
-              OTRZYMUJECIE
-            </Typography>
-            <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 2 }}>
-              pendrive w etui - minimum 80 zdjęć poddanych starannej obróbce graficznej
-            </Typography>
-            <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 2 }}>
-              dojazd do 30 km na sesję zdjęciową GRATIS
-            </Typography>
-            <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 2 }}>
-              internetową galerię zdjęć w strefie klienta zabezpieczoną hasłem
-            </Typography>
+          <Grid item xs={12} lg={6} xl={6}>
+            <Card>
+              <CardContent>
+                <Typography variant="h5" align="center" sx={{ pb: 2 }}>
+                  OTRZYMUJECIE
+                </Typography>
+                <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 2 }}>
+                  pendrive w etui - minimum 80 zdjęć poddanych starannej obróbce graficznej
+                </Typography>
+                <Typography variant="body1" align="center" color="text.secondary" sx={{ pb: 2 }}>
+                  dojazd do 30 km na sesję zdjęciową GRATIS
+                </Typography>
+                <Typography variant="body1" align="center" color="text.secondary">
+                  internetową galerię zdjęć w strefie klienta zabezpieczoną hasłem
+                </Typography>
+              </CardContent>
+            </Card>
           </Grid>
         </Grid>
-      </Container>
-      <ParallaxImageFooter leadImage={pageImage} leadUrl="" height="70vh" />
-      <Container>
-        <ContactForm />
+
+        <Box sx={{ pt: 2 }}>
+          <Image alt="sala weselna Nedan Pcim" src={pomysl_na_sesje_slubna_zimowa_w_krakowie} />
+        </Box>
       </Container>
     </LayoutSitePage>
   );

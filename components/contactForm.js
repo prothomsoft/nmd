@@ -17,7 +17,7 @@ import slub_na_glowie from "../public/icons/slub_na_glowie.jpg";
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 
-const ContactForm = () => {
+const ContactForm = ({scrollToContact}) => {
   const [sender, setSender] = React.useState("");
   const [isSenderValid, setIsSenderValid] = React.useState(false);
   const [senderValidationHelper, setSenderValidationHelper] = React.useState("");
@@ -311,7 +311,7 @@ const ContactForm = () => {
                   <MuiLink target="_blank" rel="nofollow">
                     <Image alt="profil na instagramie" src={slub_na_glowie} />
                   </MuiLink>
-                </Link>
+                </Link>                
               </Grid>
               <Grid item xl={4} />
             </Grid>

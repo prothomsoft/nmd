@@ -1,5 +1,4 @@
 import LayoutSitePage from "../components/layoutSitePage";
-import ContactForm from "../components/contactForm";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import ParallaxImageFooter from "../components/parallaxImageFooter";
@@ -23,11 +22,7 @@ const BlogListComponent = ({ posts }) => {
       <Container sx={{ pt:8, pb: 5 }}>
         <Box sx={{pt:13, display: { xs: "none", lg: "block", xl: "block" }}}></Box>
         <ClientList posts={posts} />
-      </Container>
-      <ParallaxImageFooter leadImage={pageImage} leadUrl="" height="70vh" />
-      <Container>
-        <ContactForm />
-      </Container>
+      </Container>      
     </LayoutSitePage>
   );
 };

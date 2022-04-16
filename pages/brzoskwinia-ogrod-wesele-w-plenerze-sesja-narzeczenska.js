@@ -53,7 +53,7 @@ const BlogPageComponent = () => {
             slug={"brzoskwinia-ogrod-wesele-w-plenerze-sesja-narzeczenska"}
             title={"BRZOSKWINIA OGRÓD, WESELE W PLENERZE, SESJA NARZECZEŃSKA - WIKTORIA i KONRAD"}
             tags={"sesja narzeczeńska w Brzoskwinia Ogród, wesele w plenerze, ślubna sesja zdjęciowa jesienią"}
-            date={"25 sierpnia 2021"}
+            date={"5 lipca 2021"}
             menuNames={"WIKTORIA i KONRAD"}
             menuTitle={"BRZOSKWINIA OGRÓD, WESELE W PLENERZE, SESJA NARZECZEŃSKA"}
             leadNames={"KAMILA i ADRIAN"}

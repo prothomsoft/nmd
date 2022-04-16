@@ -21,22 +21,25 @@ import Fab from "@mui/material/Fab";
 import Zoom from "@mui/material/Zoom";
 import KeyboardArrowUp from "@mui/icons-material/KeyboardArrowUp";
 import { keyframes } from "@mui/system";
+import MenuTop from "./menuTop";
 
-const pages_left = [
-  { name: "REPORTAŻ ŚLUBNY", url: "/reportaz-slubny-krakow" },
-  { name: "SESJA ZDJĘCIOWA", url: "/sesja-zdjeciowa-krakow" },
-  { name: "KILKA HISTORII", url: "/reportaze-slubne-sesje-plenerowe" },
-];
-
-const pages_right = [
-  { name: "MISJA i FAQ", url: "/misja-i-faq" },
-  { name: "OFERTA", url: "/oferta-fotografii-slubnej" },
-  { name: "BLOG", url: "/blog" },
+const pages = [
+  { name: "O MNIE", url: "/fotograf-na-wesele" },
+  { name: "REPORTAŹ ŚLUBNY", url: "reportaz-slubny-krakow" },
+  { name: "PLENER ŚLUBNY", url: "plener-slubny-krakow" },
+  { name: "SESJA NARZECZEŃŚKA", url: "sesja-narzeczenska-krakow" },
+  { name: "OFERTA", url: "oferta-fotografii-slubnej" },
+  { name: "HISTORIE", url: "reportaze-slubne-sesje-plenerowe" },
+  { name: "FAQ", url: "misja-i-faq" },
+  { name: "REFERENCJE", url: "referencje" },
+  { name: "BLOG", url: "blog" },
   { name: "STREFA KLIENTA", url: "/strefa-klienta" },
 ];
 
-const AppBarWithResponsiveMenu = () => {
+const AppBarWithResponsiveMenu = (props) => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
+
+  const action = props.action;
 
   const triggerScrollDown = useScrollTrigger({
     disableHysteresis: true,
@@ -76,6 +79,10 @@ const AppBarWithResponsiveMenu = () => {
     setAnchorElNav(null);
   };
 
+  const handleCloseNavMenu1 = (props) => {
+    setAnchorElNav(null);
+  };
+
   return (
     <>
       <Zoom in={triggerScrollUp}>
@@ -93,21 +100,35 @@ const AppBarWithResponsiveMenu = () => {
                 <Grid item lg={5}>
                   <Item>
                     <Box sx={{ display: "flex", justifyContent: "center" }}>
-                      {pages_left.map((page, key) => (
-                        <Link key={key} href={page.url} passHref>
-                          <Button variant="menuButton" key={key}>
-                            {page.name}
-                          </Button>
-                        </Link>
-                      ))}
+                      <Link key={1} href={"/fotograf-na-wesele"} passHref>
+                        <Button variant="menuButton" key={1}>
+                          {"O MNIE"}
+                        </Button>
+                      </Link>
+                      <MenuTop />
+                      <Link key={2} href={"/oferta-fotografii-slubnej"} passHref>
+                        <Button variant="menuButton" key={2}>
+                          {"OFERTA"}
+                        </Button>
+                      </Link>
+                      <Link key={3} href={"/reportaze-slubne-sesje-plenerowe"} passHref>
+                        <Button variant="menuButton" key={3}>
+                          {"HISTORIE"}
+                        </Button>
+                      </Link>
+                      <Link key={4} href={"/misja-i-faq"} passHref>
+                        <Button variant="menuButton" key={4}>
+                          {"FAQ"}
+                        </Button>
+                      </Link>
                     </Box>
                   </Item>
                 </Grid>
                 <Grid item lg={2}>
                   <Item>
-                    <Box sx={{ display: "flex", justifyContent: "center", ml: "40px" }}>
-                      <Link key={1} href="/" passHref>
-                        <Button variant="menuButton" sx={{ pt: 2, pb: 2 }} key={1} onClick={handleCloseNavMenu}>
+                    <Box sx={{ display: "flex", justifyContent: "center", ml: "15px" }}>
+                      <Link key={5} href="/" passHref>
+                        <Button variant="menuButton" sx={{ pt: 2, pb: 2 }} key={5} onClick={handleCloseNavMenu}>
                           <Image alt="fotograf ślubny kraków" src={logo99foto} width={100} height={140} />
                         </Button>
                       </Link>
@@ -117,13 +138,24 @@ const AppBarWithResponsiveMenu = () => {
                 <Grid item lg={5}>
                   <Item>
                     <Box sx={{ display: "flex", justifyContent: "center" }}>
-                      {pages_right.map((page, key) => (
-                        <Link key={key} href={page.url} passHref>
-                          <Button variant="menuButton" key={key}>
-                            {page.name}
-                          </Button>
-                        </Link>
-                      ))}
+                      <Link key={6} href={"/referencje"} passHref>
+                        <Button variant="menuButton" key={6}>
+                          {"REFERENCJE"}
+                        </Button>
+                      </Link>
+                      <Link key={7} href={"/blog"} passHref>
+                        <Button variant="menuButton" key={7}>
+                          {"BLOG"}
+                        </Button>
+                      </Link>
+                      <Link key={8} href={"/strefa-klienta"} passHref>
+                        <Button variant="menuButton" key={8}>
+                          {"STREFA KLIENTA"}
+                        </Button>
+                      </Link>
+                      <Button variant="menuButton" key={9} onClick={props.action}>
+                        KONTAKT
+                      </Button>
                     </Box>
                   </Item>
                 </Grid>
@@ -160,20 +192,17 @@ const AppBarWithResponsiveMenu = () => {
                   sx={{
                     display: { xs: "block", lg: "none" },
                   }}>
-                  {pages_left.map((page, key) => (
+                  {pages.map((page, key) => (
                     <Link key={key} href={page.url} passHref>
                       <MenuItem key={key} onClick={handleCloseNavMenu}>
                         <Typography textAlign="center">{page.name}</Typography>
                       </MenuItem>
                     </Link>
                   ))}
-                  {pages_right.map((page, key) => (
-                    <Link key={key} href={page.url} passHref>
-                      <MenuItem key={key} onClick={handleCloseNavMenu}>
-                        <Typography textAlign="center">{page.name}</Typography>
-                      </MenuItem>
-                    </Link>
-                  ))}
+
+                  <MenuItem key={100} onClick={props.action}>
+                    <Typography textAlign="center">KONTAKT</Typography>
+                  </MenuItem>
                 </Menu>
               </Box>
             </Toolbar>

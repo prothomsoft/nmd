@@ -21,16 +21,6 @@ export const posts = [
     },
     {
       date: "2021-08-26T07:31:39",
-      slug: "brzoskwinia-ogrod-wesele-w-plenerze-sesja-narzeczenska",
-      title: "BRZOSKWINIA OGRÓD, WESELE W PLENERZE, SESJA NARZECZEŃSKA",
-      content:
-        "Moment w życiu każdego mężczyzny, że w lekkim stresie, przeszukując kieszenie w poszukiwaniu brylantów, oczekuje na magiczne słowo TAK. Jest to z pewnością rozpoczęcie nowego etapu w życiu zakochanych osób, który oprócz nowych zobowiązań zapewnia miliony niezapomnianych wspomnień, które warto przy pomocy zdjęć zachować na dłużej. Tylko w ten sposób pokażecie swoim dzieciom, a w przyszłości może nawet wnukom jak wyglądały początki Waszej miłości. Przygotowania do Waszego ślubu to długa droga i nie znam osoby, która nie chciałaby przebyć tej drogi w możliwie idealny sposób. Decyzje, które musicie podjąć na tej drodze, te dotyczące sali weselnej, zespołu czy DJ-ja, fotografa, sukni ślubnej to tylko część ważnych spraw na Waszej liście. Bardzo często dążąc do tego idealnego ślubu Pary Młode decydują się na sesję narzeczeńską, która jest doskonałym uzupełnieniem reportażu ślubnego. Dziewczyny, przekonując narzeczonego, że sesja narzeczeńska to jest nie taki głupi pomysł, nie zapomnijcie wspomnieć, że zdjęcia z takiej sesji można wykorzystać na wiele sposób. Mogą one być doskonałym prezentem dla rodziców w trakcie podziękowań, elementem wystroju sali weselnej czy posłużyć jako dekoracja zaproszeń ślubnych. Nie zapomnijcie również wspomnieć o tym, że zdjęcia te będą dla Was wyjątkową pamiątką, pozwolą przyzwyczaić się do obecności fotografa podczas sesji ślubnej i zbudują Waszą naturalność i pewność siebie podczas sesji.",
-      names: ["WIKTORIA i KONRAD"],
-      tags: ["sesja narzeczeńska w Brzoskwinia Ogród", "ślubna sesja zdjęciowa jesienią", "wesele w plenerze"],
-      image: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0001.jpg",
-    },
-    {
-      date: "2021-07-08T05:24:17",
       slug: "fotograf-na-wesele-rabka-zdroj-kosciol-sw-marii-magdaleny",
       title: "FOTOGRAF NA WESELE RABKA ZDRÓJ, KOŚCIÓŁ ŚW. MARII MAGDALENY",
       content:
@@ -39,6 +29,17 @@ export const posts = [
       tags: ["Fotograf na wesele Rabka Zdrój", "Kościół św. Marii Magdaleny w Rabce", "sala weselna Kabanos w Spytkowicach"],
       image: "/static/blog/2021/07/fotograf_na_slub_rabka_zdroj_0043.jpg",
     },
+    {
+      date: "2021-07-08T05:24:17",      
+      slug: "brzoskwinia-ogrod-wesele-w-plenerze-sesja-narzeczenska",
+      title: "BRZOSKWINIA OGRÓD, WESELE W PLENERZE, SESJA NARZECZEŃSKA",
+      content:
+        "Moment w życiu każdego mężczyzny, że w lekkim stresie, przeszukując kieszenie w poszukiwaniu brylantów, oczekuje na magiczne słowo TAK. Jest to z pewnością rozpoczęcie nowego etapu w życiu zakochanych osób, który oprócz nowych zobowiązań zapewnia miliony niezapomnianych wspomnień, które warto przy pomocy zdjęć zachować na dłużej. Tylko w ten sposób pokażecie swoim dzieciom, a w przyszłości może nawet wnukom jak wyglądały początki Waszej miłości. Przygotowania do Waszego ślubu to długa droga i nie znam osoby, która nie chciałaby przebyć tej drogi w możliwie idealny sposób. Decyzje, które musicie podjąć na tej drodze, te dotyczące sali weselnej, zespołu czy DJ-ja, fotografa, sukni ślubnej to tylko część ważnych spraw na Waszej liście. Bardzo często dążąc do tego idealnego ślubu Pary Młode decydują się na sesję narzeczeńską, która jest doskonałym uzupełnieniem reportażu ślubnego. Dziewczyny, przekonując narzeczonego, że sesja narzeczeńska to jest nie taki głupi pomysł, nie zapomnijcie wspomnieć, że zdjęcia z takiej sesji można wykorzystać na wiele sposób. Mogą one być doskonałym prezentem dla rodziców w trakcie podziękowań, elementem wystroju sali weselnej czy posłużyć jako dekoracja zaproszeń ślubnych. Nie zapomnijcie również wspomnieć o tym, że zdjęcia te będą dla Was wyjątkową pamiątką, pozwolą przyzwyczaić się do obecności fotografa podczas sesji ślubnej i zbudują Waszą naturalność i pewność siebie podczas sesji.",
+      names: ["WIKTORIA i KONRAD"],
+      tags: ["sesja narzeczeńska w Brzoskwinia Ogród", "ślubna sesja zdjęciowa jesienią", "wesele w plenerze"],
+      image: "/static/blog/2021/08/brzoskwinia_ogrod_sesja_narzeczenska_0001.jpg",
+    },
+    
     {
       date: "2021-06-28T11:59:03",
       slug: "wesele-w-stylu-boho-sala-dworzyszcze-wola-krakow",
@@ -841,12 +842,12 @@ export const posts = [
     },
     {
       date: "2017-07-02T18:41:49",
-      slug: "sesja-narzeczenska-krakow",
-      title: "SESJA NARZECZEŃSKA KRAKÓW",
+      slug: "sesja-przedslubna-zamek-korzkiew",
+      title: "SESJA PRZEDŚLUBNA ZAMEK KORZKIEW KRAKÓW",
       content:
         'Tym razem jeden wpis na blogu łączy sesję narzeczeńską i sesję ślubną Kingi i Maćka. Postanowiłem wybrać najlepsze kadry, które udało nam się stworzyć podczas blisko ośmiu godzin spacerowania i fotografowania miasta Krakowa i jego okolic. Kinga i Maciek bardzo dbali o detale na obu sesjach, przygotowując sobie <a   href="http://koloryholi.pl/"   target="_blank"   rel="nofollow noopener noreferrer"   >kolorki holi</a >, strój strażacki, balony wypełnione helem i przepiękny wianek. Sesja narzeczeńska miała pokazać Kraków jako miasto i ograniczyć kolor zielony w kadrze, wybraliśmy więc w pierwszej kolejności Kazimierz.',
       names: ["KINGA I MACIEK"],
-      tags: ["Sesja narzeczeńska w Krakowie", "Zamek Korzkiew", "Zamek Pieskowa Skała"],
+      tags: ["Sesja przedślubna w Krakowie", "Zamek Korzkiew", "Zamek Pieskowa Skała"],
       image: "/static/blog/2017/07/sesja_narzeczenska_krakow_0002.jpg",
     },
     {

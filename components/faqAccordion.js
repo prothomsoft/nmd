@@ -37,7 +37,7 @@ const FaqAccordion = () => {
     setExpanded(newExpanded ? panel : false);
   };
   return (
-    <div>
+    <>
       <Accordion expanded={expanded === "panel1"} onChange={handleChange("panel1")}>
         <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
           <Typography color="text.secondary">Czy posiadasz zaświadczenie z kurii zezwalające na fotografowanie podczas ślubów?</Typography>
@@ -74,108 +74,8 @@ const FaqAccordion = () => {
           Zdjęcia wykonuję bezlusterkowymi aparatami pełnoklatkowymi systemu Nikon Z i jasnymi obiektywami Nikkor Z.
           </Typography>
         </AccordionDetails>
-      </Accordion>
-      <Accordion expanded={expanded === "panel5"} onChange={handleChange("panel5")}>
-        <AccordionSummary aria-controls="panel5d-content" id="panel5d-header">
-          <Typography color="text.secondary">Do której godziny jesteś na weselu?</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography color="text.secondary">
-          Na weselu jestem do godziny pierwszej w nocy. Wszystkie najważniejsze atrakcje wieczoru dzieją się do tej chwili.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion expanded={expanded === "panel6"} onChange={handleChange("panel6")}>
-        <AccordionSummary aria-controls="panel6d-content" id="panel6d-header">
-          <Typography color="text.secondary">Na jakim terenie pracujesz?</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography color="text.secondary">
-          Mieszkam w Krakowie. Mogę jednak uwiecznić Waszą uroczystość (lub też wykonać sesję plenerową) w dowolnym miejscu w południowej Polsce.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion expanded={expanded === "panel7"} onChange={handleChange("panel7")}>
-        <AccordionSummary aria-controls="panel7d-content" id="panel7d-header">
-          <Typography color="text.secondary">Ile wynosi dopłata za dojazd?</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography color="text.secondary">
-          W moim pakiecie oferuję dojazd w dniu ślubu GRATIS. Jeżeli natomiast Wasz plener ślubny odbywa się w oddalonym od Krakowa miejscu to musimy doliczyć dopłatę za dojazd 1,22km/1PLN (zawsze jeździmy moim autem).
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion expanded={expanded === "panel8"} onChange={handleChange("panel8")}>
-        <AccordionSummary aria-controls="panel8d-content" id="panel8d-header">
-          <Typography color="text.secondary">Czy obrabiasz zdjęcia?</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography color="text.secondary">
-          Oczywiście. Każde zdjęcie wykonuję w formacie RAW - traktuję je jako półprodukt, z którego powstanie fotografia.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion expanded={expanded === "panel9"} onChange={handleChange("panel9")}>
-        <AccordionSummary aria-controls="panel9d-content" id="panel9d-header">
-          <Typography color="text.secondary">Czy ze zdjęć, które od Ciebie dostaniemy możemy sobie wywołać odbitki o dużym rozmiarze?</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography color="text.secondary">
-          Tak, zdjęcia otrzymujecie w dużej rozdzielczości 3520px (300 dpi).
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion expanded={expanded === "panel10"} onChange={handleChange("panel10")}>
-        <AccordionSummary aria-controls="panel10d-content" id="panel10d-header">
-          <Typography color="text.secondary">Kiedy robisz plener ślubny?</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography color="text.secondary">
-          Z reguły sesję ślubną robimy w tygodniu po Waszym ślubie, jednak bez problemu przesuniemy ją na termin późniejszy.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion expanded={expanded === "panel11"} onChange={handleChange("panel11")}>
-        <AccordionSummary aria-controls="panel11d-content" id="panel11d-header">
-          <Typography color="text.secondary">Jak długo trwa plener? Jak wygląda taka sesja plenerowa?</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography color="text.secondary">
-          Na sesję zarezerwujcie sobie minimum trzy godziny - wszystko zależy od tego gdzie jest sesja i czy musimy daleko dojeżdżać.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion expanded={expanded === "panel12"} onChange={handleChange("panel12")}>
-        <AccordionSummary aria-controls="panel12d-content" id="panel12d-header">
-          <Typography color="text.secondary">Czy mówisz w innych językach, niż polski?</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography color="text.secondary">
-          Tak, swobodnie porozumiewam się w języku angielskim. Mam zdany First Certificate in English.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion expanded={expanded === "panel13"} onChange={handleChange("panel13")}>
-        <AccordionSummary aria-controls="panel13d-content" id="panel13d-header">
-          <Typography color="text.secondary">Czy prowadzisz legalną działalność gospodarczą?</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography color="text.secondary">
-          Tak, mam zarejestrowaną działalność gospodarczą i odprowadzam podatki.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion expanded={expanded === "panel14"} onChange={handleChange("panel14")}>
-        <AccordionSummary aria-controls="panel14d-content" id="panel14d-header">
-          <Typography color="text.secondary">Jak wcześnie trzeba rezerwować termin?</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography color="text.secondary">
-          Zasada jest prosta, im szybciej tym lepiej, jeżeli jesteście zdecydowani abym to ja uwiecznił Waszą uroczystość - wypełnijcie poniższy formularz i skontaktujcie się ze mną jak najwcześniej. Warunkiem pełnej rezerwacji terminu jest podpisanie umowy.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-    </div>
+      </Accordion>     
+    </>
   );
 };
 

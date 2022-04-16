@@ -190,8 +190,8 @@ const BlogPageComponent = () => {
                     menuNames={"EWELINA i KAMIL"}
                     menuTitle={"HOTEL TADEUSZ USZEW i GÓRALSKA SALA WESELNA"}
                     leadNames={"KINGA i MACIEK"}
-                    leadTitle={"SESJA NARZECZEŃSKA KRAKÓW"}
-                    leadUrl={"/sesja-narzeczenska-krakow"}
+                    leadTitle={"SESJA PRZEDŚLUBNA ZAMEK KORZKIEW KRAKÓW"}
+                    leadUrl={"/sesja-przedslubna-zamek-korzkiew"}
                     leadImage={process.env.staticImagesPath + "sesja_narzeczenska_krakow_start.jpg"}
                 />
             

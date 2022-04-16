@@ -5,19 +5,16 @@ import ParallaxImageFooter from "../components/parallaxImageFooter";
 import Container from "@mui/material/Container";
 import Link from "next/link";
 import MuiLink from "@mui/material/Link";
-import ContactForm from "../components/contactForm";
 import Box from "@mui/material/Box";
 import ImageCardGrid from "../components/imageCardGrid";
-import useMediaQuery from '@mui/material/useMediaQuery';
-import { useTheme } from '@mui/material/styles';
-
+import useMediaQuery from "@mui/material/useMediaQuery";
+import { useTheme } from "@mui/material/styles";
 
 const Index = () => {
-
   const pageImage = process.env.staticImagesPath + "plener_slubny_na_rynku_w_krakowie.jpg";
   const theme = useTheme();
-  const matches = useMediaQuery(theme.breakpoints.up('lg'));
-  
+  const matches = useMediaQuery(theme.breakpoints.up("lg"));
+
   return (
     <LayoutStartPage
       title="Fotograf ślubny Kraków ✔️ Tomasz Prokop"
@@ -28,31 +25,38 @@ const Index = () => {
       leadTitle="PLENER ŚLUBNY NA RYNKU W KRAKOWIE"
       leadUrl="/plener-slubny-na-rynku-w-krakowie"
       leadImage={pageImage}
-      slide={matches ? process.env.staticImagesPath + "lomnicki_staw_portfolio_start.jpg" : process.env.staticImagesPath +  "ogrod_botaniczny.jpg"}
+      slide={matches ? process.env.staticImagesPath + "lomnicki_staw_portfolio_start.jpg" : process.env.staticImagesPath + "ogrod_botaniczny.jpg"}
       menuNames=""
       menuTitle="">
       <Container sx={{ pb: 3 }}>
         <Box sx={{ py: 2 }}>
-          <Typography variant="h1" className={matches ? 'quote-title' : ''} align="center">
+          <Typography variant="h1" className={matches ? "quote-title" : ""} align="center">
             FOTOGRAF ŚLUBNY KRAKÓW
           </Typography>
-        </Box>
-        <Typography variant="body1" align="justify" color="text.secondary" sx={{pb:2}}>
-          Mam na imię Tomek i jestem fotografem ślubnym. Mieszkam w Krakowie z moją żoną Anią i trójką kochanych dzieciaków. Fotografia ślubna od zawsze była moją największą pasją, która przy
-          odrobinie szczęścia stała się moim sposobem na życie. Uwielbiam fotografować szczęśliwych ludzi, odwiedzać nowe miejsca i poszukiwać idealnego światła. Fotografię ślubną traktuję jako
-          niesamowitą przygodę, która pozwala mi spełniać marzenia. Jestem przekonany, że najlepsze zdjęcia są jeszcze przede mną.
-        </Typography>
-        <Typography variant="body1" align="justify" color="text.secondary" sx={{pb:2}}>
-          Serdecznie zapraszam do odwiedzenia{" "}
+        </Box>    
+        <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 2 }}>
+        Witam na mojej stronie internetowej. Poszukujesz fotografa ślubnego? Jeśli tak, to doskonale trafiłeś. Fotografia jest moją pasją odkąd pamiętam, śluby fotografuję już blisko dziesięć lat. Serdecznie zapraszam do odwiedzenia{" "}
           <Link href="/blog" passHref>
             <MuiLink underline="hover">mojego bloga</MuiLink>
           </Link>{" "}
-          i obejrzenia pełnych reportaży ślubnych, sesji zdjęciowych, zdjęć pełnych kolorów i autentycznych emocji. Moje prace wyróżnia reporterskie podejście do fotografii czyli jak najmniej
-          ustawianych, reżyserowanych zdjęć, jak najwięcej kadrów przedstawiających emocje i spontaniczne reakcje. Oglądając moje prace sami ocenicie czy moje zdjęcia się Wam spodobają. Fotografuję w
-          Krakowie i bliskich okolicach. Wspólnie znajdźmy chwilę, światło, kadr, zachowajmy je na zawsze.
+          oraz obejrzenia{" "}
+          <Link href="/reportaz-slubny-krakow" passHref>
+            <MuiLink underline="hover">reportaży ślubnych</MuiLink>
+          </Link>
+          ,{" "}
+          <Link href="/plener-slubny-krakow" passHref>
+            <MuiLink underline="hover">plenerów ślubnych</MuiLink>
+          </Link>
+          ,{" "}
+          <Link href="/sesja-narzeczenska-krakow" passHref>
+            <MuiLink underline="hover">sesji narzeczeńskich</MuiLink>
+          </Link>
+          , zdjęć pełnych kolorów i autentycznych emocji. Moje prace wyróżnia reporterskie podejście do fotografii czyli jak najmniej ustawianych, reżyserowanych zdjęć, jak najwięcej kadrów
+          przedstawiających emocje i spontaniczne reakcje. Oglądając moje prace sami ocenicie czy moje zdjęcia się Wam spodobają. Fotografuję w Krakowie i bliskich okolicach. Wspólnie znajdźmy chwilę,
+          światło, kadr, zachowajmy je na zawsze.
         </Typography>
         <Box sx={{ py: 2 }}>
-          <Typography variant="h1" className={matches ? 'quote-title' : ''} align="center">
+          <Typography variant="h1" className={matches ? "quote-title" : ""} align="center">
             POLECANE REPORTAŻE I SESJE ŚLUBNE
           </Typography>
         </Box>
@@ -61,49 +65,78 @@ const Index = () => {
 
       <ParallaxImageFooter leadImage={process.env.staticImagesPath + "sesja_slubna_jesienia.jpg"} leadUrl="" height="70vh" />
 
-      <Container>
-        <Box sx={{ py: 2 }}>
-          <Typography variant="h1" className={matches ? 'quote-title' : ''} align="center">
-            EMOCJE, UCZUCIA I KOLORY ZATRZYMANE W KAŻDYM KADRZE
-          </Typography>
-        </Box>
-        <Typography variant="body1" align="justify" color="text.secondary" sx={{pb:2}}>
-          Śluby, sesje zdjęciowe to znakomita okazja do tworzenia, odkrywania nowych miejsc, poznawania ciekawych ludzi, poszukiwania idealnego światła, rejestrowania wydarzeń pełnych autentycznych
-          emocji. Fotograf ślubny w mojej definicji to osoba mająca we krwi kreatywność i umiejętność łatwego nawiązywania kontaktu z ludźmi, wnikliwy obserwator pozostający w cieniu wydarzeń i
-          rejestrujący bieg zdarzeń z największą dyskrecją. Fotografia ślubna to pasja, którą rozwijam każdego dnia obserwując pracę najlepszych fotografów ślubnych w branży, poszukując nowych miejsc
-          na niezapomniane sesje zdjęciowe, obserwując powstające i znikające trendy w fotografii ślubnej.
+      <Container sx={{ py: 3 }}>
+        <Typography variant="h1" className={matches ? "quote-title" : ""} align="center">
+          ZNAJDŹMY CHWILĘ, ŚWIATŁO, KADR
         </Typography>
 
-        <Typography variant="body1" align="justify" color="text.secondary" sx={{pb:2}}>
-          Często mówimy o fotografowaniu sercem, jednak moim zdaniem świat sztuki, wrażliwość artystyczna, niezwykłość to nie wszystko. Fotograf ślubny chętnie śledzi premiery sprzętowe w świecie
-          komputerów, aparatów, obiektywów, programów do obróbki zdjęć i sprzętu oświetleniowego. W ten sposób zdobywam informacje i doskonale mój warsztat, rozbudowywuję zaplecze sprzętowe, a to
-          wszystko ogromnie ułatwia moją pracę. Stosowanie nowości technicznych w praktyce pozwala mi utrzymać dystans od zdjęć wykonanych przez innych uczestników ślubu. Fotografią ślubną zajmuję się
-          już blisko dziesięć lat i uwielbiam miasto Kraków jako główne miejsce mojej działalności.
+        <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
+          Moja przygoda z fotografią ślubną rozpoczęła się blisko dziesięć lat temu. Mam nadzieję, że kilka poniższych akapitów pozwoli Wam zapoznać się z rzeczami, które uważam za niezwykle ważne w
+          fotografii ślubnej, które zainspirowały mnie do spędzenia ogromnej ilości czasu w moim życiu na fotografowania ślubów w mój własny, niepowtarzalny sposób. Zdaję sobie sprawę, że kilka słów
+          to często za mało, żeby napisać o ludziach, miłości, relacjach, fajnych miejscach i ciekawych rzeczach, które niesie ze sobą przygoda zwana fotografią ślubną. Fotografując przez wiele lat
+          zauważyłem, że każdy ślub jest inny czasem chaotyczny i pełen akcji, czasem zaplanowany co do sekundy i mega spokojny, ale zawsze pełny emocji i niepowtarzalny. Pamiętajcie, że z
+          przyjemnością rozpocznę z Wami przygodę fotografując Wasz dzień. Gwarantuję, że otrzymacie piękne zdjęcia, które będą przywoływać Wasze wspomnienia przez wiele lat.
         </Typography>
-        <Typography variant="body1" align="justify" color="text.secondary" sx={{pb:2}}>
-          Chcę by wykonane zdjęcia ślubne wyglądały dobrze za rok, dwa i trzy lata. Upór i konsekwencja w dążeniu do wcześniej wyznaczonego celu pozwalają mi być w miejscu, w którym jestem i na pewno
-          pozwolą pokonywać kolejne wyzwania i realizować nowe cele. W przyszłości chciałbym robić dokładnie to samo, co przez ostatnie kilka lat, tylko być w tym coraz lepszy. Wielokrotnie miałem
-          przyjemność rozmawiać z parami, które w moich zdjęciach doceniły fotografowane ludzkie emocje, łzy wzruszenia podczas ceremonii, uśmiechy, radość z szalonej zabawy.
+
+        <Typography variant="subtitle1" align="center">
+          KOLOR I ŚWIATŁO
         </Typography>
-        <Typography variant="body1" align="justify" color="text.secondary" sx={{pb:2}}>
-          Pary te opowiadały mi o pozytywnym przyjęciu mojej osoby w gronie ich najbliższych znajomych i rodziny. Komplementowały żywe kolory i umiejętnie wykorzystane światło zarówno zastane jak i
-          pochodzące z lamp błyskowych. To jak patrzę i jakie mam nastawienie ma ogromny wpływ na moją pracę. Pary wybierając fotografa najpierw patrzą na zdjęcia potem chcą poznać mnie jako człowieka
-          by sprawdzić czy będą się dobrze czuć w moim towarzystwie. Nikt nie lubi stresu, dlatego nasze sesje zdjęciowe przebiegają w przyjemnej atmosferze. Zawsze planujemy nasze plenery, a podczas
-          robienia zdjęć daję Wam pełną swobodę w wyrażaniu emocji i zachęcam do odsłonięcia części siebie.
+
+        <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
+          Sposób, w jaki oddaję światło i kolor, jest rzeczą nad którą od początku bardzo ciężko pracuję. Zawsze było dla mnie bardzo ważne, aby rozwinąć moją wizję i styl w coś, co naprawdę jest
+          moje, co oznacza, że ​​zdjęcia ślubne wykonane przez innych fotografów nie będą wyglądać tak jak te zrobione przeze mnie na Waszym ślubie.
         </Typography>
-        <Typography variant="body1" align="justify" color="text.secondary" sx={{pb:4}}>
-          Wybierając fotografa ślubnego kierujcie się sercem, ale weźcie też pod uwagę jego umiejętności, doświadczenie i zaangażowanie. Koniecznie skonfrontujcie to z Waszymi oczekiwaniami.
-          Pamiętajmy, że tak ważnego wydarzenia jak Wasz ślub nie będzie drugi raz, a zdjęcia jakie zrobi Wam wybrany fotograf ślubny pozostaną z Wami na zawsze. Serdecznie zachęcam do odwiedzenia{" "}
-          <Link href="/blog" passHref>
-            <MuiLink underline="hover">mojego bloga</MuiLink>
-          </Link>{" "}
-          . Przeglądając umieszczone tam zdjęcia ocenisz mój sposób postrzegania otaczającego nas świata. Polecam Kraków i okolice. Serdecznie zapraszam.
+
+        <Typography variant="subtitle1" align="center">
+          MAGICZNE WYDARZENIA ZAMKNIĘTE W KAPSULE CZASU
+        </Typography>
+
+        <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
+          Czy zgodzicie się ze mną, że zdjęcia są magiczne. W swojej naturze w sposób szczególny służą przyszłym pokoleniom chroniąc i zachowując Wasz ślub i wspomnienia na zawsze. Za każdym razem,
+          gdy spojrzycie do albumu ślubnego, przypomnicie sobie obecne w dniu ślubu uczucia i emocje. Fotografie z tego najważniejszego dnia w życiu pomogą Wam zachować pamięć o ślubie i przekazać ją
+          przyszłym pokoleniom. Pamiętajcie, że album ślubny to niewątpliwie taka mała kapsuła czasu, która pozwala Wam wrócić do dnia ślubu wtedy, kiedy tylko macie na to ochotę.
+        </Typography>
+
+        <Typography variant="subtitle1" align="center">
+          EMOCJE I ENERGIA
+        </Typography>
+
+        <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
+          Chcę dać Wam zdjęcia, które pokochacie na zawsze. Zdjęcia, które są znaczące, prawdziwe, pełne emocji i życia. Cieszcie się tym dniem z całego serca, dużo się uśmiechajcie, a kwestie
+          organizacyjne w dniu ślubu zostawcie w gestii zaufanych osób trzecich. Takie podejście znacznie ułatwi moją pracę i zagwarantuję Wam wspaniałe zdjęcia.
+        </Typography>
+
+        <Typography variant="subtitle1" align="center">
+          NIEZAPOMNIANE CHWILE I NIEOCZEKIWANE MOMENTY
+        </Typography>
+
+        <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
+          Wasz dzień ślubu jest jednym z najważniejszych dni w Waszynm życiu. Zapraszacie całą rodzinę, wszystkich ulubionych znajomych, a wśród nich prawdziwych przyjaciół w jednym szczególnym
+          miejscu, chcąc spędzić z nimi niesamowite chwile. Wszyscy wiemy o tym, że będą uściski, pocałunki, gorące życzenia, czasem wyciskające łzy z oczu przemówienia. Najlepsze momenty dzieją się
+          nieoczekiwanie i bardzo często są nie do opisania. Moja praca jako fotografa ślubnego, polega na wyszukiwaniu tych ulotnych chwil i uchwyceniu ich na pięknych fotografiach.
+        </Typography>
+
+        <Typography variant="subtitle1" align="center">
+          SZTUKA I KREATYWNOŚĆ
+        </Typography>
+
+        <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
+          Dobre zdjęcie musi zawierać w sobie ogromną dawkę emocji i dlatego reportażowe podejście do fotografii ślubnej jest dla mnie szczególnie ważne. W trakcie reportażu nie spędzam czasu na
+          pozowaniu ludzi, wykonywaniu setek zdjęć grupowych lub powtarzaniu momentów, które już się wydarzyły. Podczas sesji plenerowych, które prawie zawsze odbywają się w wybranym dniu po ślubie
+          staram się zdobyć Wasze zaufanie, pomóc Wam odnaleźć pewność siebie przed obiektywem aparatu i przelać Wasze uczucia na fotografie w sposób kreatywny i niebanalny.
+        </Typography>
+
+        <Typography variant="subtitle1" align="center">
+          MIŁOŚĆ I SZCZĘŚCIE
+        </Typography>
+
+        <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
+          Jestem pewny, że chcecie mieć piękny wizualny zapis Waszego ślubu. Ślub zorganizowany przez Was jest szczególny, ponieważ został przecież zorganizowany według Waszego pomysłu, a napędu
+          nadchodzącym wydarzeniom nadadzą najbliższe Wam osoby. Tego dnia jako fotograf ślubny chcę być tam dla Was. Chcę, aby miłość i szczęście między Wami zdominowało Wasze zdjęcia ślubne.
+          Uchwycenie rzeczywistości, miłości i Waszego szczęścia w tym niezwykłym dniu jest dla mnie najważniejsze.
         </Typography>
       </Container>
       <ParallaxImageFooter leadImage={pageImage} leadUrl="" height="70vh" />
-      <Container>
-        <ContactForm />
-      </Container>
     </LayoutStartPage>
   );
 };

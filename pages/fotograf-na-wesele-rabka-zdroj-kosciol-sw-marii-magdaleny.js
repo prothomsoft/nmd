@@ -182,7 +182,7 @@ const BlogPageComponent = () => {
                     slug={"fotograf-na-wesele-rabka-zdroj-kosciol-sw-marii-magdaleny"}
                     title={"FOTOGRAF NA WESELE RABKA ZDRÓJ, KOŚCIÓŁ ŚW. MARII MAGDALENY - KAMILA i ADRIAN"}
                     tags={"fotograf na wesele Rabka Zdrój, kościół św. Marii Magdaleny w Rabce, sala weselna Kabanos w Spytkowicach"}
-                    date={"8 lipca 2021"}
+                    date={"26 sierpnia 2021"}
                     menuNames={"KAMILA i ADRIAN"}
                     menuTitle={"FOTOGRAF NA WESELE RABKA ZDRÓJ, KOŚCIÓŁ ŚW. MARII MAGDALENY"}
                     leadNames={"SYLWIA i MICHAŁ"}

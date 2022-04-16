@@ -58,7 +58,7 @@ export default function MyApp(props) {
               {
                 props: { variant: "menuButtons" },
                 style: {                  
-                  fontSize: 22,
+                  fontSize: "1.2rem",
                   color: "white",
                   backgroundColor: "transparent",
                   marginLeft: 10,

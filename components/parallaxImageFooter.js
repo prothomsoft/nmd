@@ -5,7 +5,6 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Link from "next/link";
 import ArrowForward from "@mui/icons-material/ArrowForward";
-import IntroArrow from "./introArrow";
 
 const ParallaxImageFooter = (props) => {
   const boxStyle = {

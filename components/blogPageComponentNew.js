@@ -1,9 +1,7 @@
 import React from "react";
 import BlogPage from "../components/blogPage";
 import LayoutBlogPage from "../components/layoutBlogPage";
-import ContactForm from "../components/contactForm";
 import Container from "@mui/material/Container";
-import ParallaxImageFooter from "../components/parallaxImageFooter";
 
 const BlogPageComponentNew = (props) => {
 
@@ -45,10 +43,7 @@ const BlogPageComponentNew = (props) => {
           date={props.date}
           menuNames={props.menuNames}
         />
-      </Container>
-      <Container>
-        <ContactForm />
-      </Container>
+      </Container>      
     </LayoutBlogPage>
   );
 };

@@ -1,7 +1,6 @@
 import React from "react";
 import LayoutSitePage from "../components/layoutSitePage";
 import BlogList from "../components/blogList";
-import ContactForm from "../components/contactForm";
 import Container from "@mui/material/Container";
 import ParallaxImageFooter from "../components/parallaxImageFooter";
 import BlogPagination from "../components/blogPagination";
@@ -30,10 +29,7 @@ const Blog = () => {
         <BlogList posts={posts.slice(offset).slice(0, itemsPerPage)} />
         <BlogPagination page={currentPage} totalItems={posts.length} itemsPerPage={itemsPerPage}/>       
       </Container>
-      <ParallaxImageFooter leadImage={pageImage} leadUrl="" height="70vh" />
-      <Container>
-        <ContactForm />
-      </Container>
+      <ParallaxImageFooter leadImage={pageImage} leadUrl="" height="70vh" />      
     </LayoutSitePage>
   );
 };

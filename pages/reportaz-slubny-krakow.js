@@ -1,14 +1,12 @@
 import LayoutSitePage from "../components/layoutSitePage";
-import ContactForm from "../components/contactForm";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import { Typography } from "@mui/material";
-import ParallaxImageFooter from "../components/parallaxImageFooter";
 import Link from "next/link";
 import Image from "next/image";
 import MuiLink from "@mui/material/Link";
-import useMediaQuery from '@mui/material/useMediaQuery';
-import { useTheme } from '@mui/material/styles';
+import useMediaQuery from "@mui/material/useMediaQuery";
+import { useTheme } from "@mui/material/styles";
 import dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio from "../public/static/portfolio/dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio.jpg";
 import portfolio_0013 from "../public/static/portfolio/portfolio_0013.jpg";
 import portfolio_0001 from "../public/static/portfolio/portfolio_0001.jpg";
@@ -17,21 +15,23 @@ import portret_panny_mlodej from "../public/static/portfolio/portret_panny_mlode
 import portfolio_0021 from "../public/static/portfolio/portfolio_0021.jpg";
 import portfolio_2021_2 from "../public/static/portfolio/portfolio_2021_2.jpg";
 import portfolio_0015 from "../public/static/portfolio/portfolio_0015.jpg";
-import slubne_portfolio_2 from "../public/static/portfolio/slubne_portfolio_2.jpg";
+import mustang_na_wesele from "../public/static/portfolio/mustang_na_wesele.jpg";
 import martyna_slub_tesla from "../public/static/portfolio/martyna_slub_tesla.jpg";
 import patrycja_slub from "../public/static/portfolio/patrycja_slub.jpg";
 import dworzyszcze_wola_reportaz_slubny_pod_krakowem from "../public/static/portfolio/dworzyszcze_wola_reportaz_slubny_pod_krakowem.jpg";
 import portfolio_0022 from "../public/static/portfolio/portfolio_0022.jpg";
 import wesele_na_polu_golfowym_w_paczoltowicach_portfolio from "../public/static/portfolio/wesele_na_polu_golfowym_w_paczoltowicach_portfolio.jpg";
-import portfolio_0017 from "../public/static/portfolio/portfolio_0017.jpg";
-import slubne_portfolio_1 from "../public/static/portfolio/slubne_portfolio_1.jpg";
 import aleksandra_mszana_dolna from "../public/static/portfolio/aleksandra_mszana_dolna.jpg";
 import beata_marcin_mszana_dolna_portfolio from "../public/static/portfolio/beata_marcin_mszana_dolna_portfolio.jpg";
+import plener_w_dniu_slubu from "../public/static/portfolio/plener_w_dniu_slubu.jpg";
+import mustang_na_slub from "../public/static/portfolio/mustang_na_slub.jpg";
+import sesja_zdjeciowa_krakow_2_portfolio from "../public/static/portfolio/sesja_zdjeciowa_krakow_2_portfolio.jpg";
+import kopiec_krakusa_sesja_slubna from "../public/static/portfolio/kopiec_krakusa_sesja_slubna.jpg";
 
 const PageComponent = () => {
-  const pageImage = process.env.staticImagesPath + "plener_slubny_park_mogilany.jpg";
+  const pageImage = process.env.staticImagesPath + "bazylika-bozego-ciala-krakow-fotoreportaz-slubny.jpg";
   const theme = useTheme();
-  const matches = useMediaQuery(theme.breakpoints.up('md'));
+  const matches = useMediaQuery(theme.breakpoints.up("md"));
 
   return (
     <LayoutSitePage
@@ -39,61 +39,183 @@ const PageComponent = () => {
       description="Reportaż ślubny Kraków, chwila, światło i kadr. Reportaż ślubny pełny kolorów i autentycznych emocji."
       keywords="reportaż ślubny kraków, zdjęcia ślubne, ślub w plenerze"
       url="https://99foto.pl/reportaz-slubny-krakow/"
-      leadNames="ANNA i TOMASZ"
-      leadTitle="WYMARZONY PLENER ŚLUBNY W KRAKOWIE, SPRAWDZONE MIEJSCA"
-      leadUrl="/wymarzony-plener-slubny-w-krakowie-sprawdzone-miejsca"
+      leadNames="ANNA i PIOTR"
+      leadTitle="BAZYLIKA BOŻEGO CIAŁA KRAKÓW, FOTOREPORTAŻ ŚLUBNY"
+      leadUrl="/bazylika-bozego-ciala-krakow-fotoreportaz-slubny"
       leadImage={pageImage}>
-      <Container sx={{ pt:8, pb: 5 }}>
-        <Box sx={{pt:13, display: { xs: "none", lg: "block", xl: "block" }}}></Box>
-        
+      <Container sx={{ pt: 8 }}>
+        <Box sx={{ pt: 13, display: { xs: "none", lg: "block", xl: "block" } }}></Box>
+
         <Box sx={{ py: 2 }}>
-          <Typography variant="h1" className={matches ? 'quote-title' : ''} align="center">
+          <Typography variant="h1" className={matches ? "quote-title" : ""} align="center">
             REPORTAŻ ŚLUBNY KRAKÓW
           </Typography>
         </Box>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 2 }}>
-          Kocham eksperymenty, czerpanie esencji z przemijających trendów, konsekwencję w dążeniu do celu, lubię mieć plan nie pozwalający wkraść się przypadkowi. Reportaż ślubny to dla mnie pasja i
-          weekendowa odskocznia od codziennej korporacyjnej rzeczywistości. Reportaż ślubny to zależność pomiędzy czasem ekspozycji, przysłoną i czułością ISO. Reportaż ślubny to jednocześnie
-          zależnośc pomiędzy chwilą, światłem i kadrem. W obu przypadkach jest to zawsze kompromis poparty pomysłem i doskonałym warsztatem, który pozwala ten pomysł zrealizować.
+          Pierwsze pytanie, które pojawia się w głowie każdego to określenie różnicy pomiędzy zdjęciami ze ślubu i wesela, które wykonują na przykład goście weselni, a reportażem ślubnym przygotowanym
+          przez profesjonalnego fotografa. Na pewno nie raz widzieliście zdjęcia, które są w większości ujęciami pozowanymi i brak im reporterskiego charakteru. Oglądając reportaż ślubny, stajemy się
+          obserwatorem wydarzeń, możemy przyjrzeć się detalom i jesteśmy w stanie doświadczyć prawdziwych emocji. Praca fotografa ślubnego polega więc na obserwacji i selektywnym gromadzeniu
+          niepowtarzalnych, ważnych momentów, które finalnie utworzą historię tego jednego z najważniejszych dni w życiu Pary Młodej.
         </Typography>
 
         <Image alt="Dekoracja sali weselnej w stylu rustykalnym" src={dekoracja_sali_weselnej_w_stylu_rustykalnym_osp_zawada_portfolio} />
+
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
-          Reportaż ślubny to moim zdaniem przede wszystkim reportaż i temat człowieka w kadrze. Bez niego nie ma co mówić o uczuciach, radości, łzach wzruszenia, słowach, które układają się tworząc
-          chwile, które chcemy zatrzymać na wieki. Światło to według mojej definicji kontekst. Nadaje ono miejscu charakter, tworzy tło dla wydarzeń i pozwala eksponować emocje. Kadr to wiedza, setki
-          przeglądniętych zdjęć i budowane latami poczucie estetyki. Reportaż ślubny wykorzystuje te narzędzia tworząc opowieść o ludziach, miejscach, wydarzeniach i emocjach.
+          Niezwykle ważne jest zachowanie dyskrecji i fotografowanie zdarzeń bez ich jakiegokolwiek reżyserowania. Pomimo, że takie podejście do tworzenia reportażu ślubnego jest z całą pewnością
+          bardziej wymagające to pozwala ono na utworzenie materiału fotograficznego, który pozwoli przeżywać te wyjątkowe chwile na nowo, za każdym razem gdy zaglądniemy do naszego ślubnego albumu.
         </Typography>
 
         <Image alt="Miejsca, wydarzenia, emocje w fotografii ślubnej" src={portfolio_0013} />
+
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
-          Każde zdjęcie ślubne zaczyna się od pomysłu. To zwykle konfrontacja pomiędzy powstałym w naszej głowie ideałem i możliwościami jakie stwarza nam zastana sytuacja. Sprzęt fotograficzny jest
-          na pewno ważny, ale nie przeceniajmy jego wartości. W dzisiejszych czasach, ludzie bardzo często posługują się doskonałymi aparatami i obiektywami.
+          Pamiętajmy, że nie każda blisko nam osoba jest gościem naszego ślubu, dlatego album ślubny powinien być niebanalny i pokazać piękno dnia, oraz przekazać emocje, dobrą zabawę, która temu dniu
+          towarzyszyła. Reportaż ślubny zamknięty w albumie to wyjątkowa pamiątka z Waszego ślubu. Reportaż ślubny to sztuka wymagajaca doświadczenia i umiejętności wybierania rzeczy najważniejszych,
+          chwytania emocji i przedstawiania ich w najlepszy możliwy sposób.
         </Typography>
 
         <Image alt="Ogromne możliwości w fotografii ślubnej" src={portfolio_0001} />
+
+        <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
+          FOTOGRAF JAKO REPORTER ŚLUBNY
+        </Typography>
+
+        <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
+          Doskonaląc warsztat fotografa ślubnego, spędzając długie godziny na selekcji zdjęć, jako reportażyści resujemy w naszych głowach obraz elementów, na które należy położyć nacisk tworząc
+          historię ślubną. Skupiamy się na fotografowaniu spontanicznych zdarzeń, przedstawiamy otoczenie w najlepszy możliwy sposób, eksponujemy detale i skrupulatnie rejestrujemy emocje. Egzekowanie
+          tych elementów jest możliwe, dzięki umiejętności przewidywania nadchodzących zdarzeń, budowania kadru oraz doskonałej znajmości najwyższej jakości sprzętu fotograficznego.
+        </Typography>
+
+        <Image alt="Własny styl w fotografii ślubnej" src={sala_weselna_nedan_pcim_reportaz_slubny_portfolio} />
+
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Pamiętajmy jednak, że osoba zajmująca się fotografią ślubną to osoba, która poświęciła setki godzin na odkrywanie nowych technik, doskonalenie warsztatu, podpatrywanie mistrzów, próby i
           błędy, analizowanie sytuacji i wyciąganie wynikających z nich wniosków. Kilka lat bacznego obserwowania rynku fotografii ślubnej, pasja i upór w dążeniu do celu z pewnością pozwoliło mi
           stworzyć zdjęcia i wypracować styl warty Waszej uwagi. W trakcie reportażu lubię obserwować wydarzenia, sporadycznie wyrywam się z drobnymi sugestiami.
         </Typography>
 
-        <Image alt="Własny styl w fotografii ślubnej" src={sala_weselna_nedan_pcim_reportaz_slubny_portfolio} />
-        <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
-          Mój reportaż ślubny wciąga osobę oglądającą w ciąg wydarzeń, tak by mogła ona poczuć to, co czują osoby będące na zdjęciach. Uważam, że jestem na Waszym ślubie by dokumentować ten ważny
-          dzień, pokazywać, że jestem tam dla Was i będę opowiadał o Was. Staram się uchwycić Was takimi, jakimi jesteście. Moje rozmowy z Wami w dniu ślubu czy sesji zdjęciowych są tylko i wyłącznie
-          towarzyskie. Jestem fanem autentycznych emocji. Staram się nie prosić o uśmiech i cierpliwie czekam, aż przyjdzie on sam. W mojej pracy fotografa ślubnego kieruję się planem, doświadczeniem,
-          ograniczając przypadek do minimum.
+        <Image alt="Autentyczne emocje w fotografii ślubnej" src={portret_panny_mlodej} />
+
+        <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
+          MOJE PODEJŚCIE DO REPORTAŻU ŚLUBNEGO
         </Typography>
 
-        <Image alt="Autentyczne emocje w fotografii ślubnej" src={portret_panny_mlodej} />
-        <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
-          Ślub to najpiękniejszy i najszczęśliwszy dzień w Waszym życiu, a moim zadaniem jest zatrzymać w kadrze coś niesamowitego czyli Waszą miłość. Dlatego właśnie reportaż ślubny stał się moją
-          pasją i drogą przez życie. Autentyczne emocje to znajdziecie oglądając moje reportaże ślubne. Staram się, abyście po latach, wertując zdjęcia w albumie ślubnym mogli odnaleźć Wasze emocje i
-          wrócić do niesamowitych chwil dnia Waszego ślubu.
+        <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
+          Kocham eksperymenty, czerpanie esencji z przemijających trendów, konsekwencję w dążeniu do celu, lubię mieć plan nie pozwalający wkraść się przypadkowi. Reportaż ślubny to dla mnie pasja i
+          weekendowa odskocznia od codziennej korporacyjnej rzeczywistości. Reportaż ślubny to zależność pomiędzy czasem ekspozycji, przysłoną i czułością ISO. Reportaż ślubny to jednocześnie
+          zależnośc pomiędzy chwilą, światłem i kadrem. W obu przypadkach jest to zawsze kompromis poparty pomysłem i doskonałym warsztatem, który pozwala ten pomysł zrealizować. Reportaż ślubny to
+          moim zdaniem przede wszystkim reportaż i temat człowieka w kadrze. Bez niego nie ma co mówić o uczuciach, radości, łzach wzruszenia, słowach, które układają się tworząc chwile, które chcemy
+          zatrzymać na wieki. Światło to według mojej definicji kontekst. Nadaje ono miejscu charakter, tworzy tło dla wydarzeń i pozwala eksponować emocje.
         </Typography>
 
         <Image alt="Zdjęcia pełne kolorów i autentycznych emocji" src={portfolio_0021} />
+
+        <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
+          Kadr to wiedza, setki przeglądniętych zdjęć i budowane latami poczucie estetyki. Reportaż ślubny wykorzystuje te narzędzia tworząc opowieść o ludziach, miejscach, wydarzeniach i emocjach.
+          Każde zdjęcie ślubne zaczyna się od pomysłu. To zwykle konfrontacja pomiędzy powstałym w naszej głowie ideałem i możliwościami jakie stwarza nam zastana sytuacja. Sprzęt fotograficzny jest
+          na pewno ważny, ale nie przeceniajmy jego wartości. W dzisiejszych czasach, ludzie bardzo często posługują się doskonałymi aparatami i obiektywami. Mój reportaż ślubny wciąga osobę
+          oglądającą w ciąg wydarzeń, tak by mogła ona poczuć to, co czują osoby będące na zdjęciach. Uważam, że jestem na Waszym ślubie by dokumentować ten ważny dzień, pokazywać, że jestem tam dla
+          Was i będę opowiadał o Was. Staram się uchwycić Was takimi, jakimi jesteście. Moje rozmowy z Wami w dniu ślubu czy sesji zdjęciowych są tylko i wyłącznie towarzyskie.
+        </Typography>
+
+        <Image alt="fotografia, pasja tworzenia reportaży ślubnych" src={portfolio_0015} />
+
+        <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
+          Jestem fanem autentycznych emocji. Staram się nie prosić o uśmiech i cierpliwie czekam, aż przyjdzie on sam. W mojej pracy fotografa ślubnego kieruję się planem, doświadczeniem, ograniczając
+          przypadek do minimum. Ślub to najpiękniejszy i najszczęśliwszy dzień w Waszym życiu, a moim zadaniem jest zatrzymać w kadrze coś niesamowitego czyli Waszą miłość. Dlatego właśnie reportaż
+          ślubny stał się moją pasją i drogą przez życie. Autentyczne emocje to znajdziecie oglądając moje reportaże ślubne. Staram się, abyście po latach, wertując zdjęcia w albumie ślubnym mogli
+          odnaleźć Wasze emocje i wrócić do niesamowitych chwil dnia Waszego ślubu.
+        </Typography>
+
+        <Image alt="pozowane zdjęcia grupowe" src={mustang_na_wesele} />
+
+        <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
+          POZOWANE ZDJĘCIA GRUPOWE
+        </Typography>
+
+        <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
+          Reportaż ślubny określony definicją jest przerwany w dwóch, a czasem trzech momentach w których wykonujemy pamiątkowe pozowane zdjęcia grupowe. Pierwszy moment to po błogosławieństwie,
+          wspólne zdjęcie z rodzicami, drugi to zdjęci grupowe zaraz po wyjściu z Kościoła i trzeci to zdjęcia grupowe z gośćmi na sali weselnej. Warto przewidzieć czas na te pamiątkowe ujęcia,
+          szczególnie jeżeli ceremonia rozpoczyna się trochę później a na sali weselnej dla Waszych gości przygotowaliście moc atrakcji.
+        </Typography>
+
+        <Image alt="doświadczony fotograf na wesele z Krakowa" src={martyna_slub_tesla} />
+
+        <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
+          ZAUFANIE DO FOTOGRAFA
+        </Typography>
+
+        <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
+          Naszym wspólnym celem jest zgromadzenie maksymalnie dobrego materiału dokumentującego Wasz ślub. Bardzo ważne jest by zaufać fotografowi, zdać się na jego doświadczenie, pozwolić mu na
+          swobodną pracę, a najlepiej zapomnieć o jego obecności. Kadry, na których Wasz wzrok nie będzie skierowany w stronę obiektywu będą zdecydowanie lepsze. Musicie zaufać fotografowi i uwierzyć,
+          że trzyma on rękę na pulsie i tworzy dla Was niezapomnianą pamiątkę. Takie podejście to gwarancja autentycznej opowieści ślubnej.
+        </Typography>
+
+        <Image alt="Zdjęcia pełne kolorów i autentycznych emocji" src={patrycja_slub} />
+
+        <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
+          PRZYGOTOWUJEMY HARMONOGRAM DNIA
+        </Typography>
+
+        <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
+          No i nareszcie zbliża się ten wyczekiwany przez kilka tygodni, miesięcy, a może i lat Wasz wymarzony dzień, dzień ślubu. Ale tak na prawdę z tyłu głowy chodzą myśli jak to będzie tak
+          naprawdę wyglądało. Na którą godzinę umówić fryzjerkę, na którą makijażystkę, o której godzinie zrobić błogosławieństwo. Tego typu myśli przechodzą przez głowę wszystkich Par Młodych, które
+          biorą ślub. Jeżeli do Waszego ślubu zostało jeszcze kilka dni warto usiąść razem i poświęcając kilka minut określić sobie rozkład dnia na ślubny poranek. Dzięki temu na pewno zyskacie
+          większą pewność siebie, nie zgubicie się, a trzymając się tego harmonogramu będziecie mieli spokojnieszy dzień.
+        </Typography>
+
+        <Image alt="Harmonogram dnia ślubu" src={dworzyszcze_wola_reportaz_slubny_pod_krakowem} />
+
+        <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
+          Planowanie dobrze rozpocząć od ślub rozpoczyna się o godzinie szesnastej w kościele. Warto wziąść kartkę i długopis i planowanie rozpocząć od wpisania godziny o której rozpoczyna się ślub w
+          Kościele Od tego punktu zaczynamu planowanie całego dnia. Na początek weźmy pod uwagę, że przed Kościołem dobrze być dwadzieścia minut wcześniej z tego względu, że bardzo często dokumenty
+          podpisuje się tuż przed rozpoczęciem Mszy Świętej. Piętnasta czterdzieści, jesteśmy na miejscu, idziemy do księdza, dokumenty podpisują świadkowie, podpisujemy my, wracamy i czekamy na
+          rozpoczęcie ceremonii przed wejściem do Kościoła.
+        </Typography>
+
+        <Image alt="podpisanie dokumentów przez świadków wesela" src={portfolio_0022} />
+        <Image alt="sesja ślubna Ogród Botaniczny Kraków" src={kopiec_krakusa_sesja_slubna} />
+
+        <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
+          Przed wyjściem do kościoła czekają Was ślubne przygotowania. Dobrze gdy określicie ile czasu jedzie się z domu Panny Młodej do kościoła. Przed wyjazdem planujemy błogosławieństwo, które
+          zwykle trwa około piętnastu minut. Wszystko zapisujemy na naszej kartce. Do harmonogramu warto też wpisać godzinę przyjazdu Pana Młodego. Niech to będzie godzina piętnasta, czyli tak
+          naprawdę dziesięć minut przed rozpoczęciem się błogosławieństwa. Pamiętajmy, że zanim dojdzie do przyjazdu Pana Młodego warto, aby Panna Młoda była już ubrana, przygotowana i oczekiwała na
+          Pana Młodego. Jeżeli chodzi o ubieranie to tak naprawdę wszystko zależy od tego jaki rodzaj sukni macie. Na ubieranie sukni najlepiej przyjąć około trzydzestu minut. Wydaje mi się, że bez
+          względu na to jaką suknie ma Panna Młoda oraz ilość biżuterii do założenia czas ten jest optymalny. Dobrze też przeznaczyć dodatkowe dziesięc minut na portret Panny Młodej.
+        </Typography>
+
+        <Image alt="przyjazd Pana Młodego do domu Panny Młodej" src={mustang_na_slub} />
+
+        <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
+          Bardzo ważnymi, a wręcz kluczowymi elementami przygotowań każdej Panny młodej jest przepiękna fryzura i wspaniały makijaż. Jeżeli jest tak, że makijażystka przyjeżdża do Was do domu,
+          zadbajcie o to, by Wasz makijaż był ostatni w kolejce, czyli tuż przed ubraniem sukni ślubnej. Czas profesjonalnego makijażu to zwykle jedna godzina, czasem może zająć trochę więcej czasu.
+          Zarezerwujcie również czas dla fryzjerki.
+        </Typography>
+
+        <Image alt="Błogosławieństwo rodziców i zdjęcia grupowe" src={wesele_na_polu_golfowym_w_paczoltowicach_portfolio} />
+
+        <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
+          Przygotowania Pana Młodego i często pierwsze błogosławieństwo w jego rodzinnym domu, również powinno stać się punktem harmonogramu. Przy planowaniu tego elementu dobrze jest zarezerwować
+          około dwudziestu minut, umieszczając przygotowania Pana Młodego po przygotowaniach Panny Młodej przed wspólnym błogosławieństwem lub jeżeli odległość pomiedzy domami młodych jest znaczna to
+          przed makijażem ślubnym.
+        </Typography>
+
+        <Image alt="Dobry plan na dzień Waszego ślubu" src={plener_w_dniu_slubu} />
+
+        <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
+          Tak właśnie wygląda dzień ślubu widziany oczami przyszłej Pary Młodej, tak może również wyglądać dzień Waszego ślubu.
+        </Typography>
+
+        <Image alt="ślub i zero stresu" src={aleksandra_mszana_dolna} />
+        <Image alt="sesja ślubna Ogród Botaniczny Kraków" src={sesja_zdjeciowa_krakow_2_portfolio} />
+
+        <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
+          Pamiętajcie, że jest bardzo ważne, żeby taki harmonogram w dniu ślubu gdzieś w domu leżał, żeby wszyscy mieli do niego dostęp i aby się do tego harmonogramu stosować. Pomoże to Wam trzymać
+          się ram czasowych, unikniecie dzięki temu nadmiernej ilości stresu i po prostu będziecie bardziej spokojni.
+        </Typography>
+
+        <Image alt="styl w fotografii ślubnej" src={beata_marcin_mszana_dolna_portfolio} />
+
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Serdecznie zapraszam do odwiedzenia{" "}
           <Link href="/blog" passHref>
@@ -104,132 +226,6 @@ const PageComponent = () => {
         </Typography>
 
         <Image alt="reportaż ślubny, Wasza miłość zatrzymana na zdjęciach" src={portfolio_2021_2} />
-
-        <Box sx={{ py: 2 }}>
-          <Typography variant="h1" className={matches ? 'quote-title' : ''} align="center">
-            REFERENCJE - FACEBOOK
-          </Typography>
-        </Box>
-        <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 2 }}>
-          Nie jestem pewna, czy Tomek zasługuje na 5 gwiazdek... bo w naszej opinii należy Mu się znacznie więcej! Niekrępująca atmosfera, profesjonalizm i czujne oko obserwatora były cechami, których
-          szukałam u fotografa ślubnego i które z pewnością znalazłam u Tomka. Piękne zdjęcia jednej z koleżanek nakłoniły nas do zmiany fotografa ślubnego na miesiąc przed weselem, ale dziś patrząc
-          na nasze fotografie wiem, że ta szalona decyzja była strzałem w dziesiątkę! Każdej parze poszukującej fotografa ślubnego z pełnym przekonaniem polecamy Tomasza - choć reportaże na Jego blogu
-          są chyba wystarczającą rekomendacją :) Raz jeszcze dziękujemy Ci Tomku za piękne i szybko oddane zdjęcia, współpracę z Tobą będziemy zawsze miło wspominać!{" "}
-          <Link href="/sala-weselna-nedan-pcim-reportaz-slubny" passHref>
-            <MuiLink underline="hover">Anna i Krzysztof</MuiLink>
-          </Link>
-          .
-        </Typography>
-
-        <Image alt="sala weselna Nedan Pcim" src={portfolio_0015} />
-        <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
-          Tomku Twoje zdjęcia pokazują Twoją pasje i zaangażowanie, pełen profesjonalizm i pracę jaką wkładasz w to aby były nietuzinkowe. Świetna gra świateł, idealnie dobrane kolory i bardzo
-          trafione czarnobiałe fotografie. Pokazałeś na zdjęciach nas takich jacy jesteśmy, a to chyba najpiękniejsze.{" "}
-          <Link href="/palac-goetz-wesele-plener-slubny" passHref>
-            <MuiLink underline="hover">Anna i Paweł</MuiLink>
-          </Link>
-        </Typography>
-
-        <Image alt="piękne zdjęcia, pełne emocji reportaże ślubne" src={slubne_portfolio_2} />
-        <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
-          Tomek zajmuje się fotografią ślubną z pasją, robi świetne zdjęcia, a do tego zna sie na tej sztuce! Poza tym jest wspaniałym, uśmiechniętym człowiekiem i praca z nim to czysta przyjemność
-          :-) słyszałam, że najlepszy aparaciarz to taki, na którego nie zwraca się uwagi i Tomek taki jest. Cichaczem pstryka fotki i przez to są naturalne, a na plenerze daje mnóstwo super pomysłów
-          :-) dziękujemy Tomku za zdjęcia ślubne i wczorajszy plener (to był dla nas z Pawłem wspaniały prezent na rocznice) !!!{" "}
-          <Link href="/kasia-i-pawel-zimowa-sesja-slubna-w-gorach" passHref>
-            <MuiLink underline="hover">Kasia i Paweł</MuiLink>
-          </Link>
-          .
-        </Typography>
-
-        <Image alt="samochód ślubny tesla" src={martyna_slub_tesla} />
-        <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
-          Serdecznie polecamy Tomka! Świetny, bardzo profesjonalny fotograf, a jednoczesnie przesympatyczny i zawsze uśmiechnięty człowiek. Zdjęcia gotowe w ekspresowym tempie, a każde z nich
-          wyjątkowe. Pozostaną dla nas przepiękną pamiątką na zawsze! Tomku, to była prawdziwa przyjemność z Tobą współpracować! Bardzo dziękujemy za wszystko! Maria i Amaury
-        </Typography>
-
-        <Image alt="ślub w hotelu kasprowy zakopane" src={patrycja_slub} />
-        <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
-          W każdym calu zajebisty fotograf, a przede wszystkim człowiek!!! Polecam z czystym sumieniem. Jeżeli ktoś oczekuje pełnego zaangażowania, precyzji, kompetencji, sprytnego oka oraz wielu
-          wielu innych drobnych jak i większych zdolności od fotografa - to właśnie znalazł odpowiednią osobę! Jeżeli chcesz aby fotograf plątał Ci się pod nogami albo szturchał Cię bez słowa
-          przepraszam, to tutaj takiej osoby nie znajdziesz. Tomek, to ciepły człowiek o wielkim sercu do swojej pasji. Zrobi wszystko, żeby zachować Twoje najpiękniejsze chwile w życiu!{" "}
-          <Link href="/paulina-i-bartek-sesja-poslubna-kasprowy-wierch-i-nosal-zakopane" passHref>
-            <MuiLink underline="hover">Paulina i Bartek</MuiLink>
-          </Link>
-          .
-        </Typography>
-
-        <Image alt="wesele w stylu boho i rustykalnym" src={dworzyszcze_wola_reportaz_slubny_pod_krakowem} />
-        <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
-          Tak jak już wiele osób pisało - Tomek to profesjonalista w każdym calu! W niesamowity sposób uwiecznia na zdjęciach najważniejsze chwile – pełne wzruszeń, pozytywnych emocji i radości.
-          Wtapia się w gości, dzięki czemu zdjęcia są mega naturalne. Stwarza genialną atmosferę, jest przesympatyczny i ciągle uśmiechnięty – praca z Nim to sama przyjemność! A zdjęcia dostarcza
-          błyskawicznie! Tomku, raz jeszcze dziękujemy za przepiękne zdjęcia, dzięki którym wspomnienia powracają! Wszystkim gorąco polecamy!{" "}
-          <Link href="/sesja-zdjeciowa-kopiec-kraka-przegorzaly-kryspinow" passHref>
-            <MuiLink underline="hover">Natalia i Tomasz</MuiLink>
-          </Link>
-          .
-        </Typography>
-
-        <Image alt="sesja zdjęciowa kopiec kraka" src={portfolio_0022} />
-        <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
-          Piękne zdjęcia i pełen profesjonalizm. Dziękujemy jeszcze raz za wspaniałą współprace. Szczerze polecam.{" "}
-          <Link href="/hotel-lenart-wieliczka-turkusowy-cadillac-de-ville" passHref>
-            <MuiLink underline="hover">Monika i Mariusz</MuiLink>
-          </Link>
-          .
-        </Typography>
-
-        <Image alt="wesele na polu golfowym w Paczółtowicach" src={wesele_na_polu_golfowym_w_paczoltowicach_portfolio} />
-        <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
-          Serdecznie polecamy Tomka! To świetny, niezwykle profesjonalny fotograf, który jest zaangażowany w swoją pracę, a przy tym jest przesympatyczny i zawsze uśmiechnięty. Zdjęcia otrzymaliśmy w
-          ekspresowym tempie, na każdym z nich Tomek uchwycił piękne chwile z naszego dnia. Zdjęcia są przepiękną pamiątką! Tomku, to była przyjemność z Tobą współpracować! Jeszcze raz dziękujemy za
-          przepiękne zdjęcia!{" "}
-          <Link href="/bazylika-bozego-ciala-krakow-fotoreportaz-slubny" passHref>
-            <MuiLink underline="hover">Anna i Piotr</MuiLink>
-          </Link>
-          .
-        </Typography>
-
-        <Image alt="Ślub w Bazylice Bożego Ciała w Krakowie" src={portfolio_0017} />
-        <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
-          Serdecznie dziękujemy za uwiecznienie wspaniałych chwil z naszego życia. Polecamy współpracę z Tomkiem wszystkim szukającym najwyższej jakości usług i pełnego profesjonalizmu.{" "}
-          <Link href="/dom-weselny-biala-perla-radziemice-reportaz-slubny" passHref>
-            <MuiLink underline="hover">Żaneta i Sebastian</MuiLink>
-          </Link>
-          .
-        </Typography>
-
-        <Image alt="dobry fotograf ślubny kraków" src={slubne_portfolio_1} />
-        <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
-          Tomku, dziękujemy ogromnie za przepiękną pamiątkę jaką mamy dzięki Tobie. Twoje zaangażowanie i ogrom pomysłów widać w każdym ujęciu. Nie mogliśmy wymarzyć sobie lepszego fotografa. Polecamy
-          wszystkim !{" "}
-          <Link href="/fotograf-slubny-krzeszowice-cztery-pory-roku-alwernia" passHref>
-            <MuiLink underline="hover">Aleksandra i Grzegorz</MuiLink>
-          </Link>
-          .
-        </Typography>
-
-        <Image alt="sala weselna Alexandra Mszana Dolna" src={aleksandra_mszana_dolna} />
-        <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
-          Zaangażowany, baczny obserwator wydarzeń, profesjonalista z pasją i pomysłowością. Czego efektem są piękne zdjęcia! Dziękujemy i polecamy!{" "}
-          <Link href="/palac-goetza-brzesko-sluba-sesja-zdjeciowa" passHref>
-            <MuiLink underline="hover">Magdalena i Łukasz</MuiLink>
-          </Link>
-          .
-        </Typography>
-
-        <Image alt="pełne emocji reportaże ślubne, niezapomniane sesje plenerowe" src={beata_marcin_mszana_dolna_portfolio} />
-        <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
-          Jednym słowem - człowek zajmujący się fotogafią ślubną z pasją, co widać po efektach. Już nie możemy doczekać się zdjęć z sesji. W przyszłości jeśli będę miała szukać fotografa, na pewno
-          zadzwonię do Tomka. Dziękujemy za przepiękne zdjęcia, zaangazowanie, uśmiech i energię, która udzieliła sie również nam. Do zobaczenia.{" "}
-          <Link href="/dwor-szlachecki-sieciechowice-reportaz-slubny-miechow" passHref>
-            <MuiLink underline="hover">Aleksandra i Paweł</MuiLink>
-          </Link>
-          .
-        </Typography>
-      </Container>
-      <ParallaxImageFooter leadImage={pageImage} leadUrl="" height="70vh" />
-      <Container>
-        <ContactForm />
       </Container>
     </LayoutSitePage>
   );

@@ -1,5 +1,4 @@
 import LayoutSitePage from "../components/layoutSitePage";
-import ContactForm from "../components/contactForm";
 import Container from "@mui/material/Container";
 import { Typography } from "@mui/material";
 import MuiLink from "@mui/material/Link";
@@ -129,9 +128,6 @@ const PageComponent = () => {
         </Typography>
       </Container>
       <ParallaxImageFooter leadImage={pageImage} leadUrl="" height="70vh" />
-      <Container>
-        <ContactForm />
-      </Container>
     </LayoutSitePage>
   );
 };
