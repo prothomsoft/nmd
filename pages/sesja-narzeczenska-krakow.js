@@ -11,9 +11,10 @@ import fotograf_slubny_krakow_7 from "../public/static/portfolio/fotograf_slubny
 import fotograf_slubny_krakow_9 from "../public/static/portfolio/fotograf_slubny_krakow_9.jpg";
 import fotograf_slubny_krakow_10 from "../public/static/portfolio/fotograf_slubny_krakow_10.jpg";
 import fotograf_slubny_krakow_13 from "../public/static/portfolio/fotograf_slubny_krakow_13.jpg";
-import fotograf_slubny_krakow_17 from "../public/static/portfolio/fotograf_slubny_krakow_17.jpg";
-import fotograf_slubny_krakow_18 from "../public/static/portfolio/fotograf_slubny_krakow_18.jpg";
 import fotograf_slubny_krakow_19 from "../public/static/portfolio/fotograf_slubny_krakow_19.jpg";
+import sesja_narzeczenska_kopiec_kraka from "../public/static/portfolio/sesja_narzeczenska_kopiec_kraka.jpg";
+import sesja_narzeczenska_klasztor_w_tyncu from "../public/static/portfolio/sesja_narzeczenska_klasztor_w_tyncu.jpg";
+import sesja_narzeczenska_sebastian from "../public/static/portfolio/sesja_narzeczenska_sebastian.jpg";
 
 const PageComponent = () => {
   const pageImage = process.env.staticImagesPath + "brzoskwinia_ogrod_sesja_narzeczenska_start.jpg";
@@ -76,13 +77,15 @@ const PageComponent = () => {
         </Typography>
 
         <Image alt="Własny styl w fotografii ślubnej" src={fotograf_slubny_krakow_4} />
+        <Image alt="Własny styl w fotografii ślubnej" src={sesja_narzeczenska_kopiec_kraka} />
+        
 
         <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
           UMÓW SIĘ NA MAKIJAŻ
         </Typography>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-          Sesja narzeczeńska to doskonały czas by wykonać swój próbny makijaż ślubny. Umówcie się więc ze swoją makijażystką, powiedzcie, że wybiracie się na taką sesję, i poproście ją by stworzyła
+          Sesja narzeczeńska to doskonały czas by wykonać swój próbny makijaż ślubny. Umówcie się więc ze swoją makijażystką, powiedzcie, że wybieracie się na taką sesję, i poproście ją by stworzyła
           cudowny makijaż fotograficzny. Jak wiadomo makijaż fotograficzny różni się trochę od tego zwykłego. Na pewno pomoże wyeksponować to co chcemy pokazać i ukryje to czego pokazywać nie chcemy.
           Zachęcam i zdecydowanie warto się na taki makijaż przedślubny zdecydować.
         </Typography>
@@ -97,7 +100,7 @@ const PageComponent = () => {
           Sesja narzeczeńska to zazwyczaj mini spacer. Więc moim parom doradzam, by wzięli ze sobą wygodne buty. Bardzo lubię, kiedy widzę żywe, świeże kwiaty, dużo biżuterii, która pobłyskuje w
           świetle, najważniejszy jest jednak dobry humor. Jeśli zamierzasz zabrać ze sobą zwierzęta lub dzieci to bardzo dobry pomysł i pamiątka. Najlepiej naszych sesyjnych gości sfotografować na
           początku sesji narzeczeńskiej, natomiast później dobrze gdy zaufany przyjaciel lub członek rodziny zabierze je do domu. Jeśli masz buty na zmianę, telefony, kluczyki do samochodu, postaraj
-          się zmieścić wszystko w jednej torbie, żeby ułatwić transport. Zaufaj mi, będziesz zadowolony, że nie trzeba będzie nosić ze sobą więcej rzeczy niż naprawdę potrzeba!
+          się zmieścić wszystko w jednej torbie, żeby ułatwić transport. Zaufaj mi, będziesz zadowolony, że nie trzeba będzie nosić ze sobą więcej rzeczy niż naprawdę potrzeba.
         </Typography>
 
         <Image alt="Zdjęcia pełne kolorów i autentycznych emocji" src={fotograf_slubny_krakow_13} />
@@ -108,7 +111,7 @@ const PageComponent = () => {
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
           Światło na sesji odgrywa kluczową rolę w tym, by zdjęcia były klimatyczne. Dlatego na swoich sesjach zawsze mówię o złotej godzine i na taką godziną zawsze się umawiamy. Zazwyczaj sesje
-          narzeczeńską robię albo o zachodzie albo o wschodzie słońca. Światło wtedy przybiera złotą barwę i naprawdę zdjęcia są mega klimatyczne. Czas sesji zależy też od pory roku, więc w innych
+          narzeczeńską robię albo o zachodzie, albo o wschodzie słońca. Światło wtedy przybiera złotą barwę i zdjęcia są naprawdę mega klimatyczne. Czas sesji zależy też od pory roku, więc w innych
           godzinach spotkamy się na wakacjach, a trochę wcześniej późną jesienią.
         </Typography>
 
@@ -120,19 +123,19 @@ const PageComponent = () => {
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
           Nie warto się stresować swoją sesją narzeczeńską. Jest to zazwyczaj długi spacer pełen uścisków, całusów, uśmiechów i przytulania. To jest czas dla Was. Poświęćcie go sobie. Wypełnijcie go
-          relaksem i czujcie się swobodnie. Podczas spaceru poproszę Was, żebyście ze sobą rozmawiali i nie patrzyła na mnie. Chcę podejrzeć i sfotografować sposób, w jaki się wzajemnie rozśmieszacie,
+          relaksem i czujcie się swobodnie. Podczas spaceru poproszę Was, żebyście ze sobą rozmawiali i nie patrzyli na mnie. Chcę podejrzeć i sfotografować sposób, w jaki się wzajemnie rozśmieszacie,
           wasze reakcje na to, co mówi druga osoba, uśmiechy i gesty. Obiecuję zrobić wszystko, co w mojej mocy, abyście czuli się swobodnie i komfortowo podczas sesji narzeczeńskiej. Pamiętajcie, że
           robimy zdjęcia dokumentując Waszą miłość. Jeśli skoncentrujecie się na tym i skupicie się na sobie i przyszłych planach ślubnych, wszystko będzie dobrze.
         </Typography>
-
-        <Image alt="sala weselna Nedan Pcim" src={fotograf_slubny_krakow_17} />
+                
+        <Image alt="reportaż ślubny, Wasza miłość zatrzymana na zdjęciach" src={sesja_narzeczenska_sebastian} />
 
         <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
           POGODA W DNIU SESJI NARZECZEŃSKIEJ
         </Typography>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-          Na sesję narzeczeńską umawiamy się zwykle z kilkudniowym wyprzedzeniem. Wiadomo, że pogody do końca przewidzień się nie da. Dlatego też dzień przed sesją sprawdzamy pogodę w internecie
+          Na sesję narzeczeńską umawiamy się zwykle z kilkudniowym wyprzedzeniem. Wiadomo, że pogody do końca przewidzieć się nie da. Dlatego też dzień przed sesją sprawdzamy pogodę w internecie
           podejmując decyzję, czy sesję będzie można zrealizować. Jeżeli na horyzoncie pojawi się deszcz lub będzie zimno to umawiamy się na inny dzień i sprawdzanie pogody zaczynamy od początku.
         </Typography>
 
@@ -143,7 +146,7 @@ const PageComponent = () => {
           miłość jak również Was samych jak najlepiej oraz była wspaniałą pamiątką na całe przyszłe życie. Zróbmy to tak, by Wszyscy byli naprawdę zadowoleni. Pozdrawiam i zapraszam.
         </Typography>
 
-        <Image alt="reportaż ślubny, Wasza miłość zatrzymana na zdjęciach" src={fotograf_slubny_krakow_18} />
+        <Image alt="reportaż ślubny, Wasza miłość zatrzymana na zdjęciach" src={sesja_narzeczenska_klasztor_w_tyncu} />
 
       </Container>
     </LayoutSitePage>

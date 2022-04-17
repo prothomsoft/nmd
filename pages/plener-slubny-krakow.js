@@ -21,7 +21,7 @@ import plener_slubny_slowacja from "../public/static/portfolio/plener_slubny_slo
 import portfolio_0003 from "../public/static/portfolio/portfolio_0003.jpg";
 import sesja_zdjeciowa_szczyrbskie from "../public/static/portfolio/sesja_zdjeciowa_szczyrbskie.jpg";
 import portfolio_2021_1 from "../public/static/portfolio/portfolio_2021_1.jpg";
-import slubne_portfolio_3 from "../public/static/portfolio/slubne_portfolio_3.jpg";
+import fotograf_slubny_krakow_17 from "../public/static/portfolio/fotograf_slubny_krakow_17.jpg";
 
 
 const PageComponent = () => {
@@ -87,9 +87,15 @@ const PageComponent = () => {
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2, pb: 3 }}>
           Kilka zdjęć plenerowych w dniu ślubu? Pozostawianie gości weselnych na sali nie leży w dobrym tonie, jednak gdy w trakcie naszego ślubu, za oknem zauważymy piękny zachód słońca, a sala
-          weselna dysponuje małym ogrodem lub ciekawym otoczeniem to warto poświęcić kilka minut na zdjęcia. Goście na pewno będą wyrozumiali i zrozumieją, a zdjęcia wykonane w ten sposób na pewno
+          weselna dysponuje małym ogrodem lub ciekawym otoczeniem to warto poświęcić kilka minut na zdjęcia. 
+        </Typography>
+
+        <Image alt="sala weselna Nedan Pcim" src={fotograf_slubny_krakow_17} />
+
+        <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2, pb: 3 }}>
+          Goście na pewno będą wyrozumiali i zrozumieją, a zdjęcia wykonane w ten sposób na pewno
           pozostaną w stylu i klimacie wesela. Będziecie mieli dokładnie takie same dodatki, bukiet ślubny, makijaż i fryzurę. Wykonując plener ślubny w dniu Waszego ślubu zachowujemy spójność zdjęć
-          plenerowych z reportażem ślubnym, co dla niektórych z Was może być niezwykle istotne. Zdecydujcie się więc na krótki plener w dniu ślubu na pewno warto.
+          plenerowych z reportażem ślubnym, co dla niektórych z Was może być niezwykle istotne.
         </Typography>
 
         <Image alt="sesja ślubna Zamek w Korzkwi" src={portfolio_0014} />
@@ -104,6 +110,7 @@ const PageComponent = () => {
           Bednarskiego. Wschód Krakowa natomiast to industrialne klimaty Nowej Huty oraz Muzeum Lotnictwa na Czyżynach.
         </Typography>
         <Image alt="oryginalne zdjęcia z pleneru ślubnego" src={portfolio_0008} />
+       
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2, pb: 3 }}>
           Centrum to kwintesencja Krakowa czyli Bulwary Wiślane, klimatyczny Kazimierz, Plac Nowy, kluby i restauracje reprezentowane przez Mleczarnię, Alchemię, Starą Zajezdnie czy też Studio
@@ -174,7 +181,7 @@ const PageComponent = () => {
         
         
         <Image alt="plener ślubny Kopiec Krakusa" src={plener_slubny_w_gorach} />
-        <Image alt="sesja ślubna Ogród Botaniczny Kraków" src={slubne_portfolio_3} /> 
+        
         
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pt: 2, pb: 3 }}>
