@@ -55,7 +55,7 @@ const PageComponent = () => {
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 2 }}>
           Pierwsze pytanie, które pojawia się w głowie każdego to określenie różnicy pomiędzy zdjęciami ze ślubu i wesela, które wykonują na przykład goście weselni, a reportażem ślubnym przygotowanym
           przez profesjonalnego fotografa. Na pewno nie raz widzieliście zdjęcia, które są w większości ujęciami pozowanymi i brak im reporterskiego charakteru. Oglądając reportaż ślubny, stajemy się
-          obserwatorem wydarzeń, możemy przyjrzeć się detalom i jesteśmy w stanie doświadczyć prawdziwych emocji. Praca fotografa ślubnego polega więc na obserwacji i selektywnym gromadzeniu
+          obserwatorem wydarzeń, możemy przyjrzeć się szczegółom i jesteśmy w stanie doświadczyć prawdziwych emocji. Praca fotografa ślubnego polega więc na obserwacji i selektywnym gromadzeniu
           niepowtarzalnych, ważnych momentów, które finalnie utworzą historię tego jednego z najważniejszych dni w życiu Pary Młodej.
         </Typography>
 
@@ -69,9 +69,9 @@ const PageComponent = () => {
         <Image alt="Miejsca, wydarzenia, emocje w fotografii ślubnej" src={portfolio_0013} />
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
-          Pamiętajmy, że nie każda blisko nam osoba jest gościem naszego ślubu, dlatego album ślubny powinien być niebanalny i pokazać piękno dnia, oraz przekazać emocje, dobrą zabawę, która temu dniu
+          Pamiętajmy, że nie każda bliska nam osoba jest gościem naszego ślubu, dlatego album ślubny powinien być niebanalny i pokazać piękno dnia, oraz przekazać emocje, dobrą zabawę, która temu dniu
           towarzyszyła. Reportaż ślubny zamknięty w albumie to wyjątkowa pamiątka z Waszego ślubu. Reportaż ślubny to sztuka wymagajaca doświadczenia i umiejętności wybierania rzeczy najważniejszych,
-          chwytania emocji i przedstawiania ich w najlepszy możliwy sposób.
+          wychwytywania emocji i przedstawiania ich w najlepszy możliwy sposób.
         </Typography>
 
         <Image alt="Ogromne możliwości w fotografii ślubnej" src={portfolio_0001} />
@@ -81,8 +81,8 @@ const PageComponent = () => {
         </Typography>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-          Doskonaląc warsztat fotografa ślubnego, spędzając długie godziny na selekcji zdjęć, jako reportażyści resujemy w naszych głowach obraz elementów, na które należy położyć nacisk tworząc
-          historię ślubną. Skupiamy się na fotografowaniu spontanicznych zdarzeń, przedstawiamy otoczenie w najlepszy możliwy sposób, eksponujemy detale i skrupulatnie rejestrujemy emocje. Egzekowanie
+          Doskonaląc warsztat fotografa ślubnego, spędzając długie godziny na selekcji zdjęć, jako reportażyści rysujemy w naszych głowach obraz elementów, na które należy położyć największy nacisk tworząc
+          historię ślubną. Skupiamy się na fotografowaniu spontanicznych zdarzeń, przedstawiamy otoczenie w najlepszy możliwy sposób, eksponujemy detale i skrupulatnie rejestrujemy emocje. Egzekwowanie
           tych elementów jest możliwe, dzięki umiejętności przewidywania nadchodzących zdarzeń, budowania kadru oraz doskonałej znajmości najwyższej jakości sprzętu fotograficznego.
         </Typography>
 
@@ -102,8 +102,8 @@ const PageComponent = () => {
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
           Kocham eksperymenty, czerpanie esencji z przemijających trendów, konsekwencję w dążeniu do celu, lubię mieć plan nie pozwalający wkraść się przypadkowi. Reportaż ślubny to dla mnie pasja i
-          weekendowa odskocznia od codziennej korporacyjnej rzeczywistości. Reportaż ślubny to zależność pomiędzy czasem ekspozycji, przysłoną i czułością ISO. Reportaż ślubny to jednocześnie
-          zależnośc pomiędzy chwilą, światłem i kadrem. W obu przypadkach jest to zawsze kompromis poparty pomysłem i doskonałym warsztatem, który pozwala ten pomysł zrealizować. Reportaż ślubny to
+          sposób na życie. Reportaż ślubny to zależność pomiędzy czasem ekspozycji, przysłoną i czułością ISO. Reportaż ślubny to jednocześnie
+          zależnośc pomiędzy chwilą, światłem i kadrem. W obu przypadkach jest to zawsze kompromis poparty pomysłem i doskonałym warsztatem, który pozwala ten pomysł zrealizować. Fotografia ślubna to
           moim zdaniem przede wszystkim reportaż i temat człowieka w kadrze. Bez niego nie ma co mówić o uczuciach, radości, łzach wzruszenia, słowach, które układają się tworząc chwile, które chcemy
           zatrzymać na wieki. Światło to według mojej definicji kontekst. Nadaje ono miejscu charakter, tworzy tło dla wydarzeń i pozwala eksponować emocje.
         </Typography>
@@ -134,8 +134,8 @@ const PageComponent = () => {
         </Typography>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-          Reportaż ślubny określony definicją jest przerwany w dwóch, a czasem trzech momentach w których wykonujemy pamiątkowe pozowane zdjęcia grupowe. Pierwszy moment to po błogosławieństwie,
-          wspólne zdjęcie z rodzicami, drugi to zdjęci grupowe zaraz po wyjściu z Kościoła i trzeci to zdjęcia grupowe z gośćmi na sali weselnej. Warto przewidzieć czas na te pamiątkowe ujęcia,
+          Reportaż ślubny określony definicją jest przerywany w dwóch, a czasem nawet trzech momentach w których wykonujemy pamiątkowe pozowane zdjęcia grupowe. Pierwszy moment to po błogosławieństwie,
+          wspólne zdjęcie z rodzicami, drugi to zdjęcie grupowe zaraz po wyjściu z Kościoła i trzeci to zdjęcia grupowe z gośćmi na sali weselnej. Warto przewidzieć czas na te pamiątkowe ujęcia,
           szczególnie jeżeli ceremonia rozpoczyna się trochę później a na sali weselnej dla Waszych gości przygotowaliście moc atrakcji.
         </Typography>
 
@@ -147,7 +147,7 @@ const PageComponent = () => {
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
           Naszym wspólnym celem jest zgromadzenie maksymalnie dobrego materiału dokumentującego Wasz ślub. Bardzo ważne jest by zaufać fotografowi, zdać się na jego doświadczenie, pozwolić mu na
-          swobodną pracę, a najlepiej zapomnieć o jego obecności. Kadry, na których Wasz wzrok nie będzie skierowany w stronę obiektywu będą zdecydowanie lepsze. Musicie zaufać fotografowi i uwierzyć,
+          swobodną pracę, a najlepiej to zupełnie zapomnieć o jego obecności. Kadry, na których Wasz wzrok nie będzie skierowany w stronę obiektywu aparatu fotograficznego będą zdecydowanie lepsze. Musicie zaufać fotografowi i uwierzyć,
           że trzyma on rękę na pulsie i tworzy dla Was niezapomnianą pamiątkę. Takie podejście to gwarancja autentycznej opowieści ślubnej.
         </Typography>
 
@@ -158,7 +158,7 @@ const PageComponent = () => {
         </Typography>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
-          No i nareszcie zbliża się ten wyczekiwany przez kilka tygodni, miesięcy, a może i lat Wasz wymarzony dzień, dzień ślubu. Ale tak na prawdę z tyłu głowy chodzą myśli jak to będzie tak
+          Wreszcie zbliża się ten wyczekiwany przez kilka tygodni, miesięcy, a może i lat Wasz wymarzony dzień ślubu. Ale tak na prawdę z tyłu głowy są myśli jak to będzie tak
           naprawdę wyglądało. Na którą godzinę umówić fryzjerkę, na którą makijażystkę, o której godzinie zrobić błogosławieństwo. Tego typu myśli przechodzą przez głowę wszystkich Par Młodych, które
           biorą ślub. Jeżeli do Waszego ślubu zostało jeszcze kilka dni warto usiąść razem i poświęcając kilka minut określić sobie rozkład dnia na ślubny poranek. Dzięki temu na pewno zyskacie
           większą pewność siebie, nie zgubicie się, a trzymając się tego harmonogramu będziecie mieli spokojnieszy dzień.
@@ -167,21 +167,21 @@ const PageComponent = () => {
         <Image alt="Harmonogram dnia ślubu" src={dworzyszcze_wola_reportaz_slubny_pod_krakowem} />
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
-          Planowanie dobrze rozpocząć od ślub rozpoczyna się o godzinie szesnastej w kościele. Warto wziąść kartkę i długopis i planowanie rozpocząć od wpisania godziny o której rozpoczyna się ślub w
-          Kościele Od tego punktu zaczynamu planowanie całego dnia. Na początek weźmy pod uwagę, że przed Kościołem dobrze być dwadzieścia minut wcześniej z tego względu, że bardzo często dokumenty
-          podpisuje się tuż przed rozpoczęciem Mszy Świętej. Piętnasta czterdzieści, jesteśmy na miejscu, idziemy do księdza, dokumenty podpisują świadkowie, podpisujemy my, wracamy i czekamy na
-          rozpoczęcie ceremonii przed wejściem do Kościoła.
+          Warto wziąść kartkę, długopis i planowanie rozpocząć od wpisania godziny o której rozpoczyna się ślub w
+          Kościele. Od tego punktu zaczynamy planowanie całego dnia. Na początek weźmy pod uwagę, że przed Kościołem dobrze być dwadzieścia minut wcześniej z tego względu, że bardzo często dokumenty
+          podpisuje się tuż przed rozpoczęciem Mszy Świętej. Piętnasta czterdzieści, jesteśmy na miejscu, idziemy do księdza, dokumenty podpisują świadkowie, podpisujecie Wy, wracacie i witając przybywających gości czekacie na
+          rozpoczęcie się ceremonii ślubnej tuż przed wejściem do Kościoła.
         </Typography>
 
         <Image alt="podpisanie dokumentów przez świadków wesela" src={portfolio_0022} />
         <Image alt="sesja ślubna Ogród Botaniczny Kraków" src={kopiec_krakusa_sesja_slubna} />
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
-          Przed wyjściem do kościoła czekają Was ślubne przygotowania. Dobrze gdy określicie ile czasu jedzie się z domu Panny Młodej do kościoła. Przed wyjazdem planujemy błogosławieństwo, które
+          Przed wyjściem do Kościoła czekają Was ślubne przygotowania. Dobrze gdy określicie ile czasu jedzie się z domu Panny Młodej do Kościoła. Przed wyjazdem planujemy błogosławieństwo, które
           zwykle trwa około piętnastu minut. Wszystko zapisujemy na naszej kartce. Do harmonogramu warto też wpisać godzinę przyjazdu Pana Młodego. Niech to będzie godzina piętnasta, czyli tak
           naprawdę dziesięć minut przed rozpoczęciem się błogosławieństwa. Pamiętajmy, że zanim dojdzie do przyjazdu Pana Młodego warto, aby Panna Młoda była już ubrana, przygotowana i oczekiwała na
-          Pana Młodego. Jeżeli chodzi o ubieranie to tak naprawdę wszystko zależy od tego jaki rodzaj sukni macie. Na ubieranie sukni najlepiej przyjąć około trzydzestu minut. Wydaje mi się, że bez
-          względu na to jaką suknie ma Panna Młoda oraz ilość biżuterii do założenia czas ten jest optymalny. Dobrze też przeznaczyć dodatkowe dziesięc minut na portret Panny Młodej.
+          Pana Młodego. Jeżeli chodzi o ubieranie to tak naprawdę wszystko zależy od tego jaki rodzaj sukni wybraliście. Na ubieranie sukni najlepiej przyjąć około trzydzestu minut. Myśle, że bez
+          względu na to jaką suknie ma Panna Młoda oraz jaką ilość biżuterii do założenia czas ten jest optymalny. Dobrze też przeznaczyć dodatkowe dziesięc minut na portret Panny Młodej.
         </Typography>
 
         <Image alt="przyjazd Pana Młodego do domu Panny Młodej" src={mustang_na_slub} />
@@ -210,7 +210,7 @@ const PageComponent = () => {
         <Image alt="sesja ślubna Ogród Botaniczny Kraków" src={sesja_zdjeciowa_krakow_2_portfolio} />
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
-          Pamiętajcie, że jest bardzo ważne, żeby taki harmonogram w dniu ślubu gdzieś w domu leżał, żeby wszyscy mieli do niego dostęp i aby się do tego harmonogramu stosować. Pomoże to Wam trzymać
+          Pamiętajcie, że jest bardzo ważne, żeby taki harmonogram w dniu ślubu powstał i gdzieś w domu leżał, żeby wszyscy mieli do niego dostęp i aby się do tego harmonogramu stosować. Pomoże Wam to trzymać
           się ram czasowych, unikniecie dzięki temu nadmiernej ilości stresu i po prostu będziecie bardziej spokojni.
         </Typography>
 

@@ -21,7 +21,7 @@ const PageComponent = () => {
     <LayoutSitePage
       title="Oferta fotografii ślubnej i sesji zdjęciowej"
       description="Oferta fotografii ślubnej i sesji zdjęciowej. Kraków i bliskie okolice. Żywe kolory i autentyczne emocje. Kliknij i sprawdź moje portfolio."
-      keywords="oferta fotografii ślubnej, oferta sesji zdjęciowej, kraków, wieliczka, jordanów, miechów, tarnów, skawina"
+      keywords="oferta fotografii ślubnej, oferta sesji zdjęciowej"
       url="https://99foto.pl/oferta-fotografii-slubnej/"
       leadNames="ŻANETA i SEBASTIAN"
       leadTitle="DOM WESELNY BIAŁA PERŁA RADZIEMICE, REPORTAŻ ŚLUBNY"
@@ -37,9 +37,9 @@ const PageComponent = () => {
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 2 }}>
           Serdecznie zapraszam do zapoznania się z moją ofertą. Proponuję jeden pakiet ślubny, którego podstawą jest wyjątkowy reportaż z dnia Waszego ślubu, fotoksiążka i plener w wybranym dniu po
-          ślubie. rzed podpisaniem umowy zwykle spotykamy się w Krakowie. Na spotkaniu odpowiadam na Wasze pytania i macie możliwość oglądnięcia przykładowych fotoksiążek i albumów ślubnych. Zapraszam
+          ślubie. Przed podpisaniem umowy zwykle spotykamy się w Krakowie. Na spotkaniu odpowiadam na Wasze pytania i możecie oglądnąć przykładowe fotoksiążki i albumy ślubne. Zapraszam
           do oglądania zdjęć w portfolio, oraz do oglądania wpisów na blogu. Jeżeli zdjęcia te przypadną Wam do gustu to zapraszam do wypełnienia formularza kontaktowego lub rozmowy telefonicznej.
-          Jest to najlepszy sposób by poznać cenę, umówić się na niezobowiązujące spotkanie, na którym zdecydujecie co będzie dalej.
+          Jest to najlepszy sposób by poznać cenę, umówić się na niezobowiązujące spotkanie na którym zdecydujecie co będzie dalej.
         </Typography>
 
         <Grid container spacing={2}>
@@ -87,7 +87,7 @@ const PageComponent = () => {
           </Grid>
         </Grid>
         <Box sx={{ pt: 2 }}>
-          <Image alt="sala weselna Nedan Pcim" src={portret_panny_mlodej} />
+          <Image alt="portert Panny Młodej" src={portret_panny_mlodej} />
         </Box>
 
         <Box sx={{ pt: 2, py: 1 }}>
@@ -99,7 +99,7 @@ const PageComponent = () => {
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 2 }}>
           Plener ślubny jest częścią pakietu reportażu ślubnego, jednak można go również zamówić jako osobny produkt. W tej formie wykonuję zwykle sesje narzeczeńskie, sesje rodzinne, fotografie
           podczas Chrztu Świętego, czy też imprez firmowych. Pakiet ten typowo nie zawiera fotoksiążki jednak może być dowolnie rozszerzony i tak jak w przypadku reportażu ślubnego ofertę możemy
-          dostosować korzystając z kontaktu mailowego lub telefonicznego. Istnieje też możliwość podarowania tego pakietu w formie Vouchera. Serdecznie zapraszam.
+          dostosować do waszych preferencji kontaktując się mailowo lub telefonicznie. Istnieje też możliwość podarowania tego pakietu bliskim lub znajomym w formie Vouchera. Serdecznie zapraszam.
         </Typography>
 
         <Grid container spacing={2}>
@@ -139,7 +139,7 @@ const PageComponent = () => {
         </Grid>
 
         <Box sx={{ pt: 2 }}>
-          <Image alt="sala weselna Nedan Pcim" src={pomysl_na_sesje_slubna_zimowa_w_krakowie} />
+          <Image alt="sesja ślubna zimowa w Krakowie" src={pomysl_na_sesje_slubna_zimowa_w_krakowie} />
         </Box>
       </Container>
     </LayoutSitePage>

@@ -27,7 +27,7 @@ const pages = [
   { name: "O MNIE", url: "/fotograf-na-wesele" },
   { name: "REPORTAŹ ŚLUBNY", url: "reportaz-slubny-krakow" },
   { name: "PLENER ŚLUBNY", url: "plener-slubny-krakow" },
-  { name: "SESJA NARZECZEŃŚKA", url: "sesja-narzeczenska-krakow" },
+  { name: "SESJA NARZECZEŃSKA", url: "sesja-narzeczenska-krakow" },
   { name: "OFERTA", url: "oferta-fotografii-slubnej" },
   { name: "HISTORIE", url: "reportaze-slubne-sesje-plenerowe" },
   { name: "FAQ", url: "misja-i-faq" },
