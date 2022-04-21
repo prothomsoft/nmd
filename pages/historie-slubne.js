@@ -6,7 +6,7 @@ const Fotografia = () => {
 
     React.useEffect(() => {
         
-          router.push('/reportaz-slubny-krakow')
+          router.push('/reportaze-slubne-sesje-plenerowe')
         
       }, [])
 

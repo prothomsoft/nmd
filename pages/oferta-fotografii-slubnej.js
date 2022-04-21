@@ -19,9 +19,9 @@ const PageComponent = () => {
 
   return (
     <LayoutSitePage
-      title="Oferta fotografii ślubnej i sesji zdjęciowej"
-      description="Oferta fotografii ślubnej i sesji zdjęciowej. Kraków i bliskie okolice. Żywe kolory i autentyczne emocje. Kliknij i sprawdź moje portfolio."
-      keywords="oferta fotografii ślubnej, oferta sesji zdjęciowej"
+      title="Oferta fotografii ślubnej ✔️ Kraków"
+      description="Oferta fotografii ślubnej. Kraków i bliskie okolice. Żywe kolory i autentyczne emocje. Kliknij i sprawdź moje portfolio."
+      keywords="oferta fotografii ślubnej, oferta sesji plenerowej Kraków"
       url="https://99foto.pl/oferta-fotografii-slubnej/"
       leadNames="ŻANETA i SEBASTIAN"
       leadTitle="DOM WESELNY BIAŁA PERŁA RADZIEMICE, REPORTAŻ ŚLUBNY"

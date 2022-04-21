@@ -1,4 +1,12 @@
 User-agent: *
+Disallow: /strefa-klienta
+Disallow: /polityka-prywatnosci-rodo
+Disallow: /sesja-zdjeciowa-krakow
+Disallow: /ulubione-wakacyjne-kadry
+Disallow: /fotografia-slubna-krakow
+Disallow: /historie-slubne
+Disallow: /michas-i-martusia-wakacje-wroclaw-i-kudowa-zdroj
+Disallow: /agata-i-mateusz-zdjecia-slubne-w-restauracji-ptaszyl-na-kazimierzu
 Disallow: /blog
 Disallow: /blog-1
 Disallow: /blog-2

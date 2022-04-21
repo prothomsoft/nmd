@@ -35,9 +35,9 @@ const PageComponent = () => {
 
   return (
     <LayoutSitePage
-      title="Reportaż ślubny Kraków"
+      title="Reportaż ślubny Kraków ✔️"
       description="Reportaż ślubny Kraków, chwila, światło i kadr. Reportaż ślubny pełny kolorów i autentycznych emocji."
-      keywords="reportaż ślubny kraków, zdjęcia ślubne, ślub w plenerze"
+      keywords="reportaż ślubny kraków, zdjęcia ślubne"
       url="https://99foto.pl/reportaz-slubny-krakow/"
       leadNames="ANNA i PIOTR"
       leadTitle="BAZYLIKA BOŻEGO CIAŁA KRAKÓW, FOTOREPORTAŻ ŚLUBNY"
@@ -207,8 +207,7 @@ const PageComponent = () => {
         </Typography>
 
         <Image alt="ślub i zero stresu" src={aleksandra_mszana_dolna} />
-        <Image alt="sesja ślubna Ogród Botaniczny Kraków" src={sesja_zdjeciowa_krakow_2_portfolio} />
-
+        
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Pamiętajcie, że jest bardzo ważne, żeby taki harmonogram w dniu ślubu powstał i gdzieś w domu leżał, żeby wszyscy mieli do niego dostęp i aby się do tego harmonogramu stosować. Pomoże Wam to trzymać
           się ram czasowych, unikniecie dzięki temu nadmiernej ilości stresu i po prostu będziecie bardziej spokojni.

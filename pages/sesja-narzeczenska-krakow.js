@@ -23,7 +23,7 @@ const PageComponent = () => {
 
   return (
     <LayoutSitePage
-      title="Sesja narzeczeńska Kraków"
+      title="Sesja narzeczeńska Kraków ✔️"
       description="Sesja narzeczeńska Kraków, chwila, światło i kadr. Reportaż ślubny pełny kolorów i autentycznych emocji."
       keywords="sesja narzeczeńska kraków, zdjęcia ślubne, ślub w plenerze"
       url="https://99foto.pl/sesja-narzeczenska-krakow/"
@@ -77,7 +77,7 @@ const PageComponent = () => {
         </Typography>
 
         <Image alt="Własny styl w fotografii ślubnej" src={fotograf_slubny_krakow_4} />
-        <Image alt="Własny styl w fotografii ślubnej" src={sesja_narzeczenska_kopiec_kraka} />
+        <Image alt="sesja ślubna w Krakowie" src={sesja_narzeczenska_kopiec_kraka} />
         
 
         <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
@@ -115,7 +115,7 @@ const PageComponent = () => {
           godzinach spotkamy się na wakacjach, a trochę wcześniej późną jesienią.
         </Typography>
 
-        <Image alt="Autentyczne emocje w fotografii ślubnej" src={fotograf_slubny_krakow_7} />
+        <Image alt="autentyczne emocje w fotografii ślubnej" src={fotograf_slubny_krakow_7} />
 
         <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
           CIESZCIE SIĘ CHWILĄ
@@ -139,14 +139,14 @@ const PageComponent = () => {
           podejmując decyzję, czy sesję będzie można zrealizować. Jeżeli na horyzoncie pojawi się deszcz lub będzie zimno to umawiamy się na inny dzień i sprawdzanie pogody zaczynamy od początku.
         </Typography>
 
-        <Image alt="reportaż ślubny, Wasza miłość zatrzymana na zdjęciach" src={fotograf_slubny_krakow_9} />
+        <Image alt="sesja narzeczeńska w Krakowie" src={fotograf_slubny_krakow_9} />
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
           Napisałem już o wszystkich najważniejszych czynnikach, które wpływają na efekt naszej sesji. Przygotujcie się do niej, rozkmińcie ją w szczegółach, tak by sesja narzeczeńska ukazała Waszą
           miłość jak również Was samych jak najlepiej oraz była wspaniałą pamiątką na całe przyszłe życie. Zróbmy to tak, by Wszyscy byli naprawdę zadowoleni. Pozdrawiam i zapraszam.
         </Typography>
 
-        <Image alt="reportaż ślubny, Wasza miłość zatrzymana na zdjęciach" src={sesja_narzeczenska_klasztor_w_tyncu} />
+        <Image alt="miłość zatrzymana na zdjęciach" src={sesja_narzeczenska_klasztor_w_tyncu} />
 
       </Container>
     </LayoutSitePage>

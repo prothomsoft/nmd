@@ -4,7 +4,6 @@ import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import { Typography } from "@mui/material";
 import Image from "next/image";
-import ParallaxImageFooter from "../components/parallaxImageFooter";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
 import wakacje_bukowina from "../public/static/portfolio/wakacje_bukowina.jpg";
@@ -16,8 +15,8 @@ const PageComponent = () => {
 
   return (
     <LayoutSitePage
-      title="Plener ślubny Kraków"
-      description="Fotograf ślubny z Krakowa. Zapraszam do zapoznania się z portfolio i skorzystania z mojej oferty. Gwarantuję wysokość jakość usług i konkurencyjne ceny."
+      title="Fotograf na wesele Kraków ✔️ Tomasz Prokop"
+      description="Fotograf na wesele z Krakowa. Zapraszam do zapoznania się z portfolio i skorzystania z mojej oferty. Gwarantuję wysokość jakość usług i konkurencyjne ceny."
       keywords="sesja zdjęciowa kraków,fotograf na wesele kraków"
       url="https://99foto.pl/misja-i-faq/"
       leadNames="ANNA i TOMASZ"
