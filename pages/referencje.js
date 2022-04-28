@@ -16,7 +16,7 @@ import fotograf_slubny_krakow_16 from "../public/static/portfolio/fotograf_slubn
 import fotograf_slubny_krakow_20 from "../public/static/portfolio/fotograf_slubny_krakow_20.jpg";
 import fotograf_slubny_krakow_21 from "../public/static/portfolio/fotograf_slubny_krakow_21.jpg";
 import fotograf_slubny_krakow_23 from "../public/static/portfolio/fotograf_slubny_krakow_23.jpg";
-import fotograf_slubny_krakow_24 from "../public/static/portfolio/fotograf_slubny_krakow_24.jpg";
+import wesele_strazackie_tokarnia from "../public/static/portfolio/wesele_strazackie_tokarnia.jpg";
 import fotograf_slubny_krakow_30 from "../public/static/portfolio/fotograf_slubny_krakow_30.jpg";
 import sesja_slubna_jesienia from "../public/static/portfolio/sesja_slubna_jesienia.jpg";
 
@@ -241,7 +241,7 @@ const PageComponent = () => {
           .
         </Typography>
 
-        <Image alt="dobry fotograf ślubny kraków" src={fotograf_slubny_krakow_24} />
+        <Image alt="dobry fotograf ślubny kraków" src={wesele_strazackie_tokarnia} />
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Tomku, dziękujemy ogromnie za przepiękną pamiątkę jaką mamy dzięki Tobie. Twoje zaangażowanie i ogrom pomysłów widać w każdym ujęciu. Nie mogliśmy wymarzyć sobie lepszego fotografa. Polecamy

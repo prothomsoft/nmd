@@ -1,5 +1,15 @@
 export const posts = [
     {
+      date: "2022-05-01T08:24:29",
+      slug: "sala-weselna-karolinka-bystra-podhalanska",
+      title: "KAROLINKA BYSTRA PODHALAŃSKA, WESELE STRAŻACKIE",
+      content:
+        '<a href="https://parafiatokarnia.pl/" target="_blank" rel="nofollow noopener noreferrer">Kościół Matki Bożej Śnieżnej w Tokarni</a> odwiedzam regularnie przy okazji weekendowych wizyt czy imprez rodzinnych. Tym razem po raz pierwszy po generalnym remoncie fotografowałem w tym Kościele ceremonię ślubną Klaudii i Przemka. Oglądając zdjęcia zobaczycie, że był to doskonale zorganizowany ślub z oprawą strażacką, którą przygotowały zastępy strażackie z Tokarni i Wadowic. Kilka minut przygotowań u Przemka i od razu mogłem się zorientować, że strażakiem nie został on z przypadku, a służba w straży pożarnej jest bardzo ważna dla niego i jego całej rodziny. Dlatego też zamiast garnituru wybrał mundur strażacki. Było to więc prawdziwe wesele strażackie z asystą samochodów pożarniczych, strażacką bramą weselną, specjalnie przygotowanymi zadaniami i szpalerem reprezentacyjnym utworzonym podczas ceremoni i przy wyjściu z Kościoła.',
+      names: ["KLAUDIA i PRZEMYSŁAW"],
+      tags: ["sala weselna karolinka bystra podhalańska", "dom weselny karolinka"],
+      image: "/static/blog/2022/04/sala_weselna_karolinka_bystra_podhalanska_0083.jpg",
+    },
+    {
       date: "2022-01-07T18:13:48",
       slug: "sylwestrowy-slub-sala-bankietowa-impresja-jordanow",
       title: "SYLWESTROWY ŚLUB, SALA BANKIETOWA IMPRESJA JORDANÓW",
@@ -302,12 +312,12 @@ export const posts = [
     },
     {
       date: "2019-05-29T08:24:29",
-      slug: "sala-weselna-karolinka-bystra-podhalanska",
-      title: "KAROLINKA BYSTRA PODHALAŃSKA, POGODOWI SZCZĘŚCIARZE",
+      slug: "wesele-w-tokarni-strazackie-tradycje-weselne",
+      title: "WESELE W TOKARNI, STRAŻACKIE TRADYCJE WESELNE",
       content:
         'Miesiąc maj w tym roku pogodowo nie wygląda najlepiej i myślę, że tylko rolnicy są zadowoleni z tego stanu rzeczy. Na szczęście deszczowe dni są momentami przerywane przebłyskami słońca, na które pewnie trzeba zasłużyć. Tak było w sobotę podczas ślubu Marleny i Maćka, który odbył się w Skomielnej Czarnej. Trafili w idealny dzień z wymarzoną pogodą bez najmniejszej kropelki deszczu, pięknymi białymi chmurami na błękitnym niebie i zielenią w szczytowej formie. Dzień rozpoczęliśmy w Salonie fryzjerskim Relaks w Tokarni. Upięcie włosów przebiegło sprawnie i chwilę później byliśmy już na makijażu wykonanym mistrzowską ręką wizażystki Ewy z <a   href="https://www.facebook.com/madebymemakeup/"   target="_blank"   rel="noopener noreferrer nofollow"   >Make By Me Makeup</a >. Ponieważ Marlena zawodowo zajmuje się urodą więc malowaniu towarzyszyły branżowe dyskusje. Gdy makijaż był niemalże skończony dołączyli do nas Sylwester i Wojtek z <a   href="https://www.facebook.com/Studio-Foto-Video-CLIP-348143895304294/"   target="_blank"   rel="noopener noreferrer nofollow"   >Clip Studio</a >, którzy przez cały dzień kolekcjonowali kadry do filmu ślubnego. Wojtek w nasze poczynania wnosił nutkę młodości, Sylwester i ja lata doświadczenia, w skrócie uzupełnialiśmy się całkiem dobrze. Wszyscy znali się nie od dziś, a to zawsze pomaga w zachowaniu dobrego klimatu w trakcie imprezy.',
       names: ["MARLENA i MACIEK"],
-      tags: ["dobry fotograf na wesele", "Sala weselna Karolinka Bystra Podhalańska"],
+      tags: ["dobry fotograf na wesele", "wesele w tokarni, strażackie tradycje weselne"],
       image: "/static/blog/2019/05/restauracja_karolinka_bystra_podhalanska_zdjecia_slubne_0087.jpg",
     },
     {

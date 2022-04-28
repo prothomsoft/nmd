@@ -50,6 +50,11 @@
   <priority>0.80</priority>
 </url>
 <url>
+    <loc>https://99foto.pl/sala-weselna-karolinka-bystra-podhalanska</loc>
+    <lastmod>2022-04-28T11:13:48+00:00</lastmod>
+	<priority>0.80</priority>
+  </url>
+<url>
     <loc>https://99foto.pl/natalia-marcin-i-maja-reportaz-slubny-gosciniec-branicki</loc>
     <lastmod>2022-04-12T11:13:48+00:00</lastmod>
 	<priority>0.64</priority>
@@ -305,7 +310,7 @@
 	<priority>0.64</priority>
   </url>
   <url>
-    <loc>https://99foto.pl/sala-weselna-karolinka-bystra-podhalanska</loc>
+    <loc>https://99foto.pl/wesele-w-tokarni-strazackie-tradycje-weselne</loc>
     <lastmod>2022-04-12T11:13:48+00:00</lastmod>
 	<priority>0.64</priority>
   </url>
