@@ -1,4 +1,14 @@
 export const posts = [
+  {
+    date: "2022-05-03T08:24:29",
+    slug: "hotel-zywiecki-sala-przylekowka-wesele-w-beskidach",
+    title: "HOTEL ŻYWIECKI, SALA PRZYŁĘKÓWKA, WESELE W BESKIDACH",
+    content:
+      'Długi weekend majowy, mała wyprawa w Beskidy i okolice Żywca na ślub Nicoli i Rafała w Gilowicach. Pierwsze zdjęcie to Jezioro Żywieckie, nad którym odbywały się od rana zawody wędkarskie. Następnie makijaż, w mieszkaniu babci Nicoli. Fachowe dyskusje w trakcie ponieważ Nicola jest zawodową wizażystką i sama wykonuje makijaże ślubne pod marką  <a href="https://www.instagram.com/nicolekobza.style" target="_blank" rel="nofollow noopener noreferrer">Nicola Kobza Style</a>. Oczywiście nie obyło się bez ciasteczka i kawy, jak to u babci. Następnie pojechaliśmy do Gilowic, gdzie już razem z Krzyśkiem z <a href="https://camdesign.pl/" target="_blank" rel="nofollow noopener noreferrer">Camdesign - Nowoczesny film ślubny</a> rejestrowaliśmy ten ważny dzień. Domek świetny, magnolie, które okresem kwitnienia wstrzeliły się w datę ślubu Nicoli i Rafała, dodały temu miejscu niezwykłego uroku. Druhny dzielnie pomagały nie tylko z suknią ślubną, kolczykami, branzoletkami, ale też z szampanem, który wylądował w stylowych kieliszkach. Wesele w Beskidach to świetny pomysł.',
+    names: ["NICOLA i RAFAŁ"],
+    tags: ["hotel żywiecki", "Sala weselna Przyłękówka", "Wesele w Beskidach"],
+    image: "/static/blog/2022/05/hotel_zywiecki_przylekowka_wesele_w_beskidach_0054.jpg",
+  },
     {
       date: "2022-05-01T08:24:29",
       slug: "sala-weselna-karolinka-bystra-podhalanska",
