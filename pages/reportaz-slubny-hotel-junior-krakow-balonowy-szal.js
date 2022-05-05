@@ -154,7 +154,7 @@ const BlogPageComponent = () => {
                 <BlogPageComponentNew
                     slide={process.env.staticImagesPath + "reportaz-slubny-hotel-junior-krakow-balonowy-szal-start.jpg"}
                     images={images}
-                    headTitle={"Reportaż ślubny Hotel Junior Kraków, balonowy szał"}
+                    headTitle={"Hotel Junior Kraków ✔️ Reportaż Ślubny"}
                     headDescription={
                         "Czy widzieliście kiedyś ponad sto wypełnionych helem, świecących ledowych serduchowych baloników wystrzelonych w kosmos kilka minut po północy? Jeżeli nie to zapraszam do wkliknięcia w reportaż ze ślubu Magdy i Piotrka. Miłego oglądania."
                     }

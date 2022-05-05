@@ -46,8 +46,8 @@ const BlogPageComponent = () => {
                 <BlogPageComponentNew
                     slide={process.env.staticImagesPath + "sesja-narzeczenska-w-krakowie-i-okolicach-wygielzow-start.jpg"}
                     images={images}
-                    headTitle={"Sesja narzeczeńśka w Krakowie i okolicach"}
-                    headDescription={"Sesja narzeczeńśka w Krakowie, Nadwiślański Park Etnograficzny Wygiełzów, Zamek Lipowiec"}
+                    headTitle={"Sesja narzeczeńska w Krakowie i okolicach"}
+                    headDescription={"Sesja narzeczeńska w Krakowie, Nadwiślański Park Etnograficzny Wygiełzów, Zamek Lipowiec"}
                     headKeywords={"sesja narzeczeńska w Krakowie"}
                     headUrl={"https://99foto.pl/sesja-narzeczenska-w-krakowie-i-okolicach-wygielzow/"}
                     entryContentP1={
@@ -58,7 +58,7 @@ const BlogPageComponent = () => {
                     }
                     slug={"sesja-narzeczenska-w-krakowie-i-okolicach-wygielzow"}
                     title={"SESJA NARZECZEŃSKA W KRAKOWIE – WYGIEŁZÓW - MAGDALENA I DAMIAN"}
-                    tags={"Sesja narzeczeńśka w Krakowie, Nadwiślański Park Etnograficzny Wygiełzów, Zamek Lipowiec"}
+                    tags={"Sesja narzeczeńska w Krakowie, Nadwiślański Park Etnograficzny Wygiełzów, Zamek Lipowiec"}
                     date={"9 lipca 2018"}
                     menuNames={"MAGDALENA i DAMIAN"}
                     menuTitle={"SESJA NARZECZEŃSKA W KRAKOWIE – WYGIEŁZÓW"}

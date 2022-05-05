@@ -17,8 +17,8 @@ const PageComponent = () => {
 
   return (
     <LayoutSitePage
-      title="Reportaż ślubny i sesja plenerowa, portfolio fotografa ślubnego"
-      description="Portfolio fotografa ślubnego, w którym zobaczycie wybrane reportaże ślubne i sesje plenerowe. Zapraszam."
+      title="Reportaże Ślubne Kraków ❤️ Sesje Plenerowe Kraków"
+      description="Portfolio fotografa ślubnego, w którym zobaczycie wybrane reportaże ślubne i sesje plenerowe. Dziesięć lat doświadczenia w fotografowaniu ślubów. Kliknij ⬆️ sprawdź."
       keywords="reportaże ślubne i sesje plenerowe, portfolio fotografa ślubnego"
       url="https://99foto.pl/sesja-slubna-jesienia-palac-goetzow-okocimskich/"
       leadNames="IZABELA i ARKADIUSZ"

@@ -23,9 +23,9 @@ const PageComponent = () => {
 
   return (
     <LayoutSitePage
-      title="Sesja narzeczeńska Kraków ✔️"
-      description="Sesja narzeczeńska Kraków, chwila, światło i kadr. Reportaż ślubny pełny kolorów i autentycznych emocji."
-      keywords="sesja narzeczeńska kraków, zdjęcia ślubne, ślub w plenerze"
+      title="Sesja Narzeczeńska Kraków ✔️ Tomasz Prokop Fotografia Ślubna"
+      description="Sesja narzeczeńska Kraków ❤️ Miejsca na sesję narzeczeńską. Zdjęcia spontaniczne, zero pozowania. Najlepsze miejscówki na sesję narzeczeńską w Krakowie."
+      keywords="sesja narzeczeńska kraków, miejscówki na sesję narzeczeńską w Krakowie"
       url="https://99foto.pl/sesja-narzeczenska-krakow/"
       leadNames="WIKTORIA i KONRAD"
       leadTitle="BRZOSKWINIA OGRÓD, WESELE W PLENERZE, SESJA NARZECZEŃSKA"

@@ -19,9 +19,9 @@ const PageComponent = () => {
 
   return (
     <LayoutSitePage
-      title="Oferta fotografii ślubnej ✔️ Kraków"
-      description="Oferta fotografii ślubnej. Kraków i bliskie okolice. Żywe kolory i autentyczne emocje. Kliknij i sprawdź moje portfolio."
-      keywords="oferta fotografii ślubnej, oferta sesji plenerowej Kraków"
+      title="Oferta Fotografa Ślubnego ✔️ Tomasz Prokop Fotografia Ślubna"
+      description="Jedno kliknięcie ⬆️ znajdziesz fotografa na Twój ślub. Sprawdź ofertę fotografii ślubnej. Kraków i bliskie okolice. Piękne kolory ❤️ autentyczne emocje. Serdecznie zapraszam."
+      keywords="Oferta Fotografa Ślubnego, Oferta Sesji Plenerowej Kraków"
       url="https://99foto.pl/oferta-fotografii-slubnej/"
       leadNames="ŻANETA i SEBASTIAN"
       leadTitle="DOM WESELNY BIAŁA PERŁA RADZIEMICE, REPORTAŻ ŚLUBNY"

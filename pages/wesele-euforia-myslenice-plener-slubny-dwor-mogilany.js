@@ -90,20 +90,16 @@ const BlogPageComponent = () => {
             { imageSrc: "/static/blog/2020/08/fotograf_na_wesele_mogilany_krakow_0086.jpg", height: 762 },
             { imageSrc: "/static/blog/2020/08/fotograf_na_wesele_mogilany_krakow_0087.jpg", height: 383 },
             { imageSrc: "/static/blog/2020/08/fotograf_na_wesele_mogilany_krakow_0088.jpg", height: 763 },
-
             { imageSrc: "/static/blog/2020/08/fotograf_na_wesele_mogilany_krakow_0090.jpg", height: 763 },
             { imageSrc: "/static/blog/2020/08/fotograf_na_wesele_mogilany_krakow_0094.jpg", height: 527 },
-
             { imageSrc: "/static/blog/2020/08/fotograf_na_wesele_mogilany_krakow_0092.jpg", height: 762 },
             { imageSrc: "/static/blog/2020/08/fotograf_na_wesele_mogilany_krakow_0091.jpg", height: 402 },
             { imageSrc: "/static/blog/2020/08/fotograf_na_wesele_mogilany_krakow_0093.jpg", height: 806 },
-
             { imageSrc: "/static/blog/2020/08/fotograf_na_wesele_mogilany_krakow_0095.jpg", height: 762 },
             { imageSrc: "/static/blog/2020/08/fotograf_na_wesele_mogilany_krakow_0096.jpg", height: 762 },
             { imageSrc: "/static/blog/2020/08/fotograf_na_wesele_mogilany_krakow_0097.jpg", height: 527 },
             { imageSrc: "/static/blog/2020/08/fotograf_na_wesele_mogilany_krakow_0098.jpg", height: 763 },
             { imageSrc: "/static/blog/2020/08/fotograf_na_wesele_mogilany_krakow_0099.jpg", height: 566 },
-
             { imageSrc: "/static/blog/2020/08/fotograf_na_wesele_mogilany_krakow_0102.jpg", height: 763 },
             { imageSrc: "/static/blog/2020/08/fotograf_na_wesele_mogilany_krakow_0101.jpg", height: 527 },
             { imageSrc: "/static/blog/2020/08/fotograf_na_wesele_mogilany_krakow_0103.jpg", height: 762 },
@@ -116,7 +112,6 @@ const BlogPageComponent = () => {
             { imageSrc: "/static/blog/2020/08/fotograf_na_wesele_mogilany_krakow_0109.jpg", height: 527 },
             { imageSrc: "/static/blog/2020/08/fotograf_na_wesele_mogilany_krakow_0110.jpg", height: 527 },
             { imageSrc: "/static/blog/2020/08/fotograf_na_wesele_mogilany_krakow_0111.jpg", height: 763 },
-
             { imageSrc: "/static/blog/2020/08/fotograf_na_wesele_mogilany_krakow_0113.jpg", height: 527 },
             { imageSrc: "/static/blog/2020/08/fotograf_na_wesele_mogilany_krakow_0114.jpg", height: 763 },
             { imageSrc: "/static/blog/2020/08/fotograf_na_wesele_mogilany_krakow_0115.jpg", height: 763 },
@@ -170,7 +165,7 @@ const BlogPageComponent = () => {
                 <BlogPageComponentNew
                     slide={process.env.staticImagesPath + "fotograf_slubny_wesele_mogilany_krakow.jpg"}
                     images={images}
-                    headTitle={"Wesele Euforia Myślenice, Plener Ślubny Dwór Mogilany, Dobry fotograf Kraków"}
+                    headTitle={"Wesele Euforia Myślenice ✔️ Tomasz Prokop Fotografia Ślubna"}
                     headDescription={
                         "Wesele w Mogilanach, Sala weselna Euforia w Myślenicach, dobry fotograf ślubny z Krakowa na weselu. Plener ślubny Dwór w Mogilanach. Serdecznie zaprasam na bloga."
                     }

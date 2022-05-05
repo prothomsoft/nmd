@@ -17,7 +17,7 @@ const Index = () => {
 
   return (
     <LayoutStartPage
-      title="Fotograf ślubny Kraków ✔️ Tomasz Prokop"
+      title="Fotograf Ślubny Kraków ✔️ Tomasz Prokop Fotografia Ślubna"
       description="Kliknij ⬆️ sprawdź moje portfolio. Pełne emocji reportaże ślubne ❤️ piękne zdjęcia plenerowe. Serdecznie zapraszam. Fotograf ślubny Kraków."
       keywords="fotograf ślubny Kraków, fotograf na wesele, fotografia ślubna Kraków, zdjęcia plenerowe"
       url="https://99foto.pl"

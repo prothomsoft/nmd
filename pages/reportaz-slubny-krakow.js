@@ -35,8 +35,8 @@ const PageComponent = () => {
 
   return (
     <LayoutSitePage
-      title="Reportaż ślubny Kraków ✔️"
-      description="Reportaż ślubny Kraków, chwila, światło i kadr. Reportaż ślubny pełny kolorów i autentycznych emocji."
+      title="Reportaż Ślubny Kraków ✔️ Tomasz Prokop Fotografia Ślubna"
+      description="Reportaż ślubny Kraków, chwila, światło i kadr. Reportaż ślubny pełny kolorów i autentycznych emocji. Twoje ❤️ fotografie z reporterskim charakterem i bez pozowania."
       keywords="reportaż ślubny kraków, zdjęcia ślubne"
       url="https://99foto.pl/reportaz-slubny-krakow/"
       leadNames="ANNA i PIOTR"

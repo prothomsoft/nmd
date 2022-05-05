@@ -143,7 +143,7 @@ const BlogPageComponent = () => {
                 <BlogPageComponentNew
                     slide={process.env.staticImagesPath + "sala_weselna_biala_wilczyca_kocmyrzow.jpg"}
                     images={images}
-                    headTitle={"Wesele międzynarodowe Proszowice i polskie tradycje weselne"}
+                    headTitle={"Wesele Międzynarodowe Proszowice ✔️ Polskie Tradycje Weselne"}
                     headDescription={"Sala weselna Biała Wilczyca Kocmyrzów. Międzynarodowe wesele połączone z polskimi tradycjami weselnymi. Monika i Martin, piękni, młodzi, szczęśliwi. Zapraszam."}
                     headKeywords={"Wesele międzynarodowe, polskie tradycje weselne, fotograf na wesele Proszowice"}
                     headUrl={"https://99foto.pl/wesele-miedzynarodowe-proszowice-i-polskie-tradycje-weselne/"}

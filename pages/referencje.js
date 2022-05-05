@@ -27,9 +27,9 @@ const PageComponent = () => {
 
   return (
     <LayoutSitePage
-      title="Referencje od Par Młodych"
+      title="Referencje od Par Młodych ✔️ Tomasz Prokop Fotografia Ślubna"
       description="Referencje od Par Młodych. Kilka dobrych słów, które jako polecany fotograf na wesele otrzymałem po wykonaniu reportażu ślubnego. Zapraszam do lektury."
-      keywords="referncje od Par Młodych, polecany fotograf na wesele Kraków"
+      keywords="Referencje od Par Młodych, Polecany fotograf na wesele Kraków"
       url="https://99foto.pl/referencje/"
       leadNames="MARTYNA i MICHAŁ"
       leadTitle="PLENER ŚLUBNY ZAMEK PIESKOWA SKAŁA"

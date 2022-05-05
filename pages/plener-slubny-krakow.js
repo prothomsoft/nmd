@@ -31,7 +31,7 @@ const PageComponent = () => {
 
   return (
     <LayoutSitePage
-      title="Plener ślubny Kraków"
+      title="Plener ślubny Kraków ✔️ Tomasz Prokop Fotografia Ślubna"
       description="Plener ślubny w Krakowie to atrakcje turystyczne w pięknym miejscu. Spotkajmy się, odkryjmy fajne miejsca, zróbmy niezapomniane zdjęcia. Zapraszam."
       keywords="plener ślubny Kraków, sesja ślubna w krakowie"
       url="https://99foto.pl/plener-slubny-krakow/"
