@@ -135,7 +135,7 @@ const BlogPageComponent = () => {
                 <BlogPageComponentNew
                     slide={process.env.staticImagesPath + "karolinka_bystra_podhalanska_wesele.jpg"}
                     images={images}
-                    headTitle={"Wesele w Bystrej i Ogród Pełen Lawendy w Klimnotowie"}
+                    headTitle={"Wesele w Bystrej i Ogród Pełen Lawendy w Klimontowie"}
                     headDescription={"Nowoczesnw sala weselna Karolinka w Bystrej. Ostatnie promienie zachodzącego słońca w Ogrodzie Pełnym Lawendy w Klimontowie. Serdecznie zapraszam."}
                     headKeywords={"wesele w bystrej, ogród pełen lawendy klimontów, plener o zachodzie słońca"}
                     headUrl={"https://99foto.pl/wesele-w-bystrej-i-ogrod-pelen-lawendy-w-klimontowie/"}

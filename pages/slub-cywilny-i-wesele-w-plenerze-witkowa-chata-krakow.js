@@ -192,7 +192,7 @@ const BlogPageComponent = () => {
                 <BlogPageComponentNew
                     slide={process.env.staticImagesPath + "slub_cywilny_i_wesele_w_plenerze_witkowa_chata_krakow_start.jpg"}
                     images={images}
-                    headTitle={"Ślub w plenerze Kraków"}
+                    headTitle={"Ślub w plenerze Kraków ✔️ Tomasz Prokop Fotografia Ślubna"}
                     headDescription={"Witkowa Chata w Krakowie i piękny ślub plenerowy Kingi i Juliena. Pełno na moim blogu autentycznych emocji i żywych kolorów. Serdecznie zapraszam do oglądania."}
                     headKeywords={"witkowa chata kraków,ślub plenerowy kraków,ślub w plenerze"}
                     headUrl={"https://99foto.pl/slub-cywilny-i-wesele-w-plenerze-witkowa-chata-krakow/"}

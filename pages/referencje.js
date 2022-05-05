@@ -16,9 +16,11 @@ import fotograf_slubny_krakow_16 from "../public/static/portfolio/fotograf_slubn
 import fotograf_slubny_krakow_20 from "../public/static/portfolio/fotograf_slubny_krakow_20.jpg";
 import fotograf_slubny_krakow_21 from "../public/static/portfolio/fotograf_slubny_krakow_21.jpg";
 import fotograf_slubny_krakow_23 from "../public/static/portfolio/fotograf_slubny_krakow_23.jpg";
+import przysiega_w_kosciele_tokarnia from "../public/static/portfolio/przysiega_w_kosciele_tokarnia.jpg";
+
 import wesele_strazackie_tokarnia from "../public/static/portfolio/wesele_strazackie_tokarnia.jpg";
-import fotograf_slubny_krakow_30 from "../public/static/portfolio/fotograf_slubny_krakow_30.jpg";
-import sesja_slubna_jesienia from "../public/static/portfolio/sesja_slubna_jesienia.jpg";
+import impresja_jordanow_1 from "../public/static/portfolio/impresja_jordanow_1.jpg";
+
 
 const PageComponent = () => {
   const pageImage = process.env.staticImagesPath + "plener_slubny_zamek_pieskowa_skala_krakow.jpg";
@@ -107,7 +109,8 @@ const PageComponent = () => {
           .
         </Typography>
 
-        <Image alt="samochód ślubny tesla" src={fotograf_slubny_krakow_30} />
+        
+        <Image alt="ślub w hotelu kasprowy zakopane" src={przysiega_w_kosciele_tokarnia} />
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Dziękujemy, dziękujemy, dziękujemy. Byliśmy pewni że nasza współpraca z Tomkiem przebiegnie idealnie i tak właśnie było. Polecamy wszystkim z całego serca!!!{" "}
@@ -130,7 +133,7 @@ const PageComponent = () => {
           </Link>
         </Typography>
 
-        <Image alt="ślub w hotelu kasprowy zakopane" src={sesja_slubna_jesienia} />
+        <Image alt="pełne emocji reportaże ślubne, niezapomniane sesje plenerowe" src={fotograf_slubny_krakow_21} />
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           W każdym calu zajebisty fotograf, a przede wszystkim człowiek!!! Polecam z czystym sumieniem. Jeżeli ktoś oczekuje pełnego zaangażowania, precyzji, kompetencji, sprytnego oka oraz wielu
@@ -174,8 +177,8 @@ const PageComponent = () => {
           Tomek super fotograf!!! Robi przepiękne zdjęcia. Już na pierwszym spotkaniu wiedziałam, że wybór Tomka to był strzał w 10. Jest profesjonalistą, a jak się ogląda jego zdjęcia to aż łezka w
           oku się kręci. Będziemy mieć super pamiątkę. Dziękujemy jeszcze raz za wspaniałą współprace. Polecamy z calego serca! Ola i Rafał.
         </Typography>
-
-        <Image alt="sesja zdjęciowa kopiec kraka" src={fotograf_slubny_krakow_11} />
+       
+        <Image alt="wesele na polu golfowym w Paczółtowicach" src={fotograf_slubny_krakow_23} />
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Piękne zdjęcia i pełen profesjonalizm. Dziękujemy jeszcze raz za wspaniałą współprace. Szczerze polecam.{" "}
           <Link href="/hotel-lenart-wieliczka-turkusowy-cadillac-de-ville" passHref>
@@ -191,7 +194,8 @@ const PageComponent = () => {
           wyzwaniami, takimi jak odblaski od okularów (powłoka blue care). Serdecznie polecamy! Anna i Grzegorz.
         </Typography>
 
-        <Image alt="wesele na polu golfowym w Paczółtowicach" src={fotograf_slubny_krakow_23} />
+        <Image alt="samochód ślubny tesla" src={impresja_jordanow_1} />
+        
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Serdecznie polecamy Tomka! To świetny, niezwykle profesjonalny fotograf, który jest zaangażowany w swoją pracę, a przy tym jest przesympatyczny i zawsze uśmiechnięty. Zdjęcia otrzymaliśmy w
           ekspresowym tempie, na każdym z nich Tomek uchwycił piękne chwile z naszego dnia. Zdjęcia są przepiękną pamiątką! Tomku, to była przyjemność z Tobą współpracować! Jeszcze raz dziękujemy za
@@ -215,7 +219,7 @@ const PageComponent = () => {
           .
         </Typography>
 
-        <Image alt="Ślub w Bazylice Bożego Ciała w Krakowie" src={fotograf_slubny_krakow_14} />
+        <Image alt="dobry fotograf ślubny kraków" src={wesele_strazackie_tokarnia} />
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Niesamowicie się cieszymy, że to właśnie Tomek "łapał chwile" na naszym ślubie! Pasja i profesjonalizm widoczne są na każdym zdjęciu, i każde z nich można oprawić i powiesić na ścianie.
@@ -240,8 +244,9 @@ const PageComponent = () => {
           </Link>
           .
         </Typography>
-
-        <Image alt="dobry fotograf ślubny kraków" src={wesele_strazackie_tokarnia} />
+        
+        <Image alt="sesja zdjęciowa kopiec kraka" src={fotograf_slubny_krakow_11} />
+        
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Tomku, dziękujemy ogromnie za przepiękną pamiątkę jaką mamy dzięki Tobie. Twoje zaangażowanie i ogrom pomysłów widać w każdym ujęciu. Nie mogliśmy wymarzyć sobie lepszego fotografa. Polecamy
@@ -268,8 +273,8 @@ const PageComponent = () => {
           </Link>
           .
         </Typography>
-
-        <Image alt="sala weselna Alexandra Mszana Dolna" src={fotograf_slubny_krakow_16} />
+        
+        <Image alt="Ślub w Bazylice Bożego Ciała w Krakowie" src={fotograf_slubny_krakow_14} />
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Tomku, z całego serca dziękujemy za cudowne zdjęcia z naszego ślubu. Lepszych nie mogliśmy sobie wymarzyć. Jesteśmy totalnie oczarowani relacją, która dla nas stworzyłeś. Idealnie uchwycone
@@ -300,7 +305,9 @@ const PageComponent = () => {
           .
         </Typography>
 
-        <Image alt="pełne emocji reportaże ślubne, niezapomniane sesje plenerowe" src={fotograf_slubny_krakow_21} />
+        <Image alt="sala weselna Alexandra Mszana Dolna" src={fotograf_slubny_krakow_16} />
+
+        
       </Container>
     </LayoutSitePage>
   );
