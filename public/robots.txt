@@ -1,4 +1,6 @@
 User-agent: *
+Disallow: /sesja-zdjeciowa-krakow
+Disallow: /strefa-klienta
 Disallow: /polityka-prywatnosci-rodo
 Disallow: /ulubione-wakacyjne-kadry
 Disallow: /fotografia-slubna-krakow
