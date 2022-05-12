@@ -47,12 +47,13 @@ const ImageCardGrid1 = () => {
           </Grid>
           <Grid item lg={4} p={1}>
           <ImageCard
-              imgsrc={plener_slubny_na_jurze}
-              imgalt="plener ślubny na jurze"
-              linkhref="plener-slubny-zamek-pieskowa-skala"
-              title="PLENER ŚLUBNY NA JURZE"
-              names="MARTYNA i MICHAŁ"
+              imgsrc={sylwestrowy_slub}
+              imgalt="ślub w sylwestra, sylwestrowy ślub"
+              linkhref="sylwestrowy-slub-sala-bankietowa-impresja-jordanow"
+              title="SYLWESTROWY ŚLUB W GÓRACH"
+              names="JUSTYNA i DAMIAN"
             />
+         
           </Grid>
           <Grid item lg={4} p={1}>         
             <ImageCard
@@ -74,21 +75,23 @@ const ImageCardGrid1 = () => {
           </Grid>
           <Grid item lg={4} p={1}>
           <ImageCard
+              imgsrc={plener_slubny_na_jurze}
+              imgalt="plener ślubny na jurze"
+              linkhref="plener-slubny-zamek-pieskowa-skala"
+              title="PLENER ŚLUBNY NA JURZE"
+              names="MARTYNA i MICHAŁ"
+            />
+                 
+          </Grid>
+          <Grid item lg={4} p={1}>
+          <ImageCard
               imgsrc={wesele_w_beskidach}
               imgalt="wesele w besikdach"
               linkhref="hotel-zywiecki-sala-przylekowka-wesele-w-beskidach"
               title="WESELE W BESKIDACH"
               names="NICOLA i RAFAŁ"
-            />          
-          </Grid>
-          <Grid item lg={4} p={1}>
-          <ImageCard
-              imgsrc={sesja_narzeczenska_krakow_33}
-              imgalt="sesja narzeczeńska w Krakowie"
-              linkhref="brzoskwinia-ogrod-wesele-w-plenerze-sesja-narzeczenska"
-              title="SESJA NARZECZEŃSKA W KRAKOWIE"
-              names="WIKTORIA i KONRAD"
-            />
+            />   
+         
           </Grid>
           <Grid item lg={4} p={1}>
           <ImageCard
@@ -101,11 +104,11 @@ const ImageCardGrid1 = () => {
           </Grid>
           <Grid item lg={4} p={1}>
           <ImageCard
-              imgsrc={sylwestrowy_slub}
-              imgalt="ślub w sylwestra, sylwestrowy ślub"
-              linkhref="sylwestrowy-slub-sala-bankietowa-impresja-jordanow"
-              title="SYLWESTROWY ŚLUB W GÓRACH"
-              names="JUSTYNA i DAMIAN"
+              imgsrc={sesja_narzeczenska_krakow_33}
+              imgalt="sesja narzeczeńska w Krakowie"
+              linkhref="brzoskwinia-ogrod-wesele-w-plenerze-sesja-narzeczenska"
+              title="SESJA NARZECZEŃSKA W KRAKOWIE"
+              names="WIKTORIA i KONRAD"
             />
           </Grid>
         </Grid>
