@@ -123,7 +123,7 @@ const BlogPageComponent = () => {
                     headTitle={"Dwór Bistuszowa, sala weselna na ślub plenerowy"}
                     headDescription={"Dwór w miejscowości Bistuszowa, klasyczny i barokowy wystrój, który przeniósł gości weselnych w dawne czasy i stworzył staropolską atmosferę. Zapraszam."}
                     headKeywords={"wesele tarnów,dwór bistuszowa,dom weselny tarnów,ślub plenerowy"}
-                    headUrl={"https://99foto.pl/wesele-tarnow-dwor-bistuszowa-i-staropolski-klimat-slubny/"}
+                    headUrl={"https://99foto.pl/wesele-tarnow-dwor-bistuszowa-i-staropolski-klimat-slubny"}
                     entryContentP1={
                         'Ostatnio mam coraz większe szczęście do par, którym towarzyszę w ich najważniejszym dniu. Ola i Przemek to absolutnie wyjątkowi ludzie. Spotkaliśmy się już wcześniej na sesji narzeczeńskiej i już wtedy wiedziałem, że będzie fajny ślub i z pewnością mega zdjęcia. Poszukując sali weselnej w Tarnowie, Ola i Przemek szukali miejsca, które dzięki klasycznemu i barokowemu wystrojowi pozwoli przenieść gości weselnych w dawne czasy i stworzy staropolską atmosferę. Pozytywne opinie, których pełno można znaleźć w internecie pozwoliły im dokonać właściwego wyboru <a href="https://www.dworbistuszowa.pl/" target="_blank" rel="nofollow">Dwór Bistuszowa</a> okazał się być wymarzonym miejscem na ich ślub. Siedemnastowieczny dwór, przebudowany i odrestaurowany sto lat później, którego mocną stroną jest park dworski, przepiękna aleja lipowa to świetne miejsce na ślub plenerowy. Reportaż ślubny rozpoczęliśmy właśnie w tym tego dnia oddanym do dyspozycji Oli miejscu.'
                     }

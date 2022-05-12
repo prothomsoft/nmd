@@ -135,7 +135,7 @@ const BlogPageComponent = () => {
                     headTitle={"Zdjęcia ślubne w Hotelu Ferro Express Kraków"}
                     headDescription={"Zima, zima, zima biało i temperatura minus trzynaście stopni, ale tylko za oknem. Serdecznie zapraszam na zimowy ale pełny kolorów ślub Kasi i Pawła."}
                     headKeywords={"zdjęcia ślubne hotel ferro express kraków,fotograf na ślub kraków,zdjęcia ślubne kraków"}
-                    headUrl={"https://99foto.pl/kasia-i-pawel-zdjecia-slubne-w-hotelu-ferro-express-krakow/"}
+                    headUrl={"https://99foto.pl/kasia-i-pawel-zdjecia-slubne-w-hotelu-ferro-express-krakow"}
                     entryContentP1={
                         'Zima, zima, zima biało i temperatura minus trzynaście stopni, ale tylko za oknem. Dla odmiany na ślubie Pawła i Kasi dużo kolorów i dużo uśmiechów w rodzinnej atmosferze. Rozpoczęliśmy tradycyjnie od fryzjera wcześnie bo o godzinie ósmej rano w Salonie Avangarda. Następnie udaliśmy się na makijaż. Malowanie trwało dobre dwie godziny i odbywało się przy dźwiękach muzyki Dawida Podsiadło. W mieszkaniu dziadków Kasi odbyło się błogosławieństwo, po którym udaliśmy się do świątecznie przystrojonego <a href="https://parafia-azory.pl/" target="_blank" rel="nofollow">Kościoła Niepokalanego Poczęcia NMP na Azorach</a>.'
                     }

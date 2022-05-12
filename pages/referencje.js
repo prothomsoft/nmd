@@ -15,12 +15,10 @@ import fotograf_slubny_krakow_14 from "../public/static/portfolio/fotograf_slubn
 import fotograf_slubny_krakow_16 from "../public/static/portfolio/fotograf_slubny_krakow_16.jpg";
 import fotograf_slubny_krakow_20 from "../public/static/portfolio/fotograf_slubny_krakow_20.jpg";
 import fotograf_slubny_krakow_21 from "../public/static/portfolio/fotograf_slubny_krakow_21.jpg";
-import fotograf_slubny_krakow_23 from "../public/static/portfolio/fotograf_slubny_krakow_23.jpg";
 import przysiega_w_kosciele_tokarnia from "../public/static/portfolio/przysiega_w_kosciele_tokarnia.jpg";
-
+import fotograf_slubny_krakow_4 from "../public/static/portfolio/fotograf_slubny_krakow_4.jpg";
 import wesele_strazackie_tokarnia from "../public/static/portfolio/wesele_strazackie_tokarnia.jpg";
-import impresja_jordanow_1 from "../public/static/portfolio/impresja_jordanow_1.jpg";
-
+import fotografia_slubna_krakow_44 from "../public/static/portfolio/fotografia_slubna_krakow_44.jpg";
 
 const PageComponent = () => {
   const pageImage = process.env.staticImagesPath + "plener_slubny_zamek_pieskowa_skala_krakow.jpg";
@@ -29,7 +27,7 @@ const PageComponent = () => {
 
   return (
     <LayoutSitePage
-      title="Referencje od Par Młodych ✔️ Tomasz Prokop Fotografia Ślubna"
+      title="Referencje od Par Młodych ✔️ Tomasz Prokop Fotograf Ślubny"
       description="Referencje od Par Młodych. Kilka dobrych słów, które jako polecany fotograf na wesele otrzymałem po wykonaniu reportażu ślubnego. Zapraszam do lektury."
       keywords="Referencje od Par Młodych, Polecany fotograf na wesele Kraków"
       url="https://99foto.pl/referencje/"
@@ -108,7 +106,6 @@ const PageComponent = () => {
           </Link>
           .
         </Typography>
-
         
         <Image alt="ślub w hotelu kasprowy zakopane" src={przysiega_w_kosciele_tokarnia} />
 
@@ -178,7 +175,7 @@ const PageComponent = () => {
           oku się kręci. Będziemy mieć super pamiątkę. Dziękujemy jeszcze raz za wspaniałą współprace. Polecamy z calego serca! Ola i Rafał.
         </Typography>
        
-        <Image alt="wesele na polu golfowym w Paczółtowicach" src={fotograf_slubny_krakow_23} />
+        <Image alt="wesele na polu golfowym w Paczółtowicach" src={fotograf_slubny_krakow_4} />
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Piękne zdjęcia i pełen profesjonalizm. Dziękujemy jeszcze raz za wspaniałą współprace. Szczerze polecam.{" "}
           <Link href="/hotel-lenart-wieliczka-turkusowy-cadillac-de-ville" passHref>
@@ -194,7 +191,7 @@ const PageComponent = () => {
           wyzwaniami, takimi jak odblaski od okularów (powłoka blue care). Serdecznie polecamy! Anna i Grzegorz.
         </Typography>
 
-        <Image alt="samochód ślubny tesla" src={impresja_jordanow_1} />
+        <Image alt="samochód ślubny tesla" src={fotografia_slubna_krakow_44} />
         
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Serdecznie polecamy Tomka! To świetny, niezwykle profesjonalny fotograf, który jest zaangażowany w swoją pracę, a przy tym jest przesympatyczny i zawsze uśmiechnięty. Zdjęcia otrzymaliśmy w

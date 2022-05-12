@@ -165,7 +165,7 @@ const BlogPageComponent = () => {
                     headTitle={"Fotograf ślubny Jordanów, zdjęcia ślubne Dworek Fantazja"}
                     headDescription={"Do krótkiego streszczenia ich wielkiego dnia najbardziej pasują dwa słowa: było pięknie! Na moim BLOGu, krótka historia opowiedziana wyjątkowymi momentami."}
                     headKeywords={"reportaż ślubny jordanów,zdjęcia ślubne restauracja dworek fantazja"}
-                    headUrl={"https://99foto.pl/alina-i-janusz-zdjecia-slubne-jordanow-dworek-fantazja/"}
+                    headUrl={"https://99foto.pl/alina-i-janusz-zdjecia-slubne-jordanow-dworek-fantazja"}
                     entryContentP1={
                         "Jordanów po raz kolejny. Za oknami jesień w pełni. Z pozoru szara sobota, w praktyce dzień przepełniony emocjami i wrażeniami. Reportaż ślubny Aliny i Janusza zaczęliśmy od makijażu Panny Młodej, który został mistrzowsko wykonany przez Iwonę. Spotkaliśmy się z Iwoną po raz kolejny, tym razem również na sali weselnej. Makijaż jak zwykle doskonały, wywołał zachwyt wszystkich gości i skrócił moją prace nad zdjęciami w Photoshopie o dobre kilka godzin. Kiedy Pani Młoda była już gotowa, oczarowywała każdą wchodzącą do jej pokoju osobę. Po kilku chwilach zabarwionych cieniami i szminkami nadszedł czas na pojawienie się Pana Młodego. Za oknem pojawiła się limuzyna, a Janusz elegancko przywitał się ze swoją przyszłą żoną."
                     }

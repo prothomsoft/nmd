@@ -118,7 +118,7 @@ const BlogPageComponent = () => {
                     headTitle={"Zdjęcia ślubne Zajazd Polesie Przybysławice"}
                     headDescription={"Reportaż ze ślubu Agi i Michała w Zajeździe Polesie - Przybysławice. Uroczystość zaślubin w Kościele pw. Św. Judy Tadeusza w Krakowie. Zapraszam do oglądania."}
                     headKeywords={"fotograf na wesele kraków,zdjęcia ślubne w restauracji zajazd polesie"}
-                    headUrl={"https://99foto.pl/aga-michal-i-zuzia-zdjecia-slubne-zajazd-polesie-przybyslawice/"}
+                    headUrl={"https://99foto.pl/aga-michal-i-zuzia-zdjecia-slubne-zajazd-polesie-przybyslawice"}
                     entryContentP1={
                         'W poprzednim wpisie poznaliście Jarka i Zuzę, którzy do Polski na swój ślub przyjechali z Niemiec, tym razem historia się powtarza ponieważ Aga, Michał i Zuzia odwiedzili rodzinne strony w tym samym celu przybywając do nas jednak nie z Niemiec, a z Holandii. Tym razem wszystko odbyło się w Krakowie i niedalekich okolicach. Makijaż perfekcyjnie wykonała Natalia, chwilę później odbyło się błogosławieństwo, gdzie Zuzia dzielnie towarzyszyła rodzicom. Ślub odbył się w <a href="https://www.parafiaczyzyny.pl/" rel="nofollow" target="_blank" rel="nofollow">Kościele pw. Św. Judy Tadeusza</a> w Krakowie-Czyżynach.'
                     }

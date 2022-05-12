@@ -34,7 +34,7 @@ const BlogPageComponent = () => {
                     headTitle={"Sesja ślubna Rabkoland - Rabka Zdrój"}
                     headDescription={"Czy magiczne miasteczko Rabkoland to miejsce odpowiednie na sesję ślubną? Koniecznie sprawdźcie na moim blogu. Zapraszam w imieniu Marka i Moniki."}
                     headKeywords={"plener poślubny rabkoland,zdjęcia ślubne wesołe miasteczko,fotograf na wesele rabka zdrój"}
-                    headUrl={"https://99foto.pl/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja/"}
+                    headUrl={"https://99foto.pl/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja"}
                     entryContentP1={
                         'Monikę i Marka poznaliście już na <a href="https://99foto.pl/monika-i-marek-sesja-narzeczenska-zawadka-tokarnia-jordanow/" target="_blank" rel="nofollow">sesji narzeczeńskiej</a> w Zawadce, przypominam miejscu idealnym na wycieczkę rowerową i <a href="https://99foto.pl/monika-i-marek-zdjecia-slubne-dworek-fantazja-skomielna-biala/" target="_blank" rel="nofollow">ślubie</a>, który odbył się w Dworku Fantazja w Skomielnej Białej. Plener poślubny początkowo planowaliśmy zrobić w <a href="https://skansen.bystra-sidzina.net/" target="_blank" rel="nofollow">Skansenie Bystra-Sidzina</a>, ale Monika zgodziła się na moją propozycję i w poszukiwaniu kolorów wybraliśmy się do <a href="https://www.rabkoland.pl/" target="_blank" rel="nofollow">Rabkolandu</a>.'
                     }

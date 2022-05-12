@@ -37,7 +37,7 @@ const BlogPageComponent = () => {
                     headTitle={"Ciekawe miejsca w Krakowie, pomysł na sesję zdjęciową"}
                     headDescription={"Ciekawe miejsca w Krakowie, pomysł na sesję zdjęciową, sesja ślubna plenerowa gdzie zrobić. Odpowiedzi na te pytania znajdziecie zaglądając na bloga. Zapraszam."}
                     headKeywords={"pomysł na sesję zdjęciową, ciekawe miejsca w krakowie, zdjęcia pary młodej w plenerze"}
-                    headUrl={"https://99foto.pl/ciekawe-miejsca-w-krakowie-czyli-pomysl-na-sesje-zdjeciowa/"}
+                    headUrl={"https://99foto.pl/ciekawe-miejsca-w-krakowie-czyli-pomysl-na-sesje-zdjeciowa"}
                     entryContentP1={
                         "Dzień ślubu jest dla wszystkich nowożeńców najważniejszy, a zdjęcia reportażowe przedstawiające emocje, których tego dnia przecież nie brakuje, bardzo często wywołują łzy wzruszenia lub uśmiechy na twarzach oglądających. Gdy obrazki z dnia ślubu na dobre zadomowią się w Waszej pamięci wtedy nadchodzi czas na kolejny etap fotograficznej przygody. Etap równie przyjemny, a na pewno mniej wymagający niż organizacja imprezy w dniu ślubu - sesja plenerowa. Ponieważ sesji zdjęciowych poślubnych nie robi się codziennie, suknie ślubne często trafiają na allegro, a garniaków nie można poszerzać w nieskończoność to warto na przygotowanie się do takiej sesji poświęcić kilkanaście minut i dobrze wybrać ciekawe miejsca na plener ślubny w Krakowie."
                     }

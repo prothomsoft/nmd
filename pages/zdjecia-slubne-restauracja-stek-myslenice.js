@@ -142,7 +142,7 @@ const BlogPageComponent = () => {
                     headTitle={"Zdjęcia ślubne Restauracja Stek Myślenice"}
                     headDescription={"Restauracja Stek Myślenice, świetne miejsce na zabawę trwającą do białego rana. Zobaczcie jak super było na ślubie Sylwii i Tomka. Miłego oglądania."}
                     headKeywords={"fotograf ślubny myślenice,restauracja stek myślenice"}
-                    headUrl={"https://99foto.pl/zdjecia-slubne-restauracja-stek-myslenice/"}
+                    headUrl={"https://99foto.pl/zdjecia-slubne-restauracja-stek-myslenice"}
                     entryContentP1={
                         "Bardzo słoneczny i ciepły początek kwietnia zwiastował piękną, pełną białych kwiatów na drzewach wiosnę. W połowie drogi miesiąc stracił wątek i powrócił do niższych zimowych temperatur, a w górach nawet do pokaźnej warstwy śniegu. Wyobrażam więc sobie, że sobotnie przedpołudnie w Filipowicach, gdzie rozpoczęliśmy reportaż ślubny z najważniejszego dnia Sylwii i Tomka, minął między innymi na sprawdzaniu pogody i wyczekiwaniu na wymarzone słońce. Udało się i pogoda w drugiej części dnia dopisała, a krótki plener w Zarabiu u stóp Góry Chełm, który zrobiliśmy na dosłownie kilka chwil opuszczając gości, doświetlały ciepłe promienie zachodzącego słońca. Ale może zacznę od początku. Kilka minut po godzinie dwunastej pod domem Sylwii pojawił się szybki samochód, z którego wysiadł Tomek. Chwilę później w rękach Sylwii wylądował piękny bukiet kwiatów, a Tomasz w zamian otrzymał kilka słodkich buziaków."
                     }

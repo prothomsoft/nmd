@@ -169,7 +169,7 @@ const BlogPageComponent = () => {
                     headTitle={"Zdjęcia ślubne w Domu Weselnym Rancho Lot"}
                     headDescription={"DWA MILIONY ZŁOTYCH - tyle kosztował samochód ślubny Magdy i Mateusza. Radość młodego, gdy pokierował kilka metrów tym wehikułem BEZCENNA."}
                     headKeywords={"fotograf na wesele kraków,zdjęcia ślubne jordanów,zdjęcia ślubne w domu weselnym rancho lot"}
-                    headUrl={"https://99foto.pl/magda-i-mateusz-zdjecia-slubne-w-domu-weselnym-rancho-lot-w-nowym-targu/"}
+                    headUrl={"https://99foto.pl/magda-i-mateusz-zdjecia-slubne-w-domu-weselnym-rancho-lot-w-nowym-targu"}
                     entryContentP1={
                         "Połowa maja i kolejne ślubne emocje tym razem za sprawą Magdy i Mateusza. Historię rozpoczynamy od makijażu w domu rodzinnym Magdy w Jordanowie. Makijaż po raz kolejny perfekcyjnie wykonała Iwona, którą miałem okazję już poznać na ślubie ponad rok wcześniej. Błogosławieństwo to dużo emocji i pierwsze łzy wzruszeń, które na moment zastąpiły uśmiechy na twarzach gości. Tylko na moment, ponieważ w drodze po raz kolejny uśmiechów nie brakowało. Tym razem dużo dobrego działo się w zakrystii. Zgromadzona ilość księży mogłaby wskazywać na prymicje i była wynikiem wieloletniego zaangażowania młodych w działalność duszpasterską pewnie wiecie, że tak to wszystko się właśnie zaczęło."
                     }

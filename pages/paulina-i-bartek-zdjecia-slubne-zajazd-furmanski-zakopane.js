@@ -126,7 +126,7 @@ const BlogPageComponent = () => {
                     headTitle={"Zdjęcia ślubne Zajazd Furmański Zakopane"}
                     headDescription={"Serdecznie zapraszam na historię Pauliny i Bartka, którzy na co dzień mieszkają w Szczecinie, a góry pokochali tak bardzo, że Zakopane wybrali na ślub."}
                     headKeywords={"fotograf na wesele zakopane,zdjęcia ślubne zajazd furmański"}
-                    headUrl={"https://99foto.pl/paulina-i-bartek-zdjecia-slubne-zajazd-furmanski-zakopane/"}
+                    headUrl={"https://99foto.pl/paulina-i-bartek-zdjecia-slubne-zajazd-furmanski-zakopane"}
                     entryContentP1={
                         "Paulina i Bartek na co dzień mieszkają w Szczecinie. Góry jednak kochają tak bardzo, że Zakopane wybrali na miejsce swojego ślubu. Zamieszkali w Willi Orion pod okiem przemiłej gospodyni i zaplanowali swój ślub w Zajeździe Furmańskim. Ten dzień rozpoczęliśmy wcześnie o godzinie ósmej rano, od fryzur w zakopiańskim salonie fryzjerskim. Następnie makijaż i suknia ślubna, której ubieranie odbyło się w pokoju z ciekawą historią. Para młoda powiedziała TAK w Urzędzie Stanu Cywilnego w Zakopanym i zaprosiła gości do zajazdu na ciąg dalszy góralskich przygód."
                     }

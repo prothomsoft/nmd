@@ -19,7 +19,7 @@ const PageComponent = () => {
 
   return (
     <LayoutSitePage
-      title="Oferta Fotografa Ślubnego ✔️ Tomasz Prokop Fotografia Ślubna"
+      title="Oferta Fotografa Ślubnego ✔️ Tomasz Prokop Fotograf Ślubny"
       description="Jedno kliknięcie ⬆️ znajdziesz fotografa na Twój ślub. Sprawdź ofertę fotografii ślubnej. Kraków i bliskie okolice. Piękne kolory ❤️ autentyczne emocje. Serdecznie zapraszam."
       keywords="Oferta Fotografa Ślubnego, Oferta Sesji Plenerowej Kraków"
       url="https://99foto.pl/oferta-fotografii-slubnej/"

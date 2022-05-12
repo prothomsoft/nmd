@@ -53,7 +53,7 @@ const BlogPageComponent = () => {
             headTitle={"Plener ślubny w Krakowskim Ogrodzie Botanicznym"}
             headDescription={"Plener ślubny w Krakowskim Ogrodzie Botanicznym, sesja ślubna w Krakowie. Fotografem ślubnym zostałem, żeby robić właśnie takie zdjęcia. Zapraszam na bloga..."}
             headKeywords={"plener ślubny w Ogrodzie Botanicznym, zakochani w Krakowie, ślubna sesja zdjęciowa jesienią"}
-            headUrl={"https://99foto.pl/plener-slubny-w-krakowskim-ogrodzie-botanicznym/"}
+            headUrl={"https://99foto.pl/plener-slubny-w-krakowskim-ogrodzie-botanicznym"}
             entryContentP1={
                 "Fotografem ślubnym zostałem, żeby robić właśnie takie zdjęcia. Temat Ogrodu Botanicznego w Krakowie w połączeniu z Operą Krakowską pojawił się na moim blogu w wakacje 2018 roku. Plener był to niezapomniany z Dajaną i Sylwestrem w rolach głównych. Od tamtego czasu Ogród Botaniczny przeszedł sporą metamorfozę za sprawą jak się domyślam funduszy europejskich. Był to z pewnością jeden z czynników, który doprowadził do wprowadzeniu dość absurdalnej opłaty za wykonanie zdjęć ślubnych. Ale jak wiadomo realizowanie marzeń jest bezcenne, a za resztę zapłacisz kartą mastercard. Teresę i Andrzeja znam już bardzo długo i w międzyczasie spotkaliśmy się na sesję narzeczeńską, którą również znajdziecie na moim blogu."
             }

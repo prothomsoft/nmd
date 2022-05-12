@@ -33,7 +33,7 @@ const BlogPageComponent = () => {
                     headTitle={"Zamek Moszna, plenerowa sesja fotograficzna, zdjęcia ślubne w pałacu"}
                     headDescription={"Zamek Moszna, plenerowa ślubna sesja zdjęciowa Aleksandry i Grzegorza. Pałac z przepięknym ogrodem często wybierany na sesje ślubne. Zapraszam do oglądania."}
                     headKeywords={"zamek moszna, plenerowa sesja fotograficzna, zdjęcia ślubne w pałacu"}
-                    headUrl={"https://99foto.pl/zamek-moszna-plenerowa-sesja-fotograficzna-w-palacu/"}
+                    headUrl={"https://99foto.pl/zamek-moszna-plenerowa-sesja-fotograficzna-w-palacu"}
                     entryContentP1={
                         'Wiedziałem, że to kwestia czasu... i pewnego dnia, <a href="https://www.moszna-zamek.pl/" target="_blank" rel="nofollow">Zamek Moszna</a> mocno znany z nazwy miejscowości w której powstał trafi do mojego portfolio. Nie było to do końca oczywiste tylko i wyłącznie ze względu na odległość do pokonania pomiędzy Krakowem, a bardzo popularną pałacową miejscówką na sesję ślubną. Dwa lata temu wracając z rodzinnych wakacji w Górach Stołowych, było nam bardzo blisko i po drodze by odwiedzić ten zamek, ale niestety deszcz zmienił nasze plany. Pamiętacie? Sesje plenerowe są raz w życiu i są między innymi po to, by z ich pomocą spełniać marzenia.'
                     }

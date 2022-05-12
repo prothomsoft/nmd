@@ -45,7 +45,7 @@ const BlogPageComponent = () => {
                     headTitle={"Sesja ślubna w Krakowie, Sukiennice, Hotel Stary, Bulwary Wiślane"}
                     headDescription={"Sesja ślubna w Krakowie jednym z najpiękniejszych i najbardziej historycznych miejsc na mapie Polski. Sukiennice, Sky Bar Hotel Stary, Bulwary Wiślane i jeszcze kilka ciekawych zakamarków. Zapraszam na bloga."}
                     headKeywords={"Sesja ślubna w Krakowie, Plener ślubny Sukiennice, Sky Ba Hotel Stary, Bulwary Wiślane"}
-                    headUrl={"https://99foto.pl/sesja-slubna-w-krakowie-sukiennice-hotel-stary-bulwary-wislane/"}
+                    headUrl={"https://99foto.pl/sesja-slubna-w-krakowie-sukiennice-hotel-stary-bulwary-wislane"}
                     entryContentP1={
                         'Kraków i o nim będzie pisane jako o jednym z najpiękniejszych i najbardziej historycznych miejsc na mapie Polski. Osobiście nie mam żadnych wątpliwości, że wybór miejsc w Krakowie w kontekście sesji ślubnej nie jest łatwy, ale ich ilość i różnorodność w tym mieście pozwala spełnić oczekiwania każdej młodej pary. Szczególnie gdy jej marzeniem są wyjątkowe i magiczne zdjęcia plenerowe. Praktycznie w jednym miejscu możemy odszukać zakątki pełne zieleni w zróżnicowanych barwach i ciekawe fragmenty miejskiej architektury. Poznanie ciekawych miejsc na sesje ślubną w Krakowie zajęło mi trochę czasu, czasu mile spędzonego podczas kilkunastu sesji plenerowych. Możecie mi wierzyć, że doświadczenie to procentuje, a korzystając z niego możemy od razu sprecyzować plan sesji zdjęciowej i wybrać z tego pięknego miasta tylko najciekawsze fragmenty.'
                     }

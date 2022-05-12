@@ -138,7 +138,7 @@ const BlogPageComponent = () => {
                     headTitle={"Wesele w Bystrej i Ogród Pełen Lawendy w Klimontowie"}
                     headDescription={"Nowoczesnw sala weselna Karolinka w Bystrej. Ostatnie promienie zachodzącego słońca w Ogrodzie Pełnym Lawendy w Klimontowie. Serdecznie zapraszam."}
                     headKeywords={"wesele w bystrej, ogród pełen lawendy klimontów, plener o zachodzie słońca"}
-                    headUrl={"https://99foto.pl/wesele-w-bystrej-i-ogrod-pelen-lawendy-w-klimontowie/"}
+                    headUrl={"https://99foto.pl/wesele-w-bystrej-i-ogrod-pelen-lawendy-w-klimontowie"}
                     entryContentP1={
                         "Niedziela i popołudniowa kawa to najlepszy moment by wygodnie usiąść w fotelu i zaglądnąć na bloga i do strefy klienta tak po prostu dla przypomnienia sobie wydarzeń ubiegłej soboty. Tym razem w jednym wpisie blogowym zawarłem wybrane zdjęcia ślubne i dla wytrwałych w scrollowaniu kilka zdjęć z pleneru, który zrobiliśmy w tygodniu po ślubie w Ogrodzie Pełnym Lawendy w Klimontowie. Osoby, które śledzą mojego bloga i wpisy na facebooku wiedzą, że bardzo często odwiedzam okolice Jordanowa, Bystrej, Naprawy i Krzczonowa. Tym razem miałem przyjemność fotografowąć piękny ślub Natalii i Tomasza. Niedługo spotykamy się w podobnym składzie na ślubie Kasi i Michała, a za rok balujemy u Patrycji i Bartka. Mam nadzieję, że przy Statule Wolności w Karolince spotkamy się w tym składzie jeszcze nie raz. Kto był ten wie, że wieżę Eiffla można zobaczyć nie tylko w Paryżu."
                     }

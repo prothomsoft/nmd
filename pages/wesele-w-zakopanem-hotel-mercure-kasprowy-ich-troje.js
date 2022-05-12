@@ -154,7 +154,7 @@ const BlogPageComponent = () => {
                     headTitle={"Wesele w Zakopanem, Hotel Mercure Kasprowy, Zespół Ich Troje na weselu"}
                     headDescription={"Wesele w Zakopanem, Hotel Mercure Kasprowy, Zespół Ich Troje, Michał Wiśniewski koncert na weselu. Ślub glamour na podhalu. Serdecznie zaprasam na bloga."}
                     headKeywords={"Wesele w Zakopanem, Hotel Mercure Kasprowy, Zespół Ich Troje, Michał Wiśniewski koncert na weselu"}
-                    headUrl={"https://99foto.pl/wesele-w-zakopanem-hotel-mercure-kasprowy-ich-troje/"}
+                    headUrl={"https://99foto.pl/wesele-w-zakopanem-hotel-mercure-kasprowy-ich-troje"}
                     entryContentP1={
                         "Historia ta zaczyna się cztery lata temu, gdy podczas ślubu Iwony i Marcina po raz pierwszy pojawiłem się z moim aparatem w Studio Makijażu Patrycji Antosz. Wpis z tego ślubu był tak dobry, że do dzisiaj odnajdziecie go na moim blogu. Od tego czasu pojawiałem się w Jordanowie na makijażach od czasu do czasu fotografując metamorfozy Panien Młodych. Jest mi więc bardzo miło, że po tylu latach znajomości i setkach obejrzanych zdjęć Patrycja zdecydowała, że to ja będę jej fotografem ślubnym. Od początku było jasne, że ślub ten będzie wyjątkowy, zorganizowany perfekcyjnie z dbałością o najmniejszy detal i pełen atrakcji. Miała być petarda i była proszę Pani - właśnie tak się tworzy historie. Długo można byłoby pisać, ale wspomnę tylko, że ceremonia ślubna odbyła się w zabytkowym kościele św. Kazimierza Królewicza w Kościelisku. Klatka z drona, którą odnajdziecie poniżej  doskonale ukazuje usytuowanie tego niezwyklego miejsca."
                     }

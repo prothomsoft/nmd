@@ -89,7 +89,7 @@ const BlogPageComponent = () => {
                     headTitle={"Sesja rodzinna Kraków"}
                     headDescription={"Afrykanarium, Kolejkowo, SkyTower i Szczeliniec Wielki. Zapraszam na kilka wakacyjnych zdjęć Michasia i Martusi z Wrocławia i Kudowy Zdrój. Miłego oglądania."}
                     headKeywords={"sesja rodzinna kraków,fotograf rodzinny kraków,fotografia rodzinna kraków"}
-                    headUrl={"https://99foto.pl/michas-i-martusia-wakacje-wroclaw-i-kudowa-zdroj/"}
+                    headUrl={"https://99foto.pl/michas-i-martusia-wakacje-wroclaw-i-kudowa-zdroj"}
                     entryContentP1={
                         "Dwa tygodnie pełnego luzu i nasze wakacje, które spędziliśmy we Wrocławiu i Kudowie Zdrój, czyli chwilowa przerwa od zdjęć ślubnych i sesji plenerowych. Michaś i Martusia mieli te dwa tygodnie wypełnione atrakcjami. W pierwszej kolejności odwiedziliśmy Wrocławskie ZOO i nowo otwarte Afrykarium. Świetne miejsce, nowoczesne i na pewno warte zobaczenia. Następnie wybraliśmy się do Parku Wodnego, fajniejszego niż ten w Krakowie. Później kolejkowo, wyjazd na 49 piętro w Sky Tower, finał Euro dla Portugali i nadszedł czas wyjazdu do Kudowy Zdrój."
                     }

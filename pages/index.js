@@ -17,12 +17,12 @@ const Index = () => {
 
   return (
     <LayoutStartPage
-      title="Fotograf Ślubny Kraków ✔️ Tomasz Prokop Fotografia Ślubna"
+      title="Fotograf Ślubny Kraków ✔️ Tomasz Prokop"
       description="Kliknij ⬆️ sprawdź moje portfolio. Pełne emocji reportaże ślubne ❤️ piękne zdjęcia plenerowe. Serdecznie zapraszam. Fotograf ślubny Kraków."
-      keywords="fotograf ślubny Kraków, fotograf na wesele, fotografia ślubna Kraków, zdjęcia plenerowe"
+      keywords="fotograf ślubny Kraków, fotograf na wesele, fotografia ślubna Kraków"
       url="https://99foto.pl"
       leadNames="PATRYCJA i KRZYSZTOF"
-      leadTitle="PLENER ŚLUBNY NA RYNKU W KRAKOWIE"
+      leadTitle="FOTOGRAF ŚLUBNY W KRAKOWIE"
       leadUrl="/plener-slubny-na-rynku-w-krakowie"
       leadImage={pageImage}
       slide={matches ? process.env.staticImagesPath + "lomnicki_staw_portfolio_start.jpg" : process.env.staticImagesPath + "ogrod_botaniczny.jpg"}
@@ -56,7 +56,7 @@ const Index = () => {
           światło, kadr, zachowajmy je na zawsze.
         </Typography>
         <Box sx={{ py: 2 }}>
-          <Typography variant="h1" className={matches ? "quote-title" : ""} align="center">
+          <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
             POLECANE REPORTAŻE I SESJE ŚLUBNE
           </Typography>
         </Box>
@@ -66,7 +66,7 @@ const Index = () => {
       <ParallaxImageFooter leadImage={process.env.staticImagesPath + "sesja_slubna_jesienia.jpg"} leadUrl="" height="70vh" />
 
       <Container sx={{ py: 3 }}>
-        <Typography variant="h1" className={matches ? "quote-title" : ""} align="center">
+        <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
           ZNAJDŹMY CHWILĘ, ŚWIATŁO, KADR
         </Typography>
 
@@ -84,7 +84,7 @@ const Index = () => {
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Sposób, w jaki oddaję światło i kolor, jest rzeczą nad którą od początku bardzo ciężko pracuję. Zawsze było dla mnie bardzo ważne, aby rozwinąć moją wizję i styl w coś, co naprawdę jest
-          moje, co oznacza, że ​​zdjęcia ślubne wykonane przez innych fotografów nie będą wyglądać tak jak te zrobione przeze mnie na Waszym ślubie.
+          moje, co oznacza, że ​​zdjęcia ślubne wykonane przez innych fotografów ślubnych nie będą wyglądać tak jak te zrobione przeze mnie na Waszym ślubie.
         </Typography>
 
         <Typography variant="subtitle1" align="center">
@@ -102,8 +102,8 @@ const Index = () => {
         </Typography>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
-          Chcę dać Wam zdjęcia, które pokochacie na zawsze. Zdjęcia, które są znaczące, prawdziwe, pełne emocji i życia. Cieszcie się tym dniem z całego serca, dużo się uśmiechajcie, a kwestie
-          organizacyjne w dniu ślubu zostawcie w gestii zaufanych osób trzecich. Takie podejście znacznie ułatwi moją pracę i zagwarantuję Wam wspaniałe zdjęcia.
+          Jako fotograf ślubny z Krakowa chcę dać Wam zdjęcia, które pokochacie na zawsze. Zdjęcia, które są znaczące, prawdziwe, pełne emocji i życia. Cieszcie się tym dniem z całego serca, dużo się uśmiechajcie, a kwestie
+          organizacyjne w dniu ślubu zostawcie w gestii zaufanych znajomych lub bliskiej rodziny. Takie podejście znacznie ułatwi moją pracę i zagwarantuję Wam wspaniałe zdjęcia.
         </Typography>
 
         <Typography variant="subtitle1" align="center">
@@ -123,7 +123,7 @@ const Index = () => {
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ py: 2 }}>
           Dobre zdjęcie musi zawierać w sobie ogromną dawkę emocji i dlatego reportażowe podejście do fotografii ślubnej jest dla mnie szczególnie ważne. W trakcie reportażu nie spędzam czasu na
           pozowaniu ludzi, wykonywaniu setek zdjęć grupowych lub powtarzaniu momentów, które już się wydarzyły. Podczas sesji plenerowych, które prawie zawsze odbywają się w wybranym dniu po ślubie
-          staram się zdobyć Wasze zaufanie, pomóc Wam odnaleźć pewność siebie przed obiektywem aparatu i przelać Wasze uczucia na fotografie w sposób kreatywny i niebanalny.
+          staram się zdobyć Wasze zaufanie, pomóc Wam odnaleźć pewność siebie przed obiektywem aparatu i przelać Wasze uczucia na fotografie ślubne w sposób kreatywny i niebanalny.
         </Typography>
 
         <Typography variant="subtitle1" align="center">

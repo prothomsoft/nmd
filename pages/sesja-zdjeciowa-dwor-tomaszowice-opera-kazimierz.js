@@ -44,7 +44,7 @@ const BlogPageComponent = () => {
                     headTitle={"Sesja zdjęciowa Dwór Tomaszowice, Opera Krakowska, Kazimierz"}
                     headDescription={"Serdecznie zapraszam na ostatni w tym roku jesienny i krakowski plener Karoliny i Bartka. Dwór Tomaszowice, Opera Krakowska i zakamarki Kazimierza."}
                     headKeywords={"sesja zdjęciowa dwór tomaszowice, plener ślubny kazimierz kraków"}
-                    headUrl={"https://99foto.pl/sesja-zdjeciowa-dwor-tomaszowice-opera-kazimierz/"}
+                    headUrl={"https://99foto.pl/sesja-zdjeciowa-dwor-tomaszowice-opera-kazimierz"}
                     entryContentP1={
                         "Dzisiaj zapraszam na ostatni w tym roku jesienny krakowski plener Karoliny i Bartka. Do zrealizowania planu A, który zakładał, że wybieramy się do Zakopanego i spacerujemy do Morskiego Oka, zabrakło nam dosłownie jednego dnia. Akurat w sobotę, początek tego wolnego weekendu, w którym mieliśmy się wybrać w góry gęsta mgła przysłoniła świat i to nie tylko w Krakowie, wszędzie."
                     }

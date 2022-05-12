@@ -161,7 +161,7 @@ const BlogPageComponent = () => {
                     headTitle={"Zdjęcia ślubne Trzemeśnia, reportaż ślubny Myślenice"}
                     headDescription={"Bardzo serdecznie zapraszam do odwiedzenia mojego bloga i oglądnięcia relacji z pięknego ślubu Kasi i Grześka. Miłego ogądania."}
                     headKeywords={"reportaż ślubny kraków,zdjęcia ślubne osp trzemeśnia"}
-                    headUrl={"https://99foto.pl/kasia-i-grzesiek-zdjecia-slubne-w-kosciele-pw-sw-klemensa-w-trzemesni/"}
+                    headUrl={"https://99foto.pl/kasia-i-grzesiek-zdjecia-slubne-w-kosciele-pw-sw-klemensa-w-trzemesni"}
                     entryContentP1={
                         "Dzisiaj przenosimy się w okolice Krakowa, blisko Dobczyc do miejscowości Trzemeśnia. Bohaterami wpisu są tym razem Kasia i Grzegorz. Przygotowanie rozpoczęliśmy w domu rodzinny Kasi, gdzie zastałem wspaniałą rodzinną atmosferę. W rolę wizażystki wcieliła się siostra Kasi Emilia, wykonując profesjonalny makijaż z tysiącem pięknych uśmiechów w pakiecie. Fotograf miał jak to czasem mówię mocno z górki. Chwilę później, gdy makijaż był już gotowy Kasia ubrała suknie ślubną, biżuterię, buty, podwiązkę i oficjalnie zgłosiła swoją gotowość do nadchodzących w ten wyjątkowy dzień wydarzeń. Przyjechał Tomek i srebrną Laguną wskazał nam drogę do domu Grześka. Na miejscu miło było znaleźć wspólny temat w szczególności, że było to muzykowanie."
                     }

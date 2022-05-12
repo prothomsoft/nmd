@@ -170,7 +170,7 @@ const BlogPageComponent = () => {
                     headTitle={"Opactwo Cystersów w Mogile i sesja zdjęciowa Kasprowy Wierch"}
                     headDescription={"Kasprowy Wierch, Czarny Staw Gąsienicowy i ceremonia w Klasztorze Opactwa Cystersów w Mogile. W imieniu Anety i Damiana serdecznie zapraszam na mojego bloga."}
                     headKeywords={"opactwo cystersów mogiła,sesja zdjęciowa kasprowy wierch,plener ślubny czarny staw gąsienicowy"}
-                    headUrl={"https://99foto.pl/opactwo-cystersow-w-mogile-sesja-zdjeciowa-kasprowy/"}
+                    headUrl={"https://99foto.pl/opactwo-cystersow-w-mogile-sesja-zdjeciowa-kasprowy"}
                     entryContentP1={
                         "Tak, to był właśnie ten tydzień, długo zapowiadana pogoda, temperatura i odpowiednio pokolorowane liście. Wszystko tego dnia zapowiadało świetny plener w górach Słowacji. Zainspirowani zdjęciami kolegów fotografów, wybraliśmy się wszyscy po raz pierwszy w piękne miejsca, którymi były Popradzki Staw i Strbskie Pleso. Pierwsza miejscówka, w której nasz plan dnia podyktował nam postój to rzeka Poprad, która przecięła naszą drogę dojazdową do jeziora. Chwila niepewności i świetny widok z pewnością nie do powtórzenia już nawet następnego dnia, a co dopiero tydzień później. Ponieważ czasu do zachodu słońca było dużo, wdrapywaliśmy się przez godzinkę asfaltową drogą w miejsce, które zdecydowanie pokonuje Morskie Oko, a jest nim Popradzki Staw."
                     }

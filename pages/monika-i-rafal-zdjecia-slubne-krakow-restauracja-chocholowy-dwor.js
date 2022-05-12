@@ -150,7 +150,7 @@ const BlogPageComponent = () => {
                     headTitle={"Zdjęcia ślubne Kraków, Restauracja Chochołowy Dwór"}
                     headDescription={"Ciekawych jak bawi się arystokracja IT serdecznie zapraszam na reportaż ze ślubu Moniki i Rafała, który odbył się w Restauracji Chochołowy Dwór."}
                     headKeywords={"fotografia ślubna kraków,reportaż ślubny kraków,zdjęcia ślubne kraków"}
-                    headUrl={"https://99foto.pl/monika-i-rafal-zdjecia-slubne-krakow-restauracja-chocholowy-dwor/"}
+                    headUrl={"https://99foto.pl/monika-i-rafal-zdjecia-slubne-krakow-restauracja-chocholowy-dwor"}
                     entryContentP1={
                         'Ta sobota należała do Moniki i Rafała, bohaterów dzisiejszej historii. Poznaliśmy się już przed ślubem podczas sesji narzeczeńskiej w <a href="https://ojcowskiparknarodowy.pl" target="_blank" rel="nofollow">Ojcowskim Parku Narodowym</a>. Zdjęcia z tej sesji trafiły do fotoksiążki, a fotoksiążka trafiła prosto do rodziców. Był to bardzo dobry pomysł na prezent. Przygotowania do tego wielkiego dnia zaczęliśmy w domu Moniki. Ubieranie sukni ślubnej i biżuterii odbyło się z pomocą Iwony i pod czujnym okiem mamy Moniki. Ponieważ Rafał mieszka blisko to również jego odwiedziłem podczas przygotowań. Błogosławieństwo odbyło się w pełnej emocji i wzruszeń kameralnej atmosferze. Po błogosławieństwie udaliśmy się do <a href="https://parafiabolechowice.pl" target="_blank" rel="nofollow">Kościoła św. Piotra i Pawła w Bolechowicach</a>.'
                     }

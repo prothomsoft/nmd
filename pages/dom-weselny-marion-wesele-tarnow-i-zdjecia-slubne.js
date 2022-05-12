@@ -187,7 +187,7 @@ const BlogPageComponent = () => {
                     headTitle={"Dom weselny Marion, zdjęcia ślubne"}
                     headDescription={"Emocje wypełniały mury kościoła, podczas życzeń BOCIAN krążył i krążył, a w domu weselnym Marion parkiet pękał w szwach. Zapraszam do oglądania."}
                     headKeywords={"sala weselna marion tarnów,fotograf na wesele tarnów,dom weselny tarnów"}
-                    headUrl={"https://99foto.pl/dom-weselny-marion-wesele-tarnow-i-zdjecia-slubne/"}
+                    headUrl={"https://99foto.pl/dom-weselny-marion-wesele-tarnow-i-zdjecia-slubne"}
                     entryContentP1={
                         'Pierwszy raz w mojej ponad pięcioletniej karierze fotografa ślubnego, podczas życzeń składanych młodej parze pod kościołem, centralnie ponad ludźmi latał BOCIAN. Jest to bankowa zapowiedź, że już wkrótce coś z tego będzie, tak przynajmniej mówili goście weselni. Przygotowania zaczęliśmy w <a href="https://djamrog.eu/" target="_blank" rel="nofollow">Salonie Fryzjerskim Jarmóg</a> w Tarnowie o godzinie ósmej rano. Jest to bardzo gustownie urządzony salon fryzjerski, który polecam każdej pannie młodej planującej swój ślub w Tarnowie lub okolicach. Kiedy fryzura była gotowa udaliśmy się na makijaż odwiedzając <a href="https://www.salongaja.pl/" target="_blank" rel="nofollow">Salon Kosmetyczny Gaja</a>. Dało się zauważyć, że Panie wizażystki, na brak pracy nie mogą narzekać, gdzyż kolejny klienci pojawiali się i znikali w tempie ekspresowym.'
                     }

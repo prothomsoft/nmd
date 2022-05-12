@@ -42,7 +42,7 @@ const BlogPageComponent = () => {
                     headTitle={"Sesja ślubna Zamek Pieskowa Skała, Zamek Korzkiew"}
                     headDescription={"Zamek Pieskowa Skała, ślubna sesja zdjęciowa Kristiny i Aleksandra. Gonitwa za zachodzącym słońcem i moc emocji. Na sesje tylko Kraków. Zapraszam do oglądania."}
                     headKeywords={"Sesja ślubna Zamek Pieskowa Skała, Zamek Korzkiew, miejsce na sesję plenerową w Krakowie"}
-                    headUrl={"https://99foto.pl/sesja-slubna-w-pieskowej-skale-i-zamek-korzkiew/"}
+                    headUrl={"https://99foto.pl/sesja-slubna-w-pieskowej-skale-i-zamek-korzkiew"}
                     entryContentP1={
                         "Ostatnio dużo się dzieje i kilka wpisów ślubnych pojawiło się tylko w strefie klienta. Czas to jednak zmienić i nadrobić zaległości wpisem co prawda krótszym niż ślubny, bo plenerowym, ale zawsze wpisem. Ślub Kristiny i Aleksandra miałem przyjemność fotografować w sierpniu, będąc jednym z zaproszonych gości Dworu Sieraków. Trzy tygodnie później umówiliśmy się na sesję plenerową w Krakowie. Na poszukiwania trzech składowych czyli chwili, światła i kadru wybraliśmy się w dobrze znane mi miejsca."
                     }

@@ -112,7 +112,7 @@ const BlogPageComponent = () => {
                         'Summer Party w Cornerstone w Krakowie. Impreza plenerowa w Dolinie Kluczwody. Niewiarygodnie duża ilość atrakcji i przepysznych rzeczy do spróbowania. Konkursy łucznictwa i siatkówki z medalami i nagrodami, pokazy tańca z ogniem i wiele innych atrakji zaplanowanych przez Anię, Asię i Iwentarium. Zapraszam na zdjęcia.'
                     }
                     headKeywords={"Fotograf na event firmowy Kraków, Summer Party w Cornerstone"}
-                    headUrl={"https://99foto.pl/summer-party-cornerstone-2021.js/"}
+                    headUrl={"https://99foto.pl/summer-party-cornerstone-2021.js"}
                     entryContentP1={
                         'Summer Party w Cornerstone w Krakowie. Impreza plenerowa w Dolinie Kluczwody. Niewiarygodnie duża ilość atrakcji i przepysznych rzeczy do spróbowania. Konkursy łucznictwa i siatkówki z medalami i nagrodami, pokazy tańca z ogniem i wiele innych atrakji zaplanowanych przez Anię, Asię i <a href="https://iwentarium.pl/ target="_blank" rel="nofollow">Iwentarium</a>. Zapraszam na zdjęcia i życzę miłego oglądania.'
                     }

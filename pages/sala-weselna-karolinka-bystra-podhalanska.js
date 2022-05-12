@@ -159,7 +159,7 @@ const BlogPageComponent = () => {
                     headTitle={"Karolinka Bystra Podhalańska, Wesele Strażackie"}
                     headDescription={"Sala weselna Karolinka Bystra Podhalańska. Wesele strażackie wynikające z tradycji rodzinnych. Klaudia i Przemysław. Serdecznie zapraszam."}
                     headKeywords={"Sala weselna Karolinka Bystra Podhalańska, dom weselny karolinka"}
-                    headUrl={"https://99foto.pl/sala-weselna-karolinka-bystra-podhalanska/"}
+                    headUrl={"https://99foto.pl/sala-weselna-karolinka-bystra-podhalanska"}
                     entryContentP1={
                         '<a href="https://parafiatokarnia.pl/" target="_blank" rel="nofollow noopener noreferrer">Kościół Matki Bożej Śnieżnej w Tokarni</a> odwiedzam regularnie przy okazji weekendowych wizyt czy imprez rodzinnych. Tym razem po raz pierwszy po generalnym remoncie fotografowałem w tym Kościele ceremonię ślubną Klaudii i Przemka. Oglądając zdjęcia zobaczycie, że był to doskonale zorganizowany ślub z oprawą strażacką, którą przygotowały zastępy strażackie z Tokarni i Wadowic. Kilka minut przygotowań u Przemka i od razu mogłem się zorientować, że strażakiem nie został on z przypadku, a służba w straży pożarnej jest bardzo ważna dla niego i jego całej rodziny. Dlatego też zamiast garnituru wybrał mundur strażacki. Było to więc prawdziwe wesele strażackie z asystą samochodów pożarniczych, strażacką bramą weselną, specjalnie przygotowanymi zadaniami i szpalerem reprezentacyjnym utworzonym podczas ceremoni i przy wyjściu z Kościoła.'
                     }

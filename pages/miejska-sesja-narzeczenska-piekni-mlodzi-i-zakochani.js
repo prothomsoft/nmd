@@ -55,7 +55,7 @@ const BlogPageComponent = () => {
                     headTitle={"Miejska sesja narzeczeńska w Krakowie"}
                     headDescription={"Miejska sesja narzeczeńska w Krakowie, Kazimierz, Stare Miasto, Zakrzówek. Piękni, młodzi i zakochani - Marlena i Adam. Zapraszam."}
                     headKeywords={"miejska sesja narzeczeńska, zdjęcia Kraków Stare Miasto, sesja na Kazimierzu"}
-                    headUrl={"https://99foto.pl/miejska-sesja-narzeczenska-piekni-mlodzi-i-zakochani/"}
+                    headUrl={"https://99foto.pl/miejska-sesja-narzeczenska-piekni-mlodzi-i-zakochani"}
                     entryContentP1={
                         "Pracując nad obróbką miejskiej sesji narzeczeńskiej Marleny i Adama słuchałem sobie jednej z ostatnich płyt Eda Sheerana, gdzie w utworze Beautiful People śpiewnie wyraża on swoje niezadowolenie ze swojego rudego wyglądu. Niewątpliwie przyszli Państwo Młodzi, których zdjęcia mam przyjemność dzisiaj pokazać na blogu, mieli o wiele więcej szczęścia i tytuł wpisu piękni, młodzi, zakochani pasuje do nich idealnie. Ślub już w sierpniu, a tymczasem wspólnie korzystając z rewelacyjnej pogody odwiedziliśmy kilka zakątków naszego pięknego Krakowa."
                     }

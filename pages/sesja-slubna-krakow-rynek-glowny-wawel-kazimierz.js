@@ -39,7 +39,7 @@ const BlogPageComponent = () => {
                         "Piękny Kraków, piękna Katrina i dla równowagi Chan i ja. Taką kompozycje fifty/fifty możecie zobaczyć dzisiaj na moim blogu. Serdecznie zapraszam na sesje plenerowe i sesje ślubne w Krakowie. Kazimierz i Rynek Główny sprawdzają się świetnie."
                     }
                     headKeywords={"Sesja ślubna Kraków, zdjęcia ślubne na Kazimierzu, plener na Rynku w Krakowie"}
-                    headUrl={"https://99foto.pl/sesja-slubna-krakow-rynek-glowny-wawel-kazimierz/"}
+                    headUrl={"https://99foto.pl/sesja-slubna-krakow-rynek-glowny-wawel-kazimierz"}
                     entryContentP1={
                         "Chan i Katrina postanowili przebyć szmat drogi by zrealizować swoje marzenie, sesję zdjęciową w jednym z najpiękniejszych miast europejskich jakim jest Kraków. Wcześniej odwiedzili Austrię, a w Krakowie podczas czterodniowego pobytu mieli okazję zwiedzić Kopalnie Soli w Wieliczce i Obóz Koncentracyjny Auschwitz-Birkenau w Oświęcimiu. Krakowski Rynek, Zamek Królewski na Wawelu i zakamarki Kazimierza mieli okazję odkrywać ze mną na zaplanowanej już rok wcześniej sesji ślubnej w Krakowie."
                     }

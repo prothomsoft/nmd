@@ -86,7 +86,7 @@ const BlogPageComponent = () => {
                         "Wieczór panieński Martyny. Zapraszam na zdjęcia."
                     }
                     headKeywords={"Wieczór panieński Bubble Toast Kraków"}
-                    headUrl={"https://99foto.pl/wieczor_panienski_bubble_toast_krakow/"}
+                    headUrl={"https://99foto.pl/wieczor_panienski_bubble_toast_krakow"}
                     entryContentP1={
                         "Zapraszam na kilka zdjęć z wieczoru panieńskiego Martyny. Kulki w Bubble Toast na Placu Szczepańskim w Krakowie i małe conieco w Restauracji Boccanera. Miłego oglądania."
                     }

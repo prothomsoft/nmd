@@ -41,7 +41,7 @@ const BlogPageComponent = () => {
                     headTitle={"Sesja narzeczeńska Pieskowa Skała"}
                     headDescription={"Trochę deszczu, trochę gradu i przebłyski słońca - taka pogoda nie zaskoczyła Patrycję i Michała podczas ich sesji narzeczeńskiej w Pieskowej Skale."}
                     headKeywords={"sesja narzeczeńska pieskowa skała,plener ślubny w ojcowie"}
-                    headUrl={"https://99foto.pl/patrycja-i-michal-sesja-narzeczenska-pieskowa-skala/"}
+                    headUrl={"https://99foto.pl/patrycja-i-michal-sesja-narzeczenska-pieskowa-skala"}
                     entryContentP1={
                         "Czasem trzeba wyjść ze strefy komfortu i nawet, gdy na niebie pojawią się chmury, twoja pogoda mówi, że będzie na pewno padał deszcz, a może nawet grad &#8211; należy twardo realizować plan. Tym razem plan ten to sesja narzeczeńska Patrycji i Michała w Pieskowej Skale. Turyści pochowali się przed deszczem, natomiast my przeszliśmy szybki kurs pozowania."
                     }

@@ -3,7 +3,7 @@ import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import ParallaxImageFooter from "../components/parallaxImageFooter";
 import { Typography } from "@mui/material";
-import ImageCardGrid from "../components/imageCardGrid";
+import ImageCardGrid1 from "../components/imageCardGrid1";
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 import Link from "next/link";
@@ -40,9 +40,9 @@ const PageComponent = () => {
           na niezapomniane sesje zdjęciowe, obserwując powstające i znikające trendy w fotografii ślubnej.
         </Typography>
        
-        <ImageCardGrid />
+        <ImageCardGrid1 />
         <Box sx={{ py: 2 }}>
-          <Typography variant="h1" className={matches ? 'quote-title' : ''} align="center">
+          <Typography variant="h2" className={matches ? 'quote-title' : ''} align="center">
             EMOCJE, UCZUCIA I KOLORY ZATRZYMANE W KAŻDYM KADRZE
           </Typography>
         </Box>

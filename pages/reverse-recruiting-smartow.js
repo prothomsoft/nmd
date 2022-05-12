@@ -39,7 +39,7 @@ const BlogPageComponent = () => {
                         "Reverse Recruitment to event skupiający uwagę osób związanych z branżą HR, którego celem było zapoznanie kandydatów z dobrymi praktykami pozwalającymi skutecznie znaleźć pracę."
                     }
                     headKeywords={"Fotograf na event firmowy Kraków, Reverse Recruitment Event w SmartRecruiters"}
-                    headUrl={"https://99foto.pl/reverse-recruiting-smartow/"}
+                    headUrl={"https://99foto.pl/reverse-recruiting-smartow"}
                     entryContentP1={
                         "Reverse Recruitment to event skupiający uwagę osób związanych z branżą HR, którego celem było zapoznanie kandydatów z dobrymi praktykami pozwalającymi skutecznie znaleźć prace."
                     }

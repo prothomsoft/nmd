@@ -37,7 +37,7 @@ const BlogPageComponent = () => {
                     headTitle={"Zimowa sesja ślubna w górach"}
                     headDescription={"Trochę nam wczoraj tyłki zmarzły, ale warto było, żeby odetchnąć świeżym powietrzem i zrobić kilka niezapomnianych zdjęć. Miłego oglądania."}
                     headKeywords={"zimowa sesja ślubna w górach,plener ślubny czarna góra"}
-                    headUrl={"https://99foto.pl/kasia-i-pawel-zimowa-sesja-slubna-w-gorach/"}
+                    headUrl={"https://99foto.pl/kasia-i-pawel-zimowa-sesja-slubna-w-gorach"}
                     entryContentP1={
                         "Minus trzydzieści na termometrach w górach, pełno śniegu, czyste niebo i świecące słońce. Stok na Czarnej Górze pełny narciarzy. Po drugiej stronie tego wzniesienia fajowa panorama tatr i bielutki, zupełnie niewydeptany śnieg. Trochę nam tyłki zmarzły tego dnia, ale warto było, żeby odetchnąć świeżym powietrzem i zrobić kilka niezapomnianych zdjęć."
                     }

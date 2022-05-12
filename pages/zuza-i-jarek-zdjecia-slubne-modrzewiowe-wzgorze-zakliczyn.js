@@ -143,7 +143,7 @@ const BlogPageComponent = () => {
                     headTitle={"Zdjęcia ślubne Modrzewiowe Wzgórze - Zakliczyn"}
                     headDescription={"Reportaż ze ślubu Zuzy i Jarka w Restauracji Modrzewiowe Wzgórze - Zakliczyn. Uroczystość zaślubin w Kościele pw. św. Mikołaja Biskupa w Brzozowej."}
                     headKeywords={"fotograf na ślub faściszowa,zdjęcia ślubne zakliczyn,restauracja modrzewiowe wzgórze"}
-                    headUrl={"https://99foto.pl/zuza-i-jarek-zdjecia-slubne-modrzewiowe-wzgorze-zakliczyn/"}
+                    headUrl={"https://99foto.pl/zuza-i-jarek-zdjecia-slubne-modrzewiowe-wzgorze-zakliczyn"}
                     entryContentP1={
                         'Idealnie wykorzystany urlop w ojczyźnie &#8211; tak krótko podsumowałbym tygodniowy powrót Zuzi i Jarka do polskiej rzeczywistości. Dzień rozpoczęliśmy w salonie kosmetycznym w Ciężkowicach. Następnie miałem przyjemność uczestniczyć w długotrwałym procesie dmuchania balonów i doglądać hodowli udomowionego raka. Po błogosławieństwie udaliśmy się do <a href="https://www.brzozowa.diecezja.tarnow.pl/" target="_blank" rel="nofollow">kościoła pw. św. Mikołaja Biskupa w Brzozowej</a>. Po ceremoni i zdjęciu grupowym na życzenia udaliśmy się do <a href="https://www.modrzewiowe-wzgorze.pl/" target="_blank" rel="nofollow">Osady Wypoczynku i Zdrowia Modrzewiowe Wzgórze</a> w Faściszowej.'
                     }

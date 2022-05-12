@@ -39,7 +39,7 @@ const BlogPageComponent = () => {
                     headTitle={"Zdjęcia ślubne na Rynku w Krakowie"}
                     headDescription={"Wtorkowe popołudnie z gwarantowaną pogodą i białymi chmurkami spędziliśmy z Sylwią i Barkiem spacerując po Krakowie. Miłego oglądania."}
                     headKeywords={"sesja ślubna kazimierz,plener ślubny kraków,zdjęcia ślubne na rynku w krakowie"}
-                    headUrl={"https://99foto.pl/sylwia-i-bartek-sesja-poslubna-krakow/"}
+                    headUrl={"https://99foto.pl/sylwia-i-bartek-sesja-poslubna-krakow"}
                     entryContentP1={
                         "Tak, to był właśnie ten tydzień, długo zapowiadana pogoda, temperatura i odpowiednio pokolorowane liście. Wszystko tego dnia zapowiadało świetny plener w górach Słowacji. Zainspirowani zdjęciami kolegów fotografów, wybraliśmy się wszyscy po raz pierwszy w piękne miejsca, którymi były Popradzki Staw i Strbskie Pleso. Pierwsza miejscówka, w której nasz plan dnia podyktował nam postój to rzeka Poprad, która przecięła naszą drogę dojazdową do jeziora. Chwila niepewności i świetny widok z pewnością nie do powtórzenia już nawet następnego dnia, a co dopiero tydzień później. Ponieważ czasu do zachodu słońca było dużo, wdrapywaliśmy się przez godzinkę asfaltową drogą w miejsce, które zdecydowanie pokonuje Morskie Oko, a jest nim Popradzki Staw."
                     }

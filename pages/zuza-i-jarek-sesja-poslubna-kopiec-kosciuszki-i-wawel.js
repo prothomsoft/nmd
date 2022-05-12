@@ -30,7 +30,7 @@ const BlogPageComponent = () => {
                     headTitle={"Sesja zdjęciowa Kopiec Kościuszki"}
                     headDescription={"Kraków i jego najbardziej znane miejsce na plener czyli Kopiec Kościuszki i Wawel. Sesja ślubna Zuzy i Jarka. Zapraszam do oglądania."}
                     headKeywords={"zdjęcia ślubne wawel,plener ślubny kopiec kościuszki"}
-                    headUrl={"https://99foto.pl/zuza-i-jarek-sesja-poslubna-kopiec-kosciuszki-i-wawel/"}
+                    headUrl={"https://99foto.pl/zuza-i-jarek-sesja-poslubna-kopiec-kosciuszki-i-wawel"}
                     entryContentP1={
                         'Zuzę i Jarka znacie już z <a href="https://99foto.pl/zuza-i-jarek-zdjecia-slubne-modrzewiowe-wzgorze-zakliczyn/" target="_blank" rel="nofollow">tego ślubnego wpisu</a> na moim blogu. Spotkaliśmy się w tygodniu po ślubie w ramach wspominanego już urlopu w ojczyźnie w Krakowie na plenerowej sesji ślubnej. Początkowo planowaliśmy sesję w okolicach Tarnowa lub w Brzesku w Pałacu Goetzów, jednak w końcu postawiliśmy na Kraków wybierając Kopiec Kościuszki i Wawel.'
                     }

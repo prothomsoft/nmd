@@ -34,7 +34,7 @@ const BlogPageComponent = () => {
                     headTitle={"Krakowska sesja ślubna Renaty i Jacka"}
                     headDescription={"Wszystkich, którym debata przedwyborcza podniosła ciśnienia , serdecznie zapraszam na mojego bloga i wpis plenerowy Renaty i Jacka."}
                     headKeywords={"sesja ślubna kazimierz,plener ślubny w krakowie"}
-                    headUrl={"https://99foto.pl/krakowska-sesja-poslubna-renaty-i-jacka/"}
+                    headUrl={"https://99foto.pl/krakowska-sesja-poslubna-renaty-i-jacka"}
                     entryContentP1={
                         "Trzy dni po udanej zabawie w Pałacu Śmiłowice spotkaliśmy się ponownie, tym razem w Krakowie na ślubnej sesji plenerowej. Padający poniedziałkowy śnieg, którego nikt nie spodziewał się na początku października przekreślił nasz początkowy plan na poniedziałkowy spacer po Rynku i Kazimierzu. Pogoda we wtorek okazała się na nasze szczęście o niebo lepsza i szybką decyzją postanowiliśmy zrealizować plan na sesję właśnie tego dnia. Spotkaliśmy się pod Teatrem Słowackiego."
                     }

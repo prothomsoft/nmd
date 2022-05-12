@@ -35,7 +35,7 @@ const PageComponent = () => {
 
   return (
     <LayoutSitePage
-      title="Reportaż Ślubny Kraków ✔️ Tomasz Prokop Fotografia Ślubna"
+      title="Reportaż Ślubny Kraków ✔️ Tomasz Prokop Fotograf Ślubny"
       description="Reportaż ślubny Kraków, chwila, światło i kadr. Reportaż ślubny pełny kolorów i autentycznych emocji. Twoje ❤️ fotografie z reporterskim charakterem i bez pozowania."
       keywords="reportaż ślubny kraków, zdjęcia ślubne"
       url="https://99foto.pl/reportaz-slubny-krakow/"
@@ -76,7 +76,7 @@ const PageComponent = () => {
 
         <Image alt="Ogromne możliwości w fotografii ślubnej" src={portfolio_0001} />
 
-        <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
+        <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
           FOTOGRAF JAKO REPORTER ŚLUBNY
         </Typography>
 
@@ -96,7 +96,7 @@ const PageComponent = () => {
 
         <Image alt="Autentyczne emocje w fotografii ślubnej" src={portret_panny_mlodej} />
 
-        <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
+        <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
           MOJE PODEJŚCIE DO REPORTAŻU ŚLUBNEGO
         </Typography>
 

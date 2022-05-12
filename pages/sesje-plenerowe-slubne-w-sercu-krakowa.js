@@ -32,7 +32,7 @@ const BlogPageComponent = () => {
                     headTitle={"Sesje plenerowe ślubne Kraków"}
                     headDescription={"Serdecznie zapraszam na sesje plenerowe ślubne do Krakowa. Mieszkam w tym mieście i potrafię zaproponować fajne miejsca na niezapomniane zdjęcia."}
                     headKeywords={"sesja zdjęciowa kraków,plener ślubny na wawelu"}
-                    headUrl={"https://99foto.pl/sesje-plenerowe-slubne-w-sercu-krakowa/"}
+                    headUrl={"https://99foto.pl/sesje-plenerowe-slubne-w-sercu-krakowa"}
                     entryContentP1={
                         "Kraków to miejsce piękne, niezwykłe i spełniające wszystkie kryteria niezbędne do wykonania niezapomnianej plenerowej sesji ślubnej. Dodajmy do tego jeszcze świetnie przygotowaną, uśmiechniętą parę czyli Natalię i Piotra, gram kreatywnych pomysłów fotografa, kilka promieni majowego słońca i mogę powiedzieć, że zdjęcia praktycznie robiły się same. Nie miałem okazji fotografować ślubu Natalii i Piotra. Ślub ten odbył się blisko rok temu. Od czego mamy jednak facebook, instagram i wyszukiwarki internetowe. Młodzi wpisali hasło sesja zdjęciowa Kraków i w ten sposób mieliśmy okazję miło spędzić jedno popołudnie, przeszukując Kraków w poszukiwaniu inspiracji i ciekawych kadrów."
                     }

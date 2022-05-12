@@ -39,7 +39,7 @@ const BlogPageComponent = () => {
                     headTitle={"Sesja ślubna Wiolety i Marcina - Mogilany Kazimierz"}
                     headDescription={"Mega wpis pięknej pary Wiolety i Marcina. Zdjęcia zrobiliśmy w parku Mogilanach i na Krakowskim Kazimierzu. Zapraszam do oglądania !!!"}
                     headKeywords={"sesja ślubna kraków,plener ślubny kraków"}
-                    headUrl={"https://99foto.pl/sesja-poslubna-wiolety-i-marcina-mogilany-i-kazimierz/"}
+                    headUrl={"https://99foto.pl/sesja-poslubna-wiolety-i-marcina-mogilany-i-kazimierz"}
                     entryContentP1={
                         'Z Wioletą i Marcinem spotkaliśmy się już w ich <a href="https://99foto.pl/wioleta-i-marcin-zdjecia-slubne-w-restauracji-victoria-rabka-zdroj" target="_blank" rel="nofollow">reportażowym wpisie</a>, dzisiaj przyszedł czas na plener! Obiecująco wyglądająca alejka drzew w położonym niedaleko Krakowa Parku w Mogilanach oraz duża ilość bezcennego podczas słonecznej pogody cienia, przekonały nas do odwiedzenia tego miejsca i wykonania właśnie tam sesji ślubnej.'
                     }

@@ -34,7 +34,7 @@ const BlogPageComponent = () => {
                     headTitle={"Sesja ślubna Pieskowa Skała i Ojców"}
                     headDescription={"Kolejna odsłona pięknej jesieni. Tym razem w imieniu Natalii i Marcina zapraszam do Pieskowej Skały i Ojcowa."}
                     headKeywords={"sesja ślubna pieskowa skała,plener ojców"}
-                    headUrl={"https://99foto.pl/natalia-i-marcin-sesja-slubna-pieskowa-skala-i-ojcow/"}
+                    headUrl={"https://99foto.pl/natalia-i-marcin-sesja-slubna-pieskowa-skala-i-ojcow"}
                     entryContentP1={
                         "Od ślubu Natalii i Marcina minęło już trochę czasu. Można byłoby powiedzieć, że długo czekaliśmy na różnokolorowe liście i jesienną aurę w Ojcowskim Parku Narodowym i Pieskowej Skale, jednak nie byłaby to stuprocentowa prawda. Jak się pewnie domyślacie powstrzymała nas jesienna pogoda, która oprócz deszczu serwowała temperaturę zwykle poniżej 10 kresek na termometrze. Ale w końcu prognozy sprawdziły się i w może nie najbardziej słoneczny, ale bezdeszczowy i ciepły dzień wybraliśmy się w zaplanowane miejsce."
                     }

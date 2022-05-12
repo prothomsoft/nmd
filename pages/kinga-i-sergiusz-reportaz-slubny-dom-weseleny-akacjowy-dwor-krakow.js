@@ -147,7 +147,7 @@ const BlogPageComponent = () => {
                     headTitle={"Reportaż ślubny Dom Weselny Akacjowy Dwór Kraków"}
                     headDescription={"Serdecznie zapraszam do Domu Weselnego Akacjowy Dwór w Krakowie na reportaż ślubny Kingi i Sergiusza. Miłego oglądania."}
                     headKeywords={"reportaż ślubny kraków,dom weselny akacjowy dwór"}
-                    headUrl={"https://99foto.pl/kinga-i-sergiusz-reportaz-slubny-dom-weseleny-akacjowy-dwor-krakow/"}
+                    headUrl={"https://99foto.pl/kinga-i-sergiusz-reportaz-slubny-dom-weseleny-akacjowy-dwor-krakow"}
                     entryContentP1={
                         'Piątek trzynastego minął bardzo szybko w oczekiwaniu na najważniejszy dzień w życiu Kingi i Sergiusza, dzień ich ślubu. <a href="https://www.jeanlouisdavid.pl" target="_blank" rel="nofollow">Salon fryzjerki Jean Louis David</a> w Galerii Kazimierz został tego dnia opanowany przez dziewczyny. Praca pań fryzjerek podlegała surowej ocenie, ponieważ Kinga zawodowo zajmuje się wizażem. Wszystkie cztery fotele zapełniły się, a fryzjerki czarowały fryzury marzeń. Kiedy po blisko dwóch godzinach były one gotowe, udaliśmy się do domu Kingi, żeby lekko poprawić makijaż. Pomagała Asia, pomagała Mama Kingi więc makijaż został wykonany na najwyższym poziomie. Suknia ślubna, buty, biżuteria, kilka pamiątkowych zdjęć i Kinga padła w ramiona mega szczęśliwego tego dnia Sergiusza.'
                     }

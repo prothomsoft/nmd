@@ -54,7 +54,7 @@ const BlogPageComponent = () => {
                     headTitle={"Sesja ślubna na Słowacji, Tatrzańska Łomnica, Jezioro Szczyrbskie"}
                     headDescription={"Piękne miejsca w Wysokich Tatrach czyli Tatrzańska Łomnica i Jezioro Szczyrbskie. Sesja ślubna Edyty i Roberta na Słowacji. Zapraszam na bloga."}
                     headKeywords={"sesja ślubna Słowacja, Tatrzańska Łomnica, Jezioro Szczyrbskie, sesja zdjęciowa w Wysokich Tatrach"}
-                    headUrl={"https://99foto.pl/sesja-na-slowacji-tatrzanska-lomnica-szczyrbskie-jezioro/"}
+                    headUrl={"https://99foto.pl/sesja-na-slowacji-tatrzanska-lomnica-szczyrbskie-jezioro"}
                     entryContentP1={
                         'Trafić dobrą pogodę w Tatrach, szczególnie jesienią, być tam w momencie gdy górskie szczyty oświetlają ciepłe promienie słońca, a liście mienią się w kolorach złota, to rzecz niełatwa. Jednak nie po raz pierwszy i mam taką nadzieję nie po raz ostatni, udało się nam upolować taki idealny dzień i do naszej codzienności dołożyć kilka przemiłych wspomnień i kolorowych fotograficznych kadrów. Dzień rozpoczął się wcześnie rano. Po drodze z Krakowa wiadomo duża flat white i zdrapki na Orlenie, rozmowy o przyszłych planach z Edytą i Robertem i jedno wielkie ładowanie akumulatorów boskim widokiem gór, który najnormalniej w świecie uwielbiam. Przekroczyliśmy granicę ze Słowacją i kolejką górską dostaliśmy się na Tatrzańską Łomnicę. Góry zaskakują. Tak było również i tym razem. Łomnicki Staw, który zwykle przypominał Morskie Oko niemalże zniknął. Pozwoliło nam to na rajd po kamieniach i dostęp do miejsc wcześniej niedostępnych.'
                     }

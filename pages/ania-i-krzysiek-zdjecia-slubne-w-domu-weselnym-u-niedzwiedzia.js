@@ -128,7 +128,7 @@ const BlogPageComponent = () => {
                     headTitle={"Zdjęcia ślubne w Domu Weselnym U Niedźwiedzia"}
                     headDescription={"Mega weselna petarda ślubna Ani i Krzyśka. Piękni, młodzi, wspaniałe miejsca i przeszalona muzyczna banda... serdecznie zapraszam!"}
                     headKeywords={"fotograf na wesele kraków, zdjęcia ślubne w domu weselnym u niedźwiedzia, fotograf na wesele kraków"}
-                    headUrl={"https://99foto.pl/ania-i-krzysiek-zdjecia-slubne-w-domu-weselnym-u-niedzwiedzia/"}
+                    headUrl={"https://99foto.pl/ania-i-krzysiek-zdjecia-slubne-w-domu-weselnym-u-niedzwiedzia"}
                     entryContentP1={
                         'Ślub Ani i Krzyśka odbył się w długi weekend majowy. Na przygotowania wybrałem się do domu rodzinnego Ani do Lachowic. Zaczęliśmy od zdjęć z makijażu, który z każdą minutą podkreślał niezwykłą urodę Ani. Chwilę później pojawił się Krzysiek i rozpoczęło się pierwsze w tym dniu błogosławieństwo. Zapowiedzi pogodowe na ten dzień okazały się zupełnie nietrafione i mieliśmy piękną pogodę od początku do końca. Drugie błogosławieństwo odbyło się już u Krzyśka w Krakowie. Na ceremonię w dobrym nastroju spacerkiem udaliśmy się do <a href="https://krakow.saletyni.pl/" target="_blank" rel="nofollow">Kościoła pw. Matki Bożej Saletyńskiej</a>. Obrączki, przez które trochę wcześniej mi się dostało do ołtarza dostarczyła mała gwiazda całej imprezy.'
                     }

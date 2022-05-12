@@ -46,7 +46,7 @@ const BlogPageComponent = () => {
                     headTitle={"Sesja przedślubna w Krakowie"}
                     headDescription={"Sesja przedślubna Kingi Maćka. Ciekawe i najlepsze miejsce plenerowe na sesję zdjęciową. Kraków i okolice. Serdecznie zapraszam."}
                     headKeywords={"sesja przedślubna w krakowie,zamek korzkiew,zamek pieskowa skała"}
-                    headUrl={"https://99foto.pl/sesja-przedslubna-zamek-korzkiew/"}
+                    headUrl={"https://99foto.pl/sesja-przedslubna-zamek-korzkiew"}
                     entryContentP1={
                         'Tym razem jeden wpis na blogu łączy sesję narzeczeńską i sesję ślubną Kingi i Maćka. Postanowiłem wybrać najlepsze kadry, które udało nam się stworzyć podczas blisko ośmiu godzin spacerowania i fotografowania miasta Krakowa i jego okolic. Kinga i Maciek bardzo dbali o detale na obu sesjach, przygotowując sobie <a href="https://koloryholi.pl/" target="_blank" rel="nofollow">kolorki holi</a>, strój strażacki, balony wypełnione helem i przepiękny wianek. Sesja narzeczeńska miała pokazać Kraków jako miasto i ograniczyć kolor zielony w kadrze,  wybraliśmy więc w pierwszej kolejności Kazimierz.'
                     }

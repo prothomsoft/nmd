@@ -41,7 +41,7 @@ const BlogPageComponent = () => {
                         "Ślub Cywilny w międzynarodowym towarzystwie. Sesja zdjęciowa Willa Decjusza w Krakowie. Serdecznie zapraszam na bloga, a w przyszłości do zdjęć w Naszym pięknym mieście Krakowie."
                     }
                     headKeywords={"pomysł na sesje zimową, sesja ślubna zimą, miejsce na sesję ślubną w Krakowie"}
-                    headUrl={"https://99foto.pl/willa-decjusza-krakow-slub-cywilny-sesja-zdjeciowa/"}
+                    headUrl={"https://99foto.pl/willa-decjusza-krakow-slub-cywilny-sesja-zdjeciowa"}
                     entryContentP1={
                         'Same dobre wieści. Mój blog ma kolejnych zagranicznych gości. Pewnie już nie pamiętacie ale wiosną ubiegłego roku Kraków odwiedzili Chan i Katrina, których z przyjemnością oprowadziłem po Krakowskim Rynku. Kilka zdjęć oznaczonych jako <a href="https://99foto.pl/sesja-slubna-krakow-rynek-glowny-wawel-kazimierz/">sesja ślubna w Krakowie</a> możecie łatwo znaleźć na moim blogu. Tym razem przy okazji Ślubu Cywilnego, który odbył się w <a href="https://dworek.eu/" target="_blank" rel="nofollow">Dworku Białoprądnickim</a>, miałem okazję to słoneczne i mroźne (trzy stopnie poniżej zera) przedpołudnie spędzić w przemiłym towarzystwie Kristiny i Oli. Pewnie zastanawiacie się skąd takie imiona. Odpowiedź jest bardzo prosta Kristina pochodzi z Rosji natomiast Ola jest Norwegiem. Podczas naszych rozmów oboje mówili, że uwielbiają Polskę, jednak nie wykluczają powrotu na północ do równie pięknej Norwegii. Nasz blisko czterdziesto kilometrowy tour po Krakowie rozpoczęliśmy na Rynku Głównym.'
                     }

@@ -173,7 +173,7 @@ const BlogPageComponent = () => {
                     headTitle={"Zdjęcia ślubne, góralski ślub w osadzie kamienica"}
                     headDescription={"Ostatnia sobota to powrót w tamte strony i góralski ślub Marleny i Dawida w miejscowości Kamienica. Górale to potrafią się bawić. Fotograf ślubny zaprasza."}
                     headKeywords={"fotograf na wesele kraków,reportaż ślubny kraków"}
-                    headUrl={"https://99foto.pl/marlena-i-dawid-zdjecia-slubne-z-goralskiego-slubu-w-osadzie-kamienica/"}
+                    headUrl={"https://99foto.pl/marlena-i-dawid-zdjecia-slubne-z-goralskiego-slubu-w-osadzie-kamienica"}
                     entryContentP1={
                         'Jakieś siedem lat temu w miejscowości Maniowy goście bawili się na moim weselu. Ostatnia sobota to powrót w tamte góralskie strony i góralski ślub Marleny i Dawida w miejscowości Kamienica, przez którą w drodze do Krościenka przejeżdżałem już setki razy. Przygotowanie rozpoczęliśmy w <a href="https://www.facebook.com/Salon-Fryzjerski-anette-1464590760459423/" target="_blank" rel="nofollow">Salonie Fryzjerskim Annete</a> w Szczawie. Gdy fryzura była już gotowa pojechaliśmy do domu Marleny, gdzie kontynuowaliśmy przygotowania. Góralscy drużbowie znali setki przyśpiewek i w finlandzkim tonie długo nie pozwalali wyjść Marlenie z domu. Błogosławieństwo i chwilę później byliśmy już w drodze do <a href="https://www.parafia-kamienica-tarnow.pl/" target="_blank" rel="nofollow">Kościoła Przemienienia Pańskiego w Kamienicy</a>. Po drodze na młodych czekały trzy bramy przygotowane z największą starannością i według góralskiej tradycji.'
                     }

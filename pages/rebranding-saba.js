@@ -65,7 +65,7 @@ const BlogPageComponent = () => {
                         "Event firmowy w Krakowie. Rebranding firmy Saba. Świetnie przygotowana impreza firmowa i wiele wspaniałych atrakcji przygotowanych dla pracowników. Serdecznie zapraszam na zdjęcia."
                     }
                     headKeywords={"Fotograf impreza firmowa Kraków, rebranding SABA SOFTWARE WORK LIKE YOU"}
-                    headUrl={"https://99foto.pl/rebranding-saba/"}
+                    headUrl={"https://99foto.pl/rebranding-saba"}
                     entryContentP1={
                         "Świetnie przygotowana impreza firmowa i wiele wspaniałych atrakcji przygotowanych dla pracowników. Kilka zdjęć z imprezy firmowej SABA. Zapraszam i życzę miłego oglądania."
                     }

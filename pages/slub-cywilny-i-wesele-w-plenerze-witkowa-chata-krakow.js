@@ -192,10 +192,10 @@ const BlogPageComponent = () => {
                 <BlogPageComponentNew
                     slide={process.env.staticImagesPath + "slub_cywilny_i_wesele_w_plenerze_witkowa_chata_krakow_start.jpg"}
                     images={images}
-                    headTitle={"Ślub w plenerze Kraków ✔️ Tomasz Prokop Fotografia Ślubna"}
+                    headTitle={"Ślub w plenerze Kraków ✔️ Tomasz Prokop Fotograf Ślubny"}
                     headDescription={"Witkowa Chata w Krakowie i piękny ślub plenerowy Kingi i Juliena. Pełno na moim blogu autentycznych emocji i żywych kolorów. Serdecznie zapraszam do oglądania."}
                     headKeywords={"witkowa chata kraków,ślub plenerowy kraków,ślub w plenerze"}
-                    headUrl={"https://99foto.pl/slub-cywilny-i-wesele-w-plenerze-witkowa-chata-krakow/"}
+                    headUrl={"https://99foto.pl/slub-cywilny-i-wesele-w-plenerze-witkowa-chata-krakow"}
                     entryContentP1={
                         "Sierpniowa sobota, bardzo ciepła i z gwarantowaną pogodą bez kropli deszczu, niebieskie niebo z białymi jak śnieg chmurami, czyli dzień idealny i wymarzony na ślub plenerowy w Krakowie. Taka właśnie była ubiegła sobota. Sprzyjającą aurę świetnie wykorzystali Kinga i Julien zapraszając do Krakowa swoich gości na niezapomniany ślub plenerowy.  Myśl globalnie, działaj lokalnie &#8211; takie korporacyjne hasło, tym razem doskonale wpisało się w oprawę multikulturowego ślubu cywilnego, który miał miejsce w naszym pięknym Krakowie. Sobota rozpoczęła się od przygotowań, które miały miejsce w domu rodzinnym Kingi. Siostra Zuza znakomicie poradziła sobie w roli wizażystki i wkładając w swoją pracę całe serce z niezwykłą starannością wykonała makijaż ślubny Kingi. Duży jasny pokój, świetne światło, kilka bliskich osób jednocześnie przygotowujących się do ceremoni i luźna atmosfera tak po krótce opisałbym to przedpołudnie."
                     }

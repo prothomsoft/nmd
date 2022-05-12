@@ -142,7 +142,7 @@ const BlogPageComponent = () => {
                     headTitle={"Fotograf ślubny Skomielna Czarna"}
                     headDescription={"Serdecznie zapraszam na mojego bloga i reportaż ślubny Igi i Marcina. Pędzą DUŻYM FIATEM rocznik 74 do Kościoła w Skomielnej Czarnej. Zapraszam !!!"}
                     headKeywords={"fotograf na wesele kraków,zdjęcia ślubne w restauracji victoria - rabka zdrój"}
-                    headUrl={"https://99foto.pl/iga-i-marcin-zdjecia-slubne-kosciol-skomielna-czarna/"}
+                    headUrl={"https://99foto.pl/iga-i-marcin-zdjecia-slubne-kosciol-skomielna-czarna"}
                     entryContentP1={
                         'Iga i Marcin to dzisiejsi bohaterowie kolejnego ślubnego wpisu. Z tą sympatyczną parą mieliśmy już okazję spotkać się na <a href="https://99foto.pl/wioleta-i-marcin-zdjecia-slubne-w-restauracji-victoria-rabka-zdroj" target="_blank" rel="nofollow">weselu Wiolety i Marcina</a>, dlatego wiedziałem, że o uśmiechy tego dnia martwić się nie muszę. Przygotowania do tego dnia zaczęliśmy od Marcina w jego malowniczo położonym domu. Południowe białe chmurki na niebieskim niebie wyglądały bajecznie. Następnie DUŻYM Fiatem rocznik siedem cztery udaliśmy się do domu rodzinnego Igi. Celowo pominęliśmy przygotowania Panny Młodej, podsumowując je tylko kilkoma zdjęciami już po błogosławieństwie.'
                     }

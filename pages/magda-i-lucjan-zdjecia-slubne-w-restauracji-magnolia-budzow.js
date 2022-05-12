@@ -138,7 +138,7 @@ const BlogPageComponent = () => {
                     headTitle={"Zdjęcia ślubne Restauracja Magnolia Budzów"}
                     headDescription={"W niedzielne deszczowe popołudnie zapraszam na nowy wpis na moim blogu. Tym razem historia ślubna Magdy mamy Kacpra i Lucjana kibica Wisły Kraków."}
                     headKeywords={"zdjęcia ślubne restauracja magnolia budzów,fotograf na wesele stronie,fotograf na ślub zakrzów"}
-                    headUrl={"https://99foto.pl/magda-i-lucjan-zdjecia-slubne-w-restauracji-magnolia-budzow/"}
+                    headUrl={"https://99foto.pl/magda-i-lucjan-zdjecia-slubne-w-restauracji-magnolia-budzow"}
                     entryContentP1={
                         'Magdę, Kacpra i Lucjana mieliście okazję już poznać podczas sesji, którą wykonaliśmy w Ogrodzie Botanicznym w Krakowie. Dzisiaj część druga naszej wspólnej przygody, a niedługo będzie też i trzecia. Ten oto najważniejszy dzień rozpoczęliśmy w Wadowicach, gdzie <a href="https://www.facebook.com/pages/Lena-Czechowicz-Make-up-Fun/416942605060114" target="_blank" rel="nofollow">Lena Czechowicz</a> wykonała mistrzowski makijaż. Przygotowania do ślubu i błogosławieństwo miało miejsce w Stroniu, w domu rodzinnym Lucjana. Dalej pierwsza brama, na której Lucjana zaskoczyli klubowi koledzy. Były race, śpiewy oraz celny strzał do bramki.'
                     }

@@ -119,7 +119,7 @@ const BlogPageComponent = () => {
                     headTitle={"Zdjęcia Ślubne w Domu weselnym Gościniec Branicki"}
                     headDescription={"Serdecznie zapraszam na otwarcie sezonu 2k16 do Domu weselnego Gościniec Branicki na wspaniały ślub Natalii i Darka. Dużo fajnego działo się tego dnia."}
                     headKeywords={"zdjęcia ślubne gościniec branicki, fotograf na wesele kraków, reportaż ślubny kraków"}
-                    headUrl={"https://99foto.pl/natalia-i-dariusz-zdjecia-slubne-w-domu-weselnym-gosciniec-branicki-2/"}
+                    headUrl={"https://99foto.pl/natalia-i-dariusz-zdjecia-slubne-w-domu-weselnym-gosciniec-branicki-2"}
                     entryContentP1={
                         'Połowa kwietnia i niezwykle udany początek nowego sezonu ślubnego. Wszystko to dzięki Natalii i Darkowi, którzy w ubiegłą sobotę powiedzieli sobie TAK. Tego dnia wstałem i wiedziałem, że będzie to wspaniały dzień. Przygotowania zaczęliśmy od zaledwie podkreślenia urody Natalii w jej domu rodzinnym. Żadnych oznak stresu, świetny humor i uśmiech na twarzy. Darek przyjechał planowo, a razem z nim przybyli jego rodzice. Ropoczęło się błogosławieństwo po którym udaliśmy się do <a href="https://www.wzgorza.diecezja.krakow.pl" target="_blank" rel="nofollow">Kościoła Miłosierdzia Bożego na Wzgórzach Krzesławickich</a>, gdzie odbył się ślub.'
                     }

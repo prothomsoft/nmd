@@ -154,7 +154,7 @@ const BlogPageComponent = () => {
                     headTitle={"Dom Weselny Biała Perła Radziemice, reportaż ślubny"}
                     headDescription={"Dom Weselny Biała Perła, Radziemice, reportaż ślubny Żanety i Sebastiana. Sala ślubna na wymarzone wesele blisko Krakowa. Zapraszam do oglądania."}
                     headKeywords={"Dom Weselny Biała Perła, reportaż ślubny kraków, ślubna sesja zdjęcia, sala ślubna, wesele pod krakowem"}
-                    headUrl={"https://99foto.pl/dom-weselny-biala-perla-radziemice-reportaz-slubny/"}
+                    headUrl={"https://99foto.pl/dom-weselny-biala-perla-radziemice-reportaz-slubny"}
                     entryContentP1={
                         'Ostatni reportaż ślubny na moim blogu opublikowałem w połowie sierpnia ubiegłego roku. Od tego czasu mogliście zobaczyć kilka sesji plenerowych. Chciałem w ten sposób uciec od trendów panujących na grupach fotograficznych pokazujących śluby w pryzmacie pandemii - fenomen masek, czy tortów zamkniętych w lodówkach prywatnych mieszkań nigdy do mnie nie przemawiał. Fotografując śluby zawsze skupiam się na ludziach, emocjach, pięknych detalach i ciekawych do pokazania miejscach. Fotografia ślubna musi nieść ze sobą dawkę emocji, które będą wspominane przez całe życie. Reportaż ślubny musi to być natomiast spójne opowiadanie, które przekaże historie Pary Młodej zarówno dzieciom, jak i wnukom, bliskim i dalszym znajomym podczas wspólnych spotkań. Piękno tego jedynego dnia, momenty wzruszenia, uśmiechy Nowożeńców, radość i zabawa zaproszonych gości, tego nie da się opowiedzieć to trzeba zobaczyć najlepiej na zdjęciach.'
                     }

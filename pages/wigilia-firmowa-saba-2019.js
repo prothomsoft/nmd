@@ -67,7 +67,7 @@ const BlogPageComponent = () => {
                         "Wigilia firmowa w Krakowie. Firmowe spotkanie w Saba Software. Nowojorski klimat, dress code zza oceanu, emocje w kasynie za stołami black jacka i ruletki, saksofonowe popisy i YMCA na parkiecie, konkursy i oczywiście nagrody. Zapraszam na zdjęcia."
                     }
                     headKeywords={"Fotograf na event firmowy Kraków, Wigilia Firmowa w Saba Software"}
-                    headUrl={"https://99foto.pl/wigilia-firmowa-saba-2019/"}
+                    headUrl={"https://99foto.pl/wigilia-firmowa-saba-2019"}
                     entryContentP1={
                         "Wigilia firmowa w Krakowie. Firmowe spotkanie w Saba Software. Nowojorski klimat, dress code zza oceanu, emocje w kasynie za stołami black jacka i ruletki, saksofonowe popisy i YMCA na parkiecie, konkursy i oczywiście nagrody. Serdecznie zapraszam na zdjęcia, życzę WESOŁYCH ŚWIĄT i miłego oglądania."
                     }

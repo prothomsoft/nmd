@@ -152,7 +152,7 @@ const BlogPageComponent = () => {
                     headTitle={"Sala bankietowa Krzczonów, sala weselna Pcim"}
                     headDescription={"Sala bankietowa w Krzczonowie, czyli niebo pełne gwiazd. Reportaż ślubny Magdy i Grześka. Serdecznie zapraszam."}
                     headKeywords={"fotograf ślubny myślenice,sala weselna krzczonów,sala bankietowa pcim"}
-                    headUrl={"https://99foto.pl/sala-bankietowa-i-weselna-krzczonow-mka-morze-gwiazd/"}
+                    headUrl={"https://99foto.pl/sala-bankietowa-i-weselna-krzczonow-mka-morze-gwiazd"}
                     entryContentP1={
                         'Tym razem zapraszam do rozsławionego przez brytyjskiego komika Johna Cleese podkrakowskiego Pcimia, gdzie od samego rana do wydarzeń jednego z najważniejszych dni w swoim życiu przygotowywała się Magda. Zaczęliśmy od makijażu w domu Panny Młodej, gdzie <a href="https://www.facebook.com/catchthecolours/" target="_blank" rel="nofollow">Made by me &#8211; Ewa Kobiałka</a> podkreśliła urodę Magdy.  Dużo uśmiechów i świetna atmosfera towarzyszyła nam również podczas ubierania sukni ślubnej, butów, podwiązki i biżuterii. Z pomocą Ani i Agnieszki cała operacja odbyła się bardzo sprawnie. Krótkie błogosławieństwo u Grześka, dłuższe u Magdy i chwilę później wszyscy znaleźliśmy się w <a href="https://www.parafiapcim.pl" target="_blank" rel="nofollow">Kościele św. Mikołaja w Pcimiu</a>. Piękna ceremonia ślubna podczas której Magda i Grzegorz powiedzieli TAK.'
                     }

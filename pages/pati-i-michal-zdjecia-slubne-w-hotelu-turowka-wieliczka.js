@@ -152,7 +152,7 @@ const BlogPageComponent = () => {
                     headTitle={"Fotograf na ślub - Hotel Turówka - Wieliczka"}
                     headDescription={"Serdecznie zapraszam na przepiękny ślub Patrycji i Michała, który miałem przyjemność fotografować w super miejscu, Hotelu Turówka w Wieliczce."}
                     headKeywords={"fotograf na wesele kraków,zdjęcia ślubne w hotelu turówka wieliczka"}
-                    headUrl={"https://99foto.pl/pati-i-michal-zdjecia-slubne-w-hotelu-turowka-wieliczka/"}
+                    headUrl={"https://99foto.pl/pati-i-michal-zdjecia-slubne-w-hotelu-turowka-wieliczka"}
                     entryContentP1={
                         'Wszystko zaczęło się w <a href="https://akademia-stylu.com.pl" target="_blank" rel="nofollow">Akademii Stylu</a> na naszym wspólnym osiedlu. Po kilku zdjęciach z makijażu przyszła pora na przygotowania Pana Młodego, więc razem z kamerzystą Krzyśkiem z <a href="https://camdesign.pl/" target="_blank" rel="nofollow">Camdesign</a> odwiedziliśmy mieszkanie Michała. Następnie powrót na Bociana i błogosławieństwo, po którym udaliśmy się do <a href="https://kosciol-sebastian.pl" target="_blank" rel="nofollow">Kościoła św. Sebastiana</a> w Wieliczce. Po ceremonii, w której aktywnie pomagały dzieci i spektakularnym wyjściu z kościoła, zrobiliśmy wspólne zdjęcie grupowe. Według planu na życzenia goście musieli poczekać, aż dotrą na salę weselną.'
                     }

@@ -169,7 +169,7 @@ const BlogPageComponent = () => {
                     headTitle={"Reportaż Ślubny Hotel Europejski Kraków"}
                     headDescription={"Kraków - sala balowa w Hotel Europejskim i przepiękny Kościół Świętej Anny. W imieniu Pauliny i Marcina zapraszam na reportaż z ich ślubu. Miłego oglądania."}
                     headKeywords={"reportaż ślubny kościół Świętej anny kraków,zdjęcia ślubne hotel europejski"}
-                    headUrl={"https://99foto.pl/paulina-i-marcin-reportaz-slubny-hotel-europejski-krakow/"}
+                    headUrl={"https://99foto.pl/paulina-i-marcin-reportaz-slubny-hotel-europejski-krakow"}
                     entryContentP1={
                         'Wydawałoby się, że śluby odbywają się w miesiącach letnich, żeby nie powiedzieć wakacyjnych, gdy jednak przyjrzymy się tematowi nieco bliżej okazuje się, że fotograf ślubny może fotografować cały rok w szczególności w Krakowie. Koniec listopada, trochę wcześniej w czasie jesienne epizody nie tylko z deszczem, ale i śniegiem, na szczęście w dzień ślubu Pauliny i Marcina pogoda na zamówienie. Przygotowania zaczęliśmy na Osiedlu Oświecenia w mieszkaniu Pauliny gdzie świetny makijaż wykonała Ania z <a href="https://www.facebook.com/Wodzia-make-up-story-539847282771161/" target="_blank" rel="nofollow">Wodzia make-up story</a>. W międzyczasie sfotografowałem przepiękną suknię ślubną i obrączki. Czas oczekiwania na przybycie Marcina minął błyskawicznie i rozpoczęło się pełne wzruszeń błogosławieństwo.'
                     }

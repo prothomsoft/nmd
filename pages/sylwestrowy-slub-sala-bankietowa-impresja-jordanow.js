@@ -200,7 +200,7 @@ const BlogPageComponent = () => {
       headTitle={"Sylwestrowy ślub, Sala Bankietowa Impresja Jordanów"}
       headDescription={"Sylwestrowy ślub, szampańska zabawa w sali Bankietowej Impresja w Jordanowie i fotograf na wesele. Reportaż ze ślubu Justyny i Damiana. Zapraszam na bloga i do oglądania."}
       headKeywords={"Sylwestrowy ślub, Sala Bankietowa Impresja Jordanów, fotograf weselny"}
-      headUrl={"https://99foto.pl/sylwestrowy-slub-sala-bankietowa-impresja-jordanow/"}
+      headUrl={"https://99foto.pl/sylwestrowy-slub-sala-bankietowa-impresja-jordanow"}
       entryContentP1={
         "Jest taki wieczór w roku, podczas którego wielu z nas imprezuje w Zakopanem, niektórzy bawią się w białej sali, każdy postanawia dokonać rzeczy niemożliwych i oczywiście leją się strumienie szampana. Powiem Wam, że jest to świetna okazja, żeby połączyć ten jeszcze świąteczny, a już noworoczny czas i wykorzystać go do organizacji własnego przyjęcia weselnego. Wasi goście pojawią się na sali weselnej od razu nastawieni na szampańską zabawę, będą gwarantowane fajerwerki, a po północy otworzy się puszka gorących życzeń. Wiecie już chyba dlaczego weterani branży ślubnej Justyna i Damian zdecydowali się zorganizować własny ślub właśnie w ten dzień. Był to strzał w dziesiątkę i świetna zabawa zagwarantowana."
       }

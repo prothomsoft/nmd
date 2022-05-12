@@ -41,7 +41,7 @@ const BlogPageComponent = () => {
                     headTitle={"Ogród Botaniczny w Krakowie, ślubna sesja zdjęciowa Kraków"}
                     headDescription={"Ogród Botaniczny w Krakowie, ślubna sesja zdjęciowa Dajany i Sylwestra. Sierpniowe słońce i ogrom emocji. Na sesje tylko Kraków. Zapraszam do oglądania."}
                     headKeywords={"Ogród Botaniczny w Krakowie, ślubna sesja zdjęciowa Kraków, plener ślubny w dzień po ślubie"}
-                    headUrl={"https://99foto.pl/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa/"}
+                    headUrl={"https://99foto.pl/ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa"}
                     entryContentP1={
                         "Sierpień to miesiąc magiczny, zachodzące słońce, którego ostatnio nam wszystkim nie brakuje z każdego miejsca na ziemi z łatwością tworzy niezapomniane obrazki. W jeden z takich idealnie upolowanych dni spotkaliśmy się z Dajaną i Sylwestrem na ślubnej sesji zdjęciowej w Ogrodzie Botanicznym w Krakowie. Miejsce to odwiedzam systematycznie, nie tylko z parami, którym robię zdjęcia plenerowe, ale również z Michałem, Martą i Jackiem moimi dzieciakami, które uwielbiają spacerować po pełnych zieleni alejkach. A to wszystko w sercu naszego pięknego miasta Krakowa. Ogród Botaniczny przechodzi gruntowne mega pozytywne zmiany i widać ogromny postęp w dbałości o szczegóły, gdy porównamy je do stanu obiektów Ogrodu Botanicznego sprzed dwóch lat."
                     }

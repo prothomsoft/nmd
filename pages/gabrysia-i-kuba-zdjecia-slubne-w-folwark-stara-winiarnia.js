@@ -100,7 +100,7 @@ const BlogPageComponent = () => {
                     headTitle={"Zdjęcia ślubne Folwark Stara Winiarnia"}
                     headDescription={"Serdecznie zapraszam do Folwarku Stara Winiarnia w Mszanie Dolnej na ślub Gabrysi i Kuby. Po raz kolejny tego roku wspólnie pokonaliśmy zimę."}
                     headKeywords={"zdjęcia ślubne folwark stara winiarnia,fotograf na ślub mszana dolna,fotograf na ślub cywilny"}
-                    headUrl={"https://99foto.pl/gabrysia-i-kuba-zdjecia-slubne-w-folwark-stara-winiarnia/"}
+                    headUrl={"https://99foto.pl/gabrysia-i-kuba-zdjecia-slubne-w-folwark-stara-winiarnia"}
                     entryContentP1={
                         "Drugi weekend stycznia to ważny dzień dla Gabrysi i Kuby, którzy powiedzieli sobie TAK w Folwarku Stara Winiarnia w Mszanie Dolnej. Kilka zdjęć z walizkami podczas wyjazdu z Krakowa, później lekki samochodowy sprint zakopianką do salonu fryzjerskiego w Mszanie Dolnej. Cztery godziny na paznokcie, fryzurę, makijaż i genialny efekt końcowy. Mniej niż trzydzieści minut na ubieranie sukni ślubnej i w pełnej gotowości imprezę czas zacząć. Podczas fotografowania ślubów cywilnych trzeba wykazać się sporym refleksem, ponieważ cała ceremonia trwa krótko."
                     }

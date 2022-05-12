@@ -179,7 +179,7 @@ const BlogPageComponent = () => {
                     headTitle={"Dom Weselny Pod Kasztanami Igołomnia"}
                     headDescription={"Ślub, który pod wieloma względami będzie jednym z moich ulubionych. Niesamowita energia, miejsce i ludzie w Domu Weselnym Pod Kasztanami. Zapraszam."}
                     headKeywords={"sala weselna kraków,dom weselny niepołomice,salon urody proszowice"}
-                    headUrl={"https://99foto.pl/dom-weselny-pod-kasztanami-igolomia/"}
+                    headUrl={"https://99foto.pl/dom-weselny-pod-kasztanami-igolomia"}
                     entryContentP1={
                         'Proszowice, Nowe Brzesko, bardzo blisko do jedynego rozsławionego w okolicach Krakowa pola pełnego lawendy w Klimontowie. Dokładnie o godzinie 11.00 w <a href="https://salonurodyglow.pl/" target="_blank" rel="nofollow">Salonie urody GLOW</a> rozpoczęliśmy przygotowania do najważniejszego dnia w życiu Karoliny i Dawida. Świetna atmosfera w salonie i profesjonalny makijaż. Chwilę później wybraliśmy się do Dawida, który wbił się w garnitur uzupełniając go gustownymi dodatkami. Wpieliśmy nowe tablice rejestracyjne do ślubnego Jagura. Karolina w towarzystwie drużek ubrała suknie ślubną, buty i biżuterię. Przywitanie, błogosławieństwo pełne emocji, brama pełna serdeczności i ciepłe przywitanie młodych przez księdza w zakrystii.'
                     }

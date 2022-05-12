@@ -38,7 +38,7 @@ const BlogPageComponent = () => {
                     headTitle={"Sesja ślubna Wawel, Przegorzały i Kryspinów"}
                     headDescription={"Miłe popołudnie w fajnych miejscach, dobrych humorach i przy świetnej pogodzie. Plener ślubny Kasi i Grzegorza na Wawelu, Przegorzałach i Kryspinowie."}
                     headKeywords={"sesja ślubna kraków,sesja ślubna przegorzały"}
-                    headUrl={"https://99foto.pl/kasia-i-grzegorz-sesja-slubna-wawel-przegorzaly-i-kryspinow/"}
+                    headUrl={"https://99foto.pl/kasia-i-grzegorz-sesja-slubna-wawel-przegorzaly-i-kryspinow"}
                     entryContentP1={
                         'Kasia i Grzegorz na plener ślubny wybrali się do Krakowa. Jako fotograf ślubny zaproponowałem trasę naszego popołudniowego spaceru. Tym razem zaczęliśmy zdjęcia na Wawelu, gdzie udało mi się wymyślić kilka fajnych nowych kadrów i jestem z nich bardzo zadowolony. Następnie w drodze na łąkę z widokiem na Klasztor Kamedułów zatrzymaliśmy się w Zamku Przegorzały i zrobiliśmy zdjęcie panoramy Krakowa z tarasu w <a href="https://www.uziyada.krakow.pl" target="_blank" rel="nofollow">Restauracji u Ziyada</a>. Plener kończyliśmy w Kryspinowie korzystając z ostatnich promieni zachodzącego słońca.'
                     }

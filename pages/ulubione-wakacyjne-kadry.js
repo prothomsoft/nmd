@@ -52,7 +52,7 @@ const BlogPageComponent = () => {
                     headTitle={"Zdjęcia rodzinne Kraków"}
                     headDescription={"Kilka zdjęć z wakacji, na które w tym roku udaliśmy się do Wrocławia. Piękne miasto i mój ulubiony Ostrów Tumski oraz Ogród Japoński. Miłego oglądania."}
                     headKeywords={"fotograf rodzinny kraków, zdjęcia z wakacji"}
-                    headUrl={"https://99foto.pl/ulubione-wakacyjne-kadry/"}
+                    headUrl={"https://99foto.pl/ulubione-wakacyjne-kadry"}
                     entryContentP1={
                         "Pierwszy etap naszej wyprawy to Wrocław. Przez moment mieliśmy już nie jechać dalej, gdyż wujek zorganizował plażę w pokoju jadalnym &#8211; był namiot, woda i nawet słońce. Misio zmienił fryzurę, a my zwiedziliśmy Halę Ludową, gdzie trwały przygotowania do koncertu Męskie Granie, Politechnikę i Plac Grunwaldzki. Pierwszy przystanek kolejnego etapu podróży to Malta (ta w Poznaniu). Dalej pojechaliśmy na Stare Drawsko podziwiać jeziora, które wcześniej oglądałem na google i zapowiadały się very nice. Do Dąbek wjechaliśmy o 19:30 prosto na plażę i prosto na zachód słońca."
                     }

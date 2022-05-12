@@ -114,7 +114,7 @@ const BlogPageComponent = () => {
                         "Wigilia firmowa w Krakowie. Rodzinny klimat, niezliczona ilość atrakcji i wyróżnienia z okazji pięciolecia działaności firmy SmartRecruiters w Polsce. Serdecznie zapraszam."
                     }
                     headKeywords={"Fotograf na wilgilię firmową w Krakowie, wigilia firmowa"}
-                    headUrl={"https://99foto.pl/fotograf-na-wigilie-firmowa-w-krakowie/"}
+                    headUrl={"https://99foto.pl/fotograf-na-wigilie-firmowa-w-krakowie"}
                     entryContentP1={
                         "Wigilia firmowa w Krakowie i pięciolecie działalności firmy SmartRecruiters w Polsce. Rodzinne spotkanie wigilijne. To już drugi raz jak miałem przyjemność zatrzymywać rodzinne chwile podczas imprezy firmowej. Jak zwykle dużo atrakcji dla najmłodszych i zasłużone wyróżnienia dla najstarszych. Zapraszam na zdjęcia i życzę miłego oglądania."
                     }

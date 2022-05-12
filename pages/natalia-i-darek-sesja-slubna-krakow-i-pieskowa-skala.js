@@ -40,7 +40,7 @@ const BlogPageComponent = () => {
                     headTitle={"Sesja ślubna Pieskowa Skała"}
                     headDescription={"Pachnący nowością po remoncie Zamek w Pieskowej Skale oraz gram Kazimierza. Serdecznie zapraszam na plener ślubny Natalii i Darka. Miłego oglądania."}
                     headKeywords={"sesja ślubna pieskowa skała,plener ślubny kraków"}
-                    headUrl={"https://99foto.pl/natalia-i-darek-sesja-slubna-krakow-i-pieskowa-skala/"}
+                    headUrl={"https://99foto.pl/natalia-i-darek-sesja-slubna-krakow-i-pieskowa-skala"}
                     entryContentP1={
                         'Zdjęcia Natalii i Darka mieliście już okazję oglądać przy okazji <a href="https://99foto.pl/natalia-i-dariusz-zdjecia-slubne-w-domu-weselnym-gosciniec-branicki-2/" target="_blank" rel="nofollow">ich ślubu</a>, który odbył się w <a href="https://gosciniec-branicki.pl/" target="_blank" rel="nofollow">Domu Weselnym Gościniec Branicki</a> już chwilę temu. Nadszedł czas na kilka zdjęć z pleneru. Początkowo planowaliśmy zrobić zdjęcia w Oświęcimiu, wykorzystując wiosenne okoliczności przyrody, jednak w końcu zdecydowaliśmy się na naprawdę świetne miejsce jakim jest położony niedaleko od Krakowa, pachnący nowością po remoncie <a href="https://pieskowaskala.eu/" target="_blank" rel="nofollow">Zamek w Pieskowej Skale</a>. Mieliśmy świetną pogodę i wymarzone dla zdjęć światło.'
                     }

@@ -172,7 +172,7 @@ const BlogPageComponent = () => {
                     headTitle={"Reportaż ślubny Kościół na Skałce Kraków"}
                     headDescription={"W imieniu Julity i Pawła serdecznie zapraszam na reportaż ślubny do pięknej Bazyliki Św. Michała Archanioła na Skałce. Ogrom emocji, radości, łzy wzruszenia."}
                     headKeywords={"reportaż ślubny kraków,zdjęcia ślubne szafran zagacie"}
-                    headUrl={"https://99foto.pl/julita-i-pawel-reportaz-slubny-kosciol-na-skalce-krakow/"}
+                    headUrl={"https://99foto.pl/julita-i-pawel-reportaz-slubny-kosciol-na-skalce-krakow"}
                     entryContentP1={
                         'Każdy fotograf lubi kolekcjonować za pomocą swoich zdjeć miejsca niezwykłe. Myślę też, że kazdy się zgodzi z tym, że marzeniem każdego fotografa ślubnego są śluby, które odbywają się w najpiękniejszych polskich kościołach. Lista tych kościołów nie jest bardzo długa. Na pewno pierwsze trzy miejsca w Krakowie zajmują <a href="https://www.mariacki.com/index.php/pl/" target="_blank" rel="nofollow">Bazylika Mariacka</a>, <a href="https://kolegiata-anna.pl/" target="_blank" rel="nofollow">Uniwersytecka Kolegiata św. Anny</a> i <a href="https://www.skalka.paulini.pl/" target="_blank" rel="nofollow">Bazylika Św. Michała Archanioła na Skałce</a>. Julita i Paweł wybrali świetne i wybór ten pozwolił mi zrobić fajne zdjęcia w pięknym kościele, za co bardzo im dziękuję. Sobotni dzień rozpoczęliśmy od przygotowań w domu Julity w Głogoczowie. Wizażystka wykonała perfekcyjny makijaż, a chwilę później odbyło się błogosławieństwo.'
                     }

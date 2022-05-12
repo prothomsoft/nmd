@@ -162,7 +162,7 @@ const BlogPageComponent = () => {
                     headTitle={"Hotel żywiecki, Sala weselna Przyłękówka, Wesele w Beskidach"}
                     headDescription={"Hotel żywiecki, sala weselna Przyłękówka. Wesele w beskidach i kwitnące magnolie. Nicole i Rafał. Serdecznie zapraszam."}
                     headKeywords={"Hotel żywiecki, sala weselna Przyłękówka, wesele w Beskidach"}
-                    headUrl={"https://99foto.pl/hotel-zywiecki-sala-przylekowka-wesele-w-beskidach/"}
+                    headUrl={"https://99foto.pl/hotel-zywiecki-sala-przylekowka-wesele-w-beskidach"}
                     entryContentP1={
                         'Długi weekend majowy, mała wyprawa w Beskidy i okolice Żywca na ślub Nicoli i Rafała w Gilowicach. Pierwsze zdjęcie to Jezioro Żywieckie, nad którym odbywały się od rana zawody wędkarskie. Następnie makijaż, w mieszkaniu babci Nicoli. Fachowe dyskusje w trakcie ponieważ Nicola jest zawodową wizażystką i sama wykonuje makijaże ślubne pod marką  <a href="https://www.instagram.com/nicolekobza.style" target="_blank" rel="nofollow noopener noreferrer">Nicola Kobza Style</a>. Oczywiście nie obyło się bez ciasteczka i kawy, jak to u babci. Następnie pojechaliśmy do Gilowic, gdzie już razem z Krzyśkiem z <a href="https://camdesign.pl/" target="_blank" rel="nofollow noopener noreferrer">Camdesign - Nowoczesny film ślubny</a> rejestrowaliśmy ten ważny dzień. Domek świetny, magnolie, które okresem kwitnienia wstrzeliły się w datę ślubu Nicoli i Rafała, dodały temu miejscu niezwykłego uroku. Druhny dzielnie pomagały nie tylko z suknią ślubną, kolczykami, branzoletkami, ale też z szampanem, który wylądował w stylowych kieliszkach. Wesele w Beskidach to świetny pomysł.'
                     }

@@ -172,7 +172,7 @@ const BlogPageComponent = () => {
                     headTitle={"Reportaż ślubny Gościniec Branicki, Kraków"}
                     headDescription={"Kraków Nowa Huta, Wzgórza Krzesławickie i Branice, miejsca które odwiedziłem fotografując ślub Natalii i Marcina. Dużo, dużo fajnych kadrów."}
                     headKeywords={"reportaż ślubny kraków,zdjęcia ślubne gościniec branicki"}
-                    headUrl={"https://99foto.pl/natalia-marcin-i-maja-reportaz-slubny-gosciniec-branicki/"}
+                    headUrl={"https://99foto.pl/natalia-marcin-i-maja-reportaz-slubny-gosciniec-branicki"}
                     entryContentP1={
                         'Kraków Nowa Huta, Wzgórza Krzesławickie i Branice, miejsca te mogłem odwiedzić fotografując ważny dzień w życiu Natalii, Marcina i ich małej córeczki Mai. Przygotowania rozpoczęliśmy już przed południem. Wizażystka w pierwszej kolejności zajęła się fryzurami i makijażem druhen Karoliny i Moniki.  Kiedy dziewczyny potwierdziły, że wyglądają świetnie w fotelu usiadła Natalia. Maja, przychodząc co kilka minut, sprawdzała czy fryzura i makijaż mamy są już gotowe. Po godzinie układania i malowania nadszedł czas na ubieranie sukni ślubnej, a następnie na pełne wzruszeń błogosławieństwo. W świetnych humorach wyruszyliśmy do <a href="https://www.wzgorza.diecezja.krakow.pl/" target="_blank" rel="nofollow">Kościoła Miłosierdzia Bożego w Krakowie na Wzgórzach Krzesławickich</a>.'
                     }

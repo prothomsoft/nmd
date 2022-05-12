@@ -165,12 +165,12 @@ const BlogPageComponent = () => {
                 <BlogPageComponentNew
                     slide={process.env.staticImagesPath + "fotograf_slubny_wesele_mogilany_krakow.jpg"}
                     images={images}
-                    headTitle={"Wesele Euforia Myślenice ✔️ Tomasz Prokop Fotografia Ślubna"}
+                    headTitle={"Wesele Euforia Myślenice ✔️ Tomasz Prokop Fotograf Ślubny"}
                     headDescription={
                         "Wesele w Mogilanach, Sala weselna Euforia w Myślenicach, dobry fotograf ślubny z Krakowa na weselu. Plener ślubny Dwór w Mogilanach. Serdecznie zaprasam na bloga."
                     }
                     headKeywords={"wesele Euforia Myślenice, plener Ślubny Dwór Mogilany, dobry fotograf Kraków"}
-                    headUrl={"https://99foto.pl/wesele-euforia-myslenice-plener-slubny-dwor-mogilany/"}
+                    headUrl={"https://99foto.pl/wesele-euforia-myslenice-plener-slubny-dwor-mogilany"}
                     entryContentP1={
                         "Śluby fotografuję juz kilka lat. Praca ta pozwala poznawać ciekawych ludzi i odwiedzać nowe miejsca. Tym razem miałem niezwykle dużo szczęścia, poznałem niesamowicie dopasowanych do siebie nie tylko wzrostem Natalię i Kacpra, którzy już od samego początku obdarzyli mnie zaufaniem i miałem pewność o ich przekonaniu, że zrobię dla nich naprawdę dobry reportaż ślubny. Zaprosili mnie do świetnych miejsc. Kościół św. Bartłomieja Apostoła w Mogilanach w słoneczne dni to miejsce ze świetnym światłem, gramem cienia, gdzie można poprzytulać się z gośćmi podczas goracych życzeń i dzwonnicą, gdzie na zdjęciu grupowym nie zabraknie miejsca dla nikogo. "
                     }

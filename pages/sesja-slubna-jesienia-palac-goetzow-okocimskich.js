@@ -53,7 +53,7 @@ const BlogPageComponent = () => {
                     headTitle={"Sesja ślubna jesienią, Pałac Goetzów Okocimskich"}
                     headDescription={"Sesję ślubną Izy i Arka zaplanowaliśmy w Gabinecie Kurii Metropolitarnej w Krakowie, gdzie kilka miesięcy wcześniej urzędował Janusz Gajos. Zapraszam na bloga."}
                     headKeywords={"pałac goetzów okocimskich, plener ślubny pomysły, sesja ślubna kraków gdzie, sesja ślubna jesienią"}
-                    headUrl={"https://99foto.pl/sesja-slubna-jesienia-palac-goetzow-okocimskich/"}
+                    headUrl={"https://99foto.pl/sesja-slubna-jesienia-palac-goetzow-okocimskich"}
                     entryContentP1={
                         'Ostatnio głośno o filmie "KLER" Wojciecha Smarzowskiego. Jeżeli widzieliście film lub jego zapowiedź to pewnie pamiętacie świetną rolę Janusza Gajosa, który w roli biskupa urzęduje w gabinecie Kurii Metropolitarnej w Krakowie. Żeby nie było nudno plener ślubny Izy i Arka rozpoczęliśmy dokładnie w tym samym miejscu, pięknej pałacowej bibliotece Pałacu Goetzów w Brzesku. <a href="https://www.palacgoetz.pl/" target="_blank" rel="nofollow">Pałac Goetzów Okocimskich w Brzesku</a> to jeden z cenniejszych zabytków Małopolski. Obiekt wybudowany przez Jana Albina Goetza od 2008 roku stał się własnością prywatną i jak się można domyślić wygenerowało to sporo pozytywnych zmian.  Miejsce to na co dzień zamknięte dla zwiedzających, okazjonalnie udostępniane na potrzeby profesjonalnych sesji zdjęciowych lub przyjęć ślubnych jest obiektem niezwykłym, który przenosi odwiedzających w świat pełen piękna i wspaniałej architektury charakteryzującej się dbałością o najmniejszy detal.'
                     }

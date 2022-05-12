@@ -166,7 +166,7 @@ const BlogPageComponent = () => {
                     headTitle={"Fotograf na chrzest Kraków"}
                     headDescription={"Fotograf na Chrzest Święty Kraków. Miejsce wydarzeń Kraków. Serdecznie zapraszam na kilka zdjęć Chrztu Świętego."}
                     headKeywords={"fotograf na chrzest kraków, restauracja szafrantu zagacie, fotografia chrztu"}
-                    headUrl={"https://99foto.pl/zdjecia-chrztu-swietego-i-slubu-krakow/"}
+                    headUrl={"https://99foto.pl/zdjecia-chrztu-swietego-i-slubu-krakow"}
                     entryContentP1={
                         'Niedziela z wyjątkowo zmienną aurą, pogoda typowo marcowa. Osiedle Kuźnicy Kołłątajowskiej i ślub niezwykły pod wieloma względami. Dzień PODWÓJNIE WAŻNY dla całej rodziny. Pierwszoplanowa rola w całej uroczystości została wypełniona nie przez jak to zwykle przecież na ślubach bywa Pannę Młodą, ale przez dzielnego obserwatora niedzielnych wydarzeń małego Franka. Krótkie przygotowania w mieszkaniu, gdzie gości przybywało z minuty na minutę, a godzina zero zbliżała się wielkimi krokami. Franio, który w modnych szelkach regenerował siły korzystając z popołudniowej drzemki. Moc pozytywnej energii pomimo dużego zamieszania.  Tak minęło błogosławieństwo rodziców i wszyscy udaliśmy się do pobliskiego <a href="https://www.gotyk.home.pl/" target="_blank" rel="nofollow">Kościoła Chrystusa Króla w Krakowie</a>, gdzie rozpoczęła się ceremonia Ślubu i Chrztu Świętego. Ksiądz przekazując mnóstwo życiowych rad, wygłosił dowcipne kazanie, które wywołało uśmiechy na twarzach wielu gości.'
                     }

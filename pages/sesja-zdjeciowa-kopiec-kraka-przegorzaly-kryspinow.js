@@ -36,7 +36,7 @@ const BlogPageComponent = () => {
                     headTitle={"Sesja zdjęciowa Kopiec Kraka, Przegorzały, Kryspinów"}
                     headDescription={"Natalia i Tomasz na plener ślubny wybrali Kopiec Krakusa na Krakowskim Podgórzu, Zamek w Przegorzałach i zachód słońca nad jeziorem w Kryspinowie."}
                     headKeywords={"kopiec kraka,zamek przegorzały,sesja zdjęciowa kryspinów"}
-                    headUrl={"https://99foto.pl/sesja-zdjeciowa-kopiec-kraka-przegorzaly-kryspinow/"}
+                    headUrl={"https://99foto.pl/sesja-zdjeciowa-kopiec-kraka-przegorzaly-kryspinow"}
                     entryContentP1={
                         "Natalia i Tomasz na plener ślubny wybrali Kopiec Krakusa na Krakowskim Podgórzu, Zamek w Przegorzałach i zachód słońca nad jeziorem w Kryspinowie. Pomimo, że miejsca te odwiedzałem nie pierwszy raz to starałem się wymazać z mojej pamięci istniejące już kadry i skupić się na poszukiwaniu nowych, jeszcze nie odkrytych miejsc. W pobliżu Kopca znajduje się również kamieniołom Liban, który był niegdyś karnym obozem pracy. Miejsce dobre na industrialną sesję narzeczeńską, ale kompletnie nieużyteczne dla Panny Młodej w białej sukni ślubnej."
                     }

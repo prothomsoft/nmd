@@ -36,7 +36,7 @@ const BlogPageComponent = () => {
             headTitle={"Pałac Goetz, miejsce na wesele i plener ślubny marzeń"}
             headDescription={"Zapraszam Was do Brzeska. Pałac Goetz, miejsce na eleganckie wesele i plener ślubny marzeń. Serdecznie zapraszam na bloga..."}
             headKeywords={"Pałac Goetz Brzesko, eleganckie wesele w pałacu, plener ślubny marzeń"}
-            headUrl={"https://99foto.pl/palac-goetz-wesele-plener-slubny/"}
+            headUrl={"https://99foto.pl/palac-goetz-wesele-plener-slubny"}
             entryContentP1={
                 "Zapraszam Was do Brzeska. Pałac Goetz to miejsce niecodzienne i idealne na plener ślubny. Nie wiem czy filantrop i mecenas sztuki Albin Goetz planował, że wzniesiony przez niego okazały pałac w przyszłości będzie pełnił rolę liceum ogólnokształcącego, doprowadzony do ruiny przetrwa trudne czasy i w końcu odzyska dawny blask, stając się miejscem idealnym na wesele czy plener ślubny. Jest to bez wątpienie jedno z najbardziej popularnych miejsc plenerowych w Małopolsce. Koszt związany z możliwością wykonania zdjęć ślubnych w pałacu gwarantuje względny spokój tego miejsca. Gdyby nie to kolejka chętnych do zdjęć par młodych i towarzyszących im fotografów ślubnych byłaby nie krótsza od tej na Kasprowy Wierch w Zakopanem."
             }

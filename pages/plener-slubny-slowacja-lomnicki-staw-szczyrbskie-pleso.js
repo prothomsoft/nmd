@@ -48,7 +48,7 @@ const BlogPageComponent = () => {
                     headTitle={"Plener ślubny Słowacja, Łomnicki Staw, Szczyrbskie Pleso."}
                     headDescription={"Plener ślubny Słowacja, Łomnicki Staw, Szczyrbskie Pleso. Zapraszam do oglądania."}
                     headKeywords={"Plener ślubny Słowacja, Łomnicki Staw, Szczyrbskie Pleso"}
-                    headUrl={"https://99foto.pl/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso/"}
+                    headUrl={"https://99foto.pl/plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso"}
                     entryContentP1={
                         "Długi majowy weekend to co roku dużo wolnego i świetna okazja na odpoczynek w górach. Gosia i Rafał swój zimowy ślub podsumowali letnim plenerem, który wykonaliśmy na Słowacji dosłownie wdrapując się na Łomnicki Staw i dla odmiany leniwie spacerując w okolicach Szczyrbskiego Jeziora. W środę rano w Jordanowie przywitało nas piękne słońce, a prognoza pogody wskazywała, że przez cały dzień nie spadnie najmniejsza kropla deszczu. Warunki wymarzone, więc po kilkunastu minutach jazdy samochodem stanęliśmy przy kasach w Tatrzańskiej Łomnicy. Ponieważ droga na szczyt jest dwuetapowa, wiało mocno, a pierwsza kolejka ma współczynnik odporności na górski wiatr w granicach zera więc mini gondolka nie mogła wystartować."
                     }

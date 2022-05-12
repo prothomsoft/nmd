@@ -137,7 +137,7 @@ const BlogPageComponent = () => {
                         "Impreza firmowa w Stadninie Koni Botoja w Korzkwi. Świetne miejsce na rodzinne spotkanie, grilowanie i jazdę konną. Serdecznie zapraszam na reportaż z ich najważniejszego dnia. Miłego oglądania."
                     }
                     headKeywords={"Impreza rodzinna w Stadninie Koni Botoja Korzkiew"}
-                    headUrl={"https://99foto.pl/impreza-rodzinna-stadnina-koni-botoja-korzkiew/"}
+                    headUrl={"https://99foto.pl/impreza-rodzinna-stadnina-koni-botoja-korzkiew"}
                     entryContentP1={
                         "Słoneczny piątek, w który miałem przyjemność fotografować imprezę rodzinną w Stadninie Koni Botoja w Korzkwi. Dużo atrakcji dla całej rodziny, animatorzy z milionem przeróżnych pomysłów, jazda konna, świeże powietrze zdala od Krakowa, grilowane pyszności i mnóstwo uśmiechów przeszczęśliwych dzieciaków. Takie rzeczy tylko w Smartach. Miłego oglądania."
                     }

@@ -37,7 +37,7 @@ const BlogPageComponent = () => {
                     headTitle={"Sesja ślubna Litwińska Grapa w Czarnej Górze"}
                     headDescription={"Litwińska Grapa w Czarnej Górze - na ten punkt widokowy w okolicach Nowego Targu zapraszam razem z Magdą i Mateuszem."}
                     headKeywords={"sesja ślubna kraków,plener ślubny kraków"}
-                    headUrl={"https://99foto.pl/sesja-poslubna-magdy-i-mateusza-litwinska-grapa-w-czarnej-gorze/"}
+                    headUrl={"https://99foto.pl/sesja-poslubna-magdy-i-mateusza-litwinska-grapa-w-czarnej-gorze"}
                     entryContentP1={
                         'Ślub Magdy i Mateusza odbył się w <a href="https://rancholot.pl/" target="_blank" rel="nofollow">Domu Weselnym Rancho Lot</a> w Nowym Targu. Goście weselni jadąc w dniu ślubu z Jordanowa, wspominanym już na blogu krakowskim autobusem miejskim, mieli niepowtarzalną okazję podziwiać wspaniały widok na Tatry. Postanowiliśmy więc pójść za ciosem i na plener ślubny wybrać się również w tamte okolice. Plan pleneru został zatwierdzony dzień wcześniej i poparty praktycznymi poszukiwaniami fajnych miejsc. Zaczęliśmy od punktu widokowego Litwińska Grapa w Czarnej Górze. Wyraziste chmury, umiarkowane słońce plus oczywiście filtry polaryzacyjny i połówkowy pozwoliły nam skopiować panujące warunki na ciąg zero jedynkowych wartości w pliku RAW.'
                     }

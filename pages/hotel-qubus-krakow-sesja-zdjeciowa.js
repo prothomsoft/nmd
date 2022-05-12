@@ -45,7 +45,7 @@ const BlogPageComponent = () => {
                     headTitle={"Hotel Qubus Kraków, sesja zdjęciowa"}
                     headDescription={"Taras widokowy Hotelu QUBUS w Krakowie, Lawendowe Pole i historia w którą nie uwierzycie. W imieniu Eweliny i Kamila serdecznie zapraszam na mojego bloga."}
                     headKeywords={"hotel qubus kraków,sesja zdjęciowa kraków"}
-                    headUrl={"https://99foto.pl/hotel-qubus-krakow-sesja-zdjeciowa/"}
+                    headUrl={"https://99foto.pl/hotel-qubus-krakow-sesja-zdjeciowa"}
                     entryContentP1={
                         'Moja przygoda z wchodzeniem do najróżniejszych miejsc w Krakowie związana jest z mało fajnymi wspomnieniami. Zwykle właściciele nie chcą udostępniać swoich wnętrz na potrzeby sesji zdjęciowych, a jeżeli już dają się namówić to co tu dużo mówić, tanio nie jest. Tym razem było inaczej. Zanim zaparkowałem auto na ulicy gazowej, czyli plenerowym punkcie startowym dla Starej Zajezdni, Stajni, a jednym słowem Kazimierza, podjechałem do <a href="https://www.qubushotel.com/pl/hotele/krakow/1/" target="_blank" rel="nofollow">Hotelu Qubus</a> by sprawdzić czy fontanna przed hotelem działa. Włączona nie była, więc wszedłem do środka pytając czy można wykorzystać widokowy taras hotelowy do zdjęć ślubnych i czy z okazji przyjazdu Donalda  Trumpa do Polski, Panowie Recepcjoniści (z dużej bo jest szacun) by tej fontanny nie odpalili.'
                     }

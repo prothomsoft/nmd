@@ -39,7 +39,7 @@ const BlogPageComponent = () => {
                     headTitle={"Lawendowe pole pod Krakowem"}
                     headDescription={"Lawendowe pole pod Krakowem i sesja zdjęciowa Karoliny i Dawida. Miejsce magiczne i wymarzone na zdjęcia. Serdecznie zapraszam na bloga. Miłego oglądania."}
                     headKeywords={"lawendowe pole pod krakowem,sesja ślubna kraków"}
-                    headUrl={"https://99foto.pl/lawendowe-pole-pod-krakowem-sesja-slubna-w-ostrowie/"}
+                    headUrl={"https://99foto.pl/lawendowe-pole-pod-krakowem-sesja-slubna-w-ostrowie"}
                     entryContentP1={
                         "Chwilę zajęło nam obmyślenie planu na sesję ślubną Karoliny i Dawida. Szukaliśmy fajnych miejsc na wschód od Krakowa, tak by można było przyjemnie wypełnić czas oczekiwania na wyjazd do Ostrowa Klimontowa na Lawendowe Pole. Wszystkie miejsca, które rozważaliśmy zostały jednak z łatwością pokonane przez Nadwiślandie czyli Kazimierz, Operę Krakowską i Starą Zajezdnię, wspaniały Kraków zwyciężył po raz kolejny. Dojazd do Lawendowego Pola z Krakowskiego Kazimierza zajmuje około pięćdziesięciu minut."
                     }

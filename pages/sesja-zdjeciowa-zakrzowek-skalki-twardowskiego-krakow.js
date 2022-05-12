@@ -36,7 +36,7 @@ const BlogPageComponent = () => {
                     headTitle={"Sesja zdjęciowa Zakrzówek, Skałki Twardowskiego Kraków"}
                     headDescription={"Skałki Twardowskiego w Krakowie i sesja zdjęciowa Justyny i Damiana. Zapraszam na bloga i kilka zdjęć z tej sesji plenerowej."}
                     headKeywords={"sesja zdjęciowa zakrzówek,skałki twardowskiego kraków"}
-                    headUrl={"https://99foto.pl/sesja-zdjeciowa-zakrzowek-skalki-twardowskiego-krakow/"}
+                    headUrl={"https://99foto.pl/sesja-zdjeciowa-zakrzowek-skalki-twardowskiego-krakow"}
                     entryContentP1={
                         'Justyna i Damian swój ślub mieli dość daleko od Krakowa, więc zdjęcia ślubne z ich najważniejszego dnia i super momenty wyłapywał inny fotograf ślubny.  Fakt ten jednak nie przeszkodził nam, żeby się spotkać i po raz kolejny odkryć Kraków na nowo. Zaczęliśmy w Parku w Mogilanach, dość popularną ostatnio miejscówką na plenery ślubne. Wcale nas nie zdziwiło, że tego popołudnia jeszcze dwie inne pary wybrały się na plener ślubny w to miejsce. Następnie daliśmy się zaskoczyć przez Zakrzówek. Zaskoczyć dlatego, że zwykle wchodziłem na ten teren od strony Wawelu i tam miałem swoje ulubione kadry. Tym razem za radą Damiana ze <a href="https://stylova.com" target="_blank" rel="nofollow">stylova.com</a> zaparkowaliśmy pod adresem Wyłom 1 i udaliśmy się na kąpielisko.'
                     }

@@ -43,7 +43,7 @@ const BlogPageComponent = () => {
                     headTitle={"Sesja ślubna Kasprowy Wierch - Zakopane"}
                     headDescription={"Tym razem na moim blogu górskie panoramy i piękne widoki ze szczytu Kasprowego Wierchu i Nosala. Serdecznie zapraszam do oglądania."}
                     headKeywords={"zdjęcia ślubne kasprowy wierch,plener ślubny zakopane"}
-                    headUrl={"https://99foto.pl/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja/"}
+                    headUrl={"https://99foto.pl/sesja-slubna-strbskie-pleso-i-popradzki-staw-slowacja"}
                     entryContentP1={
                         "Paulina i Bartek lubią morze, ale mają je na co dzień ponieważ mieszkają w Szczecinie i kochają góry ponieważ na ich szczycie powiedzieli sobie TAK. W niedzielę po sobotnich szaleństwach w Zajeździe Furmańskim w Zakopanym, większość gości weselnych spotkała się na szczycie Kasprowego Wierchu na krótkiej sesji fotograficznej. Mieliśmy tego popołudnia, pogodę wręcz wymarzoną do zdjęć w górach &#8211; białe chmurki na niebieskim niebie, umiarkowane słońce i bardzo dobra widoczność. Wykorzystaliśmy te okoliczności jak należy mam nadzieję."
                     }

@@ -44,7 +44,7 @@ const BlogPageComponent = () => {
         headTitle={"Plener w Beskidach, Sesja ślubna w Beskidzie Śląskim"}
         headDescription={"Plener w Beskidach, Sesja ślubna w Beskidzie Śląskim, Starówka w Bielsku Białej, Szyndzielnia i Klimczok. Zapraszam na sesję ślubną Magdaleny i Jonasza."}
         headKeywords={"Plener ślubny w Beskidach, sesja ślubna w Beskidzie Śląskim"}
-        headUrl={"https://99foto.pl/plener-w-beskidach-sesja-slubna-w-beskidzie-slaskim/"}
+        headUrl={"https://99foto.pl/plener-w-beskidach-sesja-slubna-w-beskidzie-slaskim"}
         entryContentP1={
             "You have to constantly innovate and think of interesting ideas to continue to grow - tak i może właśnie dlatego tym razem zabieram Was w miejsce w którym dotąd jeszcze nie byłem, o porze dnia w której jeszcze nie fotografowałem, aparatem fotograficznym i obiektywami, które pojawiły się na rynku niecałe trzy tygodnie temu. Sesja ślubna w Beskidzie Śląskim to było takie wyjście ze strefy komfortu. Jadąc na tą sesję plenerową wiedziałem tylko, że Magdalena i Jonasz to doskonała para i fotografowanie ich uczucia to będzie prawdziwa przyjemność. Poranne godziny fotografowania wymusiła potencjalna liczba osób na ulicach miasta Bielsko Biała, których wiadomo lepiej nie mieć na zdjęciach. Tym razem to nie ja byłem przewodnikiem, a trasę po uliczkach swojego rodzinnego miasta wytyczał Jonasz, zasypując nas ciekawymi anegdotami związanymi z historią tego miasta."
         }

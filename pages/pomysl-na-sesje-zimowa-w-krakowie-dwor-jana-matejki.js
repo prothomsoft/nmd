@@ -50,7 +50,7 @@ const BlogPageComponent = () => {
                         "Coś dla odważnych - sesja ślubna zimą. Jeżeli szukacie pomysłu na sesje zimową i miejsca na sesję zimową w Krakowie to serdecznie zapraszam na bloga, a w przyszłości do Dworu Jana Matejki w Krzesławicach."
                     }
                     headKeywords={"pomysł na sesje zimową, sesja ślubna zimą, miejsce na sesję ślubną w Krakowie"}
-                    headUrl={"https://99foto.pl/pomysl-na-sesje-zimowa-w-krakowie-dwor-jana-matejki/"}
+                    headUrl={"https://99foto.pl/pomysl-na-sesje-zimowa-w-krakowie-dwor-jana-matejki"}
                     entryContentP1={
                         'Zimowy ślub w przedsylwestrową sobotę i przyszłe plany Natalii i Łukasza zmotywowały nas do odnalezienia w Krakowie miejsca, w którym zima nie przeszkodzi nam w realizacji ślubnej sesji zdjęciowej. Nie był to pierwszy raz, gdy pomysły na zimowe zdjęcia stały się numerem jeden we frazach wpisywanych do naszych przeglądarek internetowych. Nie był to też pierwszy raz, kiedy zdjęcia w warunkach zimowych miałem przyjemność i okazję zrobić. Na mojej liście sprawdzonych miejsc na sesję ślubną w Krakowie od dawna znajdują się <a href="https://www.gdziewesele.pl/Domy-weselne/Palac-Radziwillow" target="_blank" rel="nofollow">Pałac Radziwiłłów w Balicach</a> i <a href="http://palac-sztuki.krakow.pl/muzea/dworek-jana-matejki/" target="_blank" rel="nofollow">Dwór Jana Matejki w Krzesławicach</a>. Pałac jest świetnym miejscem, gdy zimowa sesja zdjęciowa ma odbyć się w weekend. W tygodniu, miejsce to możemy rezerwować na sesję po godzinie szesnastej.'
                     }

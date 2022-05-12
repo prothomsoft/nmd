@@ -44,7 +44,7 @@ const BlogPageComponent = () => {
                     headTitle={"Plener ślubny Zamek Królewski w Niepołomicach, Czarny Staw - Basia i Marcin"}
                     headDescription={"123"}
                     headKeywords={"plener ślubny niepołomice, plener ślubny Zamek Króleski w Niepołomicach, Czarny Staw w Puszczy Niepołomickiej"}
-                    headUrl={"https://99foto.pl/plener-slubny-zamek-krolewski-w-niepolomicach-czarny-staw/"}
+                    headUrl={"https://99foto.pl/plener-slubny-zamek-krolewski-w-niepolomicach-czarny-staw"}
                     entryContentP1={
                         'Sesja ślubna w plenerze jest świetnym i naturalnym dopełnieniem reportażu ślubnego. Czy będzie to trzydziestominutowa krótka sesja w dniu ślubu, trzygodzinny plener w jeden z wakacyjnych słonecznych dni czy całodniowa wyjazdowa sesja plenerowa w górach zależy tylko od Was. Każda para młoda poszukując dobrego fotografa ślubnego musi znaleźć odpowiedź również i na to pytanie. Pamiętajcie, że czasem nie warto szukać daleko, bo świetne miejscówki mamy tuż pod naszym nosem. Szczególnie, że Kraków i jego okolice oferują ogromną ilość świetnych miejsc na niezapomniany plener ślubny. <a href="http://www.zamekkrolewski.com.pl/" target="_blank" rel="nofollow">Plener ślubny na Zamku Królewskim w Niepołomicach</a> to świetna alternatywa dla pleneru na <a href="https://wawel.krakow.pl/" target="_blank" rel="nofollow">Zamku Królewskim na Wawelu</a> czy pleneru na <a href="http://pieskowaskala.eu/" target="_blank"  rel="nofollow">Zamku w Pieskowej Skale</a>.'
                     }

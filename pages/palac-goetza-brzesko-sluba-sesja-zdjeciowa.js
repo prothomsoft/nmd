@@ -37,7 +37,7 @@ const BlogPageComponent = () => {
                     headTitle={"Pałac Goetza Brzesko, ślubna sesja zdjęciowa, Pałac Goetz"}
                     headDescription={"Pałac Goetza Brzesko, ślubna sesja zdjęciowa Magdaleny i Łukasza. Sala ślubna na wymarzone wesele pod Krakowem. Zapraszam do oglądania."}
                     headKeywords={"pałac goetz, pałac goetza brzesko, ślubna sesja zdjęcia, sala ślubna pałac goetz, wesele pod krakowem"}
-                    headUrl={"https://99foto.pl/palac-goetza-brzesko-sluba-sesja-zdjeciowa/"}
+                    headUrl={"https://99foto.pl/palac-goetza-brzesko-sluba-sesja-zdjeciowa"}
                     entryContentP1={
                         'Pałac Goetza w Brzesku to miejsce niezwykłe, charakteryzujące się wspaniałą architekturą, utrzymane z dbałością o najmniejszy detal. To nie tylko wnętrza, ale i piękny ogród. Każdego tygodnia w sezonie ślubnym miejsce to zamienia się w ekskluzywną sale weselną, budząc zachwyt na twarzach zaproszonych gości. Wielu krakowskich i nie tylko fotografów stawiało w tym miejscu swoje pierwsze kroki w fotografii na <a href="https://warsztaty.adamtrzcionka.pl/warsztaty-z-pleneru.html" target="_blank" rel="nofollow"> warsztatach z pleneru</a> organizowanych pod okiem mistrza Adama Trzcionki. Do zrobienia pleneru w tym miejscu namawiałem już moje pary ślubne, jednak dla wielu osób koszty związane z trzygodzinnym pobytem w Pałacu Goetza na sesji zdjęciowej, równe niemalże miesięcznemu wynagrodzeniu za pracę pielęgniarki czy nauczyciela, były nie do zaakceptowania.'
                     }

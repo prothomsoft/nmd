@@ -142,7 +142,7 @@ const BlogPageComponent = () => {
                     headTitle={"Reportaż ślubny Kraków, zdjęcia w Hotelu Górski Raj"}
                     headDescription={"Malowniczo położony Niedźwiedź i konkurujący z najpiękniejszymi w Krakowie Kościół Św. Michała w Mszanie Dolnej. Serdecznie zapraszam na reportaż ślubny."}
                     headKeywords={"reportaż ślubny kraków,fotograf na wesele kraków,zdjęcia ślubne w hotelu górski raj niedźwiedź"}
-                    headUrl={"https://99foto.pl/beata-i-marcin-reportaz-slubny-mszana-dolna-hotel-gorski-raj/"}
+                    headUrl={"https://99foto.pl/beata-i-marcin-reportaz-slubny-mszana-dolna-hotel-gorski-raj"}
                     entryContentP1={
                         'Drugi raz w tym roku odwiedzam Mszanę Dolną i przepiękny <a href="https://www.parafiamszanadolna.pl/" target="_blank" rel="nofollow">Kościół Św. Michała</a>, który z powodzeniem może konkurować z Krakowskimi perełkami, jakimi są <a href="https://kolegiata-anna.pl/" target="_blank" rel="nofollow">Kościół Św. Anny</a> czy <a href="https://www.mariacki.com/index.php/pl/" target="_blank" rel="nofollow">Bazylika Mariacka</a>. Do wykonania reportażu ponad rok wcześniej zaprosili mnie Beata i Marcin. Zdjęcia zaczęliśmy od przygotowań. Fryzura, staranny i delikatny makijaż oraz ubieranie sukni ślubnej odbyło się w dobrych humorach i rodzinnej atmosferze. Już chwilę później pędziłem do Niedźwiedzia, a dokładniej mówiąc do <a href="https://www.gorskiraj.com" target="_blank" rel="nofollow">Hotelu Górski Raj</a> gdzie odbyły się przygotowania Pana Młodego.'
                     }

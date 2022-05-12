@@ -155,7 +155,7 @@ const BlogPageComponent = () => {
                     headTitle={"Reportaż ślubny Wadowice, zdjęcia ślubne OSP Chocznia"}
                     headDescription={"Przepiękne rodzinne wejście do kościoła podczas którego Antoś i Wiktor stanęli na wysokości zadania, pozytywna atmosfera i zabawa do białego rana. Zapraszam."}
                     headKeywords={"reportaż ślubny wadowice,zdjęcia ślubne chocznia"}
-                    headUrl={"https://99foto.pl/kinga-i-sebastian-reportaz-slubny-wadowice-chocznia-i-radocza/"}
+                    headUrl={"https://99foto.pl/kinga-i-sebastian-reportaz-slubny-wadowice-chocznia-i-radocza"}
                     entryContentP1={
                         "Fotografem ślubnym Kingi i Sebastiana zostałem z polecenia Magdy i Lucjana, których pozdrawiam. Ich ślub i sesję plenerową możecie odnaleźć i pooglądać na moim blogu. Był to mój drugi raz w Hollywood Studio Leny Czechowicz i drugi raz w Wadowicach mieście Jana Pawła II. Przygotowania zaczęliśmy o godzinie 13. Lena i Kinga znają się od bardzo dawna i mieszkają po sąsiedzku, więc makijaż i włosy dotarły do poziomu Top Model z ramówki stacji TVN. Chwilkę później pojechaliśmy do Sebastiana, gdzie czekało nas sporo ubierania. Antoś i Wiktor dzieciaczki młodych założyli swoje marynarki w ekspresowym tempie, Sebastian poprawiał muchę i spinki na dole. Kinga w towarzystwie Moniki w pokoju obok dzielnie dopinały suknię na ostatni guzik. Panowała pozytywna atmosfera bez najmniejszych oznak stresu. Punktem kulminacyjnym było wzruszające błogosławieństwo udzielone przez rodziców."
                     }

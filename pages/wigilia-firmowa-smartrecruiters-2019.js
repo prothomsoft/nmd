@@ -127,7 +127,7 @@ const BlogPageComponent = () => {
                         "Wigilia firmowa w Krakowie. Firmowe spotkanie rodzinne w SmartRecruiters. Prezenty od Świętego Mikołaja, czekoladowa fontanna, więcej niż dwanaście potraw wigilijnych i konkursy na najbardziej cool świąteczny sweter."
                     }
                     headKeywords={"Fotograf na event firmowy Kraków, Wigilia Firmowa w SmartRecruiters"}
-                    headUrl={"https://99foto.pl/wigilia-firmowa-smartrecruiters-2019/"}
+                    headUrl={"https://99foto.pl/wigilia-firmowa-smartrecruiters-2019"}
                     entryContentP1={
                         "Wigilia firmowa w Krakowie. Firmowe spotkanie rodzinne w SmartRecruiters. Prezenty od Świętego Mikołaja, czekoladowa fontanna, więcej niż dwanaście potraw wigilijnych i konkursy na najbardziej cool świąteczny sweter. Serdecznie zapraszam na zdjęcia i życzę WESOŁYCH ŚWIĄT i miłego oglądania."
                     }

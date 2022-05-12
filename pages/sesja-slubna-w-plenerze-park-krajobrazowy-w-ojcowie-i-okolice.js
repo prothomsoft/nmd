@@ -36,7 +36,7 @@ const BlogPageComponent = () => {
                     headTitle={"Sesja ślubna w plenerze Kraków"}
                     headDescription={"Park krajobrazowy w Ojcowie i okolice to świetne miejsce na sesję ślubną w plenerze. Sesja ślubna w plenerze musi się tam udać. Zapraszam na bloga."}
                     headKeywords={"sesja ślubna w plenerze,zamek pieskowa skała,park krajobrazowy w ojcowie"}
-                    headUrl={"https://99foto.pl/sesja-slubna-w-plenerze-park-krajobrazowy-w-ojcowie-i-okolice/"}
+                    headUrl={"https://99foto.pl/sesja-slubna-w-plenerze-park-krajobrazowy-w-ojcowie-i-okolice"}
                     entryContentP1={
                         'Sesja ślubna w plenerze to zwykle poszukiwanie trzech składowych chwili, światła i kadru. Każda para młoda musi sobie odpowiedzieć na pytanie, czy warto jechać pół dnia do innego miasta, żeby zrobić sesję zdjęciową. Może warto ten czas wykorzystać inaczej i zdecydować się na sesję w Krakowie. Zdecydowanie inaczej jest gdy chcecie mieć góry w tle, wtedy rzeczywiście warto się zastanowić nad wyjazdem. W ubiegłym tygodniu razem z Olą i Pawłem polowaliśmy na odpowiedni moment w <a href="https://korzkiew.pl/" target="_blank" rel="nofollow">Zamku Korzkiew</a> i w <a href="https://ojcowskiparknarodowy.pl/" target="_blank" rel="nofollow">Parku Krajobrazowym w Ojcowie</a>.'
                     }

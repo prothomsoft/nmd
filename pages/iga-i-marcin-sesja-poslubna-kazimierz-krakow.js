@@ -40,7 +40,7 @@ const BlogPageComponent = () => {
                     headTitle={"Sesja ślubna Kazimierz Kraków"}
                     headDescription={"Kościół na Skałce, Wawel, spacer bulwarami Wiślanymi i Kazimierz. W każdym miejscu kilka fajnych zdjęć Igi i Marcina. Zapraszam do oglądania."}
                     headKeywords={"sesja ślubna kazimierz,zdjęcia ślubne na wawelu,fotograf na ślub kraków"}
-                    headUrl={"https://99foto.pl/iga-i-marcin-sesja-poslubna-kazimierz-krakow/"}
+                    headUrl={"https://99foto.pl/iga-i-marcin-sesja-poslubna-kazimierz-krakow"}
                     entryContentP1={
                         "Iga i Marcin w czasach studenckich mieszkali na ulicy Paulińskiej, dlatego też z tego miejsca rozpoczęliśmy naszą wyprawę po Krakowie. Kościół na Skałce, wspinaczka na Wawel i tam kilka fotek, a następnie prosto na Kazimierz, gdzie odwiedziliśmy Stajnię, Mleczarnie, Qulinaria, Starą Zajezdnię i Kładkę Bernatkę, każde miejsce inne i ciekawe do fotografowania."
                     }

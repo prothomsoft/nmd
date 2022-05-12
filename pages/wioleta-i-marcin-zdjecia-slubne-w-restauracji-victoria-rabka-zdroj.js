@@ -154,7 +154,7 @@ const BlogPageComponent = () => {
                     headTitle={"Zdjęcia ślubne w Restauracji Victoria - Rabka Zdrój"}
                     headDescription={"Reportaż ze ślubu Wiolety i Marcina w Restauracji Victoria - Rabka Zdrój. Uroczystość zaślubin w kościele w Łętowni. Zapraszam do oglądania."}
                     headKeywords={"fotograf na wesele kraków,zdjęcia ślubne w restauracji victoria - rabka zdrój"}
-                    headUrl={"https://99foto.pl/wioleta-i-marcin-zdjecia-slubne-w-restauracji-victoria-rabka-zdroj/"}
+                    headUrl={"https://99foto.pl/wioleta-i-marcin-zdjecia-slubne-w-restauracji-victoria-rabka-zdroj"}
                     entryContentP1={
                         "Tego dnia było wszystko, co być powinno – szczere uśmiechy, wiele wzruszeń i pełno emocji! Przedstawiam zatem Wioletę i Marcina, którym miałem przyjemność towarzyszyć zza aparatu podczas ich najważniejszego dnia w życiu. Przygotowania zaczęliśmy popołudniową porą od makijażu. Pokój Wiolety stał się centrum dowodzenia, a do makijażu ustawiła się kolejka. Pomimo, że temat poważny to humor dopisywał, a uśmiechy trzymały się wszystkich. Chwilę później odwiedziłem dom rodzinny Marcina, który wpasował się w bardzo elegancki mundur strażacki."
                     }

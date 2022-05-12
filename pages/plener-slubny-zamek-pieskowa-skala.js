@@ -41,7 +41,7 @@ const BlogPageComponent = () => {
                     headTitle={"Plener ślubny w Zamku Pieskowa Skała"}
                     headDescription={"Długi weekend w Krakowie? Na pewno warto zobaczyć Zamek w Pieskowej Skale. Serdecznie zapraszam na sesję ślubną Martyny i Michała. Miłego oglądania..."}
                     headKeywords={"plener ślubny zamek pieskowa skała, sesja ślubna w zamku"}
-                    headUrl={"https://99foto.pl/plener-slubny-zamek-pieskowa-skala/"}
+                    headUrl={"https://99foto.pl/plener-slubny-zamek-pieskowa-skala"}
                     entryContentP1={
                         "Po raz kolejny na moim blogu proponuję plener ślubny w okolicach Krakowa i mam nadzieję, że razem z Martyną i Michałem udowadniamy, że żeby zrobić fajne zdjęcia nie trzeba jechać na koniec świata. Tym razem w trakcie sesji ślubej zwiedziliśmy nie tylko herkulesowe okolice ale również weszliśmy do środka Zamku w Pieskowej Skale. Odnowione i oddane do użytku arkady, pilnie strzeżone przez trzech dzielnych strażników (wciąż mniej niż trawa na Wawelu) i piękne okolice, w których pojawiliśmy się razem z promieniami zachodzącego słońca, pomogły nam zrobić bardzo dobre zdjęcia. Martyna wyglądała niesamowicie, a jej pewność siebie i fakt, że od zawsze uwielbia pozować do zdjęć moją prace sprowadziły tylko do naciskania spustu migawki."
                     }

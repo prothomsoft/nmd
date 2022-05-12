@@ -149,7 +149,7 @@ const BlogPageComponent = () => {
                     headTitle={"Reportaż ślubny Bolechowice, Dom Weselny u Niedźwiedzia"}
                     headDescription={"Jeden zero dla Polski takimi słowami ksiądz rozpoczął kazanie na ślubie Gosi i Tomka. Mówił oczywiście o meczu ze Szwajcarami. Zapraszam."}
                     headKeywords={"fotograf na wesele kraków,reportaż ślubny bolechowiece,dom weselny u niedźwiedzia"}
-                    headUrl={"https://99foto.pl/gosia-i-tomek-reportaz-slubny-bolechowice-dom-weselny-u-niedzwiedzia/"}
+                    headUrl={"https://99foto.pl/gosia-i-tomek-reportaz-slubny-bolechowice-dom-weselny-u-niedzwiedzia"}
                     entryContentP1={
                         'Sobota 25 czerwca była jednym z bardziej ciepłych dni tego lata, nie przeszkodziło to jednak w wykonaniu pięknego reportażu ze ślubu Gosi i Tomka. Przygotowania rozpoczęliśmy wcześnie rano od makijażu i fryzury w domu rodzinnym Gosi. Dziewczyny stanęły na wysokości zadania i pozostało tylko oczekiwać na przyjazd Tomka. Kilka buziaków powitalnych, następnie błogosławieństwo i wszyscy udaliśmy się do <a href="https://www.parafiabolechowice.pl/" target="_blank" rel="nofollow">Kościoła Piotra i Pawła w Bolechowicach</a>. Jest jeden zero dla Polski takimi słowami ksiądz rozpoczął kazanie na ślubie Gosi i Tomka.'
                     }

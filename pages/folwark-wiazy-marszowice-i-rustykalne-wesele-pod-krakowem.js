@@ -147,7 +147,7 @@ const BlogPageComponent = () => {
                     headTitle={"Folwark Wiązy Marszowice, Rustykalne wesele pod Krakowem"}
                     headDescription={"Wesele w stodole. Rustykalne wesele pod Krakowem czyli Folwark Wiązy w Marszowicach. Miejsce dla osób, które chcą zorganizować swój ślub w stylu boho."}
                     headKeywords={"wesele w stodole, rustykalne wesele pod krakowem, folwark wiązy marszowice, ślub boho"}
-                    headUrl={"https://99foto.pl/folwark-wiazy-marszowice-i-rustykalne-wesele-pod-krakowem/"}
+                    headUrl={"https://99foto.pl/folwark-wiazy-marszowice-i-rustykalne-wesele-pod-krakowem"}
                     entryContentP1={
                         "Pomyślcie, gdyby tak zapomnieć o jasnych salach ślubnych i pozwolić puścić wodze fantazji i przenieść się w miejsce bliskie natury, pełne zieleni i pewnego rodzaju prostoty w pozytywnym tego słowa znaczeniu. Miejsce gdzie klimat tworzy drewno i wykonane z niego stoły, ramki, skrzynki, dekoracje, które z łatwością znajdziemy w produkcjach filmowych rodem z Hollywood. Ktoś już to wymyślił określił śluby tego typu mianem ślubów rustykalnych lub boho i dokładnie zdefiniował naturę wystroju ślubnych wnętrz. Rustykalne wesele to nawiązanie do światła, harmonii i natury. Styl rustykalny wywodzi się z klimatu wiejskiego, a dominująca biel i przytłumione światło często przełamywane są bogatą paletą przeróżnych barw."
                     }

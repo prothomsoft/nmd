@@ -45,7 +45,7 @@ const BlogPageComponent = () => {
                     headTitle={"Sesja ślubna w Krakowie. Miejsca idealne na romantyczne kadry"}
                     headDescription={"Sesja ślubna piękna, romantyczna z niesamowitymi i mającymi to coś w sobie kadrami. Wybierzcie magiczny Kraków. Zapraszam."}
                     headKeywords={"sesja ślubna w Krakowie, miejsca plenerowe Kraków, pomysły na sesje ślubną"}
-                    headUrl={"https://99foto.pl/sesja-slubna-w-krakowie-miejsca-idealnie-nadajace-sie-na-romantyczne-kadry/"}
+                    headUrl={"https://99foto.pl/sesja-slubna-w-krakowie-miejsca-idealnie-nadajace-sie-na-romantyczne-kadry"}
                     entryContentP1={
                         "Sesja ślubna to prawdziwy must have każdej pary młodej. Godziny przed lustrem, idealna suknia ślubna i garnitur skrojony na miarę po prostu muszą zostać uwiecznione w obiektywie fotografa! Oczywiście zdjęcia ze ślubu i wesela są standardem, ale wtedy nie jesteście sami. Wokół was jest mnóstwo osób, wiele się dzieje. Trudno o chwilę skupienia i uwagi tylko dla siebie nawzajem. Taką szansę stwarza specjalna sesja ślubna, na którą warto się zdecydować."
                     }

@@ -175,7 +175,7 @@ const BlogPageComponent = () => {
                     headTitle={"Ślub w Dworku Fantazja w Skomielnej Białej"}
                     headDescription={"Jesienny ale słoneczny sobotni dzień, świat pokryty ogromem mieniących się w słońcu złotych liści i ulica Mickiewicza w Jordanowie. Miłego oglądania."}
                     headKeywords={"reportaż ślubny jordanów,fotograf na wesele jordanów"}
-                    headUrl={"https://99foto.pl/sabina-i-wiesiek-zdjecia-slubne-dworek-fantazja-skomielna-biala/"}
+                    headUrl={"https://99foto.pl/sabina-i-wiesiek-zdjecia-slubne-dworek-fantazja-skomielna-biala"}
                     entryContentP1={
                         'Jesienny ale słoneczny sobotni dzień, świat pokryty ogromem mieniących się w słońcu złotych liści i ulica Mickiewicza w Jordanowie, pierwszy przystanek w najważniejszym dla Sabiny i Wieśka dniu. Przygotowania i piękny makijaż ślubny wykonany przez wizażystkę Patrycję, tysiące złotych rad od kamerzysty gaduły Arka z <a href="https://allemedia.pl" target="_blank" rel="nofollow">Allemedia</a>, którego pozdrawiam &#8211; tak zaczęliśmy. Nie był to mój pierwszy ślub w tych stronach i jak już wielokrotnie pisałem na blogu jestem zachwycony otwartością i gościnnością ludzi w tych stronach. Towarzyszyliśmy też Wieśkowi podczas przygotowań i pełnego wzruszeń błogosławieństwa. Chwilę później już wszyscy razem obserwowaliśmy dumnego Tatę Sabiny, który prowadził córkę do ołtarza.'
                     }

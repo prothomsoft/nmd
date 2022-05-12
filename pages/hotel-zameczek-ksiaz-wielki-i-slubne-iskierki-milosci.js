@@ -185,7 +185,7 @@ const BlogPageComponent = () => {
                     headTitle={"Hotel Zameczek Książ Wielki, ślubne iskierki miłości"}
                     headDescription={"Hotel Zameczek Książ Wielki miejsce niezwykle klimatyczne z milionem fotograficznych zakamarków, więc na ślub wymarzone. Zapraszam na ślubne iskierki miłości Katarzyny i Pawła."}
                     headKeywords={"hotel zameczek książ wielki, ślubne iskierki miłości, fotograf na wesele Miechów"}
-                    headUrl={"https://99foto.pl/hotel-zameczek-ksiaz-wielki-i-slubne-iskierki-milosci/"}
+                    headUrl={"https://99foto.pl/hotel-zameczek-ksiaz-wielki-i-slubne-iskierki-milosci"}
                     entryContentP1={
                         'Jestem pewny, że Mama Kasi i Moniki zapamięta rok 2019 na długo. Jedne wakacje, trochę sprytu jakim wykazali się chłopcy i dwie siostry niemalże jednocześnie rozpoczęły nowe życia u boku swoich wspaniałych mężczyzn. Ciekawe czy dziewczyny równie równo pochwalą się wiadomościami o zaplanowanych wnukach lub wnuczkach. Ale skąd ja o tym wszystkim wiem? Jak się pewnie domyślacie znam szczegóły ponieważ miałem przyjemność fotografować również ślub Moniki i Daniela. Po ślubie zrobiliśmy sesję ślubną, w której asystowała nam Kasia, a już dzisiaj na blogu możecie oglądać zdjęcia, które zrobiłem niedawno bo w ostatnim tygodniu sierpnia. Wiecie, fakt, że goście znają już fotografa ślubnego i wiedzą, że mogą mu zaufać i wiedzą jakich zdjęć mogą się  spodziewać bardzo pomaga. Było tak i tym razem. Dużo trafionych fajnych zdjęć akcji i cały reportaż w stu procentach poleciał bez jakichkolwiek ustawek i niepotrzbego stresu. Ale do sedna...'
                     }

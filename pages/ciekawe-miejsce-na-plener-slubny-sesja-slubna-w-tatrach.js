@@ -42,7 +42,7 @@ const BlogPageComponent = () => {
                         "Tym razem na moim blogu znajdziecie ciekawe miejsce na plener ślubny. Sesja ślubna w Tatrach to świetny moment by wyrwać się z miasta i odetchnąć świeżym powietrzem w górach. Zapraszam do oglądania."
                     }
                     headKeywords={"sesja ślubna w tatrach, plener ślubny w górach, miejsce na plener ślubny, ciekawe miejsca na sesję ślubną"}
-                    headUrl={"https://99foto.pl/ciekawe-miejsce-na-plener-slubny-sesja-slubna-w-tatrach/"}
+                    headUrl={"https://99foto.pl/ciekawe-miejsce-na-plener-slubny-sesja-slubna-w-tatrach"}
                     entryContentP1={
                         "Pary, które decydują się na sesję ślubną w Tatrach bardzo często polegają na moim doświadczeniu i pytają o ciekawe miejsca na plener ślubny w górach. Odpowiadając na te pytania bardzo często zaczynam opowieść od najbardziej popularnej tatrzańskiej lokalizacji, w której często realizowane są plenery ślubne.  Jest to oczywiście Kasprowy Wierch, na który można łatwo dostać się kolejką linową. Wycieczkę zaczyna się w Kuźnicach i bardzo dobrze schodzi się żółtym szlakiem w kierunku Czarnego Stawu Gąsienicowego, który rewelacyjnie wygląda na zdjęciach ślubnych. Kolejną świetną miejscówką jest oczywiście Morskie Oko. Podejście do największego jeziora Tatr rozpoczyna się w Palenicy Białczańskiej. Ośmiokilometrowy odcinek drogi do jeziora możemy pokonać fasiągiem lub mniej kosztownie mknąć na biszkoptach. W schronisku można powtórzyć przygotowania i rozpocząć wędrówkę wokół jeziora w poszukiwaniu super światła i niezwykłych kadrów."
                     }

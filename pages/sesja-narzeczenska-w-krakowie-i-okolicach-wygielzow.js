@@ -49,7 +49,7 @@ const BlogPageComponent = () => {
                     headTitle={"Sesja narzeczeńska w Krakowie i okolicach"}
                     headDescription={"Sesja narzeczeńska w Krakowie, Nadwiślański Park Etnograficzny Wygiełzów, Zamek Lipowiec"}
                     headKeywords={"sesja narzeczeńska w Krakowie"}
-                    headUrl={"https://99foto.pl/sesja-narzeczenska-w-krakowie-i-okolicach-wygielzow/"}
+                    headUrl={"https://99foto.pl/sesja-narzeczenska-w-krakowie-i-okolicach-wygielzow"}
                     entryContentP1={
                         'Magde i Damiana poznałem rok temu. Już wtedy podczas naszego pierwszego spotkania pomyśleliśmy, że sesja narzeczeńska przed ślubem to świetny pomysł.  Udało nam się znaleźć czas i trafić odpowiednią pogodę, więc spontanicznie umówiliśmy się na zdjęcia. Żeby dotrzeć do miejsca naszego pleneru trzeba minąć Zalew w Kryspinowie, Kasztel Kajasówka, Cztery Pory Roku by jadąc dalej w stronę Oświęcimia w końcu trafić do <a href="https://mnpe.pl/" target="_blank" rel="nofollow">Nadwiślańskiego Parku Etnograficznego</a> w Wygiełzowie. Miejsce to jest szczególne dla Magdy i Damiana ponieważ już pod koniec września tego roku w Kościele z Ryczowa, który jest częścią skansenu wypowiedzą sakramentalne TAK. Na naszej sesji narzeczeńskiej nie brakowało świetnego światła, które to malowało wszystko ciepłymi barwami.'
                     }

@@ -165,7 +165,7 @@ const BlogPageComponent = () => {
                     headTitle={"Dom weselny Aleksandra, zdjęcia ślubne Mszana Dolna"}
                     headDescription={"Aleksandra to nowo powstały Dom Weselny w Mszanie Dolnej, świetne miejsce by zorganizować tam Wasz ślub. Zapraszam na reportaż ślubny Kasi i Piotra."}
                     headKeywords={"Dom weselny Aleksandra, zdjęcia ślubne Mszana Dolna, fotograf na wesele Mszana"}
-                    headUrl={"https://99foto.pl/dom-weselny-aleksandra-zdjecia-slubne-mszana-dolna/"}
+                    headUrl={"https://99foto.pl/dom-weselny-aleksandra-zdjecia-slubne-mszana-dolna"}
                     entryContentP1={
                         'Święta Wielkanocne, a w szczególności lany poniedziałek to dzień otwierający parkiety w całej Polsce. Korzystając więc z okazji urwałem się na kilka godzin z Tokarni, gdzie dzieliliśmy się jajkiem z rodziną już od niedzieli, by uwiecznić ślub Kasi i Piotra. Przygotowania zaczęliśmy w Myślenicach w <a href="https://www.facebook.com/biogenika/" target="_blank" rel="nofollow">Salonie Urody Biogenika</a>. Makijaż profesjonalnie wykonała koleżanka Kasi z licealnej klasy. Chwilę później na fotelu zasiadła świadkowa Ania, czyli siostra Kasi, której zdjęcie after możecie zobaczyć na facebooku. Następnie udaliśmy się do Stróży i tam z pomocą mamy Kasia ubrała suknię ślubną, buty, podwiązkę i biżuterie. Była też chwila na kawkę i miłą rozmowę z rodzicami. Piotr mieszkał w Pcimiu, udałem się tam więc w kilka minut by sfotografować również jego przygotowania. Podczas ubierania asystowała siostra Ania. Gdy wszystko było już gotowe odbyło się pierwsze pełne emocji błogosławieństwo w domu Piotra i kolejne już wspólne w domu Kasi.'
                     }

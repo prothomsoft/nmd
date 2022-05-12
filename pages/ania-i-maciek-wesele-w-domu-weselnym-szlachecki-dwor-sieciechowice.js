@@ -141,7 +141,7 @@ const BlogPageComponent = () => {
                     headTitle={"Zdjęcia ślubne Szlachecki Dwór Sieciechowice"}
                     headDescription={"Zawsze chciałam GÓRALA no i mam - Ania nie mówiła o rowerach. Serdecznie zapraszam na ślub Ani i Maćka w Szlacheckim Dworze Sieciechowice. Miłego oglądania."}
                     headKeywords={"fotograf na wesele kraków,zdjęcia ślubne w domu weselnym dwór szlachecki w sieciechowicach"}
-                    headUrl={"https://99foto.pl/ania-i-maciek-wesele-w-domu-weselnym-szlachecki-dwor-sieciechowice/"}
+                    headUrl={"https://99foto.pl/ania-i-maciek-wesele-w-domu-weselnym-szlachecki-dwor-sieciechowice"}
                     entryContentP1={
                         'Ania i Maciek poznali się na pierwszym roku studiów, więc na swój wielki dzień, który miałem przyjemność fotografować, czekali aż te studia się wreszcie skończą. W samo południe zaczęliśmy przygotowania w domu rodzinnym Ani w Cianowicach Wielkich - makijaż i ubieranie sukni w dobrych humorach i doborowym towarzystwie sióstr i rodziców. Chwilę później pojawił się Maciek w czerwonym Mercedesie i bieg wydarzeń nabrał tempa. Pogoda była zamówiona więc żadnych stresów z tego powodu nie było. Za sprawą <a href="https://www.facebook.com/ZespolZowiyrucha/" target="_blank" rel="nofollow">Zespółu Zowiyrucha</a> pod Krakowem zapanował góralski klimat. Po pełnym emocji błogosławieństwie udaliśmy się do <a href="https://www.parafiasmardzowice.pl/" target="_blank" rel="nofollow">Kościoła Matki Bożej Różańcowej w Smardzowicach</a>. Ceremonię poprowadził sam Ksiądz Proboszcz.'
                     }

@@ -161,7 +161,7 @@ const BlogPageComponent = () => {
                     headTitle={"Fotograf na wesele Jordanów, Strażnica Pcim"}
                     headDescription={"Serdecznie zapraszam do Jordanowa, Strażnicy w Pcimiu i Kościoła w Naprawie gdzie sakramentalne TAK powiedzieli sobie Kasia i Grzesiek. Miłego oglądania."}
                     headKeywords={"fotograf na wesele jordanów,strażnica pcim"}
-                    headUrl={"https://99foto.pl/fotograf-na-wesele-jordanow-straznica-pcim/"}
+                    headUrl={"https://99foto.pl/fotograf-na-wesele-jordanow-straznica-pcim"}
                     entryContentP1={
                         "Sobota w długi sierpniowy weekend rozpoczęła się wcześnie, bo o godzinie ósmej rano. Jadąc Zakopianką do Jordanowa na makijaż Kasi miałem okazje podziwiac spowodowane zmiennością aury wspaniałe niemalże górskie widoki. Trudno było zatrzymać się w Bystrej Podhalańskiej, bo aż chciałoby się popędzić dalej. Ale właśnie w Jordanowie Kasia rozpoczęła swoje przygotowania do ślubu. Fajny gabinet kosmetyczny i chwilę później jeszcze nie do końca zamieszkały ale gustownie urządzony salon fryzjerski w Rabce Zdrój."
                     }

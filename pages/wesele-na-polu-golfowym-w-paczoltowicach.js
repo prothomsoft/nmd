@@ -180,7 +180,7 @@ const BlogPageComponent = () => {
                     headTitle={"Wesele na polu golfowym w Paczółtowicach"}
                     headDescription={"To wesele na polu golfowym w Paczółtowicach definiuje szaloną zabawę. Tym razem Highway to Hell zgniótł hity Zenka Martyniuka. Zapraszam na bloga."}
                     headKeywords={"krakow valley golf,pole golfowe paczółtowice,wesele na polu golfowym"}
-                    headUrl={"https://99foto.pl/wesele-na-polu-golfowym-w-paczoltowicach/"}
+                    headUrl={"https://99foto.pl/wesele-na-polu-golfowym-w-paczoltowicach"}
                     entryContentP1={
                         'Usytuowanie z dala od ulicznego ruchu przy pięknych, zielonych polach golfowych sprawia, że Krakow Valley Golf jest wymarzonym miejscem do organizowania zarówno hucznych jak i kameralnych przyjęć weselnych oraz bankietów i bali. Tak na swojej stronie internetowej swoją największą bo mieszczącą do 250 gości weselnych Salę Golfową reklamuje <a href="https://www.krakow-valley.com/idm,243,wesela.html" target="_blank" rel="nofollow">Krakow Valley Golf &#038; Country Club w Paczółtowicach</a>. I powiem Wam, że wszystko się zgadza, ale zacznijmy od początku. Przygotowania rozpoczęliśmy w na ulicy poselskiej w Krakowie już o godzinie dziewiątej rano. Dawid starannie i profesjonalnie ułożył włosy Asi, natomiast wizażystka Ania wykonała świetny makijaż z mega konturowaniem. Wszystko to w jedno przedpołudnie w Salonie Fryzjerskim <a href="https://www.facebook.com/HEDONIK/" target="_blank" rel="nofollow">HEDONIK Hair Studio</a>. Część dalsza przygotowań odbyła się w mieszkaniu Asi w prawdziwie rodzinnej atmosferze.'
                     }

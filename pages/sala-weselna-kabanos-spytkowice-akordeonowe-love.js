@@ -169,7 +169,7 @@ const BlogPageComponent = () => {
                         "Po kilku latach fotografowania ślubów w okolicach Łętowni, Krzczonowa, Spytkowic, Myślenic robiąc zdjęcia na ślubie w tych okolicach czuje się jak w domu. Totalnie ziomalski klimat na ślubie Amandy i Jacka. Zapraszam."
                     }
                     headKeywords={"fotograf na wesele Łętownia, sala weselna Spytkowice, zdjęcia ślubne Krzczonów"}
-                    headUrl={"https://99foto.pl/sala-weselna-kabanos-spytkowice-akordeonowe-love/"}
+                    headUrl={"https://99foto.pl/sala-weselna-kabanos-spytkowice-akordeonowe-love"}
                     entryContentP1={
                         'Po kilku latach fotografowania ślubów w okolicach Łętowni, Krzczonowa, Pcimia, Tokarni, Spytkowic i Myślenic robiąc zdjęcia na ślubie w tamtych okolicach czuje się jak w domu. Totalnie ziomalski klimat gdzie każdy z uśmiechem przybija pione i nie schodzi z parkietu do białego rana. Przygotowania, na których nie ma czasu na grupówki bo tyle ciekawszych rzeczy dzieje się równocześnie. Otwartość ludzi, której współczynnik rośnie odwrotnie proporcjonalnie do odległości od szczytów górskich. Góralska mowa, która wkrada się do słownika gości weselnych często, bardzo często. Okoliczności do focenia level master. Ale do sedna. Dzień otworzyliśmy wizytą na makijażu w domowym studio wizażu <a href="https://www.facebook.com/madebymemakeup" target="_blank" rel="nofollow">Made by me Ewa Kobiałka</a>. Minka Amandy, która zebrała już żniwo na <a href="https://www.instagram.com/99foto.pl/" target="_blank" rel="nofollow">moim instagramie</a>, mówiła sama za siebie, było idealnie. Przygotowania Panny Młodej i Pana Młodego minęły błyskawicznie.'
                     }

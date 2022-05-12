@@ -187,7 +187,7 @@ const BlogPageComponent = () => {
                     headTitle={"Sala weselna NEDAN Pcim, reportaż ślubny"}
                     headDescription={"Dużo pozytywnych emocji i dopracowany w najmniejszym szczególe piękny ślub Ani i Krzyśka. Sala bankietowa NEDAN Pcim. Koniecznie zaglądnijcie na bloga."}
                     headKeywords={"sala weselna nedan pcim,sala bankietowa jordanów,fotograf na wesele"}
-                    headUrl={"https://99foto.pl/sala-weselna-nedan-pcim-reportaz-slubny/"}
+                    headUrl={"https://99foto.pl/sala-weselna-nedan-pcim-reportaz-slubny"}
                     entryContentP1={
                         'Pcim, Jordanów, Naprawa i okoliczne miejscowości zyskały świetne miejsce, gdzie można wybrać się na Sylwestra lub zorganizować Wasz ślub. <a href="https://nedan.pl" target="_blank" rel="nofollow">Sala bankietowa NEDAN w Pcimiu</a> powstała niedawno, pachnie nowością, oferuje nowoczesny wystrój i dużo przyjemnego światła do zdjęć ślubnych, znacząco ułatwiając pracę dla fotografów i kamerzystów. Ania znalazła mnie jako fotografa ślubnego oglądając zdjęcia <a href="https://99foto.pl/sala-bankietowa-i-weselna-krzczonow-mka-morze-gwiazd/" target="_blank" rel="nofollow">Magdy i Grześka</a>. Szerokie kadry z Kościoła w Pcimiu, żywe kolory i autentyczne emocje przekonały ją, żeby zaufać mi i powierzyć zadanie fotografowania jej ślubu.'
                     }

@@ -151,7 +151,7 @@ const BlogPageComponent = () => {
                     headTitle={"Dom Weselny Babie Lato Gdów"}
                     headDescription={"Bryan Adams i All For Love, taką dedykacją na Facebook w piątkowy wieczór Tomasz zbudował klimat sobotniego ślubu. Co było dalej sprawdźcie na moim blogu."}
                     headKeywords={"babie lato gdów,fotograf piaski nowe kraków"}
-                    headUrl={"https://99foto.pl/dom-weselny-babie-lato-gdow-reportaz-slubny/"}
+                    headUrl={"https://99foto.pl/dom-weselny-babie-lato-gdow-reportaz-slubny"}
                     entryContentP1={
                         'Bryan Adams i All For Love, taką dedykacją na Facebook w piątkowy wieczór Tomasz zbudował klimat sobotniego ślubu.  Co było dalej? Wymarzona pogoda, trochę słońca i orzeźwiające podmuchy majowego wiatru. Tym razem reportaż ślubny rozpoczęliśmy w Krakowie, a dokładniej na Woli Duchackiej w <a href="https://annaptak.com.pl" target="_blank" rel="nofollow">Salonie Fryzjerskim Anny Ptak</a>. Od godziny 10 rano trwały tam przygotowania, podczas których panie fryzjerka i wizażystka pracowały nad perfekcyjnym makijażem i pięknym upięciem włosów Natalii. Świetnie ułożony plan dnia, pozwolił mi poznać i dłuższą chwilę porozmawiać z rodzicami Natalii, których serdecznie pozdrawiam. Kilka minut po dwunastej dołączyła do nas druhna Ewa, która razem z mamą Natalii pomogła jej ubrać suknię ślubną, buty, podwiązkę i biżuterię. Kilka zdjęć u Tomka, który mieszkał tuż za rogiem, a dalej już tylko emocje i łzy wzruszenia podczas wspólnego błogosławieństwa rodziców.'
                     }

@@ -70,7 +70,7 @@ const BlogPageComponent = () => {
                     headTitle={"Test obiektywu Sigma 50 1.4 ART"}
                     headDescription={"Tym razem zupełnie nie ślubnie. Kilka zdjęć z naszych wakacji i testy obiektywu Sigma 50 1.4 ART. Zapraszam na bloga i życzę miłego oglądania."}
                     headKeywords={"test obiektywu sigma 50 1.4 art,sesja zdjęciowa kraków"}
-                    headUrl={"https://99foto.pl/wakacyjny-test-obiektywu-sigma-50-1-4-art/"}
+                    headUrl={"https://99foto.pl/wakacyjny-test-obiektywu-sigma-50-1-4-art"}
                     entryContentP1={
                         "Tym razem zupełnie nie ślubnie. Kilka zdjęć z wakacji, które razem z moim bratem i jego rodziną spędziliśmy w Miszkolcu, Nyiregyhazie, a w drodze powrotnej odwiedzając Tatrzańską Łomnicę. Wakacje to dobry moment, żeby przetestować nowy obiektyw, sprawdzić czy dobrze ostrzy i będzie ok mówiąc krótko na ślubach. Tak się też stało również tym razem. Zabrałem ze sobą Sigmę 50 1.4 ART z filtrem polaryzacyjnym Marumi DHG Super. Większość zdjęć jest zrobiona tym obiektywem, który jak można odnaleźć w internecie jest najlepszą pięćdziesiątką na rynku."
                     }

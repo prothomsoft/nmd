@@ -36,7 +36,7 @@ const BlogPageComponent = () => {
                     headTitle={"Sesja ślubna Zamek w Korzkwi,  plener ślubny Kraków"}
                     headDescription={"Sesja ślubna Patrycji i Michała. Wybraliśmy się do Zamku w Korzkwi, a do Kładki Bernatki dotarliśmy idealnie na granicy zmroku. Zapraszam."}
                     headKeywords={"plener ślubny kraków,zdjęcia ślubne kładka bernatka"}
-                    headUrl={"https://99foto.pl/pati-i-michal-sesja-poslubna-zamek-w-korzkwi-i-kladka-bernatka/"}
+                    headUrl={"https://99foto.pl/pati-i-michal-sesja-poslubna-zamek-w-korzkwi-i-kladka-bernatka"}
                     entryContentP1={
                         'Patrycję i Michała już znacie z <a href="https://99foto.pl/patrycja-i-michal-sesja-narzeczenska-pieskowa-skala/" target="_blank" rel="nofollow">sesji narzeczeńskiej</a> i <a href="https://99foto.pl/pati-i-michal-zdjecia-slubne-w-hotelu-turowka-wieliczka/" target="_blank" rel="nofollow">zdjęć ślubnych</a>. Tym razem spotkaliśmy się na sesji ślubnej w Krakowie. Początkowo chcieliśmy fotografować w Dworze Tomaszowice. Odbywała się tam jednak impreza firmowa dla najmłodszych, więc by uniknąć przeładowanych nieznajomymi ludźmi kadrów podjechaliśmy krok dalej do Zamku w Korzkwi.'
                     }

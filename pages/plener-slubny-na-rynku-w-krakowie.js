@@ -45,7 +45,7 @@ const BlogPageComponent = () => {
                         "Plener ślubny na Rynku w Krakowie, pomysł na sesję zdjęciową w czasie epidemii koronawirusa. Rynek Główny w Krakowie bez ludzi to możliwe - sami zobaczcie na bloga. Zapraszam."
                     }
                     headKeywords={"plener ślubny w czasie epidemii koronawirusa, sesja zdjęciowa na rynku w Krakowie"}
-                    headUrl={"https://99foto.pl/plener-slubny-na-rynku-w-krakowie/"}
+                    headUrl={"https://99foto.pl/plener-slubny-na-rynku-w-krakowie"}
                     entryContentP1={
                         "Dwudziesty kwietnia, konferencja prasowa premiera i ministra zdrowia, nowe rozporządzenia w ramach rozmrażania gospodarki. Tego dnia wszyscy fotografowie i pary młode w Polsce w ramach wykonywania swojej pracy w czasie epidemii koronawirusa zyskali pozwolenie na wykonywanie plenerów ślubnych bez maseczek. Ślub Patrycji i Krzyśka odbył się w pażdzierniku, brak śniegu zimą przesunął nasze plenerowe plany do wiosny. Hashtag zostańwdomu zapewnił nam pusty Rynek Główny w Krakowie, do tego wybraliśmy mega słoneczny dzień i moment w którym drzewa były już wystarczająco zielone. Miejmy nadzieję, że taka okazja na bezludny Kraków w historii nas wszystkich już się nie powtórzy i był to jedyny moment, który dobrze wykorzystaliśmy."
                     }

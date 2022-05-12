@@ -6,15 +6,15 @@ import Image from "next/image";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
 import fotograf_slubny_krakow_3 from "../public/static/portfolio/fotograf_slubny_krakow_3.jpg";
-import fotograf_slubny_krakow_4 from "../public/static/portfolio/fotograf_slubny_krakow_4.jpg";
 import fotograf_slubny_krakow_7 from "../public/static/portfolio/fotograf_slubny_krakow_7.jpg";
 import fotograf_slubny_krakow_9 from "../public/static/portfolio/fotograf_slubny_krakow_9.jpg";
 import fotograf_slubny_krakow_10 from "../public/static/portfolio/fotograf_slubny_krakow_10.jpg";
 import fotograf_slubny_krakow_13 from "../public/static/portfolio/fotograf_slubny_krakow_13.jpg";
 import fotograf_slubny_krakow_19 from "../public/static/portfolio/fotograf_slubny_krakow_19.jpg";
-import sesja_narzeczenska_kopiec_kraka from "../public/static/portfolio/sesja_narzeczenska_kopiec_kraka.jpg";
-import sesja_narzeczenska_klasztor_w_tyncu from "../public/static/portfolio/sesja_narzeczenska_klasztor_w_tyncu.jpg";
 import sesja_narzeczenska_sebastian from "../public/static/portfolio/sesja_narzeczenska_sebastian.jpg";
+import sesja_narzeczenska_1 from "../public/static/portfolio/sesja_narzeczenska_1.jpg";
+import sesja_narzeczenska_2 from "../public/static/portfolio/sesja_narzeczenska_2.jpg";
+
 
 const PageComponent = () => {
   const pageImage = process.env.staticImagesPath + "brzoskwinia_ogrod_sesja_narzeczenska_start.jpg";
@@ -23,7 +23,7 @@ const PageComponent = () => {
 
   return (
     <LayoutSitePage
-      title="Sesja Narzeczeńska Kraków ✔️ Tomasz Prokop Fotografia Ślubna"
+      title="Sesja Narzeczeńska Kraków ✔️ Tomasz Prokop Fotograf Ślubny"
       description="Sesja narzeczeńska Kraków ❤️ Miejsca na sesję narzeczeńską. Zdjęcia spontaniczne, zero pozowania. Najlepsze miejscówki na sesję narzeczeńską w Krakowie."
       keywords="sesja narzeczeńska kraków, miejscówki na sesję narzeczeńską w Krakowie"
       url="https://99foto.pl/sesja-narzeczenska-krakow/"
@@ -50,7 +50,7 @@ const PageComponent = () => {
 
         <Image alt="Dekoracja sali weselnej w stylu rustykalnym" src={fotograf_slubny_krakow_19} />
 
-        <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
+        <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
           WYBÓR MIEJSCA NA SESJĘ NARZECZEŃSKĄ
         </Typography>
 
@@ -76,8 +76,7 @@ const PageComponent = () => {
           makijaż nie są koniecznością, ale mogą zwiększyć Waszą pewność siebie i ułatwić przygotowanie się w dniu sesji zdjęciowej.
         </Typography>
 
-        <Image alt="Własny styl w fotografii ślubnej" src={fotograf_slubny_krakow_4} />
-        <Image alt="sesja ślubna w Krakowie" src={sesja_narzeczenska_kopiec_kraka} />
+        <Image alt="sesja ślubna w Krakowie" src={sesja_narzeczenska_2} />
         
 
         <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
@@ -90,7 +89,7 @@ const PageComponent = () => {
           Zachęcam i zdecydowanie warto się na taki makijaż przedślubny zdecydować.
         </Typography>
 
-        <Image alt="Ogromne możliwości w fotografii ślubnej" src={fotograf_slubny_krakow_3} />
+        <Image alt="Ogromne możliwości w fotografii ślubnej" src={fotograf_slubny_krakow_13} />
 
         <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
           CO ZE SOBĄ ZABRAĆ?
@@ -103,7 +102,7 @@ const PageComponent = () => {
           się zmieścić wszystko w jednej torbie, żeby ułatwić transport. Zaufaj mi, będziesz zadowolony, że nie trzeba będzie nosić ze sobą więcej rzeczy niż naprawdę potrzeba.
         </Typography>
 
-        <Image alt="Zdjęcia pełne kolorów i autentycznych emocji" src={fotograf_slubny_krakow_13} />
+        <Image alt="Zdjęcia pełne kolorów i autentycznych emocji" src={fotograf_slubny_krakow_3} />
 
         <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
           ZŁOTA GODZINA
@@ -130,13 +129,13 @@ const PageComponent = () => {
                 
         <Image alt="reportaż ślubny, Wasza miłość zatrzymana na zdjęciach" src={sesja_narzeczenska_sebastian} />
 
-        <Typography variant="subtitle1" className={matches ? "quote-title" : ""} align="center">
+        <Typography variant="h2" className={matches ? "quote-title" : ""} align="center">
           POGODA W DNIU SESJI NARZECZEŃSKIEJ
         </Typography>
 
         <Typography variant="body1" align="justify" color="text.secondary" sx={{ pb: 3 }}>
           Na sesję narzeczeńską umawiamy się zwykle z kilkudniowym wyprzedzeniem. Wiadomo, że pogody do końca przewidzieć się nie da. Dlatego też dzień przed sesją sprawdzamy pogodę w internecie
-          podejmując decyzję, czy sesję będzie można zrealizować. Jeżeli na horyzoncie pojawi się deszcz lub będzie zimno to umawiamy się na inny dzień i sprawdzanie pogody zaczynamy od początku.
+          podejmując decyzję, czy sesję byędzie można zrealizować. Jeżeli na horyzoncie pojawi się deszcz lub będzie zimno to umawiamy się na inny dzień i sprawdzanie pogody zaczynamy od początku.
         </Typography>
 
         <Image alt="sesja narzeczeńska w Krakowie" src={fotograf_slubny_krakow_9} />
@@ -146,7 +145,7 @@ const PageComponent = () => {
           miłość jak również Was samych jak najlepiej oraz była wspaniałą pamiątką na całe przyszłe życie. Zróbmy to tak, by Wszyscy byli naprawdę zadowoleni. Pozdrawiam i zapraszam.
         </Typography>
 
-        <Image alt="miłość zatrzymana na zdjęciach" src={sesja_narzeczenska_klasztor_w_tyncu} />
+        <Image alt="miłość zatrzymana na zdjęciach" src={sesja_narzeczenska_1} />
 
       </Container>
     </LayoutSitePage>

@@ -38,7 +38,7 @@ const BlogPageComponent = () => {
                     headTitle={"Sesja ślubna Dolina Bolechowicka i Kryspinów"}
                     headDescription={"Serdecznie zapraszam do Doliny Bolechowickiej i Kryspinowa. Gdyby ktoś poszukiwał miejsc na weekendowy spacer to polecam zajrzeć. Miłego oglądania."}
                     headKeywords={"sesja ślubna kraków,plener ślubny kryspinów"}
-                    headUrl={"https://99foto.pl/gosia-i-tomek-sesja-slubna-dolina-bolechowicka-i-kryspinow/"}
+                    headUrl={"https://99foto.pl/gosia-i-tomek-sesja-slubna-dolina-bolechowicka-i-kryspinow"}
                     entryContentP1={
                         "Wiele młodych par myśli, że zrobienie fajnych zdjęć do sesji ślubnej wymaga wyjazdu z Krakowa i okolic, pozostawienia za sobą mięc oklepanych i nowe poszukiwania. Mam nadzieję, że po raz kolejny razem z Gosią i Tomkiem udowodnimy, że to nie prawda. Gosia mieszka w Bolechowicach i doskonale zna okolicę, Dolina Bolechowicka to też wspomnienia, chociażby długie treningi pierwszego tańca z Tomkiem, dlatego też zdecydowaliśmy się rozpocząć zdjęcia w tym miejscu. W Dolinie Bolechowickiej doszliśmy do wodospadu, co w sukni ślubnej było dość trudne."
                     }

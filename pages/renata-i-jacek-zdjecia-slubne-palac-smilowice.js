@@ -137,7 +137,7 @@ const BlogPageComponent = () => {
                     headTitle={"Zdjęcia ślubne Pałac Śmiłowice"}
                     headDescription={"Serdecznie zapraszam na mojego bloga do oglądania zdjęć ze ślubu Renaty i Jacka. Zaprosili oni swoich gości do Pałacu Śmiłowice. Miłego oglądania."}
                     headKeywords={"fotograf na ślub szczurowa,zdjęcia ślubne pałac Śmiłowice"}
-                    headUrl={"https://99foto.pl/renata-i-jacek-zdjecia-slubne-palac-smilowice/"}
+                    headUrl={"https://99foto.pl/renata-i-jacek-zdjecia-slubne-palac-smilowice"}
                     entryContentP1={
                         "W drugi październikowy weekend o godzinie 9 rano spotkaliśmy się z Renatą w jednym z pięciu zakładów fryzjerskich w Szczurowej. W ramach badania gruntu trochę wcześniej zaglądnąłem do kościoła, i już od rana odbywało się tam solidne sprzątanie, połączone jak sądzę z nadchodzącymi tego dnia wydarzeniami. Układanie fryzury zajęło trochę ponad godzinkę. Następnie kilka kroków dalej odwiedziliśmy studio makijażu, kwiaciarnie, po czym pojechaliśmy witać pierwszych gości i kontynuować przygotowania do domu rodzinnego Renaty."
                     }

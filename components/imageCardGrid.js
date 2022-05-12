@@ -35,9 +35,9 @@ const ImageCardGrid = () => {
           <Grid item lg={4} p={1}>
             <ImageCard
               imgsrc={plener_slubny_slowacja}
-              imgalt="sesja zdjęciowa w górach"
+              imgalt="plener ślubny w górach"
               linkhref="plener-slubny-slowacja-lomnicki-staw-szczyrbskie-pleso"
-              title="SESJA ZDJĘCIOWA W GÓRACH"
+              title="PLENER ŚLUBNY W GÓRACH"
               names="MAŁGORZATA i RAFAŁ"
             />
           </Grid>
@@ -54,9 +54,9 @@ const ImageCardGrid = () => {
           <Grid item lg={4} p={1}>
             <ImageCard
               imgsrc={plener_slubny_palac_goetzow_brzesko}
-              imgalt="sesja zdjęciowa pałac goetzów brzesko"
+              imgalt="plener ślubny pałac goetzów brzesko"
               linkhref="sesja-slubna-jesienia-palac-goetzow-okocimskich"
-              title="SESJA ŚLUBNA PAŁAC GOETZÓW"
+              title="PLENER ŚLUBNY PAŁAC GOETZÓW"
               names="IZABELA i ARKADIUSZ"
             />
           </Grid>
@@ -73,9 +73,9 @@ const ImageCardGrid = () => {
           <Grid item lg={4} p={1}>
             <ImageCard
               imgsrc={ogrod_botaniczny}
-              imgalt="fotograf na wesele kraków"
+              imgalt="fotograf ślubny kraków"
               linkhref="ogrod-botaniczny-w-krakowie-slubna-sesja-zdjeciowa"
-              title="FOTOGRAF NA WESELE KRAKÓW"
+              title="FOTOGRAF ŚLUBNY KRAKÓW"
               names="DAJANA i SYLWESTER"
             />
           </Grid>

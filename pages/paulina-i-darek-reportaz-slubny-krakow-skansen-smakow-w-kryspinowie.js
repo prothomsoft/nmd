@@ -179,7 +179,7 @@ const BlogPageComponent = () => {
                     headTitle={"Skansen Smaków Kryspinów - ślub nad zalewem"}
                     headDescription={"Pierwszym tańcem w chmurach Paulina i Darek otworzyli parkiet restauracji Skansen Smaków w Kryspinowie. Ogromna dawka emocji, uczuć i miłości."}
                     headKeywords={"skansen smaków Kryspinów, ślub nad zalewem, fotograf ślubny"}
-                    headUrl={"https://99foto.pl/paulina-i-darek-reportaz-slubny-krakow-skansen-smakow-w-kryspinowie/"}
+                    headUrl={"https://99foto.pl/paulina-i-darek-reportaz-slubny-krakow-skansen-smakow-w-kryspinowie"}
                     entryContentP1={
                         "W historii facebookowych zdjęć można odnaleźć studniówkę, na której Paulina i Darek tańczą maturalnego poloneza w jednej parze. Poznali się jeszcze wcześniej, a ich miłość przetrwała czasy studenckie by w ubiegłą sobotę doprowadzić ich do ołtarza, gdzie powiedzieli sobie sakramentalne TAK. Przygotowania rozpoczęliśmy w salonie fryzjerskim w Liszkach o godzinie 9 rano. Następnie udaliśmy się do domu Pauliny w Czułowie, gdzie wizażystka wykonała bardzo profesjonalny makijaż. Ania towarzyszyła Paulinie podczas ubierania sukni ślubnej i wspierała ją pięknym uśmiechem w każdej sytuacji. Chwilę później byłem już w Minkowie w domu Darka. W drodze powrotnej na naszej drodze napotkaliśmy bramę. Panowie bramowicze tanio skóry nie sprzedali."
                     }

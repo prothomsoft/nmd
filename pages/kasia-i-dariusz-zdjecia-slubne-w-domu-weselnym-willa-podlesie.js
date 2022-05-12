@@ -132,7 +132,7 @@ const BlogPageComponent = () => {
                     headTitle={"Fotograf na wesele Willa Podlesie Rzuchowa"}
                     headDescription={"Wielki dzień, nie zabrakło uśmiechów, wyjątkowej magii i świetnej zabawy. Zobaczcie sami jak Kasia i Darek stali się najszczęśliwszymi ludźmi na świecie..."}
                     headKeywords={"fotograf na wesele tarnów, fotograf na wesele willa podlesie, reportaż ślubny kraków"}
-                    headUrl={"https://99foto.pl/kasia-i-dariusz-zdjecia-slubne-w-domu-weselnym-willa-podlesie/"}
+                    headUrl={"https://99foto.pl/kasia-i-dariusz-zdjecia-slubne-w-domu-weselnym-willa-podlesie"}
                     entryContentP1={
                         'Tym razem trochę dalej bo nie Kraków, a Tarnów. W rolach głównych Kasia, Darek i ich mała córeczka Lidia. Przygotowania zaczęliśmy od makijażu w studiu tegorocznej mistrzyni świata wizażu <a href="https://www.facebook.com/klaudiaklosmakeupartist/" target="_blank" rel="nofollow">Klaudi Kłos</a>. Następnie, fryzura i kilka minut po godzinie dwunastej dotarliśmy do domu rodzinnego Kasi. Atmosfera była wyjątkowo wesoła, czyli pełny luz. Darek zaskoczył wszystkich, zjawiając się trochę wcześniej. Chwilę później przybyli goście z Grecji, którzy jak się okazało później zaskoczyli wszystkich świetnie wykonanym greckim show. Z biegiem czasu gości przybywało.'
                     }

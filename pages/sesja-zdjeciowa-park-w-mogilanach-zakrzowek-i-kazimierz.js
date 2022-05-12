@@ -37,7 +37,7 @@ const BlogPageComponent = () => {
                     headTitle={"Sesja zdjęciowa Park w Mogilanach"}
                     headDescription={"Park w Mogilanach, Zakrzówek i Kazimierz to jedna z tras plenerowych, które polecam na sesje zdjęciowe w Krakowie. Sprawdźcie na moim blogu."}
                     headKeywords={"park w mogilanach,plener ślubny zakrzówek,sesja ślubna kazimierz"}
-                    headUrl={"https://99foto.pl/sesja-zdjeciowa-park-w-mogilanach-zakrzowek-i-kazimierz/"}
+                    headUrl={"https://99foto.pl/sesja-zdjeciowa-park-w-mogilanach-zakrzowek-i-kazimierz"}
                     entryContentP1={
                         "Kraków to piękne miejsce, pełne niezwykłych miejsc i świetnie utrzymanej zieleni, a w połączeniu z dobrym popołudniowym światłem i w miłym towarzystwem Pary Młodej świetny sposób na spędzanie wolnego czasu. Sesja plenerowa w Krakowie to relaks po ślubie i okazja do zrobienia kilku zdjęć na zupełnym luzie. Julia i Piotrek to moi sąsiedzi i pomimo, że nie fotografowałem ich ślubu chętnie zgodziłem się na zdjęciową sesję ślubną. Starannie wybraliśmy miejsca tak i ułożyliśmy plan."
                     }

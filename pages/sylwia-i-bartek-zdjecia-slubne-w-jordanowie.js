@@ -140,10 +140,10 @@ const BlogPageComponent = () => {
                 <BlogPageComponentNew
                     slide={process.env.staticImagesPath + "sylwia_i_bartek_zdjecia_slubne_w_jordanowie_start.jpg"}
                     images={images}
-                    headTitle={"Fotograf ślubny Jordanów ✔️ Tomasz Prokop Fotografia Ślubna"}
+                    headTitle={"Fotograf ślubny Jordanów ✔️ Tomasz Prokop Fotograf Ślubny"}
                     headDescription={"Twarz Marilyn Monroe podpisaną Dziękuję, że jesteś w dalekim Trondheim wyklikał Bartek dla ukochanej Sylwii. Kilka łez poleciało... Zapraszam na reportaż."}
                     headKeywords={"fotograf na wesele kraków,reportaż ślubny kraków,zdjęcia ślubne dom weselny karolinka"}
-                    headUrl={"https://99foto.pl/sylwia-i-bartek-zdjecia-slubne-w-jordanowie/"}
+                    headUrl={"https://99foto.pl/sylwia-i-bartek-zdjecia-slubne-w-jordanowie"}
                     entryContentP1={
                         "W Jordanowie fotografowałem już kilka razy. Zawsze spotykam się tam z niezwykłą otwartością ludzi i podziwiam ich umiejętność odstresowania i oddania się szalonej zabawie. Tym razem nie mogło być inaczej &#8211; udowodnili to Sylwia i Bartek. Przygotowania odbyły się w domu rodzinnym Sylwii. Panna młoda zastosowała jedno z moich ulubionych powiedzeń &#8211; jeśli chcesz coś mieć zrobione dobrze, zrób to sam &#8211; i jako znana już w okolicach Trondheim wizażystka makijaż wykonała samodzielnie. Mocno trzymaliśmy kciuki za pogodę, która pewnie dlatego wytrzymała do samego końca. Udało mi się też tym razem zrobić jedno z moich ulubionych zdjęć z przygotowań Pana Młodego. Ciekawe czy oglądając reportaż zgadniecie, które to zdjęcie."
                     }

@@ -158,7 +158,7 @@ const BlogPageComponent = () => {
                     headTitle={"Reportaż ślubny Restauracja Viva Michałowice"}
                     headDescription={"Dużo radości i szczęścia, piękny dzień i piękne wspomnienia. Angelika i Dawid. Najszczęśliwszy dzień w życiu tej wielce zakochanej pary."}
                     headKeywords={"fotograf na wesele kraków, reportaż ślubny kraków"}
-                    headUrl={"https://99foto.pl/angelika-i-dawid-reportaz-slubny-krakow-restauracja-viva-michalowice/"}
+                    headUrl={"https://99foto.pl/angelika-i-dawid-reportaz-slubny-krakow-restauracja-viva-michalowice"}
                     entryContentP1={
                         "Tym razem zapraszam na reportaż ślubny Angeliki i Dawida, który miałem przyjemność fotografować w ubiegłą sobotę w Michałowicach. Zdjęcia z przygotowań Angeliki rozpoczęliśmy w Zielonkach na &#8222;Krakowskich Przedmieściach&#8221; w Salonie Fryzjerskim u Pawła. Angelika okazała się być nie tylko zawodową fryzjerką, ale i świetną wizażystką. W kilka minut wykonała swój makijaż i czasu wystarczyło jeszcze na delikatne poprawki w makijażu siostry i mamy, które towarzyszyły jej podczas przygotowań w salonie. Uwaga, szef salonu Paweł i Klaudia tego samego dnia okazali się królami parkietu, i jestem przekonany, że fotograf na ich ślubie będzie miał mocno z górki. Prosto z salonu pojechaliśmy do domu rodzinnego Angeliki, by sfotografować dalszy ciąg przygotowań, a następnie do Dawida, który na piętrze wrzucił na siebie wszystkie elementy ślubnej garderoby. Krótkie błogosławieństwo i wspólnie pojechaliśmy odebrać Pannę Młodą."
                     }

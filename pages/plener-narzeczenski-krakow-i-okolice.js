@@ -39,7 +39,7 @@ const BlogPageComponent = () => {
                     headTitle={"Plener narzeczeński Kraków"}
                     headDescription={"Plener narzeczeński staje się integralną cześcią planowanego ślubu. Serdecznie zapraszam na zdjęcia Aliny i Michała, którzy zabrali ze sobą Bruna."}
                     headKeywords={"plener narzeczeński kraków,sesja narzeczeńska ojców"}
-                    headUrl={"https://99foto.pl/plener-narzeczenski-krakow-i-okolice/"}
+                    headUrl={"https://99foto.pl/plener-narzeczenski-krakow-i-okolice"}
                     entryContentP1={
                         "Plener narzeczeński bardzo często staje się integralną cześcią planowanego ślubu. Spotkanie z fotografem przed ślubem pozwala oswoić się z aparatem i zdobyć trochę doświadczenia w pozowaniu przed obiektywem. Sesja narzeczeńśka jest też świetną okazją do poznania fotografa jako człowieka, przełamania pierwszych lodów w tej znajomości. Osobiście możecie przekonać się w jakiej atmosferze powstać będą Wasze zdjęcia ślubne, a obecność fotografa w Waszym domu nie będzie stresująca, ponieważ będzie to osoba, którą mieliście okazję poznać osobiście."
                     }
