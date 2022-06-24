@@ -1,5 +1,15 @@
 export const posts = [
   {
+    date: "2022-06-24T08:24:29",
+    slug: "dom-weselny-mogielica-jurkow-rustykalne-wesele",
+    title: "DOM WESELNY MOGIELICA JURKÓW, RUSTYKALNE WESELE",
+    content:
+      'Miesiąc czerwiec dobiega końca. Dużo dobrego działo się w tym miesiącu, czuje się już nadchodzące wakacje i w perspektywie słodkie leniuchowanie. Śluby nabierają kolorów i mam na myśli nie tylko zieleń i dużo słońca, ale też kolorowe sukienki gości weselnych, piękne kwiaty i dopracowane detale. Klimat ten można poczuć oglądając krótką relację z perfekcyjnie przygotowanego ślubu Natalii i Krzyśka, który odbył się w Mszanie Dolnej. Zdjęcia rozpoczęliśmy od makijażu ślubnego, następnie odwiedziliśmy <a href="https://www.facebook.com/Studioo.o15/" target="_blank" rel="nofollow noopener noreferrer">Salon Fryzjerski Studio 15</a>. Jak na ślub boho czy rustykalny przystało, Natalia miała wianek, a jego wpięcie wymagało niemałych przygotowań fryzjerskich. Kolejnym punktem programu były przygotowania Panny Młodej.',
+    names: ["NATALIA i KRZYSZTOF"],
+    tags: ["Dom weselny Mogielica Jurków, wesele rustykalne, ślub w stylu boho"],
+    image: "/static/blog/2022/06/fotograf_slubny_mszana_dom_weselny_mogielica_0089.jpg",
+  },
+  {
     date: "2022-05-03T08:24:29",
     slug: "hotel-zywiecki-sala-przylekowka-wesele-w-beskidach",
     title: "HOTEL ŻYWIECKI, SALA PRZYŁĘKÓWKA, WESELE W BESKIDACH",
