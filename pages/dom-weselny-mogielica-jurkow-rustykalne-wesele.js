@@ -41,7 +41,7 @@ const BlogPageComponent = () => {
 { imageSrc: "/static/blog/2022/06/fotograf_slubny_mszana_dom_weselny_mogielica_0037.jpg", height: 762 },
 { imageSrc: "/static/blog/2022/06/fotograf_slubny_mszana_dom_weselny_mogielica_0036.jpg", height: 382 },
 { imageSrc: "/static/blog/2022/06/fotograf_slubny_mszana_dom_weselny_mogielica_0039.jpg", height: 762 },
-{ imageSrc: "/static/blog/2022/06/fotograf_slubny_mszana_dom_weselny_mogielica_0038.jpg", height: 382 },
+{ imageSrc: "/static/blog/2022/06/fotograf_slubny_mszana_dom_weselny_mogielica_0049.jpg", height: 382 },
 { imageSrc: "/static/blog/2022/06/fotograf_slubny_mszana_dom_weselny_mogielica_0040.jpg", height: 762 },
 { imageSrc: "/static/blog/2022/06/fotograf_slubny_mszana_dom_weselny_mogielica_0041.jpg", height: 382 },
 { imageSrc: "/static/blog/2022/06/fotograf_slubny_mszana_dom_weselny_mogielica_0042.jpg", height: 382 },
@@ -51,7 +51,7 @@ const BlogPageComponent = () => {
 { imageSrc: "/static/blog/2022/06/fotograf_slubny_mszana_dom_weselny_mogielica_0046.jpg", height: 382 },
 { imageSrc: "/static/blog/2022/06/fotograf_slubny_mszana_dom_weselny_mogielica_0048.jpg", height: 762 },
 { imageSrc: "/static/blog/2022/06/fotograf_slubny_mszana_dom_weselny_mogielica_0047.jpg", height: 762 },
-{ imageSrc: "/static/blog/2022/06/fotograf_slubny_mszana_dom_weselny_mogielica_0049.jpg", height: 382 },
+{ imageSrc: "/static/blog/2022/06/fotograf_slubny_mszana_dom_weselny_mogielica_0038.jpg", height: 382 },
 { imageSrc: "/static/blog/2022/06/fotograf_slubny_mszana_dom_weselny_mogielica_0050.jpg", height: 762 },
 { imageSrc: "/static/blog/2022/06/fotograf_slubny_mszana_dom_weselny_mogielica_0051.jpg", height: 526 },
 { imageSrc: "/static/blog/2022/06/fotograf_slubny_mszana_dom_weselny_mogielica_0052.jpg", height: 762 },
@@ -178,7 +178,7 @@ const BlogPageComponent = () => {
                     slide={process.env.staticImagesPath + "dom_weselny_mogielica_fotograf_slubny_mszana.jpg"}
                     images={images}
                     headTitle={"Dom weselny Mogielica Jurków, rustykalne wesele"}
-                    headDescription={"Hotel żywiecki, sala weselna Przyłękówka. Wesele w beskidach i kwitnące magnolie. Nicole i Rafał. Serdecznie zapraszam."}
+                    headDescription={"Dom weselny Mogielica Jurków, rustykalne wesele, wesele w stylu boho. Natalia i Krzysztof. Serdecznie zapraszam."}
                     headKeywords={"Dom weselny Mogielica Jurków, wesele rustykalne, ślub w stylu boho"}
                     headUrl={"https://99foto.pl/dom-weselny-mogielica-jurkow-rustykalne-wesele"}
                     entryContentP1={

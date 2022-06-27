@@ -60,7 +60,7 @@ const FaqAccordion1 = () => {
         </AccordionSummary>
         <AccordionDetails>
           <Typography color="text.secondary">
-            W moim pakiecie oferuję dojazd w dniu ślubu GRATIS. Jeżeli natomiast Wasz plener ślubny odbywa się w oddalonym od Krakowa miejscu to musimy doliczyć dopłatę za dojazd 1,22km/1PLN (zawsze
+            W moim pakiecie oferuję dojazd w dniu ślubu GRATIS. Jeżeli natomiast Wasz plener ślubny odbywa się w oddalonym od Krakowa miejscu to musimy doliczyć dopłatę za dojazd 1,72 PLN/km (zawsze
             jeździmy moim autem).
           </Typography>
         </AccordionDetails>
